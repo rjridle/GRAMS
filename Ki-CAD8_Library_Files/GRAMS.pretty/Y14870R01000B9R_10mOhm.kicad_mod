@@ -1,0 +1,226 @@
+(footprint "Y14870R01000B9R_10mOhm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.755 -3.135 0)
+		(layer "F.SilkS")
+		(uuid "9e7ea58b-c074-41ba-b9bd-b9c121307524")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Y14870R01000B9R_10mOhm"
+		(at 8.135 3.115 0)
+		(layer "F.Fab")
+		(uuid "4b2eb566-4705-45a5-9e76-f5f6962f3eb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db0ce09a-fe56-4789-b71d-6f5e26d6d028")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30c4805e-3d6d-48a3-b3a5-027fe07a8864")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbe7e4fa-9660-4fb9-a3a4-8a9e05c52743")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.71 -1.5875)
+		(end 1.97 -1.5875)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "516d5460-d594-4ce6-836a-9ba4b31fecf4")
+	)
+	(fp_line
+		(start 1.71 1.5875)
+		(end -1.97 1.5875)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73cd51cf-8b82-4e03-b8f0-fe3be04092f5")
+	)
+	(fp_circle
+		(center -4.5 0)
+		(end -4.4 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ca5748de-dd72-469d-ab13-b1807b233d2e")
+	)
+	(fp_line
+		(start -3.93 -2.09)
+		(end 3.93 -2.09)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc741b17-10e5-4581-8bc0-d6f2d438d044")
+	)
+	(fp_line
+		(start -3.93 2.09)
+		(end -3.93 -2.09)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2553c185-d914-4f85-940c-5df76705ef98")
+	)
+	(fp_line
+		(start 3.93 -2.09)
+		(end 3.93 2.09)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d0b86b51-4107-4fa8-a42b-33b170d64fed")
+	)
+	(fp_line
+		(start 3.93 2.09)
+		(end -3.93 2.09)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bdfa3ff6-22b7-4867-a54c-4d4bcd9ec708")
+	)
+	(fp_line
+		(start -3.175 -1.5875)
+		(end 3.175 -1.5875)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2889f087-5b44-4a0a-8427-930b367c05bf")
+	)
+	(fp_line
+		(start -3.175 1.5875)
+		(end -3.175 -1.5875)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b6d380b-f2c4-440f-842c-d22a09b1ca0e")
+	)
+	(fp_line
+		(start 3.175 -1.5875)
+		(end 3.175 1.5875)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "776d3883-d929-4048-a502-7c0d8fce68d6")
+	)
+	(fp_line
+		(start 3.175 1.5875)
+		(end -3.175 1.5875)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ffc1da2-62b8-43a5-bf8c-c9687d318721")
+	)
+	(fp_circle
+		(center -4.5 0)
+		(end -4.4 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "2499fac1-02bd-48fc-b572-ef4f8b5cc253")
+	)
+	(pad "E1" smd rect
+		(at -2.985 1.27)
+		(size 1.39 1.14)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "8d19519a-9b7d-4172-92cd-44b7ac62e64d")
+	)
+	(pad "E2" smd rect
+		(at 2.985 -1.27)
+		(size 1.39 1.14)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "41bc91e7-e669-4fcb-aeb3-a81b52739c1b")
+	)
+	(pad "I1" smd rect
+		(at -2.855 -0.835)
+		(size 1.65 2.01)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "2b2b5339-0ed8-4a03-b0c2-a16df4f0fbbc")
+	)
+	(pad "I2" smd rect
+		(at 2.855 0.835)
+		(size 1.65 2.01)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "29af53f9-1e4f-4896-aa51-b63ab020d1d9")
+	)
+	(model "C:/Users/ddurachk/Desktop/Projects/Ki-CAD8_Library_Files/Foil Resistors/Y14870R01000B9R/Y14870R01000B9R.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

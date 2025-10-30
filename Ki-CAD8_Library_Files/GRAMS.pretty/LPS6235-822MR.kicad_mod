@@ -1,0 +1,120 @@
+(footprint "LPS6235-822MR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.47 -4.99 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5cc651d8-6555-49d9-b720-a6e94e20a741")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LPS6235-822MR"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "df8cf630-f30c-4f70-b138-4e820ab7cc6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10cf754d-ae02-40e1-9e26-b9d6511a79ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "526827cc-0905-4412-b4e5-5d753c69989b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87b85d03-c1de-4e76-9196-120d0de53beb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.4 -3.65)
+		(end 5.49 3.61)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4f09e121-eb80-48b3-9c9f-3c7aa8d9c794")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "67d2f52d-9dd4-4bda-bf75-743d26d30736")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 2 6.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "eccaa746-24bf-4a68-9918-13c44c84628d")
+	)
+	(pad "2" smd roundrect
+		(at 4.2 0)
+		(size 2 6.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "ab39bcd2-1840-4be5-82bc-decf2dd2ddf0")
+	)
+	(model "C:/Users/ddurachk/Desktop/Projects/Ki-CAD8_Library_Files/CoilCraft/PS6235-822MR/Coilcraft-LPS6235/Coilcraft-LPS6235.STEP"
+		(offset
+			(xyz 2.1 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

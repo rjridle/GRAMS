@@ -1,0 +1,148 @@
+(footprint "0.2US5-P0.1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4b51021b-3703-4d19-a154-4d06c7776870")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "0.2US5-P0.1"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "105f8d6b-6ee3-47cb-86b1-c0abb33e447b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ab524f0-4cc3-4b8a-9ce6-16e2ce6cda52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7db22148-a261-42bd-9ed5-103e7035c4a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 0 -20.5)
+		(end 25.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5bdc5d23-dc14-4bda-b44d-d56f7ee7527d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d0359c1b-d043-4b63-84c1-1479ec023351")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 2.4 -17.6)
+		(size 2 2)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4db235a1-0a43-4060-880f-ac76cd21f73e")
+	)
+	(pad "2" thru_hole circle
+		(at 2.4 -15.1)
+		(size 2 2)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f8603125-079c-4416-bf9e-4a019bbf51e3")
+	)
+	(pad "3" thru_hole circle
+		(at 2.4 -12.6)
+		(size 2 2)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "633e9f9e-71fc-4c7f-8791-197a2aac8495")
+	)
+	(pad "4" thru_hole circle
+		(at 2.4 -10.1)
+		(size 2 2)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dba41bbc-df8b-46be-a25d-6556bf939152")
+	)
+	(pad "5" thru_hole circle
+		(at 2.4 -7.6)
+		(size 2 2)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c7fe24cd-6a73-4d4c-9740-d48bc758d48c")
+	)
+	(pad "6" thru_hole circle
+		(at 2.4 -5.1)
+		(size 2 2)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3ecf7462-5894-463e-bcc0-6c37ea9aa097")
+	)
+	(pad "7" thru_hole circle
+		(at 20.3 -7.6)
+		(size 2 2)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d8d93458-83d5-4d2b-89b9-2985f4ffc517")
+	)
+	(embedded_fonts no)
+	(model "$(GRAMS)/Ki-CAD6_Library_Files/Parts/Ultra Volt/3D_Model/OL-076_revA_US.stp"
+		(offset
+			(xyz 12.8 12.7 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

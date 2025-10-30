@@ -1,0 +1,418 @@
+(footprint "MLC1538_152MLB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1.5uH Shielded Power Inductor. 4.36mOhm DCR, 50MHz SRF, 13.4A Is, 10.6A IRMS")
+	(tags "MLC1538-152")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9fba2693-2442-4160-ab26-c3cfc22028ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MLC1538-152"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7dfd7179-4912-481d-8b1c-cb31ed5aae63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.coilcraft.com/getmedia/052845f0-6909-42f5-b57d-543d9924763c/mlc.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "217785dd-2f06-42bc-a11b-2ba081c169c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "1.5uH Shielded Power Inductor. 4.36mOhm DCR, 50MHz SRF, 13.4A Is, 10.6A IRMS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a47f16d2-2450-496f-b091-a5ea76044303")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "CoilCraft"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ce2fad15-8712-4727-9c3c-ee74b9a42388")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Man Part Num" "MLC1538-152ML"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b9a67d7b-5714-4e31-8da9-b8976eb311b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Distributor" "CoilCraft"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "863dc5e0-c9bb-4a6c-a779-98a3890fd885")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Dist Part Num" "MLC1538-152ML"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "dd63c42d-71c3-416d-98c8-d53f19e9b954")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Dist URL" "https://www.coilcraft.com/en-us/products/power/shielded-inductors/high-current-flat-wire/mlc/mlc15xx/mlc1538-152/"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "796d398c-a656-4c43-ae3a-604d92c9eb66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Package" "2-SMD 1.8x2.3 mm pad, 13.8x12.2  package size"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "be7688dd-cdd2-49f9-9030-5643b8f5a900")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -7.0231 -6.731)
+		(end -7.0231 -2.03454)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "074ae49c-b0ee-4a36-8cd0-46146cd6dfe5")
+	)
+	(fp_line
+		(start -7.0231 2.03454)
+		(end -7.0231 6.731)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1410c525-c35d-4e7d-aed2-2c31f6c64467")
+	)
+	(fp_line
+		(start -7.0231 6.731)
+		(end 7.0231 6.731)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "558336d8-32f8-4499-b380-33d377de9fde")
+	)
+	(fp_line
+		(start 7.0231 -6.731)
+		(end -7.0231 -6.731)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d0e1eb0-cb77-4f4e-96c5-f60637b29e31")
+	)
+	(fp_line
+		(start 7.0231 -2.03454)
+		(end 7.0231 -6.731)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9116563-54ee-437f-b3a9-6d818ce72d0c")
+	)
+	(fp_line
+		(start 7.0231 6.731)
+		(end 7.0231 2.03454)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04345d7d-d03f-4e06-9624-44f787e021be")
+	)
+	(fp_circle
+		(center -10.3054 0)
+		(end -10.1784 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3bdf7260-c580-4d2e-bd70-465abda009e7")
+	)
+	(fp_line
+		(start -7.9559 -1.9558)
+		(end -7.1501 -1.9558)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fdc84dc0-a555-47a0-8697-1af2e5b98a88")
+	)
+	(fp_line
+		(start -7.9559 1.9558)
+		(end -7.9559 -1.9558)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7585a15f-d1d0-4d2f-98a2-8962d88ae414")
+	)
+	(fp_line
+		(start -7.9559 1.9558)
+		(end -7.1501 1.9558)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "922b1300-e0a4-4c83-8430-1621f1a5c032")
+	)
+	(fp_line
+		(start -7.1501 -6.858)
+		(end 7.1501 -6.858)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e47b4674-47b2-4f5d-8878-a8b80a27c24d")
+	)
+	(fp_line
+		(start -7.1501 -1.9558)
+		(end -7.1501 -6.858)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4bc7790e-f911-4996-a18a-040beb4ae493")
+	)
+	(fp_line
+		(start -7.1501 6.858)
+		(end -7.1501 1.9558)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3642547d-3018-48e4-ab25-ede918966484")
+	)
+	(fp_line
+		(start 7.1501 -6.858)
+		(end 7.1501 -1.9558)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "916bd405-944a-4e3f-9e71-49451722c941")
+	)
+	(fp_line
+		(start 7.1501 1.9558)
+		(end 7.1501 6.858)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "609cb542-3a55-4613-acda-c0a231f0d732")
+	)
+	(fp_line
+		(start 7.1501 6.858)
+		(end -7.1501 6.858)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fdc30f4f-cd18-4fad-9333-c7b983522a99")
+	)
+	(fp_line
+		(start 7.9559 -1.9558)
+		(end 7.1501 -1.9558)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "21a656cd-b86d-4008-9844-a5b87535dacc")
+	)
+	(fp_line
+		(start 7.9559 -1.9558)
+		(end 7.9559 1.9558)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "207e14d6-d935-44bc-9994-5187a3a65ec1")
+	)
+	(fp_line
+		(start 7.9559 1.9558)
+		(end 7.1501 1.9558)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ad11c3d-00d9-4f50-bb3c-787aaa835b4f")
+	)
+	(fp_line
+		(start -6.8961 -6.604)
+		(end -6.8961 6.604)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "67033f22-6d84-4145-8364-ecaee7935e69")
+	)
+	(fp_line
+		(start -6.8961 6.604)
+		(end 6.8961 6.604)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1489d455-859b-47e0-9bed-1e5114079553")
+	)
+	(fp_line
+		(start 6.8961 -6.604)
+		(end -6.8961 -6.604)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c3482cbf-a4a1-43bd-827f-c7f7fe6fdbc0")
+	)
+	(fp_line
+		(start 6.8961 6.604)
+		(end 6.8961 -6.604)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "620499a1-4fa5-4bbe-8b9b-08c332037b0f")
+	)
+	(fp_arc
+		(start 0.3048 -6.604)
+		(mid 0 -6.2992)
+		(end -0.3048 -6.604)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f910d124-c7eb-45f5-b912-e439541f75f3")
+	)
+	(fp_circle
+		(center -2.6981 0)
+		(end -2.6219 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5ea92d6f-77d0-4065-883d-77db2eece199")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f047a3de-fbcb-4615-a552-6b943f04ae3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -5.2 0)
+		(size 5.0038 3.4036)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5091400d-b014-497e-89ac-92e210d558e3")
+	)
+	(pad "2" smd rect
+		(at 5.2 0)
+		(size 5.0038 3.4036)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "645cad4a-e577-456e-bf7b-0c13ac7dbfad")
+	)
+	(embedded_fonts no)
+	(model "${GRAMS}/Ki-CAD8_Library_Files/CoilCraft/MLC1538-/Coilcraft-MLC1538.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

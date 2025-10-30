@@ -1,0 +1,116 @@
+
+(EDIF
+  (rename &DF14A_2P_1_25H_56_ "DF14A_2P_1_25H_56_")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2023 07 25 21 23 51)
+      (dataOrigin "272257/827608/2.50/4/4/Connector")
+      (program "SamacSys ECAD Model DF14A_2P_1_25H_56_"
+        (version "1.2"))))
+  (library
+  (rename &DF14A_2P_1_25H_56_ "DF14A_2P_1_25H_56_")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &DF14A_2P_1_25H_56_ "DF14A_2P_1_25H_56_")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "J")
+          (property (rename PACKAGENAME "PackageName") (string "DF14A_2P_1_25H_56_"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "DF14A2P125H56"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "798-DF14A2P125H56"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DF14A-2P-125H56?qs=zOgoZG1CgI9j0kPpVEP3mQ%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Hirose"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "DF14A-2P-1.25H(56)"))
+          (property (rename &Description "Description") (string "HIROSE(HRS) - DF14A-2P-1.25H(56) - Wire-To-Board Connector, DF14 Series, Surface Mount, Header, 2, 1.25 mm, Gold Plated Contacts RoHS Compliant: Yes"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.hirose.com/en/product/document?clcode=CL0538-0033-3-22&productname=DF14A-2P-1.25H(22)&series=DF14&documenttype=2DDrawing&lang=en&documentid=0001394359"))
+          (property (rename &Height "Height") (string "2.7 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "DF14A_2P_1_25H_56_"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &1 "1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &2 "2")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &MP1 "MP1")
+            (designator "MP1")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &MP2 "MP2")
+            (designator "MP2")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &MP1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 500 -200) (pt 700 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 700 -200))))
+            )
+            (portImplementation
+              (name &MP2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 500 -100) (pt 700 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 700 -100))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 500 0)
+                  (pt 500 -300)
+                  (pt 0 -300)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 550 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 550 30))))
+          )
+        )
+      )
+    )
+  )
+)

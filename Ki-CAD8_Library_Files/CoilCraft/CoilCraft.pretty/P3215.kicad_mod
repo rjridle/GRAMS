@@ -1,0 +1,124 @@
+(footprint "P3215"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 10.541 -14.097 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fc87f4e0-36b8-4857-9ad7-02dbefe5ca9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "P3215"
+		(at 10.033 -5.334 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "300b128b-3196-4fe0-8d08-d596e7b04d9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc147748-8c23-4cf2-aff7-58dc9d555429")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d647512-d67a-4047-95d9-f3a159f229c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.74 -13.02)
+		(end 26.06 2.86)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d902fe25-0057-4f61-a715-67b88f3e9fb5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 10.033 -15.875 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "57b1f899-2100-4990-9c45-6fda8d8fc82e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "154a216f-18d6-404a-a4d3-698478d7833c")
+	)
+	(pad "2" thru_hole circle
+		(at 20.32 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f40b5008-dde5-410f-a280-6d28c1e7dd0b")
+	)
+	(pad "3" thru_hole circle
+		(at 20.32 -10.16)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c3047834-46b3-4fb8-9ed2-a1e4b4e59947")
+	)
+	(pad "4" thru_hole circle
+		(at 0 -10.16)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d21c6946-5226-4f8e-805c-0ab461d09133")
+	)
+	(embedded_fonts no)
+	(model "$(GRAMS)/Ki-CAD8_Library_Files/CoilCraft/P3215/Coilcraft-P3215-AL.STEP"
+		(offset
+			(xyz 10.2 5.1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

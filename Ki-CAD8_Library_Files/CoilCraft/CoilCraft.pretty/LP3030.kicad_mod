@@ -1,0 +1,116 @@
+(footprint "LP3030"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.032 0.889 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "deb3a3cf-be90-4133-8eb2-10b6088fec7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LP3030"
+		(at 1.778 2.564 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c718a89e-8f3a-449a-85e0-8360767319e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 1.778 1.564 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bc2261d-1de9-4d68-ba0e-48fb0f717692")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 1.778 1.564 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1ee3cba-c995-4db7-9981-c1074fb80934")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 0 -3.558)
+		(end 3.808 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "765d9eae-b2ce-4e7a-aa4e-c59089e6de2e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.778 4.064 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7b60d421-9033-4d52-8993-77d91d82b93d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 0.75 -1.775 90)
+		(size 3.25 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives)
+		(uuid "d389f50c-a824-43dc-a5ff-e72903364092")
+	)
+	(pad "2" smd custom
+		(at 3.025 -1.775 90)
+		(size 3.25 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives)
+		(uuid "a2bfe6ef-b1b1-432a-bc09-48c59822e280")
+	)
+	(embedded_fonts no)
+	(model "$(GRAMS)/Ki-CAD8_Library_Files/CoilCraft/LP3030/Coilcraft-LPS3030/Coilcraft-LPS3030.STEP"
+		(offset
+			(xyz 1.9 1.8 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,234 @@
+(footprint "WL-SMCW_0603"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<B>WL-SMCW SMT Mono-color Chip LED Waterclear<Br><Br></B>Size: 0603, SMT, 2pins<Br>1.6x0.8x0.7mm(LXWXH)")
+	(property "Reference" "REF**"
+		(at 0 -1.4064 0)
+		(layer "F.SilkS")
+		(uuid "dd96971a-d632-4aed-9d37-6cd9823fd8cc")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WL-SMCW_0603"
+		(at 0 1.2936 0)
+		(layer "F.Fab")
+		(uuid "254f1c52-4e22-42b3-92ef-f827b7182104")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63aa710a-a647-4139-b89b-8ce994514467")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "219bf226-62da-4e2a-b9dc-c9bfac1a5cce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.13 0)
+		(end 0.11 -0.14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef467781-519e-4380-a39f-c3419743fca8")
+	)
+	(fp_line
+		(start -0.1 -0.5)
+		(end 0.1 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e065841a-ce70-4b1d-918e-a324ade61962")
+	)
+	(fp_line
+		(start 0.1 0.5)
+		(end -0.1 0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "038cc514-166f-40de-9200-c68a7ae4885d")
+	)
+	(fp_line
+		(start 0.11 -0.14)
+		(end 0.11 0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7939ed77-92fd-49e6-8a5d-cc8bdc766583")
+	)
+	(fp_line
+		(start 0.11 0.15)
+		(end -0.13 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d244e495-04ba-40cf-a9c8-95f7e6bad076")
+	)
+	(fp_poly
+		(pts
+			(xy -1.4 -0.7) (xy 1.4 -0.7) (xy 1.4 0.7) (xy -1.4 0.7)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "0968fd1a-35ec-4056-96a1-9d8cde30c18d")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "855f3190-a18d-4fb5-9f44-e39ca3a17a88")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d9737aa-93c2-4398-a521-d28819e0c19b")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a877ba37-9088-466b-9152-5cd790c245bb")
+	)
+	(fp_line
+		(start -0.13 0)
+		(end 0.11 -0.14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "06e29291-59a9-46d7-a73d-fb3378435166")
+	)
+	(fp_line
+		(start 0.11 -0.14)
+		(end 0.11 0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "07b68e45-72c6-4020-a29b-6b300562adce")
+	)
+	(fp_line
+		(start 0.11 0.15)
+		(end -0.13 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "29e49c8c-3dc9-459e-8b26-ca794364ffbf")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0bc0ac37-afc0-40d3-b3ed-8cf01c782c32")
+	)
+	(fp_text user "+"
+		(at 1.6 0.3 0)
+		(layer "F.SilkS")
+		(uuid "0cf97fd7-53f8-4cd6-b051-7fd55f6ef413")
+		(effects
+			(font
+				(size 0.48 0.48)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at 1.6 0.3 0)
+		(layer "F.Fab")
+		(uuid "68be62fe-930b-46bd-9cc3-dc00d5675714")
+		(effects
+			(font
+				(size 0.48 0.48)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.8 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "4f4f6b5d-bd9c-431e-a1c5-cc70330d94bb")
+	)
+	(pad "2" smd rect
+		(at 0.8 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "ca378616-8295-460f-8bad-3dd1c482a249")
+	)
+	(embedded_fonts no)
+	(model "$(GRAMS)/Ki-CAD8_Library_Files/Wurth Elektronik/LED/0603/Green/WL-SMCW_0603/WL-SMCW_0603.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

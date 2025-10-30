@@ -1,0 +1,389 @@
+(footprint "0451Series_LTF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "4 A 125 V 125 V Fuse Board Mount (Cartridge Style Excluded) Surface Mount 2-SMD, Square End Block")
+	(tags "0451004.MRL ")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "01acd98c-2bfc-4582-bf19-9177941833cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "0451Series_LTF"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7e5a9b80-c6de-412e-b559-ab7d850d0bc0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-fuse-451-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5649054-f783-41d7-9004-1079362f7ae3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "4 A 125 V 125 V Fuse Board Mount (Cartridge Style Excluded) Surface Mount 2-SMD, Square End Block"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56375e53-04b3-444a-895d-0b9c074478cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Littelfuse Inc."
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "29344886-286f-478d-aed7-947f6b1c42bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Man Part Num" "0451004.MRL"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "907efdae-5ca6-40c0-911c-22f080937f2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Distributor" "Digikey"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b4ef300e-21ec-436b-a555-c38e7cee35b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Dist Part Num" "F2586CT-ND"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e0e46804-0b80-47c0-836c-8a32cf9822b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Package" "2-SMD, Square End Block"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e0823e72-bfcd-405c-88a5-0fe695fc174d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Type" "SMD"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cadd78bf-6926-461b-8cac-d65aa63f0672")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Dist URL" "https://www.digikey.com/en/products/detail/littelfuse-inc/0451004-MRL/700827"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f5b69066-3ad3-4155-b16b-cee88e616752")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.29265 1.4732)
+		(end 1.29265 1.4732)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f9c5d61-62a5-4d82-a801-179a7216257f")
+	)
+	(fp_line
+		(start 1.29265 -1.4732)
+		(end -1.29265 -1.4732)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e632568-0c29-4bb5-8c88-db269bb90c56")
+	)
+	(fp_line
+		(start -3.6576 -1.6002)
+		(end 3.6576 -1.6002)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "94e1c57e-9e32-427e-ba70-353814417a54")
+	)
+	(fp_line
+		(start -3.6576 1.6002)
+		(end -3.6576 -1.6002)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2ffd6e44-4d67-44a3-8a38-cf0a58f5b803")
+	)
+	(fp_line
+		(start 3.6576 -1.6002)
+		(end 3.6576 1.6002)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2e2b8d21-685c-434c-88e0-03da27b62c53")
+	)
+	(fp_line
+		(start 3.6576 1.6002)
+		(end -3.6576 1.6002)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c12331b3-4add-4c23-98ac-c2cb9b46c663")
+	)
+	(fp_line
+		(start -3.048 -1.3462)
+		(end -3.048 1.3462)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6009ed1a-f146-4aa9-8fff-0619acfaedfd")
+	)
+	(fp_line
+		(start -3.048 -1.3462)
+		(end -3.048 1.3462)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d7a96564-ea2f-4a14-ae23-c680f479f72d")
+	)
+	(fp_line
+		(start -3.048 1.3462)
+		(end -1.6002 1.3462)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "548ea04e-35e8-4e25-9a33-5fd6d6cfcfe5")
+	)
+	(fp_line
+		(start -3.048 1.3462)
+		(end 3.048 1.3462)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e26cb5cf-cd0b-4b97-a81b-09966faf3722")
+	)
+	(fp_line
+		(start -1.6002 -1.3462)
+		(end -3.048 -1.3462)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ecc31a33-677a-4b30-ab8a-53e245494c40")
+	)
+	(fp_line
+		(start -1.6002 1.3462)
+		(end -1.6002 -1.3462)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0a1aafd7-1ef0-4fee-9eb2-98b28438d002")
+	)
+	(fp_line
+		(start 1.6002 -1.3462)
+		(end 1.6002 1.3462)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "570b12b0-b8ea-47c5-8256-f9b19f620db7")
+	)
+	(fp_line
+		(start 1.6002 1.3462)
+		(end 3.048 1.3462)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "75b857f8-596c-42d4-8c6a-7c2c829ed4c9")
+	)
+	(fp_line
+		(start 3.048 -1.3462)
+		(end -3.048 -1.3462)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9addc203-ae88-4d96-89c5-ea8eacb5837a")
+	)
+	(fp_line
+		(start 3.048 -1.3462)
+		(end 1.6002 -1.3462)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e69e50a7-7410-49d6-9b1d-0228db31d58f")
+	)
+	(fp_line
+		(start 3.048 1.3462)
+		(end 3.048 -1.3462)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7d93e0f8-3bee-4085-b343-fe9ed9d8cb7c")
+	)
+	(fp_line
+		(start 3.048 1.3462)
+		(end 3.048 -1.3462)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fee2e5c4-41e7-46d8-a7f8-d9945e5c1941")
+	)
+	(fp_circle
+		(center -2.794 0)
+		(end -2.794 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e724ece2-864f-4a2a-b171-79858f39e610")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "38293878-d256-4f0e-b0ae-7b7ca09a0d6e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.5019 0)
+		(size 1.8034 2.6924)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "acdb9b83-c169-4feb-aa34-2b92ed557883")
+	)
+	(pad "2" smd rect
+		(at 2.5019 0)
+		(size 1.8034 2.6924)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "67b3c0a1-be4f-47ef-b684-a67efed1aa47")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "9d34e5a9-59d0-4b55-a8b2-3f65ac8c8c41")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -1.5494 -1.2954) (xy 1.5494 -1.2954) (xy 1.5494 1.2954) (xy -1.5494 1.2954)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

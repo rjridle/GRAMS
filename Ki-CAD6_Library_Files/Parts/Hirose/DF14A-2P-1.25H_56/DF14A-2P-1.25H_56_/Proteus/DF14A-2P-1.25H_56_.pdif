@@ -1,0 +1,139 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "DF14A-2P-1.25H_56_"
+   (description "HIROSE(HRS) - DF14A-2P-1.25H(56) - Wire-To-Board Connector, DF14 Series, Surface Mount, Header, 2, 1.25 mm, Gold Plated Contacts RoHS Compliant: Yes")
+   (family "CON")
+   (package "DF14A2P125H56")
+   (attribute "Datasheet Link" "https://www.hirose.com/en/product/document?clcode=CL0538-0033-3-22&productname=DF14A-2P-1.25H(22)&series=DF14&documenttype=2DDrawing&lang=en&documentid=0001394359")
+   (attribute "Geometry.Height" "2.7mm")
+   (attribute "Mouser Part Number" "798-DF14A2P125H56")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DF14A-2P-125H56?qs=zOgoZG1CgI9j0kPpVEP3mQ%3D%3D")
+   (attribute "Manufacturer_Name" "Hirose")
+   (attribute "Manufacturer_Part_Number" "DF14A-2P-1.25H(56)")
+   (gate
+    (symbol "DF14A-2P-1.25H_56_")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "MP1" MP1 PS)
+    (pin "MP2" MP2 PS)
+   )
+  )
+  (symbol "DF14A-2P-1.25H_56_"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "DF14A2P125H56"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.725 -2.85)
+      (pt 3.725 -2.85)
+      (pt 3.725 2.85)
+      (pt -3.725 2.85)
+      (pt -3.725 -2.85))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.025 4.05)
+      (pt 5.025 4.05)
+      (pt 5.025 -5.25)
+      (pt -5.025 -5.25)
+      (pt -5.025 4.05))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.5 2.85)
+      (pt 1.5 2.85))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.725 0)
+      (pt -3.725 -2.85)
+      (pt -1.5 -2.85))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 1.5 -2.85)
+      (pt 3.725 -2.85)
+      (pt 3.725 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0.625 -4.7)
+      (arc (pt 0.625 -4.700) (pt 0.575 -4.800) (pt 0.675 -4.700) (start 180.0) (sweep 90.0))
+      (pt 0.625 -4.8)
+      (arc (pt 0.625 -4.800) (pt 0.575 -4.800) (pt 0.675 -4.700) (start 180.0) (sweep -90.0))
+      (pt 0.625 -4.7)
+      (arc (pt 0.625 -4.700) (pt 0.575 -4.800) (pt 0.675 -4.700) (start 180.0) (sweep 90.0))
+      (pt 0.625 -4.8))))
+   (leg 1 (pt 0.625 -3.350) (padstack 0))
+   (leg 2 (pt -0.625 -3.350) (padstack 0))
+   (leg MP1 (pt 3.025 1.750) (padstack 3))
+   (leg MP2 (pt -3.025 1.750) (padstack 4))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.700 1.800 0 0 90.000))
+   )
+   (padstack 3
+    (plated false)
+    (pad (layer TCOP) (rectf 2.000 2.600 0 0 90.000))
+   )
+   (padstack 4
+    (plated false)
+    (pad (layer TCOP) (rectf 2.000 2.600 0 0 90.000))
+   )
+   (model "DF14A-2P-1.25H_56_.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

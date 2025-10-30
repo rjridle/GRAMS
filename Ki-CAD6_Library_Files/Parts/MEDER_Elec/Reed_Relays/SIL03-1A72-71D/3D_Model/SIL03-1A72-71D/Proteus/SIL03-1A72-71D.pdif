@@ -1,0 +1,121 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SIL03-1A72-71D"
+   (description "Reed Relays Form A - NO 10 W, 200 V")
+   (family "RLY")
+   (package "SIL031A7271D")
+   (attribute "Datasheet Link" "https://4a30d8fd18dae1bf393d-df49f4cedb726ad03ad145d2e3d346bd.ssl.cf5.rackcdn.com/datasheets/33/3303172171e.pdf")
+   (attribute "Geometry.Height" "7.8mm")
+   (attribute "Manufacturer_Name" "Meder")
+   (attribute "Manufacturer_Part_Number" "SIL03-1A72-71D")
+   (attribute "Mouser Part Number" "876-SIL03-1A72-71D")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/MEDER-electronic-Standex/SIL03-1A72-71D?qs=XQXp6f9AQWAyfFxxKRfX0Q%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "SIL03-1A72-71D")
+    (pin "COM" 1 PS)
+    (pin "K" 3 PS)
+    (pin "A" 5 PS)
+    (pin "NO" 7 PS)
+   )
+  )
+  (symbol "SIL03-1A72-71D"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SIL031A7271D"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.28 2.54)
+      (pt 17.52 2.54)
+      (pt 17.52 -2.54)
+      (pt -2.28 -2.54)
+      (pt -2.28 2.54))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.28 2.54)
+      (pt 17.52 2.54)
+      (pt 17.52 -2.54)
+      (pt -2.28 -2.54)
+      (pt -2.28 2.54))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.38 3.54)
+      (pt 18.52 3.54)
+      (pt 18.52 -3.54)
+      (pt -5.38 -3.54)
+      (pt -5.38 3.54))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.38 0)
+      (arc (pt -4.380 0.000) (pt -4.380 -0.050) (pt -4.280 0.050) (start 180.0) (sweep -180.0))
+      (pt -4.28 0)
+      (arc (pt -4.280 0.000) (pt -4.380 -0.050) (pt -4.280 0.050) (start 180.0) (sweep .0))
+      (pt -4.38 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 3 (pt 5.080 0.000) (padstack 0))
+   (leg 5 (pt 10.160 0.000) (padstack 0))
+   (leg 7 (pt 15.240 0.000) (padstack 0))
+   (padstack 0
+    (hole 0.76)
+    (plated true)
+    (pad (layer TCOP) (round 1.303))
+    (pad (layer INNER) (round 1.303))
+    (pad (layer BCOP) (round 1.303))
+   )
+   (model "SIL03-1A72-71D.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

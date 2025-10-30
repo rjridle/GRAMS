@@ -1,0 +1,179 @@
+(footprint "CAPC4520X150N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.76 -1.7 0)
+		(layer "F.SilkS")
+		(uuid "39943702-aefd-4ec7-84d8-0913eaddd991")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Value" "CAPC4520X150N"
+		(at 0.24 1.7 0)
+		(layer "F.Fab")
+		(uuid "e6d7b777-3c1a-4dca-9505-0e2956ff4124")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1470dfbf-b2ea-49cf-aa5b-966132e3d582")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3870147-b4fb-4afd-ab03-3a0e76e3e9f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.99 -1.1)
+		(end 0.99 -1.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6192fac-b004-4df9-9d5b-fb6c1c4072b6")
+	)
+	(fp_line
+		(start -0.99 1.1)
+		(end 0.99 1.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8cb7c9a8-c9d4-49ae-9291-f8368557b196")
+	)
+	(fp_line
+		(start -3.005 -1.358)
+		(end 3.005 -1.358)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "230448b5-6c7a-4041-8955-f369df43cb04")
+	)
+	(fp_line
+		(start -3.005 1.358)
+		(end -3.005 -1.358)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "220b3048-bce2-4349-b861-ea2825bed789")
+	)
+	(fp_line
+		(start -3.005 1.358)
+		(end 3.005 1.358)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d1c3e64f-fc0a-434a-a84e-68cbb275e962")
+	)
+	(fp_line
+		(start 3.005 1.358)
+		(end 3.005 -1.358)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a99d6e1e-4c1b-471b-825e-00ac16af3c21")
+	)
+	(fp_line
+		(start -2.4 1.1)
+		(end -2.4 -1.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70eca11d-9161-4d66-b4c6-0aa7783d62e6")
+	)
+	(fp_line
+		(start 2.4 -1.1)
+		(end -2.4 -1.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3117e432-481c-4ef4-b1c1-8cb988d8825c")
+	)
+	(fp_line
+		(start 2.4 1.1)
+		(end -2.4 1.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b89a121-10db-4ef0-8a9c-6ec4df2b0105")
+	)
+	(fp_line
+		(start 2.4 1.1)
+		(end 2.4 -1.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "05001bd6-577f-42be-9a7a-7c91ddeacb7b")
+	)
+	(pad "1" smd rect
+		(at -2.032 0)
+		(size 1.45 2.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "3b63c3ef-b1a4-4b48-8064-b9731161f73d")
+	)
+	(pad "2" smd rect
+		(at 2.032 0)
+		(size 1.45 2.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "95230f75-fe31-407d-9e31-665525e13a1f")
+	)
+	(embedded_fonts no)
+	(model "$(GRAMS)/Ki-CAD8_Library_Files/Murata_Electronics/Safety_Capacitors/GA342QR7GD681KW01L/GA342QR7GD681KW01L.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

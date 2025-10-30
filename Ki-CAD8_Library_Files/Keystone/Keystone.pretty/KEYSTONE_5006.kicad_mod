@@ -1,0 +1,118 @@
+(footprint "KEYSTONE_5006"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.032 -2.4064 0)
+		(layer "F.SilkS")
+		(uuid "5998a403-961d-4a86-8d41-bef4cf1d33e9")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KEYSTONE_5006"
+		(at 3.2832 2.4064 0)
+		(layer "F.Fab")
+		(uuid "07c841d0-b6c6-491c-8323-411bb8fdd842")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a474367-9cc5-47f1-8695-f02d5dfbadec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53134df7-9431-4758-96bc-3b7e4b388032")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "abeb6e14-2ee2-4520-8d82-adce7042a6a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 1.59 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d1425daa-0020-4ae9-852e-6785ed663e43")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.84 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c9eab7d1-d848-4ac2-942e-c0c9be7cc171")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.59 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "c1497043-194c-437f-90c4-ce365177344b")
+	)
+	(pad "TP" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "e7525b26-64c3-4d54-bcd5-dd4f6a3beb77")
+	)
+	(model "C:/Users/ddurachk/Desktop/Projects/Ki-CAD8_Library_Files/Keystone/5006/5006.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -39)
+		)
+	)
+)

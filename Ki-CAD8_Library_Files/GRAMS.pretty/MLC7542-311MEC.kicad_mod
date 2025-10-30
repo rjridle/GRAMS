@@ -1,0 +1,120 @@
+(footprint "MLC7542-311MEC"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.5 -2 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e9229e7c-6ee7-40ce-b944-808eacd2e64f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MLC7542-311MEC"
+		(at 0.5 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "12548a75-b47a-4dff-9956-8c35354f1716")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "MLC7542-311MEC"
+		(at 0 8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d309d2d2-039e-4e4a-b75c-d623aa4c6a35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8448505-737f-4bf9-a9d6-67ca2e4c0782")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f8fd56b-98dd-47a3-926d-65aced6fc049")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.5 -6)
+		(end 3.5 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "9c7c390b-dfbd-4967-a487-12fb7e6d2498")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "14c4883e-7534-4764-8cca-ac537950d9f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 1.5)
+		(size 2 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.01)
+		(thermal_bridge_angle 45)
+		(uuid "ecc4177f-dcc7-410e-9957-eae15b10a225")
+	)
+	(pad "2" smd roundrect
+		(at 0 -4)
+		(size 2 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.01)
+		(thermal_bridge_angle 45)
+		(uuid "1d93c99f-9436-45e1-a14c-91d39b3b57d8")
+	)
+	(model "C:/Users/ddurachk/Desktop/Projects/Ki-CAD6_Library_Files/Parts/CoilCraft/MLC7542/3D Models/Coilcraft-MLC7542.STEP"
+		(offset
+			(xyz 0 1.2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

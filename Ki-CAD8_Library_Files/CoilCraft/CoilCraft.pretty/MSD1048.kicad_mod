@@ -1,0 +1,124 @@
+(footprint "MSD1048"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "58168384-11f1-4e1b-a8bc-e73a0924779c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MSD1048"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3a7f7a80-cdbc-4549-9e89-22993d91f54f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "828fb1fd-daef-46f1-a2d5-70b32cd412a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a34b52c9-6745-4de9-8249-0d9b6fabf617")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 0 -10.3)
+		(end 10.3 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4361ba7c-2a5c-435e-ac5e-3d2a65e91367")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f0ca6990-6166-49f9-91bf-1c40a77805fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 6.175 -9)
+		(size 1.25 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.001)
+		(thermal_bridge_angle 45)
+		(uuid "909dab5d-1595-49b9-b964-41e34f52d44c")
+	)
+	(pad "2" smd roundrect
+		(at 4.125 -9)
+		(size 1.25 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.001)
+		(thermal_bridge_angle 45)
+		(uuid "d7db6156-4439-408a-8dd2-ece376ebbddb")
+	)
+	(pad "3" smd roundrect
+		(at 4.125 -1.2)
+		(size 1.25 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.001)
+		(thermal_bridge_angle 45)
+		(uuid "59ef2e33-2a73-4833-ae78-f6e7de45e28c")
+	)
+	(pad "4" smd roundrect
+		(at 6.175 -1.2)
+		(size 1.25 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.001)
+		(thermal_bridge_angle 45)
+		(uuid "4ea74fa8-bbf6-4017-b9a7-1ffc4e42e963")
+	)
+	(embedded_fonts no)
+	(model "$(GRAMS)/Ki-CAD8_Library_Files/CoilCraft/MSD1048/Coilcraft-MSD1048.STEP"
+		(offset
+			(xyz 5.15 5.1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

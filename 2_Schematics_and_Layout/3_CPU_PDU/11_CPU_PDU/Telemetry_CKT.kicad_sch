@@ -1,0 +1,4464 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "db655c9c-4203-47cc-948e-2e3b3ae1909a")
+	(paper "A3")
+	(lib_symbols
+		(symbol "Analog_Devices:AD590JRZ-RL"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 14.986 5.588 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "AD590JRZ"
+				(at 14.986 3.048 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "R_8_ADI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD590.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SENSOR ANALOG -55C-150C 8SOIC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Analog Devices Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Man. Part Num" "AD590JRZ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" "Digi-Key"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dist. Part Num" "AD590JRZ-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "8-SOIC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "AD590JRZ-RL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_8_ADI R_8_ADI-M R_8_ADI-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AD590JRZ-RL_0_1"
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 29.21 0 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 29.21 -2.54 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 29.21 -5.08 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 29.21 -7.62 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AD590JRZ-RL_1_1"
+				(rectangle
+					(start 7.62 1.27)
+					(end 21.59 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Analog_Devices:LT3080EST-PBF"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 10.16 16.51 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "LT3080EST-PBF"
+				(at 10.16 13.97 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SOT-3_ST_LIT"
+				(at -14.224 13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/lt3080.pdf"
+				(at -10.922 19.558 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "IC REG LIN POS ADJ 1.1A SOT223-3"
+				(at -17.78 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Analog Devices Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Man. Part Num" "LT3080EST#PBF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" "Digi-Key"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dist. Part Num" "505-LT3080EST#PBF-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "SOT223-3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LT3080EST#PBF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT-3_ST_LIT SOT-3_ST_LIT-M SOT-3_ST_LIT-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LT3080EST-PBF_0_1"
+				(pin power_in line
+					(at -7.62 5.08 0)
+					(length 7.62)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -7.62 90)
+					(length 7.62)
+					(name "SET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 27.94 5.08 180)
+					(length 7.62)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LT3080EST-PBF_1_1"
+				(rectangle
+					(start 0 10.16)
+					(end 20.32 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 27.94 2.54 180)
+					(length 7.62)
+					(name "TAB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Passive_Parts:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Man. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" "Digi-Key"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dist. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy 2.032 1.016) (xy 2.032 4.064)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 1.016) (xy 3.048 4.064)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 2.54 0)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Passive_Parts:C_Tantalum"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Man. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" "Digi-Key"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dist. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Tantalum_0_1"
+				(polyline
+					(pts
+						(xy 4.318 0.508) (xy 4.318 4.572)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 6.35 0.508)
+					(mid 5.6372 2.54)
+					(end 6.35 4.572)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Tantalum_1_1"
+				(pin passive line
+					(at 1.27 2.54 0)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 2.54 180)
+					(length 3.302)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Passive_Parts:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Man. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" "Digi-Key"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dist. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start 5.08 1.524)
+					(end 0 3.556)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at -1.27 2.54 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 2.54 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 64.4246 65.3103)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a75930e-61ac-4e87-9309-28c73b5a65ab")
+	)
+	(junction
+		(at 73.1044 65.3103)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ab256c0-3d69-469d-a64e-6959c4caa277")
+	)
+	(junction
+		(at 88.0289 30.1083)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78997665-74a3-4916-a7c2-27e9890bdd8f")
+	)
+	(junction
+		(at 68.1242 45.5881)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7db58ddb-498e-4825-ad19-d0001b3acc78")
+	)
+	(junction
+		(at 44.6487 28.8842)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adf4cd4b-7f78-42d0-aeba-92762a1a417f")
+	)
+	(junction
+		(at 44.6487 65.3103)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4c38a2d-65de-4cf2-9d28-c9cad46ec41e")
+	)
+	(junction
+		(at 273.4592 201.5979)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e85a78c8-fed1-4fca-9c10-1a6997c7adaf")
+	)
+	(no_connect
+		(at 311.9682 196.5179)
+		(uuid "050b234c-4e97-4b73-bc81-fa4db46ce445")
+	)
+	(no_connect
+		(at 311.9682 201.5979)
+		(uuid "6ef2e871-15af-4932-ad4a-357870b01146")
+	)
+	(no_connect
+		(at 311.9682 199.0579)
+		(uuid "89d19374-1097-4eb3-b421-e9de0f24abca")
+	)
+	(no_connect
+		(at 282.7582 204.1379)
+		(uuid "97815d1b-f270-4808-9a7e-9cdcfc26bf80")
+	)
+	(no_connect
+		(at 282.7582 196.5179)
+		(uuid "de6a7dc3-0279-4f74-9c80-64150a0d4b46")
+	)
+	(no_connect
+		(at 311.9682 204.1379)
+		(uuid "f6926e51-9d62-4a9f-81c3-c1e37b938ee6")
+	)
+	(wire
+		(pts
+			(xy 275.1751 170.363) (xy 259.008 170.363)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0324dc6b-1e58-403b-b791-0db8bc734d00")
+	)
+	(wire
+		(pts
+			(xy 273.4592 201.5979) (xy 282.7582 201.5979)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0373a173-ed90-49c8-9f72-f9fff301e1fb")
+	)
+	(wire
+		(pts
+			(xy 64.4246 65.3103) (xy 73.1044 65.3103)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "037679b1-237e-4438-b936-8c617caa67ba")
+	)
+	(wire
+		(pts
+			(xy 163.4602 151.7981) (xy 146.9156 151.7981)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0391b230-ac60-4df8-9a5f-623cbfc51d46")
+	)
+	(wire
+		(pts
+			(xy 100.6128 49.5908) (xy 100.6128 65.3103)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03f44846-44ab-4938-8bee-59057d805c6c")
+	)
+	(wire
+		(pts
+			(xy 325.5721 119.0239) (xy 340.9528 119.0239)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "041cd21d-61fd-4bd7-862e-ae1e67de7bc0")
+	)
+	(wire
+		(pts
+			(xy 68.1242 41.5842) (xy 68.1242 45.5881)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0599c9a1-957d-40bf-a36b-15848ac6d816")
+	)
+	(wire
+		(pts
+			(xy 68.1242 45.5881) (xy 64.4246 45.5881)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07ea2008-14a7-43de-a98e-28bd216efc14")
+	)
+	(wire
+		(pts
+			(xy 163.8207 59.0805) (xy 142.9619 59.0805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a42fbb7-e9c4-4508-8918-3c7b0b65af72")
+	)
+	(wire
+		(pts
+			(xy 88.0289 31.4242) (xy 85.9042 31.4242)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fadfbcb-b020-4db3-872c-f03d1f8693ee")
+	)
+	(wire
+		(pts
+			(xy 275.1751 158.7146) (xy 258.6305 158.7146)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd2cdc8-8b54-41ea-af21-fcb4a2d3344d")
+	)
+	(wire
+		(pts
+			(xy 163.3818 131.5309) (xy 142.523 131.5309)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0feecc41-dac6-4f65-b03b-25a8aceff247")
+	)
+	(wire
+		(pts
+			(xy 34.9356 28.8842) (xy 44.6487 28.8842)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1136c331-2952-4172-8713-dca8b767fa1c")
+	)
+	(wire
+		(pts
+			(xy 163.8207 65.2642) (xy 142.9619 65.2642)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1317b5ee-c05c-4853-afbd-cb441b32ec43")
+	)
+	(wire
+		(pts
+			(xy 163.7188 40.1746) (xy 147.5517 40.1746)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14da579d-930a-455c-81ef-fd105500ddf6")
+	)
+	(wire
+		(pts
+			(xy 275.483 114.3861) (xy 258.9384 114.3861)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a123560-2c88-4298-b0ef-2cf31d6cd716")
+	)
+	(wire
+		(pts
+			(xy 88.0289 30.1083) (xy 100.6128 30.1083)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b978b0d-3df0-4bfc-931f-1f8273019ed7")
+	)
+	(wire
+		(pts
+			(xy 163.4729 208.72) (xy 147.3058 208.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ea90f2c-4a96-490e-b226-a0e63386caa9")
+	)
+	(wire
+		(pts
+			(xy 100.6128 30.1083) (xy 100.6128 41.9708)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f994172-1f9e-402c-8b08-82978627de4a")
+	)
+	(wire
+		(pts
+			(xy 196.337 128.439) (xy 208.5306 128.439)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d63deb-056e-4c5a-86cc-e5ed19dbacf1")
+	)
+	(wire
+		(pts
+			(xy 273.4592 201.5979) (xy 243.6066 201.5979)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24122666-95df-4b59-a76c-c9b0505dcdc2")
+	)
+	(wire
+		(pts
+			(xy 196.7759 62.1723) (xy 208.9695 62.1723)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2682faee-5f9d-48c3-be15-766a337cfc36")
+	)
+	(wire
+		(pts
+			(xy 44.6487 65.3103) (xy 64.4246 65.3103)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b1f5c4-beef-40e2-9902-039324eddb6d")
+	)
+	(wire
+		(pts
+			(xy 88.0289 28.8842) (xy 88.0289 30.1083)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e96f1cd-d0d4-4a78-b66a-147549511639")
+	)
+	(wire
+		(pts
+			(xy 275.1751 163.1367) (xy 258.6305 163.1367)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "304836cb-bbcc-4199-89fe-edeb9b7c35ae")
+	)
+	(wire
+		(pts
+			(xy 325.5721 127.5445) (xy 340.9528 127.5445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366b50c4-0775-4e6e-b47d-ac0d9b94a1d3")
+	)
+	(wire
+		(pts
+			(xy 162.4511 228.4178) (xy 145.9065 228.4178)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393c4769-3b23-4990-bc9f-74ff57b5468d")
+	)
+	(wire
+		(pts
+			(xy 275.483 130.5644) (xy 259.3159 130.5644)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39eef0d4-f383-4c31-b449-808a633e920f")
+	)
+	(wire
+		(pts
+			(xy 282.7582 199.0579) (xy 267.227 199.0579)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b7766f4-f226-4c0e-8ae5-b1afb840584e")
+	)
+	(wire
+		(pts
+			(xy 325.2642 163.0289) (xy 340.6449 163.0289)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c4517fd-e66b-4802-9ea6-4d594e1aec48")
+	)
+	(wire
+		(pts
+			(xy 88.0289 30.1083) (xy 88.0289 31.4242)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e11ba86-b74e-4570-bfc9-41e4f9d7cde2")
+	)
+	(wire
+		(pts
+			(xy 73.1044 45.5881) (xy 68.1242 45.5881)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "422adceb-7e8f-4c4b-96db-b1d1e05dae8b")
+	)
+	(wire
+		(pts
+			(xy 163.4729 188.9465) (xy 146.9283 188.9465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45016d66-a64c-41a0-96e6-73cd576cf588")
+	)
+	(wire
+		(pts
+			(xy 44.6487 65.3103) (xy 33.5728 65.3103)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a7298a-da67-46d0-9bf1-6787d0c3bdcd")
+	)
+	(wire
+		(pts
+			(xy 275.483 123.3381) (xy 258.9384 123.3381)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48edf28e-c01b-4e39-9f30-0a2e4b7beaec")
+	)
+	(wire
+		(pts
+			(xy 162.4511 248.1913) (xy 146.284 248.1913)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a5bf58d-ddef-4e55-9ce5-6ea3c84a6f9a")
+	)
+	(wire
+		(pts
+			(xy 163.8207 72.095) (xy 147.6536 72.095)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c873ea7-26a6-41c6-9e12-48e9327e2bf8")
+	)
+	(wire
+		(pts
+			(xy 273.4592 220.2443) (xy 273.4592 224.6861)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a8fc2c2-e96a-4c35-89f3-a5bfdcccf58e")
+	)
+	(wire
+		(pts
+			(xy 196.4281 198.7973) (xy 208.6217 198.7973)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db1a55a-8ee7-4692-9b9e-628c97b08afd")
+	)
+	(wire
+		(pts
+			(xy 73.1044 65.3103) (xy 73.1044 56.7846)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dea0143-610d-4208-89ad-b10d32f0a157")
+	)
+	(wire
+		(pts
+			(xy 44.6487 44.3252) (xy 44.6487 65.3103)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "636516c9-a062-4f27-a623-c9133df9eb3b")
+	)
+	(wire
+		(pts
+			(xy 163.4602 158.5571) (xy 142.6014 158.5571)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d91cbc7-ea8f-4fde-bb16-75d4ee420e8c")
+	)
+	(wire
+		(pts
+			(xy 196.4708 95.3471) (xy 208.6644 95.3471)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6edb41dc-5279-45e1-8e20-6cb1559b8adf")
+	)
+	(wire
+		(pts
+			(xy 275.483 127.4366) (xy 258.9384 127.4366)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7069370f-cf02-4f99-bb0b-a50b0f49acc0")
+	)
+	(wire
+		(pts
+			(xy 163.4729 201.8892) (xy 142.6141 201.8892)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70a13051-fd22-4a84-84a4-338c4b212253")
+	)
+	(wire
+		(pts
+			(xy 163.4602 164.7408) (xy 142.6014 164.7408)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aa5d7cb-3774-4500-aa6e-2dc90a29648a")
+	)
+	(wire
+		(pts
+			(xy 163.7188 27.1601) (xy 142.86 27.1601)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c4227ab-c37c-410a-98c2-86aac41f8eee")
+	)
+	(wire
+		(pts
+			(xy 196.4154 161.6489) (xy 208.609 161.6489)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84947d07-9ad4-499e-a35a-6eeff3f74dd9")
+	)
+	(wire
+		(pts
+			(xy 163.7188 20.4011) (xy 147.1742 20.4011)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8579060c-8c09-4f75-8e63-6b0c1e691fb2")
+	)
+	(wire
+		(pts
+			(xy 195.4063 238.2686) (xy 207.5999 238.2686)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c1fa24-2d7a-4b75-be57-99ecd3bf8550")
+	)
+	(wire
+		(pts
+			(xy 162.4511 235.1768) (xy 141.5923 235.1768)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a7be186-bf06-4ace-a8b9-59c9d6adb678")
+	)
+	(wire
+		(pts
+			(xy 273.4592 212.6243) (xy 273.4592 201.5979)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90350a3e-260b-4212-995b-9692bb470947")
+	)
+	(wire
+		(pts
+			(xy 73.1044 51.7046) (xy 73.1044 45.5881)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95a1fa2e-0595-4376-8758-8adc7d722c5e")
+	)
+	(wire
+		(pts
+			(xy 163.5156 85.4963) (xy 146.971 85.4963)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9850625a-546e-4ff9-a992-4724b8d34f92")
+	)
+	(wire
+		(pts
+			(xy 163.4729 195.7055) (xy 142.6141 195.7055)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "988e53aa-6e32-4bb7-9ffb-547c22c02997")
+	)
+	(wire
+		(pts
+			(xy 196.674 30.2519) (xy 208.8676 30.2519)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b2eac84-2073-4ce7-b736-dea264a18521")
+	)
+	(wire
+		(pts
+			(xy 325.5721 123.2303) (xy 340.9528 123.2303)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f1c604f-aa4e-45e7-ac3f-273778474c27")
+	)
+	(wire
+		(pts
+			(xy 243.6066 201.5979) (xy 243.6066 167.2352)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fa49887-df17-4742-82a2-4047da20bdc6")
+	)
+	(wire
+		(pts
+			(xy 275.483 109.7484) (xy 258.9384 109.7484)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c8ed2a-b9e0-4c3f-b360-4b2ab524f483")
+	)
+	(wire
+		(pts
+			(xy 162.4511 241.3605) (xy 141.5923 241.3605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa648c67-384f-48d1-82b2-838fbe6444d7")
+	)
+	(wire
+		(pts
+			(xy 85.9042 28.8842) (xy 88.0289 28.8842)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b47bb446-058a-449a-9509-b2eb4c860714")
+	)
+	(wire
+		(pts
+			(xy 44.6487 28.8842) (xy 50.3442 28.8842)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b53e6e36-fd92-4a9b-8d61-5a60f2819f35")
+	)
+	(wire
+		(pts
+			(xy 163.8207 52.3215) (xy 147.2761 52.3215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b822ea9f-7f8f-4717-b5c2-26e38ca80b41")
+	)
+	(wire
+		(pts
+			(xy 325.5721 114.494) (xy 340.9528 114.494)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b87ba31f-2956-4a29-806b-1ca0d9665174")
+	)
+	(wire
+		(pts
+			(xy 163.7188 33.3438) (xy 142.86 33.3438)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b911d3a2-e64a-43c9-855a-5efe81863f6e")
+	)
+	(wire
+		(pts
+			(xy 163.5156 92.2553) (xy 142.6568 92.2553)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd523e5d-3a81-457a-81b3-36147b5fe0d6")
+	)
+	(wire
+		(pts
+			(xy 163.4602 171.5716) (xy 147.2931 171.5716)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e58f8d-e4c8-430b-80a4-cc4051b6ad9c")
+	)
+	(wire
+		(pts
+			(xy 325.2642 158.8225) (xy 340.6449 158.8225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2f74ff4-3606-439f-aed2-43694205c7d2")
+	)
+	(wire
+		(pts
+			(xy 163.5156 105.2698) (xy 147.3485 105.2698)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3907304-2f0c-46d7-a9db-b49842add5d1")
+	)
+	(wire
+		(pts
+			(xy 275.1751 149.547) (xy 258.6305 149.547)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a6771c-4ea9-4df0-8272-bf018430415d")
+	)
+	(wire
+		(pts
+			(xy 163.3818 125.3472) (xy 142.523 125.3472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca135c3f-dcbc-41fb-a053-c6828b5d04ac")
+	)
+	(wire
+		(pts
+			(xy 273.4592 224.6861) (xy 292.6854 224.6861)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cff4018e-ead4-4c32-b282-043814b1d7c2")
+	)
+	(wire
+		(pts
+			(xy 243.6066 167.2352) (xy 275.1751 167.2352)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d43c9b13-5424-4ccf-91c1-c4ec19c5ed58")
+	)
+	(wire
+		(pts
+			(xy 44.6487 36.7052) (xy 44.6487 28.8842)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d47f141c-8080-4410-a673-01c54b218eb9")
+	)
+	(wire
+		(pts
+			(xy 325.2642 167.3431) (xy 340.6449 167.3431)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d55396c1-61f0-458c-9296-fb3528530d63")
+	)
+	(wire
+		(pts
+			(xy 275.483 118.916) (xy 258.9384 118.916)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d852bcef-c930-424d-a586-c6b7fe82eb07")
+	)
+	(wire
+		(pts
+			(xy 163.3818 118.5882) (xy 146.8372 118.5882)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db7ec7fc-a9c4-462c-b3d2-ef7edc6c3c82")
+	)
+	(wire
+		(pts
+			(xy 64.4246 58.0219) (xy 64.4246 65.3103)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbe7a439-c344-4f21-92d7-8b0b3da31b6d")
+	)
+	(wire
+		(pts
+			(xy 275.1751 154.1847) (xy 258.6305 154.1847)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9645149-caae-4912-bca8-cc6f6f14ce30")
+	)
+	(wire
+		(pts
+			(xy 163.3818 138.3617) (xy 147.2147 138.3617)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f101b586-10d3-4fbd-bcba-5d6f05a3c1a8")
+	)
+	(wire
+		(pts
+			(xy 163.5156 98.439) (xy 142.6568 98.439)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1d02a81-fe48-421d-a441-aa2de7b6d2bd")
+	)
+	(wire
+		(pts
+			(xy 325.2642 154.2926) (xy 340.6449 154.2926)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc3da71e-a42f-4a4a-9f65-42826d58759f")
+	)
+	(wire
+		(pts
+			(xy 64.4246 45.5881) (xy 64.4246 50.4019)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb8cbb5-f08b-4b6d-af35-d1f749f2084b")
+	)
+	(wire
+		(pts
+			(xy 73.1044 65.3103) (xy 100.6128 65.3103)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe28a656-b838-43a6-8359-ee347e380a8b")
+	)
+	(label "VIN_1"
+		(at 264.0311 114.3861 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0fa5a375-f29a-4ced-aede-444e7ceefd88")
+	)
+	(label "TELEM_PWR"
+		(at 149.595 52.3215 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27ba3e30-b5ca-4b62-a36b-b12dfbcd4732")
+	)
+	(label "TELEM_PWR"
+		(at 260.9494 149.547 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28d2f6f8-9ed1-4498-830f-724f349cf7af")
+	)
+	(label "TELEM_PWR"
+		(at 148.2254 228.4178 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28f0db5b-3ad1-4522-a5b2-308e9ec43210")
+	)
+	(label "TELEM_PWR"
+		(at 149.2345 151.7981 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bfcd24f-d549-4084-a773-6c32af3d4ade")
+	)
+	(label "P5V_RTN"
+		(at 150.5415 208.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d1ed68a-60a8-42b1-9131-8bd9967a41a8")
+	)
+	(label "P5V_RTN"
+		(at 277.8732 224.6861 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47694f94-795e-45f6-807a-1f8436c928e3")
+	)
+	(label "P5V_RTN"
+		(at 150.7874 40.1746 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4fcf6498-9418-4d8f-ad9c-e9ce0961e130")
+	)
+	(label "VIN_5"
+		(at 263.6446 154.1847 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5386b60b-9326-433a-9e37-fd0f17f778a5")
+	)
+	(label "P5V_IN"
+		(at 270.2469 199.0579 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67e675a1-4ccb-407a-82f5-33a1aa21fcc0")
+	)
+	(label "VIN_3"
+		(at 263.7434 123.3381 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b68f1bf-e9fc-42a7-b3f9-78d57fc55512")
+	)
+	(label "VIN_6"
+		(at 263.2132 158.7146 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6be1be1a-b19e-42d0-aa6f-d50f1352647a")
+	)
+	(label "P5V_RTN"
+		(at 150.8893 72.095 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6eb2f3c0-0388-44d1-929b-50f6ac1caae2")
+	)
+	(label "TELEM_PWR"
+		(at 149.1561 118.5882 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70af7a50-edfa-4f21-bafc-474a9ab6c7db")
+	)
+	(label "P5V_RTN"
+		(at 262.5516 130.5644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7271b5cc-8e6d-4025-a9a9-a184099a18f2")
+	)
+	(label "TELEM_PWR"
+		(at 149.2899 85.4963 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "752a1477-6d3e-4fdb-a440-e587373a55fb")
+	)
+	(label "TELEM_PWR"
+		(at 149.2472 188.9465 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76808e5f-7260-4100-b984-4b3f0b47a500")
+	)
+	(label "P5V_RTN"
+		(at 150.5288 171.5716 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76f84773-083b-4edd-bdcf-8adf2b041b81")
+	)
+	(label "VIN_2"
+		(at 263.6715 118.916 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c2d0bd0-b39a-4b4c-a29e-6acc88f0f860")
+	)
+	(label "P5V_RTN"
+		(at 150.5842 105.2698 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fb644ce-dd3a-44a9-affc-b89473391137")
+	)
+	(label "VIN_7"
+		(at 263.1053 163.1367 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "948cecdf-3656-432b-8de5-81ee69dfde86")
+	)
+	(label "TELEM_PWR"
+		(at 261.2573 109.7484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4a04731-ceaf-4edb-85d5-eea5b855ab6d")
+	)
+	(label "VIN_4"
+		(at 263.6715 127.4366 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c858e326-55a9-4f64-903e-7fc89ace94da")
+	)
+	(label "P5V_RTN"
+		(at 262.2437 170.363 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb2e4631-8701-449a-8dc5-c3d757729065")
+	)
+	(label "P5V_RTN"
+		(at 150.4504 138.3617 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d67d71b8-49bc-4c04-bee7-8f6165afcec6")
+	)
+	(label "P5V_RTN"
+		(at 149.5197 248.1913 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb2c68f0-e42c-407c-a4e8-846d18def868")
+	)
+	(label "TELEM_PWR"
+		(at 149.4931 20.4011 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5174d2a-e29a-48a0-bda6-66352614a013")
+	)
+	(label "TELEM_PWR"
+		(at 89.3501 30.1083 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fcfc85ae-74ab-4d65-98e7-282b23ca19a3")
+	)
+	(hierarchical_label "v7_TELEM"
+		(shape output)
+		(at 340.6449 163.0289 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03d5e907-6693-4ccb-9445-e825dabe52b4")
+	)
+	(hierarchical_label "VOUT_1"
+		(shape output)
+		(at 142.86 33.3438 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e94e72c-7ed1-4c34-80b3-8cd9c2abea6c")
+	)
+	(hierarchical_label "i1_TELEM"
+		(shape output)
+		(at 208.8676 30.2519 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c76567b-a3fc-4e03-81d5-4ed62764d6e6")
+	)
+	(hierarchical_label "i7_TELEM"
+		(shape output)
+		(at 207.5999 238.2686 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22d2f3b9-9d0f-4fad-a7c5-7e7a9c394eb1")
+	)
+	(hierarchical_label "VOUT_2"
+		(shape output)
+		(at 142.9619 65.2642 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24094d34-4e34-48aa-b888-9df4ff1f20c3")
+	)
+	(hierarchical_label "P5V_RTN"
+		(shape output)
+		(at 33.5728 65.3103 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26ec60f7-9a5b-4011-8049-991463e111ab")
+	)
+	(hierarchical_label "VOUT_6"
+		(shape output)
+		(at 143.3966 201.8892 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2edabbaf-d1d2-49fe-a20c-91c1ed422bd5")
+	)
+	(hierarchical_label "TEMP_TELEM"
+		(shape output)
+		(at 340.6449 167.3431 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "456805d7-f9fc-4b97-ace8-9c7fe4fb42f3")
+	)
+	(hierarchical_label "i2_TELEM"
+		(shape output)
+		(at 208.9695 62.1723 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4dfa3ea5-c6e4-4a82-9db5-2bc82cbe0e80")
+	)
+	(hierarchical_label "VIN_5"
+		(shape input)
+		(at 142.6014 158.5571 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53267544-54ae-4c07-83c1-eb76e094dd1a")
+	)
+	(hierarchical_label "v4_TELEM"
+		(shape output)
+		(at 340.9528 127.5445 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53824602-8030-4dfe-a18f-4a721959d37d")
+	)
+	(hierarchical_label "v2_TELEM"
+		(shape output)
+		(at 340.9528 119.0239 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61f95fde-4078-492f-8d24-142a648725da")
+	)
+	(hierarchical_label "i3_TELEM"
+		(shape output)
+		(at 208.6644 95.3471 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6816bc36-4649-4819-b0b0-b44221a8fd2d")
+	)
+	(hierarchical_label "i4_TELEM"
+		(shape output)
+		(at 208.5306 128.439 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a5919c4-1ff0-4b52-a1db-fca1d23e2cae")
+	)
+	(hierarchical_label "i6_TELEM"
+		(shape output)
+		(at 208.6217 198.7973 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e10edb9-ca91-4bd7-8712-16eb16d801f2")
+	)
+	(hierarchical_label "VIN_7"
+		(shape input)
+		(at 141.5923 235.1768 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7956c520-80aa-48a6-bc31-c11cacd5de89")
+	)
+	(hierarchical_label "VIN_1"
+		(shape input)
+		(at 142.86 27.1601 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b9b8ffe-f3b9-4036-94ea-c5a51808baa2")
+	)
+	(hierarchical_label "VIN_4"
+		(shape input)
+		(at 142.523 125.3472 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86fe6720-a588-4a28-af42-c11cc81f9926")
+	)
+	(hierarchical_label "VIN_6"
+		(shape input)
+		(at 142.6141 195.7055 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f3e42c1-e558-4a2a-b3be-f114df9d505e")
+	)
+	(hierarchical_label "VOUT_7"
+		(shape output)
+		(at 141.5923 241.3605 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c5ebf30-8d7c-43b8-a083-9fe338dc0f2c")
+	)
+	(hierarchical_label "VOUT_4"
+		(shape output)
+		(at 142.523 131.5309 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f8d8063-de5e-4e1a-a4df-bda3a2feb809")
+	)
+	(hierarchical_label "v3_TELEM"
+		(shape output)
+		(at 340.9528 123.2303 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b706871d-b5ff-4dbc-9f04-c7c517f7d4a4")
+	)
+	(hierarchical_label "i5_TELEM"
+		(shape output)
+		(at 208.609 161.6489 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7f00f33-373c-4b9a-8ead-b6fcde968b9f")
+	)
+	(hierarchical_label "v1_TELEM"
+		(shape output)
+		(at 340.9528 114.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b96959f1-41a1-4a6f-89b7-0c8c56996e1d")
+	)
+	(hierarchical_label "VIN_3"
+		(shape input)
+		(at 142.6568 92.2553 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d120b3d1-f0ed-410a-b210-39c797b3102d")
+	)
+	(hierarchical_label "VIN_2"
+		(shape input)
+		(at 142.9619 59.0805 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2e218a6-a53a-4b8f-a524-20426a00d0c2")
+	)
+	(hierarchical_label "VOUT_3"
+		(shape output)
+		(at 142.6568 98.439 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d618bf3d-1818-4a8b-9b54-9721c16d1fa7")
+	)
+	(hierarchical_label "P5V_IN"
+		(shape input)
+		(at 34.9356 28.8842 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9cff1e4-048f-453b-8533-20f19aa7937a")
+	)
+	(hierarchical_label "VOUT_5"
+		(shape output)
+		(at 142.6014 164.7408 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6f0f8be-725a-48ef-bf53-af2b69b2d04a")
+	)
+	(hierarchical_label "v6_TELEM"
+		(shape output)
+		(at 340.6449 158.8225 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee67719e-4324-4b4e-a54e-4eabfbce783e")
+	)
+	(hierarchical_label "v5_TELEM"
+		(shape output)
+		(at 340.6449 154.2926 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc7a84ee-b9bf-4110-81e8-a14068e107f3")
+	)
+	(symbol
+		(lib_id "Passive_Parts:R")
+		(at 61.8846 51.6719 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2aaf1c1e-af1d-42ec-9269-dd7967383983")
+		(property "Reference" "R50"
+			(at 67.9707 53.2127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330k"
+			(at 68.2018 55.4468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 61.8846 51.6719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
+			(at 61.8846 51.6719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "820 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film"
+			(at 61.8846 51.6719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 61.8846 51.6719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "RT0603BRD07820KL"
+			(at 61.8846 51.6719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 61.8846 51.6719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "13-RT0603BRD07820KLCT-ND"
+			(at 61.8846 51.6719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 61.8846 51.6719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 61.8846 51.6719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 61.8846 51.6719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "82d12a53-e718-4a6a-b99f-0c6a3bd68a07")
+		)
+		(pin "1"
+			(uuid "72927d37-5878-4d3d-90a5-6b9c98a8be18")
+		)
+		(instances
+			(project "GRAMS_CPU_PDU"
+				(path "/55dc6af3-8895-4b35-aaf0-b3810c84e0eb/0f722665-c262-4447-ac8d-0b3141c51f2e"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Parts:R")
+		(at 275.9992 218.9743 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e8928bc-55ba-46c2-b9ef-b11452031706")
+		(property "Reference" "R51"
+			(at 278.426 215.4151 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9k"
+			(at 278.1024 218.0036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 275.9992 218.9743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
+			(at 275.9992 218.9743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Thin Film"
+			(at 275.9992 218.9743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 275.9992 218.9743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "RT0805BRE079KL"
+			(at 275.9992 218.9743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 275.9992 218.9743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "13-RT0805BRE079KLCT-ND"
+			(at 275.9992 218.9743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 275.9992 218.9743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 275.9992 218.9743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805 (2012 Metric)"
+			(at 275.9992 218.9743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "249ade5b-e738-4a82-95a9-5b62d6a02f33")
+		)
+		(pin "1"
+			(uuid "3715681d-7adb-48f1-b971-7e488894c22c")
+		)
+		(instances
+			(project "GRAMS_CPU_PDU"
+				(path "/55dc6af3-8895-4b35-aaf0-b3810c84e0eb/0f722665-c262-4447-ac8d-0b3141c51f2e"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Devices:LT3080EST-PBF")
+		(at 57.9642 33.9642 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57bb0e27-4382-43c2-9b9d-fdec021f795e")
+		(property "Reference" "U9"
+			(at 68.1242 19.0278 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LT3080EST-PBF"
+			(at 68.1242 21.5678 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Analog_Devices:SOT-3_ST_LIT"
+			(at 43.7402 20.7562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/lt3080.pdf"
+			(at 47.0422 14.4062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC REG LIN POS ADJ 1.1A SOT223-3"
+			(at 40.1842 27.6142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices Inc."
+			(at 57.9642 33.9642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "LT3080EST#PBF"
+			(at 57.9642 33.9642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 57.9642 33.9642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "505-LT3080EST#PBF-ND"
+			(at 57.9642 33.9642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 57.9642 33.9642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT223-3"
+			(at 57.9642 33.9642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 57.9642 33.9642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f39f9f66-6b5e-4adc-a5fc-db75c7973d92")
+		)
+		(pin "1"
+			(uuid "ba03c1c6-1eed-4488-8633-985b7f0d6bc3")
+		)
+		(pin "4"
+			(uuid "2ebe7b0a-0157-4106-bdad-4f34e1718115")
+		)
+		(pin "3"
+			(uuid "09610ce3-aabf-4e08-a3b9-a01326a90c3d")
+		)
+		(instances
+			(project "GRAMS_CPU_PDU"
+				(path "/55dc6af3-8895-4b35-aaf0-b3810c84e0eb/0f722665-c262-4447-ac8d-0b3141c51f2e"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Parts:C")
+		(at 75.6444 56.7846 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72838e48-ab15-4c1a-9b9e-1b5a79177063")
+		(property "Reference" "C69"
+			(at 75.0281 52.6244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 74.9767 55.8601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 75.6444 56.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 75.6444 56.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 75.6444 56.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 75.6444 56.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "C0603C104K3RACTU"
+			(at 75.6444 56.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 75.6444 56.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "399-C0603C104K3RACTUCT-ND"
+			(at 75.6444 56.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 75.6444 56.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 75.6444 56.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 75.6444 56.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ad0b180-bc09-400d-befd-2382adb016b8")
+		)
+		(pin "1"
+			(uuid "36ee80c9-b1a0-40e4-975c-d9bc9802c31f")
+		)
+		(instances
+			(project "GRAMS_CPU_PDU"
+				(path "/55dc6af3-8895-4b35-aaf0-b3810c84e0eb/0f722665-c262-4447-ac8d-0b3141c51f2e"
+					(reference "C69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Parts:C_Tantalum")
+		(at 98.0728 40.7008 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0fc2f68-aef9-4138-8edf-2ab8f0641226")
+		(property "Reference" "C68"
+			(at 104.7814 45.3997 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 104.7814 47.3048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W"
+			(at 98.0728 40.7008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/TAJ.pdf"
+			(at 98.0728 40.7008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 µF Molded Tantalum Capacitors 25 V 2917 (7343 Metric) 1.2Ohm"
+			(at 98.0728 40.7008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 98.0728 40.7008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "TAJD106K025RNJ"
+			(at 98.0728 40.7008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 98.0728 40.7008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "478-3354-1-ND"
+			(at 98.0728 40.7008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 98.0728 40.7008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "2917 (7343 Metric)"
+			(at 98.0728 40.7008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 98.0728 40.7008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac41461e-47f0-405c-a04e-c293c932b5d3")
+		)
+		(pin "2"
+			(uuid "c1215ac3-ba3a-455b-873f-6827e67b2fec")
+		)
+		(instances
+			(project "GRAMS_CPU_PDU"
+				(path "/55dc6af3-8895-4b35-aaf0-b3810c84e0eb/0f722665-c262-4447-ac8d-0b3141c51f2e"
+					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Devices:AD590JRZ-RL")
+		(at 282.7582 196.5179 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8123fa4-cc41-40cf-8f9d-d100555c5337")
+		(property "Reference" "U10"
+			(at 297.3632 190.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AD590JRZ"
+			(at 297.3632 193.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Analog_Devices:R_8_ADI"
+			(at 282.7582 196.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD590.pdf"
+			(at 282.7582 196.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SENSOR ANALOG -55C-150C 8SOIC"
+			(at 282.7582 196.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices Inc."
+			(at 282.7582 196.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "AD590JRZ"
+			(at 282.7582 196.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 282.7582 196.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "AD590JRZ-ND"
+			(at 282.7582 196.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 282.7582 196.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "8-SOIC"
+			(at 282.7582 196.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 282.7582 196.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1bd193f7-9b45-4799-b7f2-b60fed78ec35")
+		)
+		(pin "5"
+			(uuid "cc5a8c69-b089-4fb3-8646-9b044d4c0d21")
+		)
+		(pin "8"
+			(uuid "057e5663-a58a-4b90-824b-5e1e6e16e2b2")
+		)
+		(pin "7"
+			(uuid "7f762def-a323-43e9-93f9-252f4cf9ccf9")
+		)
+		(pin "6"
+			(uuid "8a64faf0-0896-4695-a4ad-c0e74aee773e")
+		)
+		(pin "4"
+			(uuid "188e86f9-669d-476d-abec-8e4a5b602f3b")
+		)
+		(pin "1"
+			(uuid "4be3f863-0f6b-412d-a14b-8b6e583568f5")
+		)
+		(pin "2"
+			(uuid "8cdb6ca9-bf09-4900-927d-c797e7d6eb4f")
+		)
+		(instances
+			(project ""
+				(path "/55dc6af3-8895-4b35-aaf0-b3810c84e0eb/0f722665-c262-4447-ac8d-0b3141c51f2e"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Parts:C_Tantalum")
+		(at 42.1087 35.4352 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdd700fc-b2bd-42cc-bcbe-d77a31c06d2c")
+		(property "Reference" "C67"
+			(at 48.8173 40.1341 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 48.8173 42.0392 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I"
+			(at 42.1087 35.4352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/TAJ.pdf"
+			(at 42.1087 35.4352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.2 µF Molded Tantalum Capacitors 35 V 1206 (3216 Metric) 4.5Ohm"
+			(at 42.1087 35.4352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 42.1087 35.4352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "TAJA225K035RNJ"
+			(at 42.1087 35.4352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 42.1087 35.4352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "478-3073-1-ND"
+			(at 42.1087 35.4352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 42.1087 35.4352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206 (3216 Metric)"
+			(at 42.1087 35.4352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 42.1087 35.4352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "632d9a93-ce6e-4102-8edb-0e26a4ffb017")
+		)
+		(pin "2"
+			(uuid "f7b7b89d-2e73-409d-8ab4-5edb0a88e852")
+		)
+		(instances
+			(project "GRAMS_CPU_PDU"
+				(path "/55dc6af3-8895-4b35-aaf0-b3810c84e0eb/0f722665-c262-4447-ac8d-0b3141c51f2e"
+					(reference "C67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 275.483 107.0161)
+		(size 50.0891 25.9659)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1f7aff59-3a35-4cb5-85c9-1c303505b6ba")
+		(property "Sheetname" "Volt_Sense"
+			(at 275.483 106.3045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Volt_Sense.kicad_sch"
+			(at 275.483 133.5666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TELEM_PWR" input
+			(at 275.483 109.7484 180)
+			(uuid "d231687a-3d91-4d9f-b879-12d7cf20301a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN_1" input
+			(at 275.483 114.3861 180)
+			(uuid "fa0cb5dd-5d89-45d9-9d74-afa2fd636d22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TELEM_RTN" output
+			(at 275.483 130.5644 180)
+			(uuid "bf6058bd-7401-477d-b377-e4d615fcf6a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_TELEM_1" output
+			(at 325.5721 114.494 0)
+			(uuid "e35b3239-d592-409e-8e35-8f66ac357c6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_TELEM_3" output
+			(at 325.5721 123.2303 0)
+			(uuid "dab0f0d7-abe1-4d22-b727-c4e0b0aee0a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN_4" input
+			(at 275.483 127.4366 180)
+			(uuid "ab7585f7-9cea-44a2-9e6f-38ca66a18af0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN_2" input
+			(at 275.483 118.916 180)
+			(uuid "233c87b2-b6de-4a89-aa96-795c680e3503")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_TELEM_2" output
+			(at 325.5721 119.0239 0)
+			(uuid "06a695a5-2406-4a0f-b9d4-3777a4995265")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_TELEM_4" output
+			(at 325.5721 127.5445 0)
+			(uuid "baacd60d-0d58-4c30-a669-763e37b3d708")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN_3" input
+			(at 275.483 123.3381 180)
+			(uuid "b358f7e9-0369-4a6f-a9b4-97c479cb1587")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "11_CPU_PDU"
+				(path "/55dc6af3-8895-4b35-aaf0-b3810c84e0eb/0f722665-c262-4447-ac8d-0b3141c51f2e"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.3818 116.0806)
+		(size 32.9552 25.3615)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3cb50141-f8fb-415b-a8e7-e5425b3b129e")
+		(property "Sheetname" "Current_Sense_CKT3"
+			(at 163.3818 115.369 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Current_Sense_CKT.kicad_sch"
+			(at 163.3818 142.0267 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VOUT" output
+			(at 163.3818 131.5309 180)
+			(uuid "60071e54-1126-444b-a664-abfba9b909ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN" input
+			(at 163.3818 125.3472 180)
+			(uuid "c3e83676-1785-447e-a11d-cf955e7e5c5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TELEM_RTN" output
+			(at 163.3818 138.3617 180)
+			(uuid "abbb53c2-f742-4eb2-b253-bbca2af79fb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Telem_Out" output
+			(at 196.337 128.439 0)
+			(uuid "f54ccbb7-87a0-44e2-bafe-97f205648302")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TELEM_PWR" input
+			(at 163.3818 118.5882 180)
+			(uuid "72b5798c-299a-4340-8187-9983a69a12a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "11_CPU_PDU"
+				(path "/55dc6af3-8895-4b35-aaf0-b3810c84e0eb/0f722665-c262-4447-ac8d-0b3141c51f2e"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.7188 17.8935)
+		(size 32.9552 25.3615)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4e587a16-5ebd-4598-aee1-087db7f38dc7")
+		(property "Sheetname" "Current_Sense_CKT"
+			(at 163.7188 17.1819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Current_Sense_CKT.kicad_sch"
+			(at 163.7188 43.8396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VOUT" output
+			(at 163.7188 33.3438 180)
+			(uuid "601d2f2f-016c-4e4c-a69f-fe642948e75c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN" input
+			(at 163.7188 27.1601 180)
+			(uuid "ef16365e-1b97-45a0-9140-bd08d0897ac0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TELEM_RTN" output
+			(at 163.7188 40.1746 180)
+			(uuid "4dc39e90-d123-4224-952a-1aae14354b87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Telem_Out" output
+			(at 196.674 30.2519 0)
+			(uuid "29423986-e0c6-4caa-a00b-dd72a93b0e3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TELEM_PWR" input
+			(at 163.7188 20.4011 180)
+			(uuid "c6c75ee3-b6f1-45bb-a72c-aac016a463e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "11_CPU_PDU"
+				(path "/55dc6af3-8895-4b35-aaf0-b3810c84e0eb/0f722665-c262-4447-ac8d-0b3141c51f2e"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.4602 149.2905)
+		(size 32.9552 25.3615)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "57859768-24a8-4cfa-8cc7-1ad89e395975")
+		(property "Sheetname" "Current_Sense_CKT4"
+			(at 163.4602 148.5789 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Current_Sense_CKT.kicad_sch"
+			(at 163.4602 175.2366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VOUT" output
+			(at 163.4602 164.7408 180)
+			(uuid "38967142-cdea-4c2f-a4bd-90d6135fa5ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN" input
+			(at 163.4602 158.5571 180)
+			(uuid "12836c02-b49b-4763-9188-53aba8ecd21a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TELEM_RTN" output
+			(at 163.4602 171.5716 180)
+			(uuid "2cabd07b-eedd-47f8-a5fe-b8ba70baa803")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Telem_Out" output
+			(at 196.4154 161.6489 0)
+			(uuid "10075226-e68c-41a0-aca1-0f64ce7e91d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TELEM_PWR" input
+			(at 163.4602 151.7981 180)
+			(uuid "3983e55b-89b4-4cf5-b4a7-4d8203c6bc67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "11_CPU_PDU"
+				(path "/55dc6af3-8895-4b35-aaf0-b3810c84e0eb/0f722665-c262-4447-ac8d-0b3141c51f2e"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.5156 82.9887)
+		(size 32.9552 25.3615)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7af3177b-671e-491f-980b-d5e5dc44948e")
+		(property "Sheetname" "Current_Sense_CKT2"
+			(at 163.5156 82.2771 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Current_Sense_CKT.kicad_sch"
+			(at 163.5156 108.9348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VOUT" output
+			(at 163.5156 98.439 180)
+			(uuid "b72f39a6-a0ea-469e-8ea4-2cc0bcfd7bcd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN" input
+			(at 163.5156 92.2553 180)
+			(uuid "bba80082-c412-4135-80e7-7f28f9e11ed9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TELEM_RTN" output
+			(at 163.5156 105.2698 180)
+			(uuid "faf06a7c-800e-4429-aa4e-c0bf0b86883d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Telem_Out" output
+			(at 196.4708 95.3471 0)
+			(uuid "63bc5968-7d2d-46dd-8f69-3a0dc0bc4a84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TELEM_PWR" input
+			(at 163.5156 85.4963 180)
+			(uuid "ca53aa64-722b-4101-9c95-7d2f40319c44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "11_CPU_PDU"
+				(path "/55dc6af3-8895-4b35-aaf0-b3810c84e0eb/0f722665-c262-4447-ac8d-0b3141c51f2e"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.4511 225.9102)
+		(size 32.9552 25.3615)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b93af845-0b48-48c7-b1a2-f312fc96b172")
+		(property "Sheetname" "Current_Sense_CKT6"
+			(at 162.4511 225.1986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Current_Sense_CKT.kicad_sch"
+			(at 162.4511 251.8563 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VOUT" output
+			(at 162.4511 241.3605 180)
+			(uuid "6655fea1-0530-499a-9aa2-c91478a35359")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN" input
+			(at 162.4511 235.1768 180)
+			(uuid "745c0fdd-64f8-43a6-b705-a3ad4fdf2ea2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TELEM_RTN" output
+			(at 162.4511 248.1913 180)
+			(uuid "544b6d5c-ec16-44eb-ab1b-50c29dfc0996")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Telem_Out" output
+			(at 195.4063 238.2686 0)
+			(uuid "a79873fe-4fe0-4879-a50e-73e807a19ac3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TELEM_PWR" input
+			(at 162.4511 228.4178 180)
+			(uuid "82cd3f37-f046-40ea-8ef7-b8af2ada1060")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "11_CPU_PDU"
+				(path "/55dc6af3-8895-4b35-aaf0-b3810c84e0eb/0f722665-c262-4447-ac8d-0b3141c51f2e"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.4729 186.4389)
+		(size 32.9552 25.3615)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c30939b9-5c16-4283-8d64-ff65f5884030")
+		(property "Sheetname" "Current_Sense_CKT5"
+			(at 163.4729 185.7273 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Current_Sense_CKT.kicad_sch"
+			(at 163.4729 212.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VOUT" output
+			(at 163.4729 201.8892 180)
+			(uuid "8c61e444-0651-421b-9db1-105d56cd95de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN" input
+			(at 163.4729 195.7055 180)
+			(uuid "69198acf-dc4e-47be-ad38-b904b78ffd80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TELEM_RTN" output
+			(at 163.4729 208.72 180)
+			(uuid "27ce84a1-bb82-40d2-b0fc-3540b1a282a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Telem_Out" output
+			(at 196.4281 198.7973 0)
+			(uuid "29a8e865-3440-4890-971d-5f443d8a246e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TELEM_PWR" input
+			(at 163.4729 188.9465 180)
+			(uuid "9ace2528-dc3e-4d95-8bf9-58a7b2911ce9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "11_CPU_PDU"
+				(path "/55dc6af3-8895-4b35-aaf0-b3810c84e0eb/0f722665-c262-4447-ac8d-0b3141c51f2e"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.8207 49.8139)
+		(size 32.9552 25.3615)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c73650d5-45df-45ac-865a-66a337b463d2")
+		(property "Sheetname" "Current_Sense_CKT1"
+			(at 163.8207 49.1023 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Current_Sense_CKT.kicad_sch"
+			(at 163.8207 75.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VOUT" output
+			(at 163.8207 65.2642 180)
+			(uuid "cc246b2e-e446-4fff-9fb3-807f131ba323")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN" input
+			(at 163.8207 59.0805 180)
+			(uuid "831cba28-9055-446f-8ae4-4bcbde499c5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TELEM_RTN" output
+			(at 163.8207 72.095 180)
+			(uuid "a606f361-9b78-42e9-9823-d59efa6627aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Telem_Out" output
+			(at 196.7759 62.1723 0)
+			(uuid "00696a80-e72a-455f-8cd8-f0c3f7791119")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TELEM_PWR" input
+			(at 163.8207 52.3215 180)
+			(uuid "30fd872f-383a-4382-9f6d-d1477643a713")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "11_CPU_PDU"
+				(path "/55dc6af3-8895-4b35-aaf0-b3810c84e0eb/0f722665-c262-4447-ac8d-0b3141c51f2e"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 275.1751 146.8147)
+		(size 50.0891 25.9659)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f16e8ade-abf3-4f4f-b4df-3b788cff808a")
+		(property "Sheetname" "Volt_Sense1"
+			(at 275.1751 146.1031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Volt_Sense.kicad_sch"
+			(at 275.1751 173.3652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TELEM_PWR" input
+			(at 275.1751 149.547 180)
+			(uuid "e546d40f-a1bc-4fd9-a46b-cd1c99748e2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN_1" input
+			(at 275.1751 154.1847 180)
+			(uuid "1b241237-4289-4fa7-974a-95ac3a70cd64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TELEM_RTN" output
+			(at 275.1751 170.363 180)
+			(uuid "a2939fe2-0f6e-4e60-a7fb-ee92e9e3ac8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_TELEM_1" output
+			(at 325.2642 154.2926 0)
+			(uuid "7d8d7a08-2328-4017-b187-6144df8ef4b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_TELEM_3" output
+			(at 325.2642 163.0289 0)
+			(uuid "91e44499-d9ba-4cd9-8770-721a7b75bfc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN_4" input
+			(at 275.1751 167.2352 180)
+			(uuid "3f9fba95-32d5-45d5-808d-cc2d5148194f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN_2" input
+			(at 275.1751 158.7146 180)
+			(uuid "1308666c-79ef-40cf-92f1-71dac1982b7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_TELEM_2" output
+			(at 325.2642 158.8225 0)
+			(uuid "fad8efaa-d4b0-403d-a37a-b50ca6b18b44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_TELEM_4" output
+			(at 325.2642 167.3431 0)
+			(uuid "ef254e7a-bae9-48a2-bf65-83a1c4ab64be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN_3" input
+			(at 275.1751 163.1367 180)
+			(uuid "ee184191-8c33-436c-b2c9-7e4eee55c153")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "11_CPU_PDU"
+				(path "/55dc6af3-8895-4b35-aaf0-b3810c84e0eb/0f722665-c262-4447-ac8d-0b3141c51f2e"
+					(page "18")
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,6084 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1173c0ff-79ca-413f-82f1-3db72cd13ee0")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Analog_Dev:LTC2050HVCS5-TRMPBF"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 7.366 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "LTC2050HVCS5-TRMPBF"
+				(at 20.32 -5.334 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "S_5_ADI"
+				(at 19.558 -11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC2050-2050HV.pdf"
+				(at 20.066 -8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "IC OPAMP ZER-DRIFT 1CIR TSOT23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Analog Devices Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Man. Part Num" "LTC2050HVCS5#TRMPBF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" "Digi-Key"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dist. Part Num" "505-LTC2050HVCS5#TRMPBFCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "TSOT23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LTC2050HVCS5#TRMPBF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "S_5_ADI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LTC2050HVCS5-TRMPBF_1_1"
+				(rectangle
+					(start 0 7.62)
+					(end 7.62 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 7.62) (xy 7.62 3.81) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 6.35 0)
+					(length 5.08)
+					(name "-IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 5.08)
+					(name "+IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 3.81 10.16 270)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 3.81 -2.54 90)
+					(length 2.54)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 3.81 180)
+					(length 7.62)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Keystone:5002"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at -2.5444 2.5415 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "5002"
+				(at -2.55 -5.0866 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Keystone:KEYSTONE_5002"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PC TEST POINT MINIATURE WHITE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "H"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "5000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Keystone"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Man. Part Num" "5002"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" "Digi-Key"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dist. Part Num" "36-5002-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "Through Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5002_0_0"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "TP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Passive_Parts:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Man. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dist. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy 2.032 1.016) (xy 2.032 4.064)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 1.016) (xy 3.048 4.064)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 2.54 0)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Passive_Parts:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Man. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dist. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start 5.08 1.524)
+					(end 0 3.556)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at -1.27 2.54 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 2.54 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Man. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dist. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_1_0_1"
+				(rectangle
+					(start 5.08 1.524)
+					(end 0 3.556)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1_1"
+				(pin passive line
+					(at -1.27 2.54 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 2.54 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Man. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dist. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_2_0_1"
+				(rectangle
+					(start 5.08 1.524)
+					(end 0 3.556)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_2_1_1"
+				(pin passive line
+					(at -1.27 2.54 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 2.54 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Man. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dist. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_3_0_1"
+				(rectangle
+					(start 5.08 1.524)
+					(end 0 3.556)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_3_1_1"
+				(pin passive line
+					(at -1.27 2.54 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 2.54 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_4"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Man. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dist. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_4_0_1"
+				(rectangle
+					(start 5.08 1.524)
+					(end 0 3.556)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_4_1_1"
+				(pin passive line
+					(at -1.27 2.54 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 2.54 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Texas Instruments:DAC121S101CIMKX_NOPB"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 10.668 -1.524 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "DAC121S101CIMKX/NOPB"
+				(at 24.638 -4.318 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Texas Instruments:MK06A"
+				(at -12.7 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "DAC121S101CIMKX/NOPB"
+				(at -11.176 -7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "12-Bit DAC"
+				(at 22.86 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Man. Part Num" "DAC121S101CIMKX/NOPB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" "Digi-Key"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dist. Part Num" "296-38083-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "TSOT23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DAC121S101CIMKX/NOPB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MK06A MK06A-M MK06A-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DAC121S101CIMKX_NOPB_0_1"
+				(pin input line
+					(at -7.62 10.16 0)
+					(length 7.62)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 6.35 0)
+					(length 7.62)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 7.62)
+					(name "*SYNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 6.35 180)
+					(length 7.62)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DAC121S101CIMKX_NOPB_1_1"
+				(rectangle
+					(start 0 12.7)
+					(end 15.24 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 10.16) (xy 2.54 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 2.54 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 11.43)
+					(end 6.35 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 6.35) (xy 8.89 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 3.81) (xy 8.89 8.89) (xy 12.7 6.35) (xy 8.89 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 6.35) (xy 15.24 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 7.62 17.78 270)
+					(length 5.08)
+					(name "VA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -5.08 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 190.9127 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02e90945-a623-4ae9-abac-fcfc82d13225")
+	)
+	(junction
+		(at 163.3238 79.9036)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a650b90-126f-4a60-ba30-eb60782f50b4")
+	)
+	(junction
+		(at 234.2054 93.4003)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47875b03-6b2a-4239-84c7-665708d1a56c")
+	)
+	(junction
+		(at 123.725 72.3041)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a79e1a3-dda8-423e-9ea6-1f439c3b8434")
+	)
+	(junction
+		(at 74.5675 99.7503)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f244c27-e24a-4191-923d-fc7a40889cfb")
+	)
+	(junction
+		(at 123.725 115.0508)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b66e6c2-c31e-4b73-a9f8-7005fa465147")
+	)
+	(junction
+		(at 190.9127 115.0508)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c4647cf-bb45-4ada-b8ee-b2e2b3ce6bb1")
+	)
+	(junction
+		(at 187.9774 79.9755)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "857d7322-5c6c-4719-ba4d-501aa393e360")
+	)
+	(junction
+		(at 167.2478 79.9036)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95f90b10-f7b5-490f-a512-22a5829f1f84")
+	)
+	(junction
+		(at 210.7895 93.4003)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9964d104-c728-4008-a509-1dab679313e4")
+	)
+	(junction
+		(at 143.5622 72.3041)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae3e9398-8e5f-47c5-9528-aed779662ae2")
+	)
+	(wire
+		(pts
+			(xy 187.9774 77.7657) (xy 187.9774 79.9755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e5c8f1-7ad3-4912-bd87-0353e4a59ba2")
+	)
+	(wire
+		(pts
+			(xy 225.3607 93.4003) (xy 234.2054 93.4003)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03323a6b-8337-4591-999a-c1f7c11b2b74")
+	)
+	(wire
+		(pts
+			(xy 123.725 107.3703) (xy 123.725 115.0508)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ac3b8b-49eb-4655-bc28-c25fd22e3507")
+	)
+	(wire
+		(pts
+			(xy 158.2732 79.9036) (xy 163.3238 79.9036)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cae36bc-23cb-45e6-aadb-cb62f7fc32d2")
+	)
+	(wire
+		(pts
+			(xy 187.9774 79.9755) (xy 210.7895 79.9755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1574dff2-91e8-4b56-8caf-974571197a4a")
+	)
+	(wire
+		(pts
+			(xy 108.485 95.9403) (xy 98.0216 95.9403)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d4c5c6-6800-4550-b2f9-35ae2d286eff")
+	)
+	(wire
+		(pts
+			(xy 234.2054 101.5171) (xy 234.2054 93.4003)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dee34f2-f130-41e2-8f5e-709894ee4fca")
+	)
+	(wire
+		(pts
+			(xy 167.2478 82.0799) (xy 167.2478 79.9036)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f2e825b-c29f-400f-95b6-a57ca4931e12")
+	)
+	(wire
+		(pts
+			(xy 163.3238 79.9036) (xy 163.3238 90.8603)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f9e383d-b658-46a7-84d9-33b52325795c")
+	)
+	(wire
+		(pts
+			(xy 190.9127 68.58) (xy 172.72 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "275c7318-0d2c-4046-8ee5-136d49ad8b29")
+	)
+	(wire
+		(pts
+			(xy 74.5675 99.7503) (xy 90.4016 99.7503)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29d1f786-3626-4316-ab13-8d7b8bd9a84c")
+	)
+	(wire
+		(pts
+			(xy 180.3198 77.7657) (xy 187.9774 77.7657)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b893c99-697c-4e2d-8fc0-49aca4fd7a6a")
+	)
+	(wire
+		(pts
+			(xy 210.7895 79.9755) (xy 210.7895 93.4003)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30077c01-b339-4c54-8678-7f93dff0b2f4")
+	)
+	(wire
+		(pts
+			(xy 190.9127 68.58) (xy 201.93 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a1022e-df72-433f-9d1c-088f7837a1fc")
+	)
+	(wire
+		(pts
+			(xy 143.5622 79.9036) (xy 143.5622 72.3041)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "375559af-5b9d-4797-9458-09de4c9e4b8d")
+	)
+	(wire
+		(pts
+			(xy 163.3238 79.9036) (xy 167.2478 79.9036)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d00ab59-5aff-4e10-8624-66361371e420")
+	)
+	(wire
+		(pts
+			(xy 234.2054 93.4003) (xy 242.5217 93.4003)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc94ccf-fde3-4862-ae50-36f8b0ac2f6a")
+	)
+	(wire
+		(pts
+			(xy 187.9774 79.9755) (xy 187.9774 82.0799)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42b3e814-dcb4-4555-87bf-6664fce38f0d")
+	)
+	(wire
+		(pts
+			(xy 101.0322 72.2884) (xy 123.725 72.2884)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f4edc8-9cf4-48d2-8c3b-acb45b8e8e05")
+	)
+	(wire
+		(pts
+			(xy 163.3238 90.8603) (xy 182.0227 90.8603)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "467af6b6-d537-4c3f-8cfa-47227637b799")
+	)
+	(wire
+		(pts
+			(xy 190.9127 68.58) (xy 190.9127 87.0503)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b327f67-03e6-4e9a-a560-9461ec7bd9bc")
+	)
+	(wire
+		(pts
+			(xy 132.9828 72.3041) (xy 143.5622 72.3041)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c00bc62-c15b-4241-9c74-8742a930693e")
+	)
+	(wire
+		(pts
+			(xy 112.8737 115.0508) (xy 123.725 115.0508)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da5ae94-999b-4061-a9ff-e0f18074f9b9")
+	)
+	(wire
+		(pts
+			(xy 108.485 99.7503) (xy 98.0216 99.7503)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f95ca3e-5404-4b1c-970d-480e42b3dd6b")
+	)
+	(wire
+		(pts
+			(xy 67.2962 99.7503) (xy 74.5675 99.7503)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "510b84d3-6dd2-41b0-99e4-abfee5357cbf")
+	)
+	(wire
+		(pts
+			(xy 187.9774 82.0799) (xy 181.446 82.0799)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51b5bf10-6074-4cd6-9a5d-0aabbab457f2")
+	)
+	(wire
+		(pts
+			(xy 90.4016 95.9403) (xy 67.2962 95.9403)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "582ae73f-417c-47e9-a50a-e862cd4d7c2d")
+	)
+	(wire
+		(pts
+			(xy 123.725 72.3041) (xy 123.725 72.2884)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59dec4cb-183e-42a8-814b-e8f1f0f89b29")
+	)
+	(wire
+		(pts
+			(xy 123.725 84.5103) (xy 123.725 72.3041)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "626397ea-906a-4998-9742-fe1f334a1b93")
+	)
+	(wire
+		(pts
+			(xy 90.4016 92.1303) (xy 67.2962 92.1303)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6318f65e-dcc6-430e-87d4-2bedc0f2a6ee")
+	)
+	(wire
+		(pts
+			(xy 234.2054 106.5971) (xy 234.2054 115.0508)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fe5b405-d2a2-41d0-bf55-c34fb5d3983a")
+	)
+	(wire
+		(pts
+			(xy 207.01 68.58) (xy 223.2135 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a56e16-f0e4-4a77-a8b3-e277f7cab025")
+	)
+	(wire
+		(pts
+			(xy 108.485 92.1303) (xy 98.0216 92.1303)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "787097c8-41a5-475e-9d78-365f4031b5bd")
+	)
+	(wire
+		(pts
+			(xy 167.2478 77.7657) (xy 175.2398 77.7657)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b637d9f-903d-43b6-b34c-4f6efe493bcc")
+	)
+	(wire
+		(pts
+			(xy 123.725 115.0508) (xy 190.9127 115.0508)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ff72d05-5235-461c-96b8-bddeabea992a")
+	)
+	(wire
+		(pts
+			(xy 202.3427 93.4003) (xy 210.7895 93.4003)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "983adad5-dfa4-423a-912a-6755248c5c9b")
+	)
+	(wire
+		(pts
+			(xy 150.6532 79.9036) (xy 143.5622 79.9036)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a215117f-f137-49d9-a65a-78d9c13288e9")
+	)
+	(wire
+		(pts
+			(xy 166.7751 95.9403) (xy 182.0227 95.9403)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc7e635-c3a8-475b-9278-787d11ec5419")
+	)
+	(wire
+		(pts
+			(xy 138.965 95.9403) (xy 159.1551 95.9403)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c96b229a-c2f5-4fb6-bf06-b9ccc156a533")
+	)
+	(wire
+		(pts
+			(xy 190.9127 115.0508) (xy 234.2054 115.0508)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da6e4409-26e5-4a38-8f9a-1f1e341c3c75")
+	)
+	(wire
+		(pts
+			(xy 167.2478 79.9036) (xy 167.2478 77.7657)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def9675a-2e30-4fae-a04b-89646fb205a4")
+	)
+	(wire
+		(pts
+			(xy 143.5622 72.3041) (xy 146.1172 72.3041)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e41dacc1-60cf-4fba-b384-8fae7a91f417")
+	)
+	(wire
+		(pts
+			(xy 242.5217 93.4003) (xy 242.5217 93.3922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea6cbf22-cc42-41c9-a6fd-5a8bc9ac9124")
+	)
+	(wire
+		(pts
+			(xy 173.826 82.0799) (xy 167.2478 82.0799)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb2a8309-dac2-459f-a2fe-117e1d3c9a7f")
+	)
+	(wire
+		(pts
+			(xy 74.5675 105.5607) (xy 74.5675 99.7503)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed3b01a9-8463-49fc-9c67-c7e2e22b59ee")
+	)
+	(wire
+		(pts
+			(xy 123.725 72.3041) (xy 127.9028 72.3041)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b7455d-a44c-4675-b3b6-eccf86f0fc9b")
+	)
+	(wire
+		(pts
+			(xy 210.7895 93.4003) (xy 217.7407 93.4003)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc3977b-da3d-4b85-914a-d4bd2b8e4e26")
+	)
+	(wire
+		(pts
+			(xy 190.9127 99.7503) (xy 190.9127 115.0508)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffd16be4-a4e1-41ab-8d28-da83dcf06549")
+	)
+	(label "V_TELEM_RTN"
+		(at 215.3041 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d6bbb1e-d723-4428-9e87-bd13a3af6ab9")
+	)
+	(label "V_TELEM_RTN"
+		(at 116.9482 115.0508 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c21272c2-f2bc-4105-b71b-30a3d8114341")
+	)
+	(hierarchical_label "V_TELEM_RTN"
+		(shape output)
+		(at 146.1172 72.3041 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0781aed3-138a-4823-826c-f75938bf33e9")
+	)
+	(hierarchical_label "SCLK"
+		(shape input)
+		(at 67.2962 95.9403 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20f14406-bf4e-4632-8175-8ab93cdccd85")
+	)
+	(hierarchical_label "DAC_V_OUT"
+		(shape output)
+		(at 242.5217 93.3922 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26f7cf55-b118-402a-927a-e4508cd29699")
+	)
+	(hierarchical_label "V_P5V_TELEM"
+		(shape input)
+		(at 172.72 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "445c25ee-1a25-4d13-a4b8-4287a2e8bc88")
+	)
+	(hierarchical_label "DAC_Data_In"
+		(shape input)
+		(at 67.2962 92.1303 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ebfe523-61f5-4188-b3de-a2350d917bc4")
+	)
+	(hierarchical_label "SYNC_n"
+		(shape input)
+		(at 67.2962 99.7503 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ae2d514-1b4a-4d74-beab-9a1a02a31ed2")
+	)
+	(hierarchical_label "V_P3V3_TELEM"
+		(shape input)
+		(at 101.0322 72.2884 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "776182e1-c47b-421e-b803-f42e737c1f54")
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Passive_Parts:R")
+		(at 160.4251 98.4803 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04a99af2-6f72-4e23-bec9-0923fed03f1d")
+		(property "Reference" "R47"
+			(at 156.7495 94.9067 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24.9"
+			(at 169.8368 94.9524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 160.4251 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 160.4251 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 24.9 OHM 1% 1/10W 0603"
+			(at 160.4251 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 160.4251 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "RMCF0603FT24R9"
+			(at 160.4251 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 160.4251 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "RMCF0603FT24R9CT-ND"
+			(at 160.4251 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 160.4251 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 160.4251 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 160.4251 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" ""
+			(at 160.4251 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GENDER" ""
+			(at 160.4251 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 160.4251 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 160.4251 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Nu," ""
+			(at 160.4251 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" ""
+			(at 160.4251 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 160.4251 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 160.4251 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 160.4251 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WE-NUMBER" ""
+			(at 160.4251 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE" ""
+			(at 160.4251 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f18bc1df-d5ff-4508-bbae-49409deec02b")
+		)
+		(pin "2"
+			(uuid "1f9f9ab5-d2dd-4774-b7c1-bcc1ee1ac924")
+		)
+		(instances
+			(project "GRAMS_COMMS_TELEM_BRD"
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/0636da26-ea72-4969-80ab-bb987ab0fe82"
+					(reference "R75")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/08a6a23c-9859-41ae-b97d-525befc2d9aa"
+					(reference "R61")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/21aa9a33-fd86-4b14-a150-504cd5deea06"
+					(reference "R47")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/45691157-0d25-48de-8713-45cda27ae9c1"
+					(reference "R89")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/57411353-e608-469c-aa12-c782a35128fc"
+					(reference "R54")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/80122f03-3a7b-4f27-bad4-10c44500ba21"
+					(reference "R82")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/d251a8dd-8f31-4484-96f5-83229c79210a"
+					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Parts:C")
+		(at 201.93 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2244468b-3e0d-4bb6-84cc-e2bedfbabc31")
+		(property "Reference" "C13"
+			(at 201.0193 66.3264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 209.3122 66.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3584/CL10B105KP8NNNC_Spec.pdf"
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 25V X7R 0402"
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "CL05B104KA5NNNC"
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "1276-6720-1-ND"
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" ""
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GENDER" ""
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Nu," ""
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" ""
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WE-NUMBER" ""
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE" ""
+			(at 201.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d4d2d3a-7d71-4f9c-8afe-14896db2ec4f")
+		)
+		(pin "2"
+			(uuid "71765c6e-5fc3-44e1-b5ea-fb1eb61d3176")
+		)
+		(instances
+			(project "GRAMS_COMMS_TELEM_BRD"
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/0636da26-ea72-4969-80ab-bb987ab0fe82"
+					(reference "C29")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/08a6a23c-9859-41ae-b97d-525befc2d9aa"
+					(reference "C21")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/21aa9a33-fd86-4b14-a150-504cd5deea06"
+					(reference "C13")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/45691157-0d25-48de-8713-45cda27ae9c1"
+					(reference "C37")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/57411353-e608-469c-aa12-c782a35128fc"
+					(reference "C17")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/80122f03-3a7b-4f27-bad4-10c44500ba21"
+					(reference "C33")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/d251a8dd-8f31-4484-96f5-83229c79210a"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_2")
+		(lib_id "Passive_Parts:R")
+		(at 91.6716 94.6703 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "257294a8-b581-4bee-ba11-2274b93ccf3a")
+		(property "Reference" "R44"
+			(at 87.996 91.0967 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24.9"
+			(at 101.0833 91.1424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 91.6716 94.6703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 91.6716 94.6703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 24.9 OHM 1% 1/10W 0603"
+			(at 91.6716 94.6703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 91.6716 94.6703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "RMCF0603FT24R9"
+			(at 91.6716 94.6703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 91.6716 94.6703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "RMCF0603FT24R9CT-ND"
+			(at 91.6716 94.6703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 91.6716 94.6703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 91.6716 94.6703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 91.6716 94.6703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" ""
+			(at 91.6716 94.6703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GENDER" ""
+			(at 91.6716 94.6703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 91.6716 94.6703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 91.6716 94.6703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Nu," ""
+			(at 91.6716 94.6703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" ""
+			(at 91.6716 94.6703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 91.6716 94.6703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 91.6716 94.6703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 91.6716 94.6703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WE-NUMBER" ""
+			(at 91.6716 94.6703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE" ""
+			(at 91.6716 94.6703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ac5d18c-48e2-4e8d-9342-974d6fa1e930")
+		)
+		(pin "1"
+			(uuid "0616375d-8182-479e-b1c1-847626f51375")
+		)
+		(instances
+			(project "GRAMS_COMMS_TELEM_BRD"
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/0636da26-ea72-4969-80ab-bb987ab0fe82"
+					(reference "R72")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/08a6a23c-9859-41ae-b97d-525befc2d9aa"
+					(reference "R58")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/21aa9a33-fd86-4b14-a150-504cd5deea06"
+					(reference "R44")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/45691157-0d25-48de-8713-45cda27ae9c1"
+					(reference "R86")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/57411353-e608-469c-aa12-c782a35128fc"
+					(reference "R51")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/80122f03-3a7b-4f27-bad4-10c44500ba21"
+					(reference "R79")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/d251a8dd-8f31-4484-96f5-83229c79210a"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_4")
+		(lib_id "Passive_Parts:R")
+		(at 219.0107 95.9403 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cc9c295-0504-4d8a-b82c-9b3b82c08681")
+		(property "Reference" "R45"
+			(at 215.6312 91.4823 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "49.9"
+			(at 228.1425 91.8418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 219.0107 95.9403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 219.0107 95.9403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "49.9 Ohms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film"
+			(at 219.0107 95.9403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 219.0107 95.9403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "ERA-3AEB49R9V"
+			(at 219.0107 95.9403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 219.0107 95.9403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "P49.9DBCT-ND"
+			(at 219.0107 95.9403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 219.0107 95.9403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 219.0107 95.9403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 219.0107 95.9403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" ""
+			(at 219.0107 95.9403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GENDER" ""
+			(at 219.0107 95.9403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 219.0107 95.9403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 219.0107 95.9403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Nu," ""
+			(at 219.0107 95.9403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" ""
+			(at 219.0107 95.9403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 219.0107 95.9403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 219.0107 95.9403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 219.0107 95.9403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WE-NUMBER" ""
+			(at 219.0107 95.9403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE" ""
+			(at 219.0107 95.9403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "247cd94b-59c4-4b40-a95b-0308e8040c95")
+		)
+		(pin "1"
+			(uuid "466cd615-82cd-4035-8e22-6ff9e3a8d2b4")
+		)
+		(instances
+			(project "GRAMS_COMMS_TELEM_BRD"
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/0636da26-ea72-4969-80ab-bb987ab0fe82"
+					(reference "R73")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/08a6a23c-9859-41ae-b97d-525befc2d9aa"
+					(reference "R59")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/21aa9a33-fd86-4b14-a150-504cd5deea06"
+					(reference "R45")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/45691157-0d25-48de-8713-45cda27ae9c1"
+					(reference "R87")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/57411353-e608-469c-aa12-c782a35128fc"
+					(reference "R52")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/80122f03-3a7b-4f27-bad4-10c44500ba21"
+					(reference "R80")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/d251a8dd-8f31-4484-96f5-83229c79210a"
+					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_4")
+		(lib_id "Passive_Parts:R")
+		(at 175.096 84.6199 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "505f3a56-2322-4e14-8dea-188294b5cc48")
+		(property "Reference" "R43"
+			(at 171.7165 80.1619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 184.2278 80.5214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 175.096 84.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 175.096 84.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
+			(at 175.096 84.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 175.096 84.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "ERA-2AEB103X"
+			(at 175.096 84.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 175.096 84.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "P10KDCCT-ND"
+			(at 175.096 84.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 175.096 84.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 175.096 84.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 175.096 84.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" ""
+			(at 175.096 84.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GENDER" ""
+			(at 175.096 84.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 175.096 84.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 175.096 84.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Nu," ""
+			(at 175.096 84.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" ""
+			(at 175.096 84.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 175.096 84.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 175.096 84.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 175.096 84.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WE-NUMBER" ""
+			(at 175.096 84.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE" ""
+			(at 175.096 84.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7823db54-3140-4fee-9d73-e89d8f726b57")
+		)
+		(pin "1"
+			(uuid "e7133422-dd85-4bd9-8af9-6ef39919a70a")
+		)
+		(instances
+			(project ""
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/0636da26-ea72-4969-80ab-bb987ab0fe82"
+					(reference "R71")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/08a6a23c-9859-41ae-b97d-525befc2d9aa"
+					(reference "R57")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/21aa9a33-fd86-4b14-a150-504cd5deea06"
+					(reference "R43")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/45691157-0d25-48de-8713-45cda27ae9c1"
+					(reference "R85")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/57411353-e608-469c-aa12-c782a35128fc"
+					(reference "R50")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/80122f03-3a7b-4f27-bad4-10c44500ba21"
+					(reference "R78")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/d251a8dd-8f31-4484-96f5-83229c79210a"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Parts:C")
+		(at 127.9028 74.8441 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5208acce-93d0-402b-9faa-dda2e473c3ba")
+		(property "Reference" "C14"
+			(at 126.9921 70.0505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 135.285 70.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 127.9028 74.8441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3584/CL10B105KP8NNNC_Spec.pdf"
+			(at 127.9028 74.8441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 25V X7R 0402"
+			(at 127.9028 74.8441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 127.9028 74.8441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "CL05B104KA5NNNC"
+			(at 127.9028 74.8441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 127.9028 74.8441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "1276-6720-1-ND"
+			(at 127.9028 74.8441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 127.9028 74.8441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 127.9028 74.8441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 127.9028 74.8441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" ""
+			(at 127.9028 74.8441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GENDER" ""
+			(at 127.9028 74.8441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 127.9028 74.8441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 127.9028 74.8441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Nu," ""
+			(at 127.9028 74.8441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" ""
+			(at 127.9028 74.8441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 127.9028 74.8441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 127.9028 74.8441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 127.9028 74.8441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WE-NUMBER" ""
+			(at 127.9028 74.8441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE" ""
+			(at 127.9028 74.8441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e23db4ca-9e5b-465d-b8aa-52ea521c066c")
+		)
+		(pin "2"
+			(uuid "990989d3-1a5f-4304-b0a9-1c0efeb2c323")
+		)
+		(instances
+			(project "GRAMS_COMMS_TELEM_BRD"
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/0636da26-ea72-4969-80ab-bb987ab0fe82"
+					(reference "C30")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/08a6a23c-9859-41ae-b97d-525befc2d9aa"
+					(reference "C22")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/21aa9a33-fd86-4b14-a150-504cd5deea06"
+					(reference "C14")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/45691157-0d25-48de-8713-45cda27ae9c1"
+					(reference "C38")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/57411353-e608-469c-aa12-c782a35128fc"
+					(reference "C18")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/80122f03-3a7b-4f27-bad4-10c44500ba21"
+					(reference "C34")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/d251a8dd-8f31-4484-96f5-83229c79210a"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_3")
+		(lib_id "Passive_Parts:R")
+		(at 91.6716 98.4803 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "623ca048-c5a6-4d61-9499-55dcf2687bbf")
+		(property "Reference" "R46"
+			(at 87.996 94.9067 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24.9"
+			(at 101.0833 94.9524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 91.6716 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 91.6716 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 24.9 OHM 1% 1/10W 0603"
+			(at 91.6716 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 91.6716 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "RMCF0603FT24R9"
+			(at 91.6716 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 91.6716 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "RMCF0603FT24R9CT-ND"
+			(at 91.6716 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 91.6716 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 91.6716 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 91.6716 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" ""
+			(at 91.6716 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GENDER" ""
+			(at 91.6716 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 91.6716 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 91.6716 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Nu," ""
+			(at 91.6716 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" ""
+			(at 91.6716 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 91.6716 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 91.6716 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 91.6716 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WE-NUMBER" ""
+			(at 91.6716 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE" ""
+			(at 91.6716 98.4803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b8bcb9e-41cd-4d1c-96a7-ebee8dc44313")
+		)
+		(pin "2"
+			(uuid "d7a58ab8-a51f-4c1a-9b17-4b19e784b255")
+		)
+		(instances
+			(project "GRAMS_COMMS_TELEM_BRD"
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/0636da26-ea72-4969-80ab-bb987ab0fe82"
+					(reference "R74")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/08a6a23c-9859-41ae-b97d-525befc2d9aa"
+					(reference "R60")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/21aa9a33-fd86-4b14-a150-504cd5deea06"
+					(reference "R46")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/45691157-0d25-48de-8713-45cda27ae9c1"
+					(reference "R88")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/57411353-e608-469c-aa12-c782a35128fc"
+					(reference "R53")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/80122f03-3a7b-4f27-bad4-10c44500ba21"
+					(reference "R81")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/d251a8dd-8f31-4484-96f5-83229c79210a"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keystone:5002")
+		(at 74.5675 110.6407 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cec6b4c-fa01-4abb-a9c9-a32ba353d715")
+		(property "Reference" "DAC_Sync_1"
+			(at 77.6814 109.3706 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5002"
+			(at 77.6814 111.9106 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keystone:KEYSTONE_5002"
+			(at 74.5675 110.6407 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+			(at 74.5675 110.6407 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PC TEST POINT MINIATURE WHITE"
+			(at 74.5675 110.6407 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "H"
+			(at 74.5675 110.6407 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 74.5675 110.6407 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5000"
+			(at 74.5675 110.6407 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
+			(at 74.5675 110.6407 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 74.5675 110.6407 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "5002"
+			(at 74.5675 110.6407 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 74.5675 110.6407 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "36-5002-ND"
+			(at 74.5675 110.6407 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 74.5675 110.6407 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "Through Hole"
+			(at 74.5675 110.6407 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 74.5675 110.6407 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" ""
+			(at 74.5675 110.6407 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GENDER" ""
+			(at 74.5675 110.6407 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 74.5675 110.6407 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 74.5675 110.6407 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Nu," ""
+			(at 74.5675 110.6407 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" ""
+			(at 74.5675 110.6407 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 74.5675 110.6407 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 74.5675 110.6407 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 74.5675 110.6407 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WE-NUMBER" ""
+			(at 74.5675 110.6407 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE" ""
+			(at 74.5675 110.6407 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "f3c43042-e8e8-400d-9e02-833eed1daed3")
+		)
+		(instances
+			(project ""
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/0636da26-ea72-4969-80ab-bb987ab0fe82"
+					(reference "DAC_Sync_5")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/08a6a23c-9859-41ae-b97d-525befc2d9aa"
+					(reference "DAC_Sync_3")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/21aa9a33-fd86-4b14-a150-504cd5deea06"
+					(reference "DAC_Sync_1")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/45691157-0d25-48de-8713-45cda27ae9c1"
+					(reference "DAC_Sync_7")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/57411353-e608-469c-aa12-c782a35128fc"
+					(reference "DAC_Sync_2")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/80122f03-3a7b-4f27-bad4-10c44500ba21"
+					(reference "DAC_Sync_6")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/d251a8dd-8f31-4484-96f5-83229c79210a"
+					(reference "DAC_Sync_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Dev:LTC2050HVCS5-TRMPBF")
+		(at 187.1027 97.2103 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97b7bba2-c405-4220-93f8-3f7b80f67f52")
+		(property "Reference" "U7"
+			(at 207.0212 103.243 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LTC2050HVCS5-TRMPBF"
+			(at 207.0212 105.783 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "S_5_ADI"
+			(at 206.6607 108.3863 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC2050-2050HV.pdf"
+			(at 207.1687 105.5923 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC OPAMP ZER-DRIFT 1CIR TSOT23-5"
+			(at 187.1027 97.2103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices Inc."
+			(at 187.1027 97.2103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "LTC2050HVCS5#TRMPBF"
+			(at 187.1027 97.2103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 187.1027 97.2103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "505-LTC2050HVCS5#TRMPBFCT-ND"
+			(at 187.1027 97.2103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 187.1027 97.2103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSOT23-5"
+			(at 187.1027 97.2103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 187.1027 97.2103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" ""
+			(at 187.1027 97.2103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GENDER" ""
+			(at 187.1027 97.2103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 187.1027 97.2103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 187.1027 97.2103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Nu," ""
+			(at 187.1027 97.2103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" ""
+			(at 187.1027 97.2103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 187.1027 97.2103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 187.1027 97.2103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 187.1027 97.2103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WE-NUMBER" ""
+			(at 187.1027 97.2103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE" ""
+			(at 187.1027 97.2103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "8f1b74a6-4ea7-43af-aea3-4988e828c2ac")
+		)
+		(pin "2"
+			(uuid "818d8c27-6bf8-4f94-9ae5-b21d708d7be2")
+		)
+		(pin "3"
+			(uuid "156afc81-c78d-4ded-b85d-102495f5a12e")
+		)
+		(pin "1"
+			(uuid "e11ae80a-d45a-488b-8b7e-d2a9d1230f55")
+		)
+		(pin "4"
+			(uuid "051deeef-8a64-4e01-aaff-8e4021421926")
+		)
+		(instances
+			(project "GRAMS_COMMS_TELEM_BRD"
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/0636da26-ea72-4969-80ab-bb987ab0fe82"
+					(reference "U15")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/08a6a23c-9859-41ae-b97d-525befc2d9aa"
+					(reference "U11")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/21aa9a33-fd86-4b14-a150-504cd5deea06"
+					(reference "U7")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/45691157-0d25-48de-8713-45cda27ae9c1"
+					(reference "U19")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/57411353-e608-469c-aa12-c782a35128fc"
+					(reference "U9")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/80122f03-3a7b-4f27-bad4-10c44500ba21"
+					(reference "U17")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/d251a8dd-8f31-4484-96f5-83229c79210a"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Parts:R")
+		(at 91.6716 102.2903 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4d950e5-471b-4d94-8f49-42dc9486e679")
+		(property "Reference" "R48"
+			(at 87.996 98.7167 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24.9"
+			(at 101.0833 98.7624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 91.6716 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 91.6716 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 24.9 OHM 1% 1/10W 0603"
+			(at 91.6716 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 91.6716 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "RMCF0603FT24R9"
+			(at 91.6716 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 91.6716 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "RMCF0603FT24R9CT-ND"
+			(at 91.6716 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 91.6716 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 91.6716 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 91.6716 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" ""
+			(at 91.6716 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GENDER" ""
+			(at 91.6716 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 91.6716 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 91.6716 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Nu," ""
+			(at 91.6716 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" ""
+			(at 91.6716 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 91.6716 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 91.6716 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 91.6716 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WE-NUMBER" ""
+			(at 91.6716 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE" ""
+			(at 91.6716 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7493c34b-0281-44bd-9543-9a4d098c8b23")
+		)
+		(pin "2"
+			(uuid "bb9edc54-d9fa-4b87-803e-107208368e6a")
+		)
+		(instances
+			(project "GRAMS_COMMS_TELEM_BRD"
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/0636da26-ea72-4969-80ab-bb987ab0fe82"
+					(reference "R76")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/08a6a23c-9859-41ae-b97d-525befc2d9aa"
+					(reference "R62")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/21aa9a33-fd86-4b14-a150-504cd5deea06"
+					(reference "R48")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/45691157-0d25-48de-8713-45cda27ae9c1"
+					(reference "R90")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/57411353-e608-469c-aa12-c782a35128fc"
+					(reference "R55")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/80122f03-3a7b-4f27-bad4-10c44500ba21"
+					(reference "R83")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/d251a8dd-8f31-4484-96f5-83229c79210a"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Parts:C")
+		(at 236.7454 106.5971 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bed47693-2b7e-4ce5-97d9-b852db757747")
+		(property "Reference" "C16"
+			(at 239.6935 102.7143 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 239.9811 105.1591 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 236.7454 106.5971 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 236.7454 106.5971 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 236.7454 106.5971 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 236.7454 106.5971 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "C0603C105K4RACTU"
+			(at 236.7454 106.5971 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 236.7454 106.5971 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "399-C0603C105K4RACTUCT-ND"
+			(at 236.7454 106.5971 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 236.7454 106.5971 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 236.7454 106.5971 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 236.7454 106.5971 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" ""
+			(at 236.7454 106.5971 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GENDER" ""
+			(at 236.7454 106.5971 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 236.7454 106.5971 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 236.7454 106.5971 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Nu," ""
+			(at 236.7454 106.5971 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" ""
+			(at 236.7454 106.5971 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 236.7454 106.5971 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 236.7454 106.5971 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 236.7454 106.5971 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WE-NUMBER" ""
+			(at 236.7454 106.5971 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE" ""
+			(at 236.7454 106.5971 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c98eee45-68f9-4309-a5d4-f20081d5edf7")
+		)
+		(pin "2"
+			(uuid "073431fe-7566-4b92-acfd-3491dd120172")
+		)
+		(instances
+			(project "GRAMS_COMMS_TELEM_BRD"
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/0636da26-ea72-4969-80ab-bb987ab0fe82"
+					(reference "C32")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/08a6a23c-9859-41ae-b97d-525befc2d9aa"
+					(reference "C24")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/21aa9a33-fd86-4b14-a150-504cd5deea06"
+					(reference "C16")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/45691157-0d25-48de-8713-45cda27ae9c1"
+					(reference "C40")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/57411353-e608-469c-aa12-c782a35128fc"
+					(reference "C20")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/80122f03-3a7b-4f27-bad4-10c44500ba21"
+					(reference "C36")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/d251a8dd-8f31-4484-96f5-83229c79210a"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_4")
+		(lib_id "Passive_Parts:R")
+		(at 151.9232 82.4436 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e33e2a18-c9d7-41ae-9cb5-f7b253582ac2")
+		(property "Reference" "R42"
+			(at 154.2998 77.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k"
+			(at 154.4916 82.3536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 151.9232 82.4436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 151.9232 82.4436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
+			(at 151.9232 82.4436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 151.9232 82.4436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "ERA-2AEB203X"
+			(at 151.9232 82.4436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 151.9232 82.4436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "P20KDCCT-ND"
+			(at 151.9232 82.4436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 151.9232 82.4436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 151.9232 82.4436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 151.9232 82.4436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" ""
+			(at 151.9232 82.4436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GENDER" ""
+			(at 151.9232 82.4436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 151.9232 82.4436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 151.9232 82.4436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Nu," ""
+			(at 151.9232 82.4436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" ""
+			(at 151.9232 82.4436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 151.9232 82.4436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 151.9232 82.4436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 151.9232 82.4436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WE-NUMBER" ""
+			(at 151.9232 82.4436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE" ""
+			(at 151.9232 82.4436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "222b859d-36cb-4b74-b89a-ea6c56417887")
+		)
+		(pin "1"
+			(uuid "36363cc0-66e7-4141-a284-fdb0fa3d61df")
+		)
+		(instances
+			(project "GRAMS_COMMS_TELEM_BRD"
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/0636da26-ea72-4969-80ab-bb987ab0fe82"
+					(reference "R70")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/08a6a23c-9859-41ae-b97d-525befc2d9aa"
+					(reference "R56")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/21aa9a33-fd86-4b14-a150-504cd5deea06"
+					(reference "R42")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/45691157-0d25-48de-8713-45cda27ae9c1"
+					(reference "R84")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/57411353-e608-469c-aa12-c782a35128fc"
+					(reference "R49")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/80122f03-3a7b-4f27-bad4-10c44500ba21"
+					(reference "R77")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/d251a8dd-8f31-4484-96f5-83229c79210a"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Texas Instruments:DAC121S101CIMKX_NOPB")
+		(at 116.105 102.2903 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e68965da-76bd-4a76-a357-a6e5a6e2ce40")
+		(property "Reference" "U8"
+			(at 133.3742 104.2533 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "DAC121S101CIMKX/NOPB"
+			(at 146.6045 106.9377 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Texas_Instruments:MK06A"
+			(at 103.405 105.8463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fdac121s101"
+			(at 104.929 109.4023 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12-Bit DAC"
+			(at 138.965 95.9403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 116.105 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "DAC121S101CIMKX/NOPB"
+			(at 116.105 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 116.105 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "296-38083-1-ND"
+			(at 116.105 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSOT23-6"
+			(at 116.105 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 116.105 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 116.105 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" ""
+			(at 116.105 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GENDER" ""
+			(at 116.105 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 116.105 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 116.105 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Nu," ""
+			(at 116.105 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" ""
+			(at 116.105 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 116.105 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 116.105 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 116.105 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WE-NUMBER" ""
+			(at 116.105 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE" ""
+			(at 116.105 102.2903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "556fa11f-502b-4d1f-a023-af3deb8881d6")
+		)
+		(pin "5"
+			(uuid "58301c13-eeb9-4cc1-90da-0a36f59e655d")
+		)
+		(pin "4"
+			(uuid "b2647cfa-0287-479f-acc6-27eb05d4d807")
+		)
+		(pin "1"
+			(uuid "6ffd77f1-4fd6-4180-96fd-b33f518224db")
+		)
+		(pin "6"
+			(uuid "17b910af-86cd-4d80-bf3f-3e23d75da8c3")
+		)
+		(pin "3"
+			(uuid "12ea736e-9e42-442a-8518-85fe3ee646a9")
+		)
+		(instances
+			(project ""
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d"
+					(reference "U16")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/0636da26-ea72-4969-80ab-bb987ab0fe82"
+					(reference "U16")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/08a6a23c-9859-41ae-b97d-525befc2d9aa"
+					(reference "U12")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/21aa9a33-fd86-4b14-a150-504cd5deea06"
+					(reference "U8")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/45691157-0d25-48de-8713-45cda27ae9c1"
+					(reference "U20")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/57411353-e608-469c-aa12-c782a35128fc"
+					(reference "U10")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/80122f03-3a7b-4f27-bad4-10c44500ba21"
+					(reference "U18")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/d251a8dd-8f31-4484-96f5-83229c79210a"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Parts:C")
+		(at 175.2398 80.3057 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef155aa8-492f-4b23-8d32-f1fe08c60735")
+		(property "Reference" "C15"
+			(at 174.3291 75.5121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 182.622 75.8956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 175.2398 80.3057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3584/CL10B105KP8NNNC_Spec.pdf"
+			(at 175.2398 80.3057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 25V X7R 0402"
+			(at 175.2398 80.3057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 175.2398 80.3057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "CL05B104KA5NNNC"
+			(at 175.2398 80.3057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 175.2398 80.3057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "1276-6720-1-ND"
+			(at 175.2398 80.3057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 175.2398 80.3057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 175.2398 80.3057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 175.2398 80.3057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" ""
+			(at 175.2398 80.3057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GENDER" ""
+			(at 175.2398 80.3057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 175.2398 80.3057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 175.2398 80.3057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Nu," ""
+			(at 175.2398 80.3057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" ""
+			(at 175.2398 80.3057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 175.2398 80.3057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 175.2398 80.3057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 175.2398 80.3057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WE-NUMBER" ""
+			(at 175.2398 80.3057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE" ""
+			(at 175.2398 80.3057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e5f2918-3d1e-4bc6-984f-61bdd81f26fa")
+		)
+		(pin "2"
+			(uuid "01c3a683-e381-4edc-8241-01ee8ea11f2a")
+		)
+		(instances
+			(project "GRAMS_COMMS_TELEM_BRD"
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/0636da26-ea72-4969-80ab-bb987ab0fe82"
+					(reference "C31")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/08a6a23c-9859-41ae-b97d-525befc2d9aa"
+					(reference "C23")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/21aa9a33-fd86-4b14-a150-504cd5deea06"
+					(reference "C15")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/45691157-0d25-48de-8713-45cda27ae9c1"
+					(reference "C39")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/57411353-e608-469c-aa12-c782a35128fc"
+					(reference "C19")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/80122f03-3a7b-4f27-bad4-10c44500ba21"
+					(reference "C35")
+					(unit 1)
+				)
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465/24b2ce56-ce27-45f6-8512-ad9a0a8ea456/d251a8dd-8f31-4484-96f5-83229c79210a"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

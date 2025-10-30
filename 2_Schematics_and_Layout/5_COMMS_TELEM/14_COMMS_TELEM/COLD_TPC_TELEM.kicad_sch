@@ -1,0 +1,2640 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "64f10b76-9bcc-4c67-ac4a-1c1ac43b778a")
+	(paper "A3")
+	(lib_symbols)
+	(text "P_adc_tot = 2.3mW * 4 = 9.2mW"
+		(exclude_from_sim no)
+		(at 100.33 54.61 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "734ec32e-978c-480f-a10b-36ac46d1b11b")
+	)
+	(text "P_adc = 2.3mW"
+		(exclude_from_sim no)
+		(at 100.33 46.99 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "e150039a-1ba3-432c-9ecf-ba177cbce29c")
+	)
+	(text "P_total = 9.2mW + 0.56uW = ~9.2mW"
+		(exclude_from_sim no)
+		(at 279.4 125.73 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "f5c98b79-64e2-45bd-a624-5feb9b8834db")
+	)
+	(text "P_daq_tot = 0.08µW * 7 = 0.56µW"
+		(exclude_from_sim no)
+		(at 97.79 209.55 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "f7ac0e07-e9cd-4db1-ae0b-c826ca64d61e")
+	)
+	(wire
+		(pts
+			(xy 44.45 162.56) (xy 46.99 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e4db4d-4bed-42d2-8678-4b3fcd81f9f2")
+	)
+	(wire
+		(pts
+			(xy 73.66 231.14) (xy 76.2 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a96d9f-e8a5-4497-aaf4-567e3e79776f")
+	)
+	(wire
+		(pts
+			(xy 134.62 68.58) (xy 137.16 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0abadf71-71f3-4a41-a756-85cee4c162fd")
+	)
+	(wire
+		(pts
+			(xy 44.45 93.98) (xy 46.99 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c84ec26-c136-40d2-883a-a77a66936186")
+	)
+	(wire
+		(pts
+			(xy 45.72 78.74) (xy 46.99 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cda86f8-62c2-43c2-8030-577c72db70f0")
+	)
+	(wire
+		(pts
+			(xy 44.45 165.1) (xy 46.99 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16590fff-2d50-4b75-b308-c4ca03a58ebd")
+	)
+	(wire
+		(pts
+			(xy 72.39 134.62) (xy 76.2 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be038e4-445b-4756-ab5b-fd871140e0ec")
+	)
+	(wire
+		(pts
+			(xy 45.72 72.39) (xy 46.99 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e70c393-155f-4384-ab6e-d91ce537cfb0")
+	)
+	(wire
+		(pts
+			(xy 72.39 256.54) (xy 76.2 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27f19dc3-0426-4a6e-bd59-cb409c729f58")
+	)
+	(wire
+		(pts
+			(xy 133.35 138.43) (xy 135.89 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "284b6583-8612-467c-8af4-378f8823d3ca")
+	)
+	(wire
+		(pts
+			(xy 44.45 147.32) (xy 46.99 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2921c8d6-a71f-43fd-a746-54a9dc155c4b")
+	)
+	(wire
+		(pts
+			(xy 72.39 266.7) (xy 76.2 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b7bbab-6f64-4ad4-884b-58c01dee68b5")
+	)
+	(wire
+		(pts
+			(xy 44.45 152.4) (xy 46.99 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c51a1ac-cbc4-47a7-81d6-33995b9f19f6")
+	)
+	(wire
+		(pts
+			(xy 34.1925 15.9637) (xy 48.717 15.9637)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f855eb2-178b-4a8a-ad15-49f93cda2a3c")
+	)
+	(wire
+		(pts
+			(xy 72.39 246.38) (xy 76.2 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408b9a4d-c6f0-4486-aca7-5bf8f8fdf5e5")
+	)
+	(wire
+		(pts
+			(xy 134.62 97.79) (xy 137.16 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4119c3ae-94bc-4f85-96a3-6ecba3332376")
+	)
+	(wire
+		(pts
+			(xy 133.35 132.08) (xy 135.89 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "436c7474-23d2-4ecd-a004-9c6ea95b3ed7")
+	)
+	(wire
+		(pts
+			(xy 121.92 246.38) (xy 124.46 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c215b4-0084-4970-87e6-4918f70ec53c")
+	)
+	(wire
+		(pts
+			(xy 44.45 134.62) (xy 46.99 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44d13086-589b-490b-ae30-8c4e56b4abce")
+	)
+	(wire
+		(pts
+			(xy 134.62 92.71) (xy 137.16 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "469dda0a-870b-403d-af0c-a3da8e08ab72")
+	)
+	(wire
+		(pts
+			(xy 44.45 86.36) (xy 46.99 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4712967d-b9b0-4ec2-9218-494ff3e90e81")
+	)
+	(wire
+		(pts
+			(xy 121.92 233.68) (xy 124.46 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47f399f8-0e5d-4f4a-bd6a-8d09e3d019ae")
+	)
+	(wire
+		(pts
+			(xy 121.92 243.84) (xy 124.46 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e362216-f6d0-400a-95d8-473f15188c1d")
+	)
+	(wire
+		(pts
+			(xy 134.62 71.12) (xy 137.16 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e70f246-7e72-4a6c-a2cf-c2a492295216")
+	)
+	(wire
+		(pts
+			(xy 73.66 219.71) (xy 76.2 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba7c739-5eaa-4f4c-9d54-9ec0c35f6e79")
+	)
+	(wire
+		(pts
+			(xy 121.92 236.22) (xy 124.46 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c2dc962-db68-4f4c-a527-cf2af051d5d0")
+	)
+	(wire
+		(pts
+			(xy 34.0888 22.1701) (xy 48.645 22.1701)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "621e0e24-54dc-4bb8-9959-2b53b6a780b6")
+	)
+	(wire
+		(pts
+			(xy 44.45 140.97) (xy 46.99 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68281443-ed1a-408e-a24b-0a060bf5768f")
+	)
+	(wire
+		(pts
+			(xy 134.62 95.25) (xy 137.16 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "697e42f8-724f-4602-8f62-f3a59c0c1f57")
+	)
+	(wire
+		(pts
+			(xy 44.45 91.44) (xy 46.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aeae13e-94ec-41fe-805c-97a741b36a5a")
+	)
+	(wire
+		(pts
+			(xy 121.92 241.3) (xy 124.46 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb5d288-3805-455a-836e-7409a34d5c81")
+	)
+	(wire
+		(pts
+			(xy 45.72 69.85) (xy 46.99 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "716ec03b-3798-4011-84d2-799d2cc5dc38")
+	)
+	(wire
+		(pts
+			(xy 134.62 102.87) (xy 137.16 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c2ada2-b037-46b9-9772-ad86e3147c4a")
+	)
+	(wire
+		(pts
+			(xy 134.62 85.09) (xy 137.16 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79c59618-c256-4911-adf2-f812f8ed51e7")
+	)
+	(wire
+		(pts
+			(xy 73.66 228.6) (xy 76.2 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b92baac-7df2-4327-8595-0943a664bb0a")
+	)
+	(wire
+		(pts
+			(xy 121.92 238.76) (xy 124.46 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d323d89-4e96-4698-b8e1-8b40eb9fb96d")
+	)
+	(wire
+		(pts
+			(xy 44.45 173.99) (xy 46.99 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e4889fd-f347-4cd7-8f8e-19f96070d553")
+	)
+	(wire
+		(pts
+			(xy 44.45 109.22) (xy 46.99 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82ca2f3d-e640-4d68-9c8c-9dde9d2c806f")
+	)
+	(wire
+		(pts
+			(xy 133.35 154.94) (xy 135.89 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c9dfe9-6c3a-4756-ae12-9a785298dfdf")
+	)
+	(wire
+		(pts
+			(xy 44.45 138.43) (xy 46.99 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b6d990a-8a5b-40f0-bcd3-38cbf123e422")
+	)
+	(wire
+		(pts
+			(xy 134.62 77.47) (xy 137.16 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "918814ac-5af9-4114-928a-7eb064c1c2df")
+	)
+	(wire
+		(pts
+			(xy 44.45 160.02) (xy 46.99 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae9acc9-0777-4c74-901d-18837e54fc28")
+	)
+	(wire
+		(pts
+			(xy 34.0264 29.4859) (xy 48.5826 29.4859)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4fd9322-f501-4095-aa5f-2e349f3218ae")
+	)
+	(wire
+		(pts
+			(xy 44.45 132.08) (xy 46.99 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7554deb-3aac-4cb6-9cd9-109a8155d5f8")
+	)
+	(wire
+		(pts
+			(xy 44.45 149.86) (xy 46.99 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a77a20ea-f9cd-4382-b22f-295aabb33b41")
+	)
+	(wire
+		(pts
+			(xy 34.0264 32.5675) (xy 48.5826 32.5675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9db7689-4a68-437f-a298-48a091a33a4e")
+	)
+	(wire
+		(pts
+			(xy 34.29 19.05) (xy 48.8462 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a08e45-bb0f-41d4-8ecd-391b7058ce1b")
+	)
+	(wire
+		(pts
+			(xy 72.39 241.3) (xy 76.2 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c246f9-81d0-40c8-8d2c-e67c6712edc4")
+	)
+	(wire
+		(pts
+			(xy 72.39 251.46) (xy 76.2 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b815755a-c7ef-440b-bd42-8d92478ad5ff")
+	)
+	(wire
+		(pts
+			(xy 133.35 173.99) (xy 135.89 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b822ec88-87c3-4241-a5f2-c8bcfa9af171")
+	)
+	(wire
+		(pts
+			(xy 45.72 76.2) (xy 46.99 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b82416e4-675d-41ba-9ce5-e1fd19988faa")
+	)
+	(wire
+		(pts
+			(xy 34.1805 26.3273) (xy 48.7367 26.3273)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e2953d-d2bb-4715-b2dc-7a0f4e763ce2")
+	)
+	(wire
+		(pts
+			(xy 44.45 157.48) (xy 46.99 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc02788b-ecde-4843-bf86-f5c8ef54120d")
+	)
+	(wire
+		(pts
+			(xy 72.39 248.92) (xy 76.2 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcda6c12-5e97-4646-88ba-84e5b7ab7df6")
+	)
+	(wire
+		(pts
+			(xy 133.35 165.1) (xy 135.89 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4ef1199-6c39-4146-bdef-853cf6ed0fd7")
+	)
+	(wire
+		(pts
+			(xy 44.45 96.52) (xy 46.99 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c53d0b98-2474-4052-b912-5e431239cfa3")
+	)
+	(wire
+		(pts
+			(xy 72.39 72.39) (xy 76.2 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d2d56a-5f69-4499-9864-1cd1ed02d700")
+	)
+	(wire
+		(pts
+			(xy 44.45 101.6) (xy 46.99 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbad6519-1f1b-418f-9689-d458b919e85c")
+	)
+	(wire
+		(pts
+			(xy 133.35 157.48) (xy 135.89 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd36ebc5-5cfa-468f-ae89-e0688a7fe1a3")
+	)
+	(wire
+		(pts
+			(xy 133.35 152.4) (xy 135.89 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd9fef0a-1820-47b0-8d60-b65d09590f45")
+	)
+	(wire
+		(pts
+			(xy 44.45 99.06) (xy 46.99 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf1d23a1-f0f5-451f-8209-578e38b6b955")
+	)
+	(wire
+		(pts
+			(xy 134.62 74.93) (xy 137.16 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf48016e-48c2-4a92-8824-fee9eda8bbcd")
+	)
+	(wire
+		(pts
+			(xy 72.39 243.84) (xy 76.2 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5e98b02-a83d-402f-8e5d-244996c9db69")
+	)
+	(wire
+		(pts
+			(xy 72.39 254) (xy 76.2 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d88561e9-c7ef-4b81-8868-3b6bde0250d3")
+	)
+	(wire
+		(pts
+			(xy 133.35 140.97) (xy 135.89 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8bd1daa-42cd-4b8d-9e17-9aa2f5aa01ce")
+	)
+	(wire
+		(pts
+			(xy 134.62 90.17) (xy 137.16 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd97cb41-8ade-4c38-ab30-72ca784f75af")
+	)
+	(wire
+		(pts
+			(xy 133.35 147.32) (xy 135.89 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "decedaf8-abdb-4edb-aeb5-2c56062e8e3e")
+	)
+	(wire
+		(pts
+			(xy 44.45 88.9) (xy 46.99 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df0ddda5-8245-4116-8c31-6019d507a3bd")
+	)
+	(wire
+		(pts
+			(xy 161.29 134.62) (xy 163.83 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d2199b-ec5c-4d39-8ca7-2e49f1fdd3f2")
+	)
+	(wire
+		(pts
+			(xy 133.35 149.86) (xy 135.89 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd9e626-a83b-4877-b71f-b0a4a20bd657")
+	)
+	(wire
+		(pts
+			(xy 133.35 162.56) (xy 135.89 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed1796d1-3606-43ab-bb89-8e1e905f016d")
+	)
+	(wire
+		(pts
+			(xy 133.35 160.02) (xy 135.89 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec69f57-7655-4dab-a181-d67a87435377")
+	)
+	(wire
+		(pts
+			(xy 133.35 134.62) (xy 135.89 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0589ed9-877f-4510-8dce-a8b3170e6c55")
+	)
+	(wire
+		(pts
+			(xy 134.62 87.63) (xy 137.16 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa469e75-0edf-4892-ac3e-782e32d6d1ce")
+	)
+	(wire
+		(pts
+			(xy 44.45 154.94) (xy 46.99 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5eab4a-8955-4486-bbde-8919b9d8b9e4")
+	)
+	(wire
+		(pts
+			(xy 73.66 222.25) (xy 76.2 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feaf64b3-0142-47a6-bb4b-90d963c8cc48")
+	)
+	(wire
+		(pts
+			(xy 134.62 100.33) (xy 137.16 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb10dd1-c662-4c5e-9f14-00fc5f8bf36d")
+	)
+	(wire
+		(pts
+			(xy 44.45 104.14) (xy 46.99 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffcaaa13-63bc-4099-ae1a-51c7fa278480")
+	)
+	(label "SPI_DATA_IN"
+		(at 45.72 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00d791f2-1c2a-44e3-ac04-c17c63e4f607")
+	)
+	(label "SCLK"
+		(at 45.72 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "018c5ace-267d-41d4-a5a7-2ba3d0b0db23")
+	)
+	(label "SPI_DATA_OUT"
+		(at 76.2 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0556c26d-612c-465f-916d-31a8f51bcbc7")
+	)
+	(label "SPI_DATA_OUT"
+		(at 163.83 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18f948b6-f95a-49d4-8890-b829a8e86d1e")
+	)
+	(label "V_P3V3_TELEM"
+		(at 45.72 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1a283480-e6bf-402e-ac49-13bfc567157c")
+	)
+	(label "SPI_DATA_OUT"
+		(at 162.56 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2241af02-631c-4266-a42f-84b6c1fbdd69")
+	)
+	(label "V_TELEM_RTN"
+		(at 133.35 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "248dd864-d8e9-4871-8c3c-ababcc7f75bd")
+	)
+	(label "V_TELEM_RTN"
+		(at 44.45 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "32aeb696-14bf-4f27-8b19-116a56ff0a79")
+	)
+	(label "V_P3V3_TELEM"
+		(at 73.66 222.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "399b112c-9b4f-43f7-b408-bc4f43b94875")
+	)
+	(label "SCLK"
+		(at 73.66 228.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a4252dd-33f3-4dd1-a347-31c34bb78e4d")
+	)
+	(label "V_TELEM_RTN"
+		(at 72.39 266.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4b5b2620-7f37-4e9d-a540-a2ff0df79181")
+	)
+	(label "SPI_DATA_IN"
+		(at 44.45 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "50b03f21-bc97-4945-8194-3bf485a222e3")
+	)
+	(label "V_P5V_TELEM"
+		(at 73.66 219.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5226b0fa-3d32-4146-8138-c42059a976a1")
+	)
+	(label "SCLK"
+		(at 134.62 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "68f8b6be-c605-408d-96fa-5357b05231b9")
+	)
+	(label "V_P3V3_TELEM"
+		(at 133.35 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "824e8f0a-b24a-42d9-8652-570c2646eb6a")
+	)
+	(label "SCLK"
+		(at 133.35 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82d50956-05cc-4b84-bc5a-658892471033")
+	)
+	(label "V_TELEM_RTN"
+		(at 137.16 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "89417653-eab2-4beb-a8f5-068f25322e9e")
+	)
+	(label "V_P3V3_TELEM"
+		(at 134.62 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a0900c11-df06-40af-b9cd-42a4f6482a37")
+	)
+	(label "SPI_DATA_OUT"
+		(at 76.2 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a89319bf-efd1-4231-b391-0064bc4e3173")
+	)
+	(label "V_TELEM_RTN"
+		(at 44.45 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1258667-b557-4326-9864-535a30cf2c7b")
+	)
+	(label "SPI_DATA_IN"
+		(at 73.66 231.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1e3d0e6-a7b2-446c-aa9d-c17cfc2f7eeb")
+	)
+	(label "V_P3V3_TELEM"
+		(at 44.45 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c493e97e-703d-4e7c-8b1e-a89de1a3e1f7")
+	)
+	(label "SPI_DATA_IN"
+		(at 134.62 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7798eec-6125-4a2e-8efd-e148ddbffa09")
+	)
+	(label "SPI_DATA_IN"
+		(at 133.35 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f849f2dc-4f73-4f59-b7e3-9731fb11140b")
+	)
+	(label "SCLK"
+		(at 44.45 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fae9fef5-f85d-44f7-b266-4843d971be99")
+	)
+	(hierarchical_label "ADC_01"
+		(shape input)
+		(at 44.45 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0120d2c7-1433-4e8f-88c9-ea0921190e7b")
+	)
+	(hierarchical_label "ADC_07"
+		(shape input)
+		(at 44.45 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0231afd2-fe97-41a9-afcb-0c95ea985d58")
+	)
+	(hierarchical_label "SiPM_3_VSET"
+		(shape output)
+		(at 124.46 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "075085dc-6bf4-43d8-b2c8-c1ae80065499")
+	)
+	(hierarchical_label "ADC_21"
+		(shape input)
+		(at 44.45 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07a22067-ddd9-4367-ab45-fe9549830d7e")
+	)
+	(hierarchical_label "ADC_35"
+		(shape input)
+		(at 133.35 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ca0e1d7-2bbe-40aa-aeb9-3c4aa4afaffa")
+	)
+	(hierarchical_label "CSn9"
+		(shape input)
+		(at 72.39 254 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d27d728-12b0-446a-8ae6-4ea725e09a14")
+	)
+	(hierarchical_label "ADC_03"
+		(shape input)
+		(at 44.45 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1219ab34-c15e-409a-8245-26b41cae253d")
+	)
+	(hierarchical_label "ADC_17"
+		(shape input)
+		(at 134.62 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12633a4e-6dbc-4038-b6fa-39ff3db23c9a")
+	)
+	(hierarchical_label "ADC_20"
+		(shape input)
+		(at 44.45 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f906082-22a0-4205-a748-406f023b7975")
+	)
+	(hierarchical_label "ADC_32"
+		(shape input)
+		(at 133.35 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ffbf7f4-3010-4501-803f-28eda95cb53d")
+	)
+	(hierarchical_label "SiPM_0_VSET"
+		(shape output)
+		(at 124.46 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22835b85-a39f-452f-aef0-a33f6e0f61c1")
+	)
+	(hierarchical_label "ADC_10"
+		(shape input)
+		(at 134.62 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "22d920c7-3022-48d0-9644-4e463297cd21")
+	)
+	(hierarchical_label "V_TELEM_RTN"
+		(shape output)
+		(at 34.0888 22.1701 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25e1ca94-5ea0-4e36-bb17-8236840e8c24")
+	)
+	(hierarchical_label "ADC_37"
+		(shape input)
+		(at 133.35 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b85526a-d9b4-46ae-9500-bf8b5d94182c")
+	)
+	(hierarchical_label "ADC_31"
+		(shape input)
+		(at 133.35 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34804d2c-9cf9-4c08-bb22-cc01ea56f4d7")
+	)
+	(hierarchical_label "V_P5V_TELEM"
+		(shape input)
+		(at 34.1925 15.9637 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ab44d70-38d2-4eaa-b0ef-8a26f35c345c")
+	)
+	(hierarchical_label "SPI_DATA_OUT"
+		(shape input)
+		(at 34.1805 26.3273 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3bf6899e-90ea-42c8-9c01-7a06a669d229")
+	)
+	(hierarchical_label "ADC_06"
+		(shape input)
+		(at 44.45 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "43e8e41a-9ff2-489e-acfb-b11793109d31")
+	)
+	(hierarchical_label "ADC_23"
+		(shape input)
+		(at 44.45 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "52e66e9e-4006-4a9d-8f33-d9db56acf964")
+	)
+	(hierarchical_label "ADC_30"
+		(shape input)
+		(at 133.35 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "546f3036-37b7-4348-991a-1a9b64d73440")
+	)
+	(hierarchical_label "ADC_11"
+		(shape input)
+		(at 134.62 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59cacbba-7507-4e62-a87b-5fbb1c94c844")
+	)
+	(hierarchical_label "CSn7"
+		(shape input)
+		(at 72.39 248.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6355cc19-9607-4e0c-af02-fcb108e4b7bd")
+	)
+	(hierarchical_label "ADC_15"
+		(shape input)
+		(at 134.62 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64643052-4818-486f-9cf9-738ed0ec3080")
+	)
+	(hierarchical_label "ADC_26"
+		(shape input)
+		(at 44.45 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a6ff4e7-1316-4d7b-aace-701553cce060")
+	)
+	(hierarchical_label "ADC_04"
+		(shape input)
+		(at 44.45 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c555a28-ad21-47ea-a3e7-978115f0a6ac")
+	)
+	(hierarchical_label "SiPM_4_VSET"
+		(shape output)
+		(at 124.46 243.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c9a33e4-3043-4a5d-92b7-d92f9aa0267f")
+	)
+	(hierarchical_label "CSn4"
+		(shape input)
+		(at 72.39 241.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "746fa218-15e6-4f85-b40f-9b231e1154a5")
+	)
+	(hierarchical_label "ADC_02"
+		(shape input)
+		(at 44.45 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78d48c5b-94eb-4292-a179-a2dbee1912f7")
+	)
+	(hierarchical_label "ADC_22"
+		(shape input)
+		(at 44.45 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79eaaabf-6ae0-4180-8ba3-3e48dae5ee2a")
+	)
+	(hierarchical_label "SiPM_5_VSET"
+		(shape output)
+		(at 124.46 246.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c663dfb-3a1a-426d-8bcc-5e94f87eb33b")
+	)
+	(hierarchical_label "ADC_34"
+		(shape input)
+		(at 133.35 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d99360a-2555-4e35-86c7-73aeb07bd1fb")
+	)
+	(hierarchical_label "ADC_36"
+		(shape input)
+		(at 133.35 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80f98a68-5aa4-473f-85ac-d660b7d491f9")
+	)
+	(hierarchical_label "V_P3V3_TELEM"
+		(shape input)
+		(at 34.29 19.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97c74450-c29e-4113-8f1f-f46f3544a46c")
+	)
+	(hierarchical_label "SCLK"
+		(shape input)
+		(at 34.0264 32.5675 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ba55ec8-de46-4265-9682-73cdb3efae37")
+	)
+	(hierarchical_label "ADC_00"
+		(shape input)
+		(at 44.45 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d454505-c273-43f7-9ab2-495847b6eb8d")
+	)
+	(hierarchical_label "SiPM_1_VSET"
+		(shape output)
+		(at 124.46 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a15badc2-4853-4209-ba1a-ee815235769b")
+	)
+	(hierarchical_label "ADC_25"
+		(shape input)
+		(at 44.45 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4a11268-1cd6-4a81-83d1-90cdd236010f")
+	)
+	(hierarchical_label "CSn3"
+		(shape input)
+		(at 133.35 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a51d0990-94f9-4f73-9e9c-3e14e709cfc4")
+	)
+	(hierarchical_label "ADC_24"
+		(shape input)
+		(at 44.45 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac941c8e-9e52-4854-9a42-1842bfb2eed4")
+	)
+	(hierarchical_label "CSn5"
+		(shape input)
+		(at 72.39 243.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad7ce90a-3764-4694-97db-b6a6e44210b7")
+	)
+	(hierarchical_label "CSn8"
+		(shape input)
+		(at 72.39 251.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0d069c8-382a-4c91-adfa-1702f447d4dc")
+	)
+	(hierarchical_label "ADC_05"
+		(shape input)
+		(at 44.45 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b292a1ec-9d27-4319-ab73-736d297e8aef")
+	)
+	(hierarchical_label "CSn0"
+		(shape input)
+		(at 45.72 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9968063-34a2-4531-bb52-155a08e114a4")
+	)
+	(hierarchical_label "SPI_DATA_IN"
+		(shape output)
+		(at 34.0264 29.4859 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca0c35bd-ce4e-497b-bdd0-a72dc1b0138b")
+	)
+	(hierarchical_label "CSn2"
+		(shape input)
+		(at 44.45 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d14eaee2-9185-4785-a74d-66bd954ca5e0")
+	)
+	(hierarchical_label "SiPM_2_VSET"
+		(shape output)
+		(at 124.46 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3d6ae8e-d7ca-4f17-98dd-552e2a8c74c4")
+	)
+	(hierarchical_label "CSn10"
+		(shape input)
+		(at 72.39 256.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc3b8892-ffdb-4a6a-a9a2-2d438a75d425")
+	)
+	(hierarchical_label "ADC_14"
+		(shape input)
+		(at 134.62 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df95ca5f-05e0-4c22-803b-64eb84e9b21b")
+	)
+	(hierarchical_label "ADC_33"
+		(shape input)
+		(at 133.35 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df9a81fb-b68e-4c91-b9fe-049f0d69b325")
+	)
+	(hierarchical_label "ADC_16"
+		(shape input)
+		(at 134.62 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2f075fd-d9ba-4405-8660-d5f572bdfc23")
+	)
+	(hierarchical_label "ADC_27"
+		(shape input)
+		(at 44.45 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e529fb3b-cb68-4372-b8d9-7dcdecd61f3d")
+	)
+	(hierarchical_label "ADC_13"
+		(shape input)
+		(at 134.62 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8ba9b8b-2c93-4a67-983b-1f3baffebd76")
+	)
+	(hierarchical_label "CSn1"
+		(shape input)
+		(at 134.62 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed75e1c0-b732-4744-8b1d-f4ce19b2d828")
+	)
+	(hierarchical_label "ADC_12"
+		(shape input)
+		(at 134.62 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5205d92-2892-41dc-a10d-5f58240fd74d")
+	)
+	(hierarchical_label "CSn6"
+		(shape input)
+		(at 72.39 246.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fea2266f-d71b-4daa-85cf-6ab7861fe3d7")
+	)
+	(sheet
+		(at 76.2 217.17)
+		(size 45.72 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "24b2ce56-ce27-45f6-8512-ad9a0a8ea456")
+		(property "Sheetname" "DC_Biasing"
+			(at 76.2 216.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DC_Biasing.kicad_sch"
+			(at 76.2 269.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCLK" input
+			(at 76.2 228.6 180)
+			(uuid "9127733f-56f4-41fb-9352-ef8a005bf0ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_TELEM_RTN" output
+			(at 76.2 266.7 180)
+			(uuid "2dbf28d1-ffd2-46d1-ac89-ce176782fabd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_P5V_TELEM" input
+			(at 76.2 219.71 180)
+			(uuid "9cb6e0e5-9a42-4fab-ba87-c168aa3314d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_P3V3_TELEM" input
+			(at 76.2 222.25 180)
+			(uuid "a08081d8-31af-4806-ac27-c567d9289890")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_DATA_IN" input
+			(at 76.2 231.14 180)
+			(uuid "816e0a5e-8164-4bf1-a749-7089c0f6557b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SiPM_4_V-Set" output
+			(at 121.92 243.84 0)
+			(uuid "2628b4bc-b6fe-4a4f-a191-eecec5a59fc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SiPM_5_V-Set" output
+			(at 121.92 246.38 0)
+			(uuid "4e610735-ee1b-47e6-ac18-8039e67f673f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SiPM_0_V-Set" output
+			(at 121.92 233.68 0)
+			(uuid "f8210471-a5da-42d8-be6b-4ee36cbe0de3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SiPM_1_V-Set" output
+			(at 121.92 236.22 0)
+			(uuid "46c6bb6a-ac43-4f8d-8283-2319fcd03dd4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SiPM_2_V-Set" output
+			(at 121.92 238.76 0)
+			(uuid "2c2a7608-cbe2-449b-aa2f-38b8ac1daf79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SiPM_3_V-Set" output
+			(at 121.92 241.3 0)
+			(uuid "809e5267-0d07-49fd-8f61-28d1bd75cabd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SYNCn0" input
+			(at 76.2 241.3 180)
+			(uuid "9fad431c-c450-47cf-bf84-dd5947871205")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SYNCn3" input
+			(at 76.2 243.84 180)
+			(uuid "9df416d0-2bf4-4b3d-b39d-b6c32d2eb5ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SYNCn2" input
+			(at 76.2 246.38 180)
+			(uuid "ae7050e8-ae5b-4213-a634-9c6936735eef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SYNCn4" input
+			(at 76.2 248.92 180)
+			(uuid "4c5dc568-5bec-46bc-b6b6-8658b191716f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SYNCn1" input
+			(at 76.2 251.46 180)
+			(uuid "89da3326-a53e-4329-b748-cdaf4302b9d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SYNCn6" input
+			(at 76.2 254 180)
+			(uuid "333653c4-c780-46f2-b1f2-c1795b26a436")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SYNCn5" input
+			(at 76.2 256.54 180)
+			(uuid "2e1e6e30-ad71-4ba0-8268-4a510cfbb4fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "14_COMMS_TELEM"
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 67.31)
+		(size 25.4 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "476d2df9-79b5-4a4b-b8a8-95c021b98e32")
+		(property "Sheetname" "ADC_CKT"
+			(at 46.99 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC_CKT.kicad_sch"
+			(at 46.99 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_P3V3_TELEM" input
+			(at 46.99 69.85 180)
+			(uuid "0320d949-5821-4da2-b874-7c8b49d00bf2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN2" input
+			(at 46.99 91.44 180)
+			(uuid "a1f79afd-6adf-42bc-8dcb-855aa63c5f9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Chip_Sel" input
+			(at 46.99 72.39 180)
+			(uuid "74791591-ee26-4e17-9141-2c87c30ed38d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN0" input
+			(at 46.99 86.36 180)
+			(uuid "eed68dd7-5fd7-4193-86b5-31bc49278ba4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN1" input
+			(at 46.99 88.9 180)
+			(uuid "6ad30536-87d6-4b26-9629-e9f2cd458ede")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN4" input
+			(at 46.99 96.52 180)
+			(uuid "b01c772a-f397-40f5-bca0-d9d137dc9c9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN5" input
+			(at 46.99 99.06 180)
+			(uuid "539b335a-9830-4242-aa5f-d8b1e38e8e3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN6" input
+			(at 46.99 101.6 180)
+			(uuid "c4d11b49-14eb-46f4-bedb-b5950d1285a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN7" input
+			(at 46.99 104.14 180)
+			(uuid "a9b46d65-289e-482f-9e55-e1ae804ad2e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN3" input
+			(at 46.99 93.98 180)
+			(uuid "87138236-541e-4267-b6fd-593f563c6178")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Data_In" input
+			(at 46.99 76.2 180)
+			(uuid "eac68d9e-7b93-4ab4-91fc-f508aef72f63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" input
+			(at 46.99 78.74 180)
+			(uuid "56a9aa02-87de-4c53-b1dd-cc496b3ec152")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Data_Out" output
+			(at 72.39 72.39 0)
+			(uuid "001e9f7b-28fc-47db-854b-a92271962352")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_TELEM_RTN" output
+			(at 46.99 109.22 180)
+			(uuid "7432b3e9-71b2-46cb-b0fc-2ab7e276d531")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "14_COMMS_TELEM"
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 66.04)
+		(size 25.4 46.99)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7dc16fce-a15f-4ed8-a728-187f364291d7")
+		(property "Sheetname" "ADC_CKT1"
+			(at 137.16 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC_CKT.kicad_sch"
+			(at 137.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_P3V3_TELEM" input
+			(at 137.16 68.58 180)
+			(uuid "771da7d4-0f6e-4967-b55a-2392c16d8a03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN2" input
+			(at 137.16 90.17 180)
+			(uuid "d91175c3-d476-48ba-92de-f0f5f00f3c89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Chip_Sel" input
+			(at 137.16 71.12 180)
+			(uuid "435fc0f6-8736-4e00-b8c6-fc6f7e810de0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN0" input
+			(at 137.16 85.09 180)
+			(uuid "17fc71a8-07cb-468d-b335-feeca90fa1fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN1" input
+			(at 137.16 87.63 180)
+			(uuid "a72057c8-9a7f-46ee-abab-6ee77009cff8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN4" input
+			(at 137.16 95.25 180)
+			(uuid "253ff020-66d4-44db-a9a8-ae839521b2dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN5" input
+			(at 137.16 97.79 180)
+			(uuid "04ecc3ba-2488-4411-9370-a405ff716ac9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN6" input
+			(at 137.16 100.33 180)
+			(uuid "894b3c08-f82a-4f98-a55a-6d4cc1793e46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN7" input
+			(at 137.16 102.87 180)
+			(uuid "724ffd21-216b-4df3-974e-146b04d967b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN3" input
+			(at 137.16 92.71 180)
+			(uuid "f8bc64d8-458f-47dd-985d-b61499c26991")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Data_In" input
+			(at 137.16 74.93 180)
+			(uuid "64c1f90b-f919-45a8-bef7-9897db0b3c3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" input
+			(at 137.16 77.47 180)
+			(uuid "665ddaf6-dfb9-44ac-ad2f-41ad727a4703")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Data_Out" output
+			(at 162.56 71.12 0)
+			(uuid "b86c60ac-fb45-4551-8820-8addaa41f541")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_TELEM_RTN" output
+			(at 137.16 109.22 180)
+			(uuid "f393fc53-e7fe-4e35-abf9-03050d263d6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "14_COMMS_TELEM"
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 129.54)
+		(size 25.4 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "94919370-4a38-48ac-91ee-915eba29e174")
+		(property "Sheetname" "ADC_CKT3"
+			(at 135.89 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC_CKT.kicad_sch"
+			(at 135.89 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_P3V3_TELEM" input
+			(at 135.89 132.08 180)
+			(uuid "18d002f3-4e61-4ea4-ab47-9d0aebab3ed6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN2" input
+			(at 135.89 152.4 180)
+			(uuid "f32fdef4-f33f-4c39-99f7-ea1114ea2f04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Chip_Sel" input
+			(at 135.89 134.62 180)
+			(uuid "bed36e9c-ebd4-4a1b-b593-4ee0d8d30273")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN0" input
+			(at 135.89 147.32 180)
+			(uuid "11e24319-41c7-4fa9-b4c9-88494263b907")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN1" input
+			(at 135.89 149.86 180)
+			(uuid "db457172-34cf-4d8a-912c-2d923858c7d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN4" input
+			(at 135.89 157.48 180)
+			(uuid "45c557bf-76c8-44bd-a9d8-13d0fdadbd32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN5" input
+			(at 135.89 160.02 180)
+			(uuid "cb31c698-b60c-4e80-bd04-e8dd6a65b9cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN6" input
+			(at 135.89 162.56 180)
+			(uuid "d3bc0df2-4b2d-490c-8f18-b2217b9fbb4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN7" input
+			(at 135.89 165.1 180)
+			(uuid "30bc6ce1-d444-441f-9a40-6e3d19bafb0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN3" input
+			(at 135.89 154.94 180)
+			(uuid "2bc4a6c6-4002-4149-9ced-83f29c3a5527")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Data_In" input
+			(at 135.89 138.43 180)
+			(uuid "98f4c683-9f95-4d29-92fb-9121fe697ad1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" input
+			(at 135.89 140.97 180)
+			(uuid "79a52d51-0ba7-46db-936a-887eec6e60dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Data_Out" output
+			(at 161.29 134.62 0)
+			(uuid "ffb0a3e3-f85e-49f3-a6f0-df2289bac875")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_TELEM_RTN" output
+			(at 135.89 173.99 180)
+			(uuid "a456ace9-76cd-4ff7-bbd5-9c6b433a2d66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "14_COMMS_TELEM"
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 129.54)
+		(size 25.4 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "df6ebd9b-e33e-4a2d-a6b1-e069083cb53e")
+		(property "Sheetname" "ADC_CKT2"
+			(at 46.99 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC_CKT.kicad_sch"
+			(at 46.99 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_P3V3_TELEM" input
+			(at 46.99 132.08 180)
+			(uuid "b7201974-dc78-4954-a83b-c615abca7293")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN2" input
+			(at 46.99 152.4 180)
+			(uuid "cb9c3129-e213-4340-a71b-208d417e390b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Chip_Sel" input
+			(at 46.99 134.62 180)
+			(uuid "add888e4-14ba-4b5a-91ee-855adf1225fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN0" input
+			(at 46.99 147.32 180)
+			(uuid "174c446d-50d8-4f40-82d7-990aa96534ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN1" input
+			(at 46.99 149.86 180)
+			(uuid "3e01ee0e-93f4-4578-b669-14e20ae66176")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN4" input
+			(at 46.99 157.48 180)
+			(uuid "fa8bd425-637b-4248-91f3-f9586a618403")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN5" input
+			(at 46.99 160.02 180)
+			(uuid "36352fc7-c0e5-4ba4-b111-2faed0f0bbbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN6" input
+			(at 46.99 162.56 180)
+			(uuid "9eb6103b-cb52-4dc8-b9fc-20bb4d260704")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN7" input
+			(at 46.99 165.1 180)
+			(uuid "cff765b2-15da-4fec-9922-aec57b319d2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN3" input
+			(at 46.99 154.94 180)
+			(uuid "f03fee62-01c9-432c-993c-099a37fda02b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Data_In" input
+			(at 46.99 138.43 180)
+			(uuid "c35c2080-3f9e-4f1c-b742-dc81d1bcd25d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" input
+			(at 46.99 140.97 180)
+			(uuid "8ebc56e1-95a6-4bf4-b531-90be5cc0b80b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Data_Out" output
+			(at 72.39 134.62 0)
+			(uuid "bbef5f96-d7de-4f20-8b48-459d96c6b90a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_TELEM_RTN" output
+			(at 46.99 173.99 180)
+			(uuid "216f6529-6cea-42e3-9381-5cd03ba1b85b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "14_COMMS_TELEM"
+				(path "/b7b038d0-dec0-4686-9ec5-5c1fa7f24a6d/c1313561-0867-4d5d-9c8e-7472262f2465"
+					(page "14")
+				)
+			)
+		)
+	)
+)

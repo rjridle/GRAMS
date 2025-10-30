@@ -1,0 +1,2982 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "81652d3a-374b-46b0-a452-f2b0d983dcf1")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Analog_Dev:LT3080EST-PBF"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 10.16 16.51 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "LT3080EST-PBF"
+				(at 10.16 13.97 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SOT-3_ST_LIT"
+				(at -14.224 13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "LT3080EST-PBF"
+				(at -10.922 19.558 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -17.78 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LT3080EST#PBF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT-3_ST_LIT SOT-3_ST_LIT-M SOT-3_ST_LIT-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LT3080EST-PBF_0_1"
+				(pin power_in line
+					(at -7.62 5.08 0)
+					(length 7.62)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -7.62 90)
+					(length 7.62)
+					(name "SET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 27.94 5.08 180)
+					(length 7.62)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LT3080EST-PBF_1_1"
+				(rectangle
+					(start 0 10.16)
+					(end 20.32 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 27.94 2.54 180)
+					(length 7.62)
+					(name "TAB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Polarized_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_US"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_US_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.778) (xy -1.27 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.032 -1.27)
+					(mid 0 -0.5572)
+					(end 2.032 -1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.302)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Texas Instruments:LM337IMPX_NOPB"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 16.51 13.97 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "LM337IMPX/NOPB"
+				(at 16.51 11.43 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "MP04A_TEX"
+				(at 26.67 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "LM337IMPX/NOPB"
+				(at 27.94 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LM337IMPX/NOPB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MP04A_TEX MP04A_TEX-M MP04A_TEX-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM337IMPX_NOPB_0_1"
+				(pin power_in line
+					(at 0 3.81 0)
+					(length 7.62)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -7.62 90)
+					(length 7.62)
+					(name "ADJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 34.29 6.35 180)
+					(length 7.62)
+					(name "TAB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 34.29 2.54 180)
+					(length 7.62)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM337IMPX_NOPB_1_1"
+				(rectangle
+					(start 7.62 8.89)
+					(end 26.67 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "C18:  Kyocera AVX, TAJA225K035RNJ\nC20:  Kyocera AVX, F921C105MPA"
+		(exclude_from_sim no)
+		(at 53.328 86.0344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c54567ba-a8cf-4e63-9942-67a1bdc024f8")
+	)
+	(text "(DNI)"
+		(exclude_from_sim no)
+		(at 247.3454 92.5298 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "db680101-865f-439e-8359-61fc89c3980c")
+	)
+	(junction
+		(at 231.5177 76.4637)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10275b7c-20d1-483d-89de-027cf1e20dae")
+	)
+	(junction
+		(at 231.5177 80.2737)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12c43db8-1cb5-4fca-b9db-5c36d24386f7")
+	)
+	(junction
+		(at 183.6298 79.0237)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "141d0333-3dcf-4bb8-93de-aa5a5524ff58")
+	)
+	(junction
+		(at 109.8996 102.7224)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ad83d94-4a3d-4907-be0e-44c03753e58e")
+	)
+	(junction
+		(at 121.3296 72.2424)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22a01c0e-5d33-481f-b7ae-c5a48711f0ea")
+	)
+	(junction
+		(at 125.1396 102.7224)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31e38808-5b33-442f-b959-6f9f93ba8365")
+	)
+	(junction
+		(at 227.7847 80.2737)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "459e9253-2e0c-435c-9997-e9c2c152ac1b")
+	)
+	(junction
+		(at 208.4204 93.728)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ef5ae5d-1673-485e-a845-b9c539b4e6ef")
+	)
+	(junction
+		(at 231.5177 100.9425)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e55f07b-01c5-426a-8a4f-7d30a5fb7293")
+	)
+	(junction
+		(at 125.1396 72.2424)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71aecff4-32af-4f42-a05c-63e4cfd8221b")
+	)
+	(junction
+		(at 78.1496 72.2424)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dbe80d0-f323-4a97-98e5-c507623cb4fa")
+	)
+	(junction
+		(at 242.6717 76.4668)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97bbe726-f54a-4582-8a1f-590517861b82")
+	)
+	(junction
+		(at 136.791 102.7176)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a588a5e-4425-4d22-bb0c-4e4ec5cf394e")
+	)
+	(junction
+		(at 99.7396 86.2124)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d168512f-5a42-43dc-a216-a99bc47e7f09")
+	)
+	(junction
+		(at 99.7396 102.7224)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e23a548f-f496-4251-a78a-c5e215689a01")
+	)
+	(junction
+		(at 136.791 72.3143)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3c71255-e35c-40db-a018-1b3e2a286dca")
+	)
+	(junction
+		(at 189.9482 100.9054)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3eb4583-ba0c-4fb6-9962-7155d8ff8081")
+	)
+	(wire
+		(pts
+			(xy 136.791 91.5625) (xy 136.791 102.7176)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07687684-0344-4a7c-9791-d2769be7f82f")
+	)
+	(wire
+		(pts
+			(xy 99.7396 84.9424) (xy 99.7396 86.2124)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21217bf9-2435-4d30-aa9a-912fe0b88001")
+	)
+	(wire
+		(pts
+			(xy 242.6717 76.4637) (xy 231.5177 76.4637)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "249cfb0c-1392-4ec3-8402-eda7c0c68a87")
+	)
+	(wire
+		(pts
+			(xy 227.7847 93.7521) (xy 227.7847 80.2737)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25e4e2a2-a862-4643-ae0a-ea542061acd7")
+	)
+	(wire
+		(pts
+			(xy 242.6717 76.4668) (xy 242.6717 84.1899)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "263d9911-3efb-4e40-97e3-c00d892791b2")
+	)
+	(wire
+		(pts
+			(xy 231.5177 80.2737) (xy 231.5177 83.4168)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "330cfb83-2881-4411-bfd0-3d5cf273abe7")
+	)
+	(wire
+		(pts
+			(xy 136.791 102.7176) (xy 136.791 102.7224)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "382a3bef-8128-4bd7-9b08-cd48e366c9b7")
+	)
+	(wire
+		(pts
+			(xy 66.7196 72.2424) (xy 78.1496 72.2424)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea076b7-a15d-4166-bdbf-c6c53072c472")
+	)
+	(wire
+		(pts
+			(xy 117.5196 74.7824) (xy 121.3296 74.7824)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac37e0d-d2f7-4486-804f-a535fcfee91a")
+	)
+	(wire
+		(pts
+			(xy 78.1496 72.2424) (xy 81.9596 72.2424)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bea1497-be03-4b4d-ada7-913fd439e5f7")
+	)
+	(wire
+		(pts
+			(xy 242.6717 91.8099) (xy 242.6717 100.9425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50567bd1-e802-4418-9bae-66ac6bb8351a")
+	)
+	(wire
+		(pts
+			(xy 125.1396 78.5924) (xy 125.1396 72.2424)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50de3977-8f4b-472d-b575-0dc6932a8919")
+	)
+	(wire
+		(pts
+			(xy 109.8996 86.2124) (xy 99.7396 86.2124)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57553183-bf00-4f56-bf7a-046c77ecbc52")
+	)
+	(wire
+		(pts
+			(xy 109.8996 91.2924) (xy 109.8996 86.2124)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a5de36-e3fd-4217-9148-6929336d5b26")
+	)
+	(wire
+		(pts
+			(xy 194.7907 93.728) (xy 189.9482 93.728)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ef1e3f-5e89-4108-acd4-de2d22c8e341")
+	)
+	(wire
+		(pts
+			(xy 221.4683 93.7521) (xy 227.7847 93.7521)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a6433d1-394e-440e-8fb0-b1cba8126f62")
+	)
+	(wire
+		(pts
+			(xy 231.5177 100.9724) (xy 231.5177 100.9425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c4a2919-7a4a-4e6d-932d-0dd69392b9bb")
+	)
+	(wire
+		(pts
+			(xy 125.1396 72.2424) (xy 121.3296 72.2424)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f60fd64-07be-450e-8d37-9f6e99b634cb")
+	)
+	(wire
+		(pts
+			(xy 183.6298 79.0237) (xy 183.6298 83.5606)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "626eaa47-6689-4d5c-af16-f7f9527ae308")
+	)
+	(wire
+		(pts
+			(xy 109.8996 102.7224) (xy 125.1396 102.7224)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6587f7cd-b19f-445b-836b-2ea9fc179083")
+	)
+	(wire
+		(pts
+			(xy 183.6298 79.0037) (xy 190.6404 79.0037)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69453b85-889d-433e-8317-b35028e837b3")
+	)
+	(wire
+		(pts
+			(xy 136.791 72.2424) (xy 136.791 72.3143)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76753cf6-ea3a-4faf-990e-9267b4c3b347")
+	)
+	(wire
+		(pts
+			(xy 246.2421 76.4668) (xy 242.6717 76.4668)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7731150f-2a0a-4dba-a0f6-b1e9bbc89861")
+	)
+	(wire
+		(pts
+			(xy 189.9482 93.728) (xy 189.9482 100.9054)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79ab77d5-6d29-4680-a409-aa15f690b804")
+	)
+	(wire
+		(pts
+			(xy 78.1496 81.1324) (xy 78.1496 72.2424)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e555ae7-eb60-481c-b3b8-13090a9401b5")
+	)
+	(wire
+		(pts
+			(xy 78.1496 102.7224) (xy 99.7396 102.7224)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb3c204-da00-4055-8a54-0bac60db6b2f")
+	)
+	(wire
+		(pts
+			(xy 227.7847 80.2737) (xy 231.5177 80.2737)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82daa4a5-3e2d-4f08-bffc-c72ee21a81d9")
+	)
+	(wire
+		(pts
+			(xy 242.6717 76.4637) (xy 242.6717 76.4668)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89307263-9d2c-456e-b70f-7aa7623f3382")
+	)
+	(wire
+		(pts
+			(xy 99.7396 86.2124) (xy 99.7396 90.0224)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9038c912-0eca-4343-a0d8-e0ba33bd9a6f")
+	)
+	(wire
+		(pts
+			(xy 183.6298 79.0037) (xy 183.6298 79.0237)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90bbbcfa-dcda-47ca-b9cc-e9c6483baa94")
+	)
+	(wire
+		(pts
+			(xy 121.3296 72.2424) (xy 117.5196 72.2424)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "920f2fef-8357-47ae-a483-f4732ac542e0")
+	)
+	(wire
+		(pts
+			(xy 170.5853 79.0237) (xy 183.6298 79.0237)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92657a8d-44bb-4069-a576-d06115c429c6")
+	)
+	(wire
+		(pts
+			(xy 189.9482 100.9054) (xy 183.6298 100.9054)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9281e06c-00ef-4878-881a-d9ece619a7e2")
+	)
+	(wire
+		(pts
+			(xy 224.9304 76.4637) (xy 231.5177 76.4637)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "973036fa-a302-4c81-9c08-927b372960ef")
+	)
+	(wire
+		(pts
+			(xy 109.8996 102.7224) (xy 99.7396 102.7224)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb59ba1-2afd-4833-a00f-2b6507241c82")
+	)
+	(wire
+		(pts
+			(xy 144.061 102.7176) (xy 136.791 102.7176)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae5a7214-2944-4c70-9c4a-6967b9f2f954")
+	)
+	(wire
+		(pts
+			(xy 208.4204 93.728) (xy 208.4204 93.7521)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b37efe1d-1f6f-410f-b518-a33bd28f74d8")
+	)
+	(wire
+		(pts
+			(xy 136.791 72.3143) (xy 136.791 83.9425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6549a6b-2413-444f-b311-5dd759ceccec")
+	)
+	(wire
+		(pts
+			(xy 125.1396 102.7224) (xy 136.791 102.7224)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f40d5a-639e-4925-a070-9b0c95b37193")
+	)
+	(wire
+		(pts
+			(xy 125.1396 86.2124) (xy 125.1396 102.7224)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd9a0773-ecd3-4e15-92d6-9ed5f66c88be")
+	)
+	(wire
+		(pts
+			(xy 242.6717 100.9425) (xy 231.5177 100.9425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd86daf1-5f0b-442f-8c47-ec44756386fa")
+	)
+	(wire
+		(pts
+			(xy 189.9482 100.9724) (xy 231.5177 100.9724)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdda93dd-eb15-4c65-a2b7-7b872587c175")
+	)
+	(wire
+		(pts
+			(xy 231.5177 76.4637) (xy 231.5177 80.2737)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d161b712-66fe-45f8-85e8-49ce914ce24c")
+	)
+	(wire
+		(pts
+			(xy 189.9482 100.9054) (xy 189.9482 100.9724)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d39dad41-e655-4ae8-9e98-95ad9c58f919")
+	)
+	(wire
+		(pts
+			(xy 208.4204 90.4337) (xy 208.4204 93.728)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d87c09c8-9570-40b9-bb31-1d88ee329e19")
+	)
+	(wire
+		(pts
+			(xy 224.9304 80.2737) (xy 227.7847 80.2737)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de58a5c0-40a9-4fc5-9636-3db5723bc4f9")
+	)
+	(wire
+		(pts
+			(xy 78.1496 88.7524) (xy 78.1496 102.7224)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30cde69-6276-4057-a287-86d324ca001f")
+	)
+	(wire
+		(pts
+			(xy 99.7396 102.7224) (xy 99.7396 97.6424)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6163ef3-d80b-4d87-a615-36cf510d9972")
+	)
+	(wire
+		(pts
+			(xy 145.2115 72.3143) (xy 136.791 72.3143)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e95340e4-8c81-41f3-a96b-90fb1e518e66")
+	)
+	(wire
+		(pts
+			(xy 121.3296 74.7824) (xy 121.3296 72.2424)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea670753-c4e3-48fc-9da6-edbfc637ffba")
+	)
+	(wire
+		(pts
+			(xy 202.4107 93.728) (xy 208.4204 93.728)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edf5d8fc-9e2a-4f3c-9560-8fb75ec0d929")
+	)
+	(wire
+		(pts
+			(xy 183.6298 100.9054) (xy 183.6298 91.1806)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efe661d4-a627-49e7-9bc0-e7bf2b9489df")
+	)
+	(wire
+		(pts
+			(xy 125.1396 72.2424) (xy 136.791 72.2424)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6bcfca9-5294-412e-ab53-b70ef54c709e")
+	)
+	(wire
+		(pts
+			(xy 109.8996 96.3724) (xy 109.8996 102.7224)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f822d5c6-119b-46f9-8bfa-6428d54956e4")
+	)
+	(wire
+		(pts
+			(xy 231.5177 100.9425) (xy 231.5177 91.0368)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd6a184-1c6f-430b-a37e-9424067efd07")
+	)
+	(wire
+		(pts
+			(xy 208.4204 93.7521) (xy 213.8483 93.7521)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff17d5aa-02cc-4957-b062-dfda6c8d79ca")
+	)
+	(label "V_RTN"
+		(at 196.8395 100.9724 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "899a6e64-2282-4898-ad01-b53046bc0ec1")
+	)
+	(hierarchical_label "V_RTN"
+		(shape input)
+		(at 144.061 102.7176 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac7b786a-a3bd-43ed-9d8d-47f729534d3d")
+	)
+	(hierarchical_label "P3p3V"
+		(shape output)
+		(at 145.2115 72.3143 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af08e6f0-d546-4ed0-8f49-5f0a7af67aa1")
+	)
+	(hierarchical_label "M5V_IN"
+		(shape input)
+		(at 170.5853 79.0237 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be35663e-b9d3-4c39-a027-b6bbbe9280f7")
+	)
+	(hierarchical_label "P5V_IN"
+		(shape input)
+		(at 66.7196 72.2424 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d0c875b2-bd69-4636-a48a-3a716984c880")
+	)
+	(hierarchical_label "M3p3V"
+		(shape output)
+		(at 246.2421 76.4668 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9a0609d-e37e-4a59-aaae-7e3056629f0a")
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 78.1496 84.9424 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06b98b68-e633-4b84-bd6a-1d0e6407b48e")
+		(property "Reference" "C18"
+			(at 81.9596 83.0373 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 81.9596 85.5773 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R"
+			(at 78.1496 84.9424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.1496 84.9424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 µF Molded Tantalum Capacitors 20 V 0805 (2012 Metric) 20Ohm"
+			(at 78.1496 84.9424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "478-8927-1-ND"
+			(at 78.1496 84.9424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 78.1496 84.9424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "TAJR105K020RNJ"
+			(at 78.1496 84.9424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 78.1496 84.9424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805 (2012 Metric)"
+			(at 78.1496 84.9424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 78.1496 84.9424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "919767fc-3a54-40cb-a110-62edc00f8fcf")
+		)
+		(pin "2"
+			(uuid "a1b3afef-623c-4ab4-9265-6692f9ee4a2e")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/a2c962b2-1348-49d6-baa4-b512eaf6fa42/4f397e84-b1d4-499f-83d8-2101ca471a6a"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Texas Instruments:LM337IMPX_NOPB")
+		(at 190.6404 82.8137 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23dd4e59-668c-44a3-9276-3421015577e1")
+		(property "Reference" "U19"
+			(at 207.7854 69.1045 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LM337IMPX/NOPB"
+			(at 207.7854 71.6445 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Texas_Instruments:LM337IMPX"
+			(at 217.3104 89.1637 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "LM337IMPX/NOPB"
+			(at 218.5804 85.3537 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Linear Voltage Regulator IC Negative Adjustable 1 Output 1.5A SOT-223-4"
+			(at 190.6404 71.3837 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "LM337IMPX/NOPBCT-ND"
+			(at 190.6404 82.8137 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 190.6404 82.8137 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "LM337IMPX/NOPB"
+			(at 190.6404 82.8137 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 190.6404 82.8137 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-223-4"
+			(at 190.6404 82.8137 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 190.6404 82.8137 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "99ad361a-ebe5-47b1-b39b-bad20c01eb25")
+		)
+		(pin "2"
+			(uuid "d1a6c261-25c7-4b9c-91dd-8f2ff0de2f6b")
+		)
+		(pin "3"
+			(uuid "f044581e-ccc1-46b4-ab67-ee6a3b32a505")
+		)
+		(pin "1"
+			(uuid "bdb74993-29cc-43a0-b6c2-3ba7d98463ad")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/a2c962b2-1348-49d6-baa4-b512eaf6fa42/4f397e84-b1d4-499f-83d8-2101ca471a6a"
+					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 183.6298 87.3706 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d3bbd82-c32e-48f5-8928-28908772622c")
+		(property "Reference" "C21"
+			(at 186.717 86.7355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 186.717 89.2755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R"
+			(at 183.6298 87.3706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 183.6298 87.3706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 µF Molded Tantalum Capacitors 20 V 0805 (2012 Metric) 20Ohm"
+			(at 183.6298 87.3706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "478-8927-1-ND"
+			(at 183.6298 87.3706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 183.6298 87.3706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "TAJR105K020RNJ"
+			(at 183.6298 87.3706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 183.6298 87.3706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805 (2012 Metric)"
+			(at 183.6298 87.3706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 183.6298 87.3706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9b34ba3-937a-46a0-b9e3-8247eaac3aed")
+		)
+		(pin "2"
+			(uuid "c80ded52-43c0-461a-bcac-96001ee58f28")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/a2c962b2-1348-49d6-baa4-b512eaf6fa42/4f397e84-b1d4-499f-83d8-2101ca471a6a"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 242.6717 87.9999 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f632156-accd-430e-85d3-0e78c0b6ed5c")
+		(property "Reference" "R58"
+			(at 246.7702 86.9932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120"
+			(at 246.8421 89.8694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 244.4497 87.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.6717 87.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "120 Ohms ±0.1% 0.21W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film"
+			(at 242.6717 87.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 242.6717 87.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 242.6717 87.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 242.6717 87.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "541-3165-1-ND"
+			(at 242.6717 87.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "TNPW0603120RBEEA"
+			(at 242.6717 87.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 242.6717 87.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7d5b14e-0962-49ab-a213-887595169387")
+		)
+		(pin "2"
+			(uuid "c0a1a7ed-7d63-449c-a811-3b35d7a7421d")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/a2c962b2-1348-49d6-baa4-b512eaf6fa42/4f397e84-b1d4-499f-83d8-2101ca471a6a"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Dev:LT3080EST-PBF")
+		(at 89.5796 77.3224 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a9a526d-c8cb-4fb8-9198-28f4783a9857")
+		(property "Reference" "U3"
+			(at 99.7396 62.0824 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LT3080EST-PBF"
+			(at 99.7396 64.6224 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Analog_Devices:SOT-3_ST_LIT"
+			(at 75.3556 64.1144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "LT3080EST-PBF"
+			(at 78.6576 57.7644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Linear Voltage Regulator IC Positive Adjustable 1 Output 1.1A SOT-223-3"
+			(at 71.7996 70.9724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "505-LT3080EST#PBF-ND"
+			(at 89.5796 77.3224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 89.5796 77.3224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "LT3080EST#PBF"
+			(at 89.5796 77.3224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices Inc."
+			(at 89.5796 77.3224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-223-3"
+			(at 89.5796 77.3224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 89.5796 77.3224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6cb76083-f2e9-44ee-9fcb-c2c4845b631a")
+		)
+		(pin "2"
+			(uuid "46c84893-0bb4-4f78-8651-022641b44186")
+		)
+		(pin "3"
+			(uuid "508a8775-531b-437b-be8a-0cfad93d47f2")
+		)
+		(pin "1"
+			(uuid "dad60987-1fd7-46a3-b27d-8a9cb5a75b68")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/a2c962b2-1348-49d6-baa4-b512eaf6fa42/4f397e84-b1d4-499f-83d8-2101ca471a6a"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 125.1396 82.4024 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cd9b54b-fe8c-494c-99e7-645dce562c3a")
+		(property "Reference" "C20"
+			(at 128.9496 80.4973 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 128.9496 83.0373 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S"
+			(at 125.1396 82.4024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.1396 82.4024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.2 µF Molded Tantalum Capacitors 16 V 1206 (3216 Metric) 5.9Ohm"
+			(at 125.1396 82.4024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "718-1131-1-ND"
+			(at 125.1396 82.4024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 125.1396 82.4024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "293D225X9016A2TE3"
+			(at 125.1396 82.4024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Sprague"
+			(at 125.1396 82.4024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206 (3216 Metric)"
+			(at 125.1396 82.4024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 125.1396 82.4024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aaf21579-1f75-4a8e-8bd4-05a59f7819b4")
+		)
+		(pin "2"
+			(uuid "5539f6f9-d29c-46b2-b5db-bab88140047a")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/a2c962b2-1348-49d6-baa4-b512eaf6fa42/4f397e84-b1d4-499f-83d8-2101ca471a6a"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 231.5177 87.2268 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9746e766-3a88-48e7-a6c7-f4c02407e799")
+		(property "Reference" "C22"
+			(at 234.6049 86.5917 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 234.6049 89.1317 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R"
+			(at 231.5177 87.2268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.5177 87.2268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 µF Molded Tantalum Capacitors 20 V 0805 (2012 Metric) 20Ohm"
+			(at 231.5177 87.2268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "478-8927-1-ND"
+			(at 231.5177 87.2268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 231.5177 87.2268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "TAJR105K020RNJ"
+			(at 231.5177 87.2268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 231.5177 87.2268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805 (2012 Metric)"
+			(at 231.5177 87.2268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 231.5177 87.2268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6138d1e-03c7-471a-8ba6-2c30f70994a7")
+		)
+		(pin "2"
+			(uuid "1d10139a-669c-463b-b2b7-e53d2678b9d8")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/a2c962b2-1348-49d6-baa4-b512eaf6fa42/4f397e84-b1d4-499f-83d8-2101ca471a6a"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 198.6007 93.728 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3c777fe-a5a8-40d8-9629-d9b62cf4eb40")
+		(property "Reference" "R56"
+			(at 193.136 91.9304 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "196"
+			(at 203.7778 91.9304 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 198.6007 95.506 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.6007 93.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "196 Ohms ±0.1% 0.21W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film"
+			(at 198.6007 93.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 198.6007 93.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 198.6007 93.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 198.6007 93.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "541-TNPW0603196RBEEACT-ND"
+			(at 198.6007 93.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "TNPW0603196RBEEA"
+			(at 198.6007 93.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 198.6007 93.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9ba8e17-16ab-490c-8a1a-e76b9403cd09")
+		)
+		(pin "2"
+			(uuid "00f5c327-383b-4982-a560-51582f5100fd")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/a2c962b2-1348-49d6-baa4-b512eaf6fa42/4f397e84-b1d4-499f-83d8-2101ca471a6a"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.7396 93.8324 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d28b499e-8d44-4573-a691-4f96964494bb")
+		(property "Reference" "R54"
+			(at 102.2796 92.5623 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330k"
+			(at 102.2796 95.1023 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 97.9616 93.8324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.7396 93.8324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "330 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 99.7396 93.8324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 99.7396 93.8324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 99.7396 93.8324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 99.7396 93.8324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "311-330KGRCT-ND"
+			(at 99.7396 93.8324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "RC0603JR-07330KL"
+			(at 99.7396 93.8324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 99.7396 93.8324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7d878a40-92f0-4823-b695-5802108ce533")
+		)
+		(pin "1"
+			(uuid "24f97df1-5d96-48da-a067-9f74639e026f")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/a2c962b2-1348-49d6-baa4-b512eaf6fa42/4f397e84-b1d4-499f-83d8-2101ca471a6a"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 109.8996 93.8324 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3cfb21f-c327-4c9b-a1e8-10e2ecc66eb2")
+		(property "Reference" "C19"
+			(at 112.4396 92.5686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 112.4396 95.1086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 109.8996 93.8324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.8996 93.8324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 109.8996 93.8324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "399-C0603C104K5RAC7411CT-ND"
+			(at 109.8996 93.8324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 109.8996 93.8324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "C0603C104K5RAC7411"
+			(at 109.8996 93.8324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 109.8996 93.8324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 109.8996 93.8324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 109.8996 93.8324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "171434bb-16c6-4a51-a820-329c6f5717c7")
+		)
+		(pin "1"
+			(uuid "da2c456b-8558-403e-83bb-7294219dc38d")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/a2c962b2-1348-49d6-baa4-b512eaf6fa42/4f397e84-b1d4-499f-83d8-2101ca471a6a"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 217.6583 93.7521 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfd2686c-67ce-41ba-b8da-048381eb5aad")
+		(property "Reference" "R57"
+			(at 212.1936 91.9545 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120"
+			(at 222.8354 91.9545 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 217.6583 95.5301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.6583 93.7521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "120 Ohms ±0.1% 0.21W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film"
+			(at 217.6583 93.7521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 217.6583 93.7521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 217.6583 93.7521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 217.6583 93.7521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "541-3165-1-ND"
+			(at 217.6583 93.7521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "TNPW0603120RBEEA"
+			(at 217.6583 93.7521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 217.6583 93.7521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20a7c7f1-4ea1-43fb-a0ff-bfab610c386c")
+		)
+		(pin "2"
+			(uuid "1a7b4f4d-9c1d-4ea9-aa0d-7db3e2b8f0a7")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/a2c962b2-1348-49d6-baa4-b512eaf6fa42/4f397e84-b1d4-499f-83d8-2101ca471a6a"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 136.791 87.7525 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "f1d7baee-9ff7-43fa-9b56-67c340032e93")
+		(property "Reference" "R55"
+			(at 139.6299 86.4824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "(DNI)"
+			(at 139.6299 89.0224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 135.013 87.7525 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 136.791 87.7525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 136.791 87.7525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 136.791 87.7525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 136.791 87.7525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" ""
+			(at 136.791 87.7525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a8187a18-592a-4fe1-bf47-d582dbad3572")
+		)
+		(pin "1"
+			(uuid "ef7de2a2-15c8-47ab-ad1b-cd3298f3e637")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/a2c962b2-1348-49d6-baa4-b512eaf6fa42/4f397e84-b1d4-499f-83d8-2101ca471a6a"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

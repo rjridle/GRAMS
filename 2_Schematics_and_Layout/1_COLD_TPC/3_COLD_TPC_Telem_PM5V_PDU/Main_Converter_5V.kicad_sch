@@ -1,0 +1,4897 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "82076eba-e7ff-4cf0-89a8-1c9a210cd5ad")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Bel_Fuse_Inc:VCD40-D12-S2R5"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "VCD40-D12-S2R5"
+				(at -12.7 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Bel_Fuse_Inc:CONV_VCD40-D12-S2R5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://belfuse.com/media/datasheets/products/power-supplies/VCD40.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Isolated Module DC DC Converter 1 Output 2.5V 10A 9V - 18V Input"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Bel Power Solutions"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "ManufacturerPN" "VCD40-D12-S2R5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "VendorPN" "VCD40-D12-S2R5-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "VendorURL" "https://www.digikey.com/en/products/detail/bel-power-solutions/VCD40-D12-S2R5/2162219?s=N4IgjCBcoGwJxVAYygMwIYBsDOBTANCAPZQDaIALGGABxwDsIAuoQA4AuUIAyuwE4BLAHYBzEAF9CDRtBApIGHAWJkQAJjhqYVZm06Qe-YWMngK9CLPmK8hEpHIBmAAwBWczV0gOXXoNEShGCuaq6IcmhYtioO4I5qzs6MLN76hv4m4uJAA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "1.03"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Efficiency" "88%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Input Voltage" "9V~18V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Min Input Current" "0.2A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Max Input Current" "2.367A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Max Output Current" "10A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Max Ripple/Noise" "50mVp/p"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCD40-D12-S2R5_0_0"
+				(rectangle
+					(start -12.7 -15.24)
+					(end 12.7 12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "+VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "-VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "ON/OFF"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "+VO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "-VO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "+S"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "-S"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "TRIM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "VCD40-D12-S2R5_1_1"
+				(pin no_connect line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CUI:PDQ10-Q24-S3-D"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.725 10.1799 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "PDQ10-Q24-S3-D"
+				(at -12.7248 -15.2698 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PDQ10-Q24-S3-D:CONV_PDQ10-Q24-S3-D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "CUI Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "10 W, 4:1 Input Range, Single/Dual Regulated Output, 1500 Vdc Isolation, Dc-Dc Converter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "DIP-6 CUI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/PDQ10-Q24-S3-D/CUI/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "1.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/PDQ10-Q24-S3-D/CUI/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "PDQ10-Q24-S3-D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "CUI_purchase_URL" "https://www.cui.com/product/dc-dc-converters/isolated/pdq10-d-series?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "CUI Inc"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "PDQ10-Q24-S3-D_0_0"
+				(rectangle
+					(start -12.7 -12.7)
+					(end 12.7 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "+VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "-VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "REMOTE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "+VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "-VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "TRIM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CoilCraft:MLC7542"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 5.334 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 6.35 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 6.35 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 6.35 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 6.35 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Coil Craft"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Man. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" "Coil Craft"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dist. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MLC7542_0_1"
+				(arc
+					(start 1.27 0)
+					(mid 1.642 0.898)
+					(end 2.54 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 1.27)
+					(mid 3.438 0.898)
+					(end 3.81 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 4.182 0.898)
+					(end 5.08 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 1.27)
+					(mid 5.978 0.898)
+					(end 6.35 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 6.35 0)
+					(mid 6.722 0.898)
+					(end 7.62 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 1.27)
+					(mid 8.518 0.898)
+					(end 8.89 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.89 0)
+					(mid 9.262 0.898)
+					(end 10.16 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 10.16 1.27)
+					(mid 11.058 0.898)
+					(end 11.43 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MLC7542_1_1"
+				(rectangle
+					(start 0 2.54)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Polarized_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_US"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_US_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.778) (xy -1.27 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.032 -1.27)
+					(mid 0 -0.5572)
+					(end 2.032 -1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.302)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "CoilCraft\nMLC1538-152ML_"
+		(exclude_from_sim no)
+		(at 82.3315 66.0091 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1fe24450-1c67-4f10-8e52-f7eae117a5d7")
+	)
+	(text "F_{Switching} = 270kHz"
+		(exclude_from_sim no)
+		(at 169.1995 66.0091 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3aa17663-75a1-4877-aa29-18f6cfafd42c")
+	)
+	(text "KEMET\nT491C106M025AT7280"
+		(exclude_from_sim no)
+		(at 92.2375 99.5371 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "714a641c-785b-4146-9b58-be34b9c1e991")
+	)
+	(text "Bel Fuse Inc.\n0685T6000-01\n(6A Slow Blow)"
+		(exclude_from_sim no)
+		(at 53.3097 66.9507 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8e840a19-da00-47c6-9d9c-0df72b98c509")
+	)
+	(text "KYOCERA AVX\nTAJD107M016RNJ"
+		(exclude_from_sim no)
+		(at 61.7005 89.3261 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b6328784-6395-42f4-8c1f-bc9a40ee1246")
+	)
+	(junction
+		(at 120.1775 73.6291)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "219a889b-1ac2-4f4a-9c17-d1ab04259ea6")
+	)
+	(junction
+		(at 238.2875 93.9491)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "244b0e78-29c8-49a0-8ddb-8d14dba26982")
+	)
+	(junction
+		(at 57.3778 73.6291)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a745802-2c7a-4ee1-b1f0-fb6c35737119")
+	)
+	(junction
+		(at 216.6975 93.9491)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47be207a-1765-42c4-8b5d-b1766f008352")
+	)
+	(junction
+		(at 228.1275 71.0891)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e96c343-448a-495b-bd68-228156c7190a")
+	)
+	(junction
+		(at 108.7475 73.6291)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f4d10ce-756a-49bb-a12d-b9a320a1b727")
+	)
+	(junction
+		(at 205.2675 71.0891)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8123da6a-4bd9-407a-b4b0-535ea3766474")
+	)
+	(junction
+		(at 238.2875 71.0891)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8331b0af-2532-4712-ae29-33642356538e")
+	)
+	(junction
+		(at 94.5753 73.6291)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85796137-0887-4bdf-80e6-198e79585e17")
+	)
+	(junction
+		(at 252.1926 93.9491)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d27a1a9-1a20-47ab-87db-5816b28bc2c5")
+	)
+	(junction
+		(at 94.5753 95.2191)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8cdde66-e345-4c3f-9227-0e9a9d2c70d1")
+	)
+	(junction
+		(at 205.2675 93.9491)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1ca816c-9ac7-4c0f-a479-46b44e02ad5f")
+	)
+	(junction
+		(at 131.6075 95.2191)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbac6bc2-1f25-468f-b1d1-de36da7ec004")
+	)
+	(junction
+		(at 252.1926 71.0891)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc528ba2-ee8e-40ca-b56f-80e85287927a")
+	)
+	(junction
+		(at 70.6475 95.2191)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2c37c69-5f11-453a-b5bf-a0300fa55786")
+	)
+	(junction
+		(at 131.6075 73.6291)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec8f23ca-86dd-46fa-acc6-014d186f535e")
+	)
+	(junction
+		(at 108.7475 95.2191)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f15f2b89-372b-4704-967b-ef722f0084e6")
+	)
+	(junction
+		(at 228.1275 93.9491)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6d4f200-6120-4632-8026-5be0f9c0b1fb")
+	)
+	(junction
+		(at 120.1775 95.2191)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd30eb01-a04f-4d7b-b240-59d996c10785")
+	)
+	(junction
+		(at 216.6975 71.0891)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff409065-6fd1-46be-a589-eed39b8bd971")
+	)
+	(no_connect
+		(at 187.4875 92.6791)
+		(uuid "3854f078-e51f-4de0-a48d-c3b78d66e3f5")
+	)
+	(wire
+		(pts
+			(xy 216.6975 71.0891) (xy 228.1275 71.0891)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06775f08-1215-4bdd-b030-c77f394beec4")
+	)
+	(wire
+		(pts
+			(xy 70.6475 95.2191) (xy 73.1875 95.2191)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1452f84e-7c07-4476-9c63-38ed735724b2")
+	)
+	(wire
+		(pts
+			(xy 187.4875 82.5191) (xy 200.1875 82.5191)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15dcb338-e20d-4091-9119-7039907ead8e")
+	)
+	(wire
+		(pts
+			(xy 238.2875 93.9491) (xy 252.1926 93.9491)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1666f227-4d82-468a-bff4-205b97f7d6ca")
+	)
+	(wire
+		(pts
+			(xy 228.1275 83.7891) (xy 228.1275 93.9491)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16b68277-ed3e-47d3-a97e-ed49c03cd7f8")
+	)
+	(wire
+		(pts
+			(xy 141.7675 79.9791) (xy 151.9275 79.9791)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16bc279d-d2b2-430e-9848-8af58a7558a5")
+	)
+	(wire
+		(pts
+			(xy 205.2675 71.0891) (xy 205.2675 78.7091)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d571eff-b160-4440-a67c-f4243b488d81")
+	)
+	(wire
+		(pts
+			(xy 43.9775 95.2191) (xy 70.6475 95.2191)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21370208-30a1-40a6-b8cc-e98665a8157b")
+	)
+	(wire
+		(pts
+			(xy 94.5753 87.3382) (xy 94.5753 95.2191)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24499252-2946-4911-87c4-47f7674784fe")
+	)
+	(wire
+		(pts
+			(xy 108.7475 86.3291) (xy 108.7475 95.2191)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f3a56f-330a-49d2-8c39-0c41ed5509e7")
+	)
+	(wire
+		(pts
+			(xy 68.7199 78.0683) (xy 70.6475 78.0683)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc4211e-acc5-4e38-9694-ff827c1ea01f")
+	)
+	(wire
+		(pts
+			(xy 108.7475 73.6291) (xy 108.7475 81.2491)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307ea3f8-903e-464f-ac70-d50637fc9c23")
+	)
+	(wire
+		(pts
+			(xy 200.1875 82.5191) (xy 200.1875 93.9491)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32e3b5c3-496e-4b0a-b5b2-6a751dd5ed8a")
+	)
+	(wire
+		(pts
+			(xy 252.1926 85.353) (xy 252.1926 93.9491)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "371a7637-159a-40ae-863e-f575066a1a88")
+	)
+	(wire
+		(pts
+			(xy 43.9775 73.6291) (xy 49.0575 73.6291)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3738105b-f5e4-4f20-a73d-2c14ba32b003")
+	)
+	(wire
+		(pts
+			(xy 216.6975 83.7891) (xy 216.6975 93.9491)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "379a6ad1-500e-433e-acaf-f21d1dd9e00c")
+	)
+	(wire
+		(pts
+			(xy 94.5753 95.2191) (xy 90.9675 95.2191)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bb5248c-0be5-43d0-8a02-c2f01d4d02f7")
+	)
+	(wire
+		(pts
+			(xy 131.6075 95.2191) (xy 120.1775 95.2191)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b01000e-b93a-4838-b899-2a1031a87ab3")
+	)
+	(wire
+		(pts
+			(xy 148.0517 87.5991) (xy 151.9275 87.5991)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e3c2f7a-31c4-4485-9f7f-ff036fba0385")
+	)
+	(wire
+		(pts
+			(xy 141.7675 82.5191) (xy 151.9275 82.5191)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "506917f4-b672-4cfd-ad0a-aa5b83a308e3")
+	)
+	(wire
+		(pts
+			(xy 205.2675 83.7891) (xy 205.2675 93.9491)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5306cec3-162c-4567-ba69-02e1ec334e04")
+	)
+	(wire
+		(pts
+			(xy 228.1275 93.9491) (xy 238.2875 93.9491)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57a25cea-17a0-40d2-a2f5-b3a865a07132")
+	)
+	(wire
+		(pts
+			(xy 238.2875 71.0891) (xy 238.2875 77.4391)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57faaba1-fa7b-4df1-b62e-e7799a70aa69")
+	)
+	(wire
+		(pts
+			(xy 196.3775 71.0891) (xy 205.2675 71.0891)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a35d890-16c1-4248-9882-84af5a71cf18")
+	)
+	(wire
+		(pts
+			(xy 216.6975 71.0891) (xy 216.6975 78.7091)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b9a585d-2c79-4df9-9c52-5ba6f367813a")
+	)
+	(wire
+		(pts
+			(xy 56.6775 73.6291) (xy 57.3778 73.6291)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f2ae93c-71ba-4093-b481-542c13e3defb")
+	)
+	(wire
+		(pts
+			(xy 205.2675 93.9491) (xy 216.6975 93.9491)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61888cb4-0e50-441e-b4c1-1d05be056264")
+	)
+	(wire
+		(pts
+			(xy 133.7223 104.6472) (xy 148.0517 104.6472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c203e39-8d34-4b03-b7c2-c94b3b4d3bb9")
+	)
+	(wire
+		(pts
+			(xy 228.1275 71.0891) (xy 228.1275 78.7091)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f67691b-5574-499b-9bf6-6b23898258ed")
+	)
+	(wire
+		(pts
+			(xy 196.3775 71.0891) (xy 196.3775 79.9791)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b5ccc5-9f07-4264-bf63-26ba99efa1dc")
+	)
+	(wire
+		(pts
+			(xy 94.5753 79.7182) (xy 94.5753 73.6291)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7784e4a3-b9b9-4b5c-8ae7-47de53feed75")
+	)
+	(wire
+		(pts
+			(xy 94.5753 95.2191) (xy 108.7475 95.2191)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "793d7312-5a2d-4fd8-bef8-34e197f803fe")
+	)
+	(wire
+		(pts
+			(xy 148.0517 104.6472) (xy 148.0517 87.5991)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f56ec21-001f-4e4c-988f-ee2a968041c9")
+	)
+	(wire
+		(pts
+			(xy 131.6075 73.6291) (xy 131.6075 81.2491)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "874c1d1e-36e9-4886-a7b6-f1ad8ff223c7")
+	)
+	(wire
+		(pts
+			(xy 61.0999 78.0683) (xy 57.3778 78.0683)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb051f2-d21a-48fc-a577-c438dd0b3691")
+	)
+	(wire
+		(pts
+			(xy 200.1875 93.9491) (xy 205.2675 93.9491)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cca8aee-ab82-406a-861b-6795c66b8081")
+	)
+	(wire
+		(pts
+			(xy 108.7475 73.6291) (xy 120.1775 73.6291)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94071c7d-c9a9-4299-adac-33a40fb21f3e")
+	)
+	(wire
+		(pts
+			(xy 252.1926 77.733) (xy 252.1926 71.0891)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9476b755-25bc-4132-822b-f055943b273b")
+	)
+	(wire
+		(pts
+			(xy 120.1775 73.6291) (xy 131.6075 73.6291)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45419e9-8f12-4ac7-ae8f-7d91f8d61cb8")
+	)
+	(wire
+		(pts
+			(xy 57.3778 78.0683) (xy 57.3778 73.6291)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a692c26d-706a-4f40-a574-9403070d14e6")
+	)
+	(wire
+		(pts
+			(xy 205.2675 71.0891) (xy 216.6975 71.0891)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab9f315a-9f25-43e1-9204-78921cd3b590")
+	)
+	(wire
+		(pts
+			(xy 196.3775 79.9791) (xy 187.4875 79.9791)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abcd0b4a-dff0-4104-9538-fa797da037ef")
+	)
+	(wire
+		(pts
+			(xy 131.6075 86.3291) (xy 131.6075 95.2191)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abd81abc-a67e-4bcf-b357-eb3b9cdc9fc1")
+	)
+	(wire
+		(pts
+			(xy 141.7675 73.6291) (xy 141.7675 79.9791)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b757e8db-78cc-4e91-8222-87970ab27dd8")
+	)
+	(wire
+		(pts
+			(xy 228.1275 71.0891) (xy 238.2875 71.0891)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4c62d84-3fb7-401e-9ade-3d84c6b66bc3")
+	)
+	(wire
+		(pts
+			(xy 57.3778 73.6291) (xy 73.1875 73.6291)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccc5949a-5fcf-45e4-800e-63cd3de1bd4f")
+	)
+	(wire
+		(pts
+			(xy 70.6475 87.5991) (xy 70.6475 95.2191)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd92f298-2a27-45c0-b359-221dcc5a3507")
+	)
+	(wire
+		(pts
+			(xy 238.2875 71.0891) (xy 252.1926 71.0891)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d02ee494-0636-41ff-96a4-145ae563e843")
+	)
+	(wire
+		(pts
+			(xy 70.6475 78.0683) (xy 70.6475 79.9791)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d61004f3-c026-4ea3-88e9-ec82b1e366c6")
+	)
+	(wire
+		(pts
+			(xy 131.6075 73.6291) (xy 141.7675 73.6291)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d78c27df-2200-43ae-a1cd-a48ce087823b")
+	)
+	(wire
+		(pts
+			(xy 216.6975 93.9491) (xy 228.1275 93.9491)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ef33a0-c4d8-4535-9f5c-fdff91ad397d")
+	)
+	(wire
+		(pts
+			(xy 94.5753 73.6291) (xy 90.9675 73.6291)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da66e66b-9c40-4edd-8ed8-b492377cc10a")
+	)
+	(wire
+		(pts
+			(xy 238.2875 85.0591) (xy 238.2875 93.9491)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db4475e3-7e82-4884-85d3-d1d66e1bb78f")
+	)
+	(wire
+		(pts
+			(xy 141.7675 95.2191) (xy 131.6075 95.2191)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddbbe815-3d57-4cf2-b932-b35ecccc2506")
+	)
+	(wire
+		(pts
+			(xy 141.7675 82.5191) (xy 141.7675 95.2191)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df5b51a3-fee5-4b73-b148-8c1aae6a8a55")
+	)
+	(wire
+		(pts
+			(xy 252.1926 71.0891) (xy 258.6075 71.0891)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e44fedfd-5cb0-4753-ade2-21a85bb3b79a")
+	)
+	(wire
+		(pts
+			(xy 120.1775 95.2191) (xy 108.7475 95.2191)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda54982-c023-4845-a99e-948fcc29b5aa")
+	)
+	(wire
+		(pts
+			(xy 94.5753 73.6291) (xy 108.7475 73.6291)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f02319bf-62e4-487f-99c3-ef46a6a5b163")
+	)
+	(wire
+		(pts
+			(xy 120.1775 86.3291) (xy 120.1775 95.2191)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5657835-32c8-4923-b5e4-27badf30e6dd")
+	)
+	(wire
+		(pts
+			(xy 252.1926 93.9491) (xy 258.6075 93.9491)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f98b7211-9e3d-4412-b85a-b3d1c0a817ef")
+	)
+	(wire
+		(pts
+			(xy 120.1775 73.6291) (xy 120.1775 81.2491)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd6a9e03-5a64-4a31-b348-f2250404bd9e")
+	)
+	(label "V_POS"
+		(at 101.1275 73.6291 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c502c63-e421-4ef2-ae01-6e34061eb851")
+	)
+	(label "V_RTN"
+		(at 99.8575 95.2191 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b65df238-a8da-459a-ad50-9d1b3b98e325")
+	)
+	(hierarchical_label "V_P5_OUT"
+		(shape output)
+		(at 258.6075 71.0891 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "528b6c80-53bc-4ac5-80be-8cf857946ecb")
+	)
+	(hierarchical_label "V_SEC_RTN"
+		(shape output)
+		(at 43.9775 95.2191 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8bf2dbc1-08e3-4bf9-9360-2b3f96c902d2")
+	)
+	(hierarchical_label "Enable"
+		(shape input)
+		(at 133.7223 104.6472 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "983d1ba3-9b18-4185-b4d3-248675fbb430")
+	)
+	(hierarchical_label "V_SEC_IN"
+		(shape input)
+		(at 43.9775 73.6291 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c4530a5-6ba7-4c03-b252-c444f618de2e")
+	)
+	(hierarchical_label "V_P5_RTN"
+		(shape input)
+		(at 258.6075 93.9491 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf87a9e5-263d-4dbb-8f81-aeffe09a766e")
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 52.8675 73.6291 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01f9aff0-25dc-446f-b175-bfb6b0fb3c1a")
+		(property "Reference" "F2"
+			(at 52.8531 71.5171 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 52.9102 75.6839 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 52.8675 75.4071 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.8675 73.6291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 52.8675 73.6291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "5923-0685T6000-01CT-ND"
+			(at 52.8675 73.6291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 52.8675 73.6291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "0685T6000-01"
+			(at 52.8675 73.6291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bel Fuse Inc."
+			(at 52.8675 73.6291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206 (3216 Metric)"
+			(at 52.8675 73.6291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 52.8675 73.6291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 52.8675 73.6291 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorPN" "5923-0685T6000-01CT-ND"
+			(at 52.8675 73.6291 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorURL" "https://www.digikey.com/en/products/detail/bel-fuse-inc/0685T6000-01/8732832?s=N4IgTCBcDaIAwDYAcBWAKguWC0cCMIAugL5A"
+			(at 52.8675 73.6291 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "664e124c-11a0-4c3e-a9ff-e24f8d51e954")
+		)
+		(pin "1"
+			(uuid "ff29866e-e645-4f06-86b0-2f9b9fcf2bde")
+		)
+		(instances
+			(project "3 - Charge_Pre-Amplifier"
+				(path "/8872ae30-0c8f-44d7-9c5d-f8ffe57ea57b/7382ebee-cdda-4f9b-bffd-355cf1033cd4"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 228.1275 81.2491 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56a2902e-93ba-46a7-9426-b36e2b640b65")
+		(property "Reference" "C23"
+			(at 230.6675 79.9853 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 230.6675 82.5253 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 228.1275 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.1275 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 228.1275 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "1276-1184-1-ND"
+			(at 228.1275 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 228.1275 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "CL10B105KA8NNNC"
+			(at 228.1275 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 228.1275 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 228.1275 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 228.1275 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 228.1275 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorPN" "1276-1184-1-ND"
+			(at 228.1275 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorURL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KA8NNNC/3886842?s=N4IgTCBcDaIMIBkCMAGAQqgrAaQIIA4A5YuEAXQF8g"
+			(at 228.1275 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "90d721ba-7ca9-45d4-a000-fdc2717b09a1")
+		)
+		(pin "1"
+			(uuid "eab1ba8f-0b2a-4536-b530-59f96b01dad2")
+		)
+		(instances
+			(project "3 - Charge_Pre-Amplifier"
+				(path "/8872ae30-0c8f-44d7-9c5d-f8ffe57ea57b/7382ebee-cdda-4f9b-bffd-355cf1033cd4"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 205.2675 81.2491 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61f629eb-2129-458b-984a-38b838d1cee6")
+		(property "Reference" "C21"
+			(at 207.8075 79.9853 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.01uF"
+			(at 207.8075 82.5253 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 205.2675 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.2675 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 205.2675 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "478-KGM15AR71H103KTCT-ND"
+			(at 205.2675 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 205.2675 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "KGM15AR71H103KT"
+			(at 205.2675 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 205.2675 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 205.2675 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 205.2675 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 205.2675 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorPN" "478-KGM15AR71H103KTCT-ND"
+			(at 205.2675 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorURL" "https://www.digikey.com/en/products/detail/kyocera-avx/KGM15AR71H103KT/563337"
+			(at 205.2675 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ea18f36a-0a82-4c91-abf9-fde121bdbad4")
+		)
+		(pin "1"
+			(uuid "65bf58d1-269c-4fb6-9479-e45535df85e6")
+		)
+		(instances
+			(project "3 - Charge_Pre-Amplifier"
+				(path "/8872ae30-0c8f-44d7-9c5d-f8ffe57ea57b/7382ebee-cdda-4f9b-bffd-355cf1033cd4"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 216.6975 81.2491 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "684a2609-29ca-4197-8ef3-c16abbeda904")
+		(property "Reference" "C22"
+			(at 219.2375 79.9853 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 219.2375 82.5253 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 216.6975 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 216.6975 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 216.6975 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "399-C0603C104K5RACTUCT-ND"
+			(at 216.6975 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 216.6975 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "C0603C104K5RACTU"
+			(at 216.6975 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 216.6975 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 216.6975 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 216.6975 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 216.6975 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorPN" "399-C0603C104K5RACTUCT-ND"
+			(at 216.6975 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorURL" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
+			(at 216.6975 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f50f2fa-09fc-4607-813b-036fdbe9e0ba")
+		)
+		(pin "1"
+			(uuid "014f34f6-4915-4de4-b535-cac87d435a27")
+		)
+		(instances
+			(project "3 - Charge_Pre-Amplifier"
+				(path "/8872ae30-0c8f-44d7-9c5d-f8ffe57ea57b/7382ebee-cdda-4f9b-bffd-355cf1033cd4"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 120.1775 83.7891 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74fa528c-4a14-466c-af98-372ce8436394")
+		(property "Reference" "C19"
+			(at 122.7175 82.5253 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 122.7175 85.0653 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 120.1775 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.1775 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 120.1775 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "399-C0603C104K5RACTUCT-ND"
+			(at 120.1775 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 120.1775 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "C0603C104K5RACTU"
+			(at 120.1775 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 120.1775 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 120.1775 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 120.1775 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 120.1775 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorPN" "399-C0603C104K5RACTUCT-ND"
+			(at 120.1775 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorURL" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
+			(at 120.1775 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b899d08e-3856-447f-ac8b-2f09eeaf799a")
+		)
+		(pin "1"
+			(uuid "361ec52a-6f7e-45cf-85b9-66ea67d1e251")
+		)
+		(instances
+			(project "3 - Charge_Pre-Amplifier"
+				(path "/8872ae30-0c8f-44d7-9c5d-f8ffe57ea57b/7382ebee-cdda-4f9b-bffd-355cf1033cd4"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bel_Fuse_Inc:VCD40-D12-S2R5")
+		(at 168.91 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8133dc42-8863-4e7b-8134-f4690c30aa65")
+		(property "Reference" "U15"
+			(at 168.91 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCD40-D12-S2R5"
+			(at 168.91 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Bel_Fuse_Inc:CONV_VCD40-D12-S2R5"
+			(at 168.91 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://belfuse.com/media/datasheets/products/power-supplies/VCD40.pdf"
+			(at 168.91 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Isolated Module DC DC Converter 1 Output 2.5V 10A 9V - 18V Input"
+			(at 168.91 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bel Power Solutions"
+			(at 168.91 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerPN" "VCD40-D12-S2R5"
+			(at 168.91 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 168.91 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorPN" "VCD40-D12-S2R5-ND"
+			(at 168.91 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorURL" "https://www.digikey.com/en/products/detail/bel-power-solutions/VCD40-D12-S2R5/2162219?s=N4IgjCBcoGwJxVAYygMwIYBsDOBTANCAPZQDaIALGGABxwDsIAuoQA4AuUIAyuwE4BLAHYBzEAF9CDRtBApIGHAWJkQAJjhqYVZm06Qe-YWMngK9CLPmK8hEpHIBmAAwBWczV0gOXXoNEShGCuaq6IcmhYtioO4I5qzs6MLN76hv4m4uJAA"
+			(at 168.91 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.03"
+			(at 168.91 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Efficiency" "88%"
+			(at 168.91 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Input Voltage" "9V~18V"
+			(at 168.91 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Min Input Current" "0.2A"
+			(at 168.91 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Input Current" "2.367A"
+			(at 168.91 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Output Current" "10A"
+			(at 168.91 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Ripple/Noise" "50mVp/p"
+			(at 168.91 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "678bdf5c-a7d9-4360-943e-81e38f2013d6")
+		)
+		(pin "1"
+			(uuid "b5a237c8-8035-4998-8ebe-f93d2b9ddae7")
+		)
+		(pin "6"
+			(uuid "08ca6d76-ae57-4cd1-9517-637a296f31af")
+		)
+		(pin "4"
+			(uuid "5642f102-a19d-4a9a-8e4c-9312da3ca446")
+		)
+		(pin "2"
+			(uuid "9c801695-5e41-4cdf-9834-4e525f26443b")
+		)
+		(pin "9"
+			(uuid "917e02e1-33ef-4085-947d-16479ed2f82a")
+		)
+		(pin "3"
+			(uuid "51f3fe71-4cf8-42d0-9490-53e0972283c5")
+		)
+		(pin "7"
+			(uuid "bbf706f3-d9b7-4bce-b446-3e7970956ca2")
+		)
+		(pin "5"
+			(uuid "496588f6-3440-4c8a-84a2-a8d565fe8018")
+		)
+		(instances
+			(project ""
+				(path "/8872ae30-0c8f-44d7-9c5d-f8ffe57ea57b/7382ebee-cdda-4f9b-bffd-355cf1033cd4"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 252.1926 81.543 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81ffab0a-e14c-4205-9a2c-665f5319d89b")
+		(property "Reference" "C24"
+			(at 255.7486 79.6379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 255.7486 82.1779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I"
+			(at 252.1926 81.543 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.1926 81.543 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 252.1926 81.543 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "399-3687-1-ND"
+			(at 252.1926 81.543 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 252.1926 81.543 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "T491A106M016AT"
+			(at 252.1926 81.543 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 252.1926 81.543 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206 (3216 Metric)"
+			(at 252.1926 81.543 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 252.1926 81.543 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 252.1926 81.543 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorPN" "399-3687-1-ND"
+			(at 252.1926 81.543 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorURL" "https://www.digikey.com/en/products/detail/kemet/T491A106M016AT/818548"
+			(at 252.1926 81.543 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f9dfb59-f884-4f22-8e1f-a71097cbfe90")
+		)
+		(pin "1"
+			(uuid "bbae1784-1dee-48b7-bbd6-d4f688492552")
+		)
+		(instances
+			(project "3 - Charge_Pre-Amplifier"
+				(path "/8872ae30-0c8f-44d7-9c5d-f8ffe57ea57b/7382ebee-cdda-4f9b-bffd-355cf1033cd4"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.9099 78.0683 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89b89247-b958-4906-ad66-440959ab085b")
+		(property "Reference" "R41"
+			(at 64.9099 76.0504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 64.9334 80.4148 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 64.9099 79.8463 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.9099 78.0683 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 64.9099 78.0683 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "P10ADCT-ND"
+			(at 64.9099 78.0683 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 64.9099 78.0683 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "ERJ-P06J100V"
+			(at 64.9099 78.0683 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 64.9099 78.0683 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805 (2012 Metric)"
+			(at 64.9099 78.0683 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 64.9099 78.0683 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 64.9099 78.0683 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorPN" "P10ADCT-ND"
+			(at 64.9099 78.0683 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorURL" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-P06J100V/525195?s=N4IgTCBcDaIKICUBSBaACgBgGxIIwYwDUQBdAXyA"
+			(at 64.9099 78.0683 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fe21dd0-10b5-44ba-87b7-bfe36641a906")
+		)
+		(pin "2"
+			(uuid "688d2651-c3df-4834-91dc-fe93ba30e064")
+		)
+		(instances
+			(project "3 - Charge_Pre-Amplifier"
+				(path "/8872ae30-0c8f-44d7-9c5d-f8ffe57ea57b/7382ebee-cdda-4f9b-bffd-355cf1033cd4"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CoilCraft:MLC7542")
+		(at 75.7275 95.2191 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c47108c-bf9b-4837-bde6-1bc52ed676c3")
+		(property "Reference" "L4"
+			(at 82.0775 91.6631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5uH"
+			(at 82.3315 97.7591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CoilCraft:MLC1538-"
+			(at 82.0775 91.9171 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.coilcraft.com/getmedia/052845f0-6909-42f5-b57d-543d9924763c/mlc.pdf"
+			(at 82.0775 91.9171 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Shielded Power Inductors MLC12xx/15xx"
+			(at 82.0775 91.9171 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Coil Craft"
+			(at 75.7275 95.2191 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "MLC1245-152ML"
+			(at 75.7275 95.2191 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Coil Craft"
+			(at 75.7275 95.2191 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "MLC1245-152ML"
+			(at 75.7275 95.2191 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 75.7275 95.2191 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 75.7275 95.2191 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 75.7275 95.2191 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Coilcraft"
+			(at 75.7275 95.2191 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorPN" "MLC1245-152"
+			(at 75.7275 95.2191 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorURL" "https://www.coilcraft.com/en-us/products/power/shielded-inductors/high-current-flat-wire/mlc/mlc12xx/mlc1245-152/"
+			(at 75.7275 95.2191 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cdd4e9a2-7469-4b49-9068-b6c2754d8db4")
+		)
+		(pin "1"
+			(uuid "fa83b2bd-f39f-4d3b-810a-39f48c5623d9")
+		)
+		(instances
+			(project "3 - Charge_Pre-Amplifier"
+				(path "/8872ae30-0c8f-44d7-9c5d-f8ffe57ea57b/7382ebee-cdda-4f9b-bffd-355cf1033cd4"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CoilCraft:MLC7542")
+		(at 75.7275 73.6291 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4a690f6-5d82-4c16-ab3a-58c70d4afdb1")
+		(property "Reference" "L3"
+			(at 82.5855 69.8191 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5uH"
+			(at 82.5855 76.1691 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CoilCraft:MLC1538-"
+			(at 82.0775 70.3271 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.coilcraft.com/getmedia/052845f0-6909-42f5-b57d-543d9924763c/mlc.pdf"
+			(at 82.0775 70.3271 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Shielded Power Inductors MLC12xx/15xx"
+			(at 82.0775 70.3271 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Coil Craft"
+			(at 75.7275 73.6291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "MLC1245-152ML"
+			(at 75.7275 73.6291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Coil Craft"
+			(at 75.7275 73.6291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "MLC1245-152ML"
+			(at 75.7275 73.6291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 75.7275 73.6291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 75.7275 73.6291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 75.7275 73.6291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Coilcraft"
+			(at 75.7275 73.6291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorPN" "MLC1245-152"
+			(at 75.7275 73.6291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorURL" "https://www.coilcraft.com/en-us/products/power/shielded-inductors/high-current-flat-wire/mlc/mlc12xx/mlc1245-152/"
+			(at 75.7275 73.6291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d1492f7-a230-446b-8ba4-db8ad1049d9b")
+		)
+		(pin "1"
+			(uuid "5f18b8fd-a4a4-42c4-8253-7183f3c60007")
+		)
+		(instances
+			(project "3 - Charge_Pre-Amplifier"
+				(path "/8872ae30-0c8f-44d7-9c5d-f8ffe57ea57b/7382ebee-cdda-4f9b-bffd-355cf1033cd4"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 94.5753 83.5282 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab60ecba-e9e5-4309-b46d-34fc32a271e0")
+		(property "Reference" "C17"
+			(at 98.3853 81.6231 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 98.3853 84.1631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S"
+			(at 94.5753 83.5282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 94.5753 83.5282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 94.5753 83.5282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "399-3687-1-ND"
+			(at 94.5753 83.5282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 94.5753 83.5282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "T491A106M016AT"
+			(at 94.5753 83.5282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 94.5753 83.5282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206 (3216 Metric)"
+			(at 94.5753 83.5282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 94.5753 83.5282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 94.5753 83.5282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorPN" "399-3687-1-ND"
+			(at 94.5753 83.5282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorURL" "https://www.digikey.com/en/products/detail/kemet/T491A106M016AT/818548"
+			(at 94.5753 83.5282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bb6ab53-5b08-4c24-97f7-b2eb669ab8fa")
+		)
+		(pin "2"
+			(uuid "51c4f364-4db0-4b89-8655-1635792efc1c")
+		)
+		(instances
+			(project "3 - Charge_Pre-Amplifier"
+				(path "/8872ae30-0c8f-44d7-9c5d-f8ffe57ea57b/7382ebee-cdda-4f9b-bffd-355cf1033cd4"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 108.7475 83.7891 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afe06aa3-993b-42be-9d19-4bed65a80468")
+		(property "Reference" "C18"
+			(at 111.2875 82.5253 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 111.2875 85.0653 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 108.7475 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 108.7475 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 108.7475 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "1276-1184-1-ND"
+			(at 108.7475 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 108.7475 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "CL10B105KA8NNNC"
+			(at 108.7475 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 108.7475 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 108.7475 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 108.7475 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 108.7475 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorPN" "1276-1184-1-ND"
+			(at 108.7475 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorURL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KA8NNNC/3886842?s=N4IgTCBcDaIMIBkCMAGAQqgrAaQIIA4A5YuEAXQF8g"
+			(at 108.7475 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a8a1c94-9e5a-4e72-b89b-f7dd08eaf19e")
+		)
+		(pin "1"
+			(uuid "eec5d188-f9f8-4fcf-a71c-5e13e57b327a")
+		)
+		(instances
+			(project "3 - Charge_Pre-Amplifier"
+				(path "/8872ae30-0c8f-44d7-9c5d-f8ffe57ea57b/7382ebee-cdda-4f9b-bffd-355cf1033cd4"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 70.6475 83.7891 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1d98b04-675b-454c-8db4-8d2dd0afa600")
+		(property "Reference" "C16"
+			(at 74.4575 81.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 74.4575 84.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-20_Kemet-V"
+			(at 70.6475 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 70.6475 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 70.6475 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "399-3770-1-ND"
+			(at 70.6475 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 70.6475 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "T491D107K016AT"
+			(at 70.6475 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 70.6475 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "2917 (7343 Metric)"
+			(at 70.6475 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 70.6475 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 70.6475 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorPN" "399-3770-1-ND"
+			(at 70.6475 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorURL" "https://www.digikey.com/en/products/detail/kemet/T491D107K016AT/818630"
+			(at 70.6475 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c32db55c-33c0-4313-9348-1672b68a588c")
+		)
+		(pin "2"
+			(uuid "dd797758-9cf6-4b8b-b0e9-e9a6860b03e7")
+		)
+		(instances
+			(project "3 - Charge_Pre-Amplifier"
+				(path "/8872ae30-0c8f-44d7-9c5d-f8ffe57ea57b/7382ebee-cdda-4f9b-bffd-355cf1033cd4"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CUI:PDQ10-Q24-S3-D")
+		(at 169.7075 85.0591 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7085c4b-bb92-4f0a-8e63-49147645307c")
+		(property "Reference" "U4"
+			(at 169.7075 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PDQ30-Q24-S5-D"
+			(at 169.7075 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PDQ10-Q24-S3-D:CONV_PDQ10-Q24-S3-D"
+			(at 169.7075 85.0591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.belfuse.com/media/datasheets/products/power-supplies/PDQ30-D.pdf"
+			(at 169.7075 85.0591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Isolated Module DC DC Converter 1 Output 5V 6A 9V - 36V Input"
+			(at 169.7075 85.0591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "CUI Inc."
+			(at 169.7075 85.0591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "10 W, 4:1 Input Range, Single/Dual Regulated Output, 1500 Vdc Isolation, Dc-Dc Converter"
+			(at 169.7075 85.0591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "DIP-6 CUI"
+			(at 169.7075 85.0591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 169.7075 85.0591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PDQ10-Q24-S3-D/CUI/view-part/?ref=eda"
+			(at 169.7075 85.0591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 169.7075 85.0591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.0"
+			(at 169.7075 85.0591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PDQ10-Q24-S3-D/CUI/view-part/?ref=snap"
+			(at 169.7075 85.0591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "PDQ10-Q24-S3-D"
+			(at 169.7075 85.0591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CUI_purchase_URL" "https://www.cui.com/product/dc-dc-converters/isolated/pdq10-d-series?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"
+			(at 169.7075 85.0591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 169.7075 85.0591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CUI Inc"
+			(at 169.7075 85.0591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "PDQ30-Q24-S5-D"
+			(at 169.7075 85.0591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 169.7075 85.0591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "102-3891-ND"
+			(at 169.7075 85.0591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CUI Inc."
+			(at 169.7075 85.0591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "Through Hole"
+			(at 169.7075 85.0591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 169.7075 85.0591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorPN" "102-3891-ND"
+			(at 169.7075 85.0591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorURL" "https://www.digikey.com/en/products/detail/cui-inc/PDQ30-Q24-S5-D/6165424"
+			(at 169.7075 85.0591 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "15913efe-4b84-48f1-945f-ab4db9662936")
+		)
+		(pin "5"
+			(uuid "f35fa3b9-7020-4d95-9643-a24f32a9764e")
+		)
+		(pin "6"
+			(uuid "f8d3404d-1d51-45a8-a12f-8eac4480e8e8")
+		)
+		(pin "1"
+			(uuid "6342fa12-4931-4c4e-8e42-f624aeaf674a")
+		)
+		(pin "2"
+			(uuid "6e0d2b3d-552b-49ff-8a3c-5ccc8e4ae7ca")
+		)
+		(pin "3"
+			(uuid "ac94b047-819e-4ed1-b31d-9b9bc335a69c")
+		)
+		(instances
+			(project "3 - Charge_Pre-Amplifier"
+				(path "/8872ae30-0c8f-44d7-9c5d-f8ffe57ea57b/7382ebee-cdda-4f9b-bffd-355cf1033cd4"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 131.6075 83.7891 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa92a2bd-4909-4d96-9f35-6dcd14d94c1a")
+		(property "Reference" "C20"
+			(at 134.1475 82.5253 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.01uF"
+			(at 134.1475 85.0653 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 131.6075 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 131.6075 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 131.6075 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "478-KGM15AR71H103KTCT-ND"
+			(at 131.6075 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 131.6075 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "KGM15AR71H103KT"
+			(at 131.6075 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 131.6075 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 131.6075 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 131.6075 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 131.6075 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorPN" "478-KGM15AR71H103KTCT-ND"
+			(at 131.6075 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorURL" "https://www.digikey.com/en/products/detail/kyocera-avx/KGM15AR71H103KT/563337"
+			(at 131.6075 83.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d52bde15-0882-4c22-9ac9-9c56f33f1b69")
+		)
+		(pin "1"
+			(uuid "e7e5c6e9-fac9-4b22-b84e-ecc885b5ff42")
+		)
+		(instances
+			(project "3 - Charge_Pre-Amplifier"
+				(path "/8872ae30-0c8f-44d7-9c5d-f8ffe57ea57b/7382ebee-cdda-4f9b-bffd-355cf1033cd4"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 238.2875 81.2491 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb589773-2b88-4ee6-9cce-93585ef171be")
+		(property "Reference" "R15"
+			(at 240.8275 79.979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "(DNI)"
+			(at 240.8275 82.519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 236.5095 81.2491 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.2875 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 238.2875 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digikey"
+			(at 238.2875 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorPN" ""
+			(at 238.2875 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VendorURL" ""
+			(at 238.2875 81.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f03b9a4-c6ea-4c6b-8cde-2bf58defe067")
+		)
+		(pin "2"
+			(uuid "8ccf5c3b-d6d1-4923-b4e2-4e6500b2c2a7")
+		)
+		(instances
+			(project "3 - Charge_Pre-Amplifier"
+				(path "/8872ae30-0c8f-44d7-9c5d-f8ffe57ea57b/7382ebee-cdda-4f9b-bffd-355cf1033cd4"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

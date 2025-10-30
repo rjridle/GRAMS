@@ -1,0 +1,2633 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3664c495-b78e-4b6c-9cf4-a15dc1bb776f")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Passive_Parts:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Man. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" "Digi-Key"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dist. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy 2.032 1.016) (xy 2.032 4.064)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 1.016) (xy 3.048 4.064)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 2.54 0)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SN65LVDS33PWR_1"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SN65LVDS33PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Texas Instruments:SN65LVDS33PWR_16TSSOP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/slls490b/slls490b.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0/4 Receiver LVDS 16-TSSOP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Man. Part Num" "SN65LVDS33PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" "Digi-Key"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dist. Part Num" "296-31720-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "16-TSSOP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SN65LVDS33PWR_1_1_1"
+				(rectangle
+					(start 0 12.7)
+					(end 12.7 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 12.7) (xy 12.7 6.35) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 12.7) (xy 6.35 8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 6.35 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 6.35) (xy 10.16 12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 6.35) (xy 10.16 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 10.16 0)
+					(length 7.62)
+					(name "IN_1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 7.62)
+					(name "IN_1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 6.35 17.78 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 6.35 -5.08 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 17.78 270)
+					(length 5.08)
+					(name "EN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -5.08 90)
+					(length 5.08)
+					(name "EN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 6.35 180)
+					(length 7.62)
+					(name "OUT_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN65LVDS33PWR_1_2_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 12.7) (xy 12.7 6.35) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -7.62 10.16 0)
+					(length 7.62)
+					(name "IN_2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 7.62)
+					(name "IN_2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 6.35 180)
+					(length 7.62)
+					(name "OUT_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN65LVDS33PWR_1_3_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 12.7) (xy 12.7 6.35) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -7.62 10.16 0)
+					(length 7.62)
+					(name "IN_3-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 7.62)
+					(name "IN_3+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 6.35 180)
+					(length 7.62)
+					(name "OUT_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN65LVDS33PWR_1_4_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 12.7) (xy 12.7 6.35) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -7.62 10.16 0)
+					(length 7.62)
+					(name "IN_4-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 7.62)
+					(name "IN_4+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 6.35 180)
+					(length 7.62)
+					(name "OUT_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Texas Instruments:SN65LVDS33PWR"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SN65LVDS33PWR_1_1"
+				(rectangle
+					(start 0 12.7)
+					(end 12.7 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 12.7) (xy 12.7 6.35) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 12.7) (xy 6.35 8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 6.35 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 6.35) (xy 10.16 12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 6.35) (xy 10.16 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 10.16 0)
+					(length 7.62)
+					(name "IN_1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 7.62)
+					(name "IN_1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 6.35 17.78 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 6.35 -5.08 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 17.78 270)
+					(length 5.08)
+					(name "EN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -5.08 90)
+					(length 5.08)
+					(name "EN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 6.35 180)
+					(length 7.62)
+					(name "OUT_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN65LVDS33PWR_2_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 12.7) (xy 12.7 6.35) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -7.62 10.16 0)
+					(length 7.62)
+					(name "IN_2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 7.62)
+					(name "IN_2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 6.35 180)
+					(length 7.62)
+					(name "OUT_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN65LVDS33PWR_3_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 12.7) (xy 12.7 6.35) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -7.62 10.16 0)
+					(length 7.62)
+					(name "IN_3-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 7.62)
+					(name "IN_3+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 6.35 180)
+					(length 7.62)
+					(name "OUT_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN65LVDS33PWR_4_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 12.7) (xy 12.7 6.35) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -7.62 10.16 0)
+					(length 7.62)
+					(name "IN_4-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 7.62)
+					(name "IN_4+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 6.35 180)
+					(length 7.62)
+					(name "OUT_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "The enable polarity has been swapped \nto make the signal active low."
+		(exclude_from_sim no)
+		(at 77.8017 119.964 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "914c2c53-89e4-47c8-b8a3-efc75e999438")
+	)
+	(text "KEMET:  C0805C104M5UACTU\n(Z5U Dielectric)"
+		(exclude_from_sim no)
+		(at 158.5467 44.7965 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "ada469ef-4615-4738-af65-c4f8613be7f4")
+	)
+	(junction
+		(at 147.2444 77.7008)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "109e8cf3-5035-45c9-93bd-3487f8fec71d")
+	)
+	(junction
+		(at 151.0544 38.1334)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "986e4398-d3e4-4d03-a470-8bb931672a26")
+	)
+	(junction
+		(at 147.2444 38.2377)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2d11200-4c74-4432-b3b4-f9616297e26a")
+	)
+	(junction
+		(at 165.3699 38.1436)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcbe95a2-8a52-4913-a039-ff2bb6dc8924")
+	)
+	(wire
+		(pts
+			(xy 151.0544 77.7008) (xy 147.2444 77.7008)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eaea940-aeca-4b1e-b8dd-35e1955c9a1d")
+	)
+	(wire
+		(pts
+			(xy 133.2744 57.9423) (xy 116.5208 57.9423)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "106ac372-c235-4db9-8d23-b1c693433901")
+	)
+	(wire
+		(pts
+			(xy 134.4878 97.1101) (xy 116.9163 97.1101)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "132c0616-65fd-4ba7-a501-a8a5e9317d81")
+	)
+	(wire
+		(pts
+			(xy 133.2744 65.5623) (xy 116.6646 65.5623)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "208a7835-191a-41f8-8e25-07f5b5569477")
+	)
+	(wire
+		(pts
+			(xy 134.9732 141.6652) (xy 116.9163 141.6652)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a437ee-be1f-464f-b1d5-a9e30d6c05ec")
+	)
+	(wire
+		(pts
+			(xy 161.2144 61.7523) (xy 180.1243 61.7523)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fe278db-4e79-441d-ba7d-88c83af8b1d8")
+	)
+	(wire
+		(pts
+			(xy 161.1308 27.0801) (xy 165.3699 27.0801)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f814cbb-34cb-4460-a9cc-e27b734721fe")
+	)
+	(wire
+		(pts
+			(xy 151.0544 73.1823) (xy 151.0544 77.7008)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c168df-df77-4a1f-89a6-c577f3c59c32")
+	)
+	(wire
+		(pts
+			(xy 162.1851 119.9943) (xy 180.4432 119.9943)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4647390a-45f8-4a5c-bbfe-50d6ad42b7cc")
+	)
+	(wire
+		(pts
+			(xy 165.3699 27.0801) (xy 165.3699 38.1436)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51d4dbf3-dee7-4346-b57b-9e6d5e8e333b")
+	)
+	(wire
+		(pts
+			(xy 151.0544 38.1334) (xy 151.0544 50.3223)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce85d7d-704d-431f-9779-5882a6cd57df")
+	)
+	(wire
+		(pts
+			(xy 147.2444 38.1334) (xy 147.2444 38.2377)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a3bb4e-e04a-4b6c-b9ff-d16de2fb1549")
+	)
+	(wire
+		(pts
+			(xy 151.0544 27.0801) (xy 156.0508 27.0801)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62da0820-b3da-4c6b-9695-5478fed76483")
+	)
+	(wire
+		(pts
+			(xy 162.4278 93.3001) (xy 180.2275 93.3001)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "649a03ea-b608-4acd-9503-56c8422fedcb")
+	)
+	(wire
+		(pts
+			(xy 167.3606 38.1436) (xy 165.3699 38.1436)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "775a0dd7-8603-4732-b919-462fcef4310e")
+	)
+	(wire
+		(pts
+			(xy 134.4878 89.4901) (xy 116.6286 89.4901)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7895bfda-c7c3-43f6-a896-229700a1edca")
+	)
+	(wire
+		(pts
+			(xy 151.0544 38.1334) (xy 156.0067 38.1334)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b1d5ba9-d403-4d33-a422-390b37e41cd8")
+	)
+	(wire
+		(pts
+			(xy 161.0867 38.1436) (xy 161.0867 38.1334)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b4fee67-4c93-433d-bbe2-e481e1fa6c4e")
+	)
+	(wire
+		(pts
+			(xy 134.2451 123.8043) (xy 117.2398 123.8043)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a7e3919-3616-4a15-bebf-142bdd0a0084")
+	)
+	(wire
+		(pts
+			(xy 135.5987 38.2377) (xy 147.2444 38.2377)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d9fc714-ec20-4c29-8db4-9f1455a1d8a0")
+	)
+	(wire
+		(pts
+			(xy 147.2444 38.2377) (xy 147.2444 50.3223)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a84821fc-540a-4e75-a624-6bc6dd2ccc72")
+	)
+	(wire
+		(pts
+			(xy 165.3699 38.1436) (xy 161.0867 38.1436)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac9355d0-4b8b-4980-bbf8-9c405c531f74")
+	)
+	(wire
+		(pts
+			(xy 134.9732 149.2852) (xy 117.132 149.2852)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9dbd00-dd53-4fca-bf0c-a8670f698a07")
+	)
+	(wire
+		(pts
+			(xy 147.2444 38.1334) (xy 151.0544 38.1334)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b488cf-a627-47cb-90b4-7450e6bcbb9b")
+	)
+	(wire
+		(pts
+			(xy 151.0544 38.1334) (xy 151.0544 27.0801)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c851c4c1-4d3b-4836-8097-0adb3bf77749")
+	)
+	(wire
+		(pts
+			(xy 134.2451 116.1843) (xy 116.9163 116.1843)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e1aed1-8db6-4310-bd40-b6322cf83503")
+	)
+	(wire
+		(pts
+			(xy 133.6932 77.7008) (xy 147.2444 77.7008)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d77b0bd4-7684-48b3-9225-9b445aafa476")
+	)
+	(wire
+		(pts
+			(xy 162.9132 145.4752) (xy 180.6229 145.4752)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7d17635-534f-4678-a84d-83178a013d20")
+	)
+	(wire
+		(pts
+			(xy 147.2444 73.1823) (xy 147.2444 77.7008)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff661018-0bdc-42df-ac7d-176be403bbfc")
+	)
+	(label "V_RTN"
+		(at 137.8277 77.7008 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ce6548d-f000-4e96-be68-13c6c6279a79")
+	)
+	(hierarchical_label "SYNC_n-"
+		(shape input)
+		(at 116.9163 141.6652 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ccfc2a8-d724-476a-a4f4-9a9a5ccb40f0")
+	)
+	(hierarchical_label "SCLK+"
+		(shape input)
+		(at 116.9163 97.1101 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f6141ad-e849-4267-a118-3da647e3495b")
+	)
+	(hierarchical_label "SCLK"
+		(shape output)
+		(at 180.2275 93.3001 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3060a3c0-3599-4808-838c-5f7ca614c795")
+	)
+	(hierarchical_label "SYNC_n+"
+		(shape input)
+		(at 117.132 149.2852 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3499d083-b90a-4cb5-9387-9cebd2d6f3ec")
+	)
+	(hierarchical_label "Enable-"
+		(shape input)
+		(at 117.2398 123.8043 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50c64591-5486-4760-a21d-45889aab41e9")
+	)
+	(hierarchical_label "Enable+"
+		(shape input)
+		(at 116.9163 116.1843 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6095dbd5-0885-4e64-bf07-220ae49a76c4")
+	)
+	(hierarchical_label "Data_In"
+		(shape output)
+		(at 179.8059 61.7523 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7747d8d8-cc4f-4500-a3b6-bcf8f76b1f1e")
+	)
+	(hierarchical_label "Data_In+"
+		(shape input)
+		(at 116.6646 65.5623 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77e62fdf-0a7d-44ac-948f-3e405f889d33")
+	)
+	(hierarchical_label "SYNC_n"
+		(shape output)
+		(at 180.6229 145.4752 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79e1fb0a-f6e4-471b-a11d-8f4c8593d814")
+	)
+	(hierarchical_label "Data_In-"
+		(shape input)
+		(at 116.5208 57.9423 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a98c8d2-50c8-4953-8704-77f11039157b")
+	)
+	(hierarchical_label "Enable"
+		(shape output)
+		(at 180.4432 119.9943 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "832eca87-fc2d-461b-9e43-d99b128aca5b")
+	)
+	(hierarchical_label "V_RTN"
+		(shape output)
+		(at 167.3606 38.1436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b620e640-bffd-43ad-b49c-d676932e762b")
+	)
+	(hierarchical_label "V_IN"
+		(shape input)
+		(at 135.5987 38.2377 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c074c991-5ea8-46a9-bf02-debca850e615")
+	)
+	(hierarchical_label "SCLK-"
+		(shape input)
+		(at 116.6286 89.4901 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6074312-fc3a-4476-9b12-af868901747d")
+	)
+	(symbol
+		(lib_id "Passive_Parts:C")
+		(at 156.0067 40.6734 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31e05933-0623-49eb-97c4-adc71a5b879c")
+		(property "Reference" "C35"
+			(at 158.6316 35.3219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 158.7452 41.0012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 156.0067 40.6734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1004_Z5U_SMD.pdf"
+			(at 156.0067 40.6734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±20% 50V Ceramic Capacitor Z5U 0805 (2012 Metric)"
+			(at 156.0067 40.6734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 156.0067 40.6734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "C0805C104M5UACTU"
+			(at 156.0067 40.6734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 156.0067 40.6734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "399-C0805C104M5UACTUCT-ND"
+			(at 156.0067 40.6734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805 (2012 Metric)"
+			(at 156.0067 40.6734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 156.0067 40.6734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 156.0067 40.6734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab88c664-98c7-49a7-acaa-bc62d0b416a2")
+		)
+		(pin "2"
+			(uuid "e16b8b54-1bf3-4138-9932-9f08b974e88f")
+		)
+		(instances
+			(project ""
+				(path "/5ecd9e82-fea0-4c47-a005-55cc512b1aa2/978d8a2e-7a50-41cf-bc7b-683b2260fbf5"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Texas Instruments:SN65LVDS33PWR")
+		(at 142.5932 151.8252 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "568054ea-e59c-4718-926e-9ea7cfa88cbf")
+		(property "Reference" "U10"
+			(at 148.9432 135.3091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN65LVDS33PWR"
+			(at 148.9432 137.8491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Texas_Instruments:SN65LVDS33PWR_16TSSOP"
+			(at 142.5932 151.8252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/slls490b/slls490b.pdf"
+			(at 142.5932 151.8252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0/4 Receiver LVDS 16-TSSOP"
+			(at 142.5932 151.8252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 142.5932 151.8252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "SN65LVDS33PWR"
+			(at 142.5932 151.8252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 142.5932 151.8252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "296-31720-1-ND"
+			(at 142.5932 151.8252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "16-TSSOP"
+			(at 142.5932 151.8252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 142.5932 151.8252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 142.5932 151.8252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "16"
+			(uuid "91d08b3e-72a1-43de-851b-725eea7872ae")
+		)
+		(pin "4"
+			(uuid "79ec21fa-1513-4d77-aee9-b83310eab2bb")
+		)
+		(pin "12"
+			(uuid "b6c76140-cf85-4b66-b7a0-e922f4a8dbff")
+		)
+		(pin "6"
+			(uuid "3b0d6e73-e144-45b8-9816-9e65b5e6987a")
+		)
+		(pin "10"
+			(uuid "7e9c07a4-6c1b-4825-93f9-20deefd4e4d8")
+		)
+		(pin "2"
+			(uuid "74954b2b-cf62-433e-87fe-46c7ba4c58b2")
+		)
+		(pin "8"
+			(uuid "5408a345-3bcf-45a0-a3b1-2f88b110bb4f")
+		)
+		(pin "5"
+			(uuid "11781587-3393-4c3c-b9d0-b47c4cd5b0b1")
+		)
+		(pin "15"
+			(uuid "37e3eee0-20cd-487d-a549-55aae049f008")
+		)
+		(pin "7"
+			(uuid "7fa6c3c1-f6ac-44af-81d7-22f210045699")
+		)
+		(pin "9"
+			(uuid "1299a0b1-06f9-4caa-8318-61a9dffe087a")
+		)
+		(pin "14"
+			(uuid "e1530ac4-9061-495f-afb9-89b907e09c3b")
+		)
+		(pin "3"
+			(uuid "884764dc-7c68-43bc-8555-2636d296f03f")
+		)
+		(pin "13"
+			(uuid "297b66b0-a83f-4047-9732-6914da2af442")
+		)
+		(pin "1"
+			(uuid "81d54e8f-50b5-4196-89be-a98e0201fb1b")
+		)
+		(pin "11"
+			(uuid "83671203-632f-4b03-908c-b314977611d6")
+		)
+		(instances
+			(project ""
+				(path "/5ecd9e82-fea0-4c47-a005-55cc512b1aa2/978d8a2e-7a50-41cf-bc7b-683b2260fbf5"
+					(reference "U10")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Texas Instruments:SN65LVDS33PWR")
+		(at 142.1078 99.6501 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77fbe562-721e-4e9c-8436-f12feadadaae")
+		(property "Reference" "U10"
+			(at 148.4578 83.2391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN65LVDS33PWR"
+			(at 148.4578 85.7791 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Texas_Instruments:SN65LVDS33PWR_16TSSOP"
+			(at 142.1078 99.6501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/slls490b/slls490b.pdf"
+			(at 142.1078 99.6501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0/4 Receiver LVDS 16-TSSOP"
+			(at 142.1078 99.6501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 142.1078 99.6501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "SN65LVDS33PWR"
+			(at 142.1078 99.6501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 142.1078 99.6501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "296-31720-1-ND"
+			(at 142.1078 99.6501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "16-TSSOP"
+			(at 142.1078 99.6501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 142.1078 99.6501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 142.1078 99.6501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "16"
+			(uuid "91d08b3e-72a1-43de-851b-725eea7872af")
+		)
+		(pin "4"
+			(uuid "79ec21fa-1513-4d77-aee9-b83310eab2bc")
+		)
+		(pin "12"
+			(uuid "b6c76140-cf85-4b66-b7a0-e922f4a8dc00")
+		)
+		(pin "6"
+			(uuid "3b0d6e73-e144-45b8-9816-9e65b5e6987b")
+		)
+		(pin "10"
+			(uuid "7e9c07a4-6c1b-4825-93f9-20deefd4e4d9")
+		)
+		(pin "2"
+			(uuid "74954b2b-cf62-433e-87fe-46c7ba4c58b3")
+		)
+		(pin "8"
+			(uuid "5408a345-3bcf-45a0-a3b1-2f88b110bb50")
+		)
+		(pin "5"
+			(uuid "11781587-3393-4c3c-b9d0-b47c4cd5b0b2")
+		)
+		(pin "15"
+			(uuid "37e3eee0-20cd-487d-a549-55aae049f009")
+		)
+		(pin "7"
+			(uuid "7fa6c3c1-f6ac-44af-81d7-22f21004569a")
+		)
+		(pin "9"
+			(uuid "1299a0b1-06f9-4caa-8318-61a9dffe087b")
+		)
+		(pin "14"
+			(uuid "e1530ac4-9061-495f-afb9-89b907e09c3c")
+		)
+		(pin "3"
+			(uuid "884764dc-7c68-43bc-8555-2636d296f040")
+		)
+		(pin "13"
+			(uuid "297b66b0-a83f-4047-9732-6914da2af443")
+		)
+		(pin "1"
+			(uuid "81d54e8f-50b5-4196-89be-a98e0201fb1c")
+		)
+		(pin "11"
+			(uuid "83671203-632f-4b03-908c-b314977611d7")
+		)
+		(instances
+			(project ""
+				(path "/5ecd9e82-fea0-4c47-a005-55cc512b1aa2/978d8a2e-7a50-41cf-bc7b-683b2260fbf5"
+					(reference "U10")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SN65LVDS33PWR_1")
+		(lib_id "Texas Instruments:SN65LVDS33PWR")
+		(at 140.8944 68.1023 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83bb3fc4-b8ba-4311-b93c-0addc8b74d55")
+		(property "Reference" "U10"
+			(at 160.8892 51.7636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN65LVDS33PWR"
+			(at 161.9115 54.0353 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Texas_Instruments:SN65LVDS33PWR_16TSSOP"
+			(at 140.8944 68.1023 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/slls490b/slls490b.pdf"
+			(at 140.8944 68.1023 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0/4 Receiver LVDS 16-TSSOP"
+			(at 140.8944 68.1023 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 140.8944 68.1023 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "SN65LVDS33PWR"
+			(at 140.8944 68.1023 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 140.8944 68.1023 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "296-31720-1-ND"
+			(at 140.8944 68.1023 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "16-TSSOP"
+			(at 140.8944 68.1023 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 140.8944 68.1023 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 140.8944 68.1023 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "16"
+			(uuid "91d08b3e-72a1-43de-851b-725eea7872b0")
+		)
+		(pin "4"
+			(uuid "79ec21fa-1513-4d77-aee9-b83310eab2bd")
+		)
+		(pin "12"
+			(uuid "b6c76140-cf85-4b66-b7a0-e922f4a8dc01")
+		)
+		(pin "6"
+			(uuid "3b0d6e73-e144-45b8-9816-9e65b5e6987c")
+		)
+		(pin "10"
+			(uuid "7e9c07a4-6c1b-4825-93f9-20deefd4e4da")
+		)
+		(pin "2"
+			(uuid "74954b2b-cf62-433e-87fe-46c7ba4c58b4")
+		)
+		(pin "8"
+			(uuid "5408a345-3bcf-45a0-a3b1-2f88b110bb51")
+		)
+		(pin "5"
+			(uuid "11781587-3393-4c3c-b9d0-b47c4cd5b0b3")
+		)
+		(pin "15"
+			(uuid "37e3eee0-20cd-487d-a549-55aae049f00a")
+		)
+		(pin "7"
+			(uuid "7fa6c3c1-f6ac-44af-81d7-22f21004569b")
+		)
+		(pin "9"
+			(uuid "1299a0b1-06f9-4caa-8318-61a9dffe087c")
+		)
+		(pin "14"
+			(uuid "e1530ac4-9061-495f-afb9-89b907e09c3d")
+		)
+		(pin "3"
+			(uuid "884764dc-7c68-43bc-8555-2636d296f041")
+		)
+		(pin "13"
+			(uuid "297b66b0-a83f-4047-9732-6914da2af444")
+		)
+		(pin "1"
+			(uuid "81d54e8f-50b5-4196-89be-a98e0201fb1d")
+		)
+		(pin "11"
+			(uuid "83671203-632f-4b03-908c-b314977611d8")
+		)
+		(instances
+			(project ""
+				(path "/5ecd9e82-fea0-4c47-a005-55cc512b1aa2/978d8a2e-7a50-41cf-bc7b-683b2260fbf5"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Parts:C")
+		(at 156.0508 29.6201 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1ac18ee-4b14-46af-bdb3-1d22d1ad741e")
+		(property "Reference" "C36"
+			(at 158.4045 24.1904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 158.4045 30.0969 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 156.0508 29.6201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1004_Z5U_SMD.pdf"
+			(at 156.0508 29.6201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±20% 50V Ceramic Capacitor Z5U 0805 (2012 Metric)"
+			(at 156.0508 29.6201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 156.0508 29.6201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "C0805C104M5UACTU"
+			(at 156.0508 29.6201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 156.0508 29.6201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "399-C0805C104M5UACTUCT-ND"
+			(at 156.0508 29.6201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805 (2012 Metric)"
+			(at 156.0508 29.6201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 156.0508 29.6201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 156.0508 29.6201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52585c5d-390d-45c2-95c0-031407d91b66")
+		)
+		(pin "2"
+			(uuid "46f5e637-358f-4576-99a9-7af95387059f")
+		)
+		(instances
+			(project "TPC_COLD_HV_PDU"
+				(path "/5ecd9e82-fea0-4c47-a005-55cc512b1aa2/978d8a2e-7a50-41cf-bc7b-683b2260fbf5"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Texas Instruments:SN65LVDS33PWR")
+		(at 141.8651 126.3443 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efd80599-7a22-49b3-9c08-b195b9070900")
+		(property "Reference" "U10"
+			(at 148.2151 109.9091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN65LVDS33PWR"
+			(at 148.2151 112.4491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Texas_Instruments:SN65LVDS33PWR_16TSSOP"
+			(at 141.8651 126.3443 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/slls490b/slls490b.pdf"
+			(at 141.8651 126.3443 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0/4 Receiver LVDS 16-TSSOP"
+			(at 141.8651 126.3443 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 141.8651 126.3443 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "SN65LVDS33PWR"
+			(at 141.8651 126.3443 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 141.8651 126.3443 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "296-31720-1-ND"
+			(at 141.8651 126.3443 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "16-TSSOP"
+			(at 141.8651 126.3443 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 141.8651 126.3443 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 141.8651 126.3443 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "16"
+			(uuid "91d08b3e-72a1-43de-851b-725eea7872b1")
+		)
+		(pin "4"
+			(uuid "79ec21fa-1513-4d77-aee9-b83310eab2be")
+		)
+		(pin "12"
+			(uuid "b6c76140-cf85-4b66-b7a0-e922f4a8dc02")
+		)
+		(pin "6"
+			(uuid "3b0d6e73-e144-45b8-9816-9e65b5e6987d")
+		)
+		(pin "10"
+			(uuid "7e9c07a4-6c1b-4825-93f9-20deefd4e4db")
+		)
+		(pin "2"
+			(uuid "74954b2b-cf62-433e-87fe-46c7ba4c58b5")
+		)
+		(pin "8"
+			(uuid "5408a345-3bcf-45a0-a3b1-2f88b110bb52")
+		)
+		(pin "5"
+			(uuid "11781587-3393-4c3c-b9d0-b47c4cd5b0b4")
+		)
+		(pin "15"
+			(uuid "37e3eee0-20cd-487d-a549-55aae049f00b")
+		)
+		(pin "7"
+			(uuid "7fa6c3c1-f6ac-44af-81d7-22f21004569c")
+		)
+		(pin "9"
+			(uuid "1299a0b1-06f9-4caa-8318-61a9dffe087d")
+		)
+		(pin "14"
+			(uuid "e1530ac4-9061-495f-afb9-89b907e09c3e")
+		)
+		(pin "3"
+			(uuid "884764dc-7c68-43bc-8555-2636d296f042")
+		)
+		(pin "13"
+			(uuid "297b66b0-a83f-4047-9732-6914da2af445")
+		)
+		(pin "1"
+			(uuid "81d54e8f-50b5-4196-89be-a98e0201fb1e")
+		)
+		(pin "11"
+			(uuid "83671203-632f-4b03-908c-b314977611d9")
+		)
+		(instances
+			(project ""
+				(path "/5ecd9e82-fea0-4c47-a005-55cc512b1aa2/978d8a2e-7a50-41cf-bc7b-683b2260fbf5"
+					(reference "U10")
+					(unit 3)
+				)
+			)
+		)
+	)
+)

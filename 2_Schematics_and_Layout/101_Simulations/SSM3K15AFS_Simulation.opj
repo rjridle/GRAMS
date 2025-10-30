@@ -1,0 +1,119 @@
+(ExpressProject "SSM3K15AFS_Simulation"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "22.1 P001 (4063652)  [10/6/2022]-[03/04/25]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "C:\Cadence\SPB_22.1\tools\capture\library\pspice\analog.olb"
+        (DisplayName
+           "C:\Cadence\SPB_22.1\tools\capture\library\pspice\analog.olb")
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_22.1\tools\capture\library\pspice\breakout.olb"
+        (DisplayName
+           "C:\Cadence\SPB_22.1\tools\capture\library\pspice\breakout.olb")
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_22.1\tools\capture\library\pspice\source.olb"
+        (DisplayName
+           "C:\Cadence\SPB_22.1\tools\capture\library\pspice\source.olb")
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_22.1\tools\capture\library\pspice\special.olb"
+        (DisplayName
+           "C:\Cadence\SPB_22.1\tools\capture\library\pspice\special.olb")
+        (Type "Schematic Library")))
+    (NoModify)
+    (File "ssm3k15afs_simulation.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "TRUE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\ssm3k15afs_simulation-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Model Libraries"
+      (Sort User)
+      (File
+         "$(GRAMS)\PARTS\Toshiba-Semiconductor\SSM3K15AFS_LF\SSM3K15AFS_PSpice_20150526.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "$(GRAMS)\PARTS\Toshiba-Semiconductor\SSM3K15AFS_LF\SSM3K15AFS_PSpice_20150526.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\ssm3k15afs_simulation-pspicefiles\schematic1\bias.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ssm3k15afs_simulation-pspicefiles\schematic1\bias.sim"
+        (DisplayName "SCHEMATIC1-bias")
+        (Type "PSpice Profile"))))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_22.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_22.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (NMOS_SSM3K15AFS
+      (FullPartName "NMOS_SSM3K15AFS.Normal")
+      (LibraryName
+         "C:\USERS\DDURACHK\DESKTOP\PROJECTS\PARTS\TOSHIBA-SEMICONDUCTOR\SSM3K15AFS_LF\SSM3K15AFS_PSPICE_20150526.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VSTIM
+      (FullPartName "VSTIM.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "LIBRARY\PSPICE")
+  (MPSSessionName "ddurachk")
+  (Folder "Logs")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "$(GRAMS)\GRAMS\2 - Schematics and Layouts\101 - Simulations\ssm3k15afs_simulation.dsn")
+      (Path "Design Resources"
+         "$(GRAMS)\GRAMS\2 - Schematics and Layouts\101 - Simulations\ssm3k15afs_simulation.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "$(GRAMS)\GRAMS\2 - Schematics and Layouts\101 - Simulations\ssm3k15afs_simulation.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 1084"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 2033 24 1125")
+        (Scroll "-294 -12")
+        (Zoom "145")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\DDURACHK\DESKTOP\PROJECTS\GRAMS\2 - SCHEMATICS AND LAYOUTS\101 - SIMULATIONS\SSM3K15AFS_SIMULATION.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

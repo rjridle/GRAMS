@@ -1,0 +1,21 @@
+** Profile: "SCHEMATIC1-bias"  [ $(GRAMS)\GRAMS\2 - Schematics and Layouts\101 - Simulations\SSM3K15AFS_Simulation-PSpiceFiles\SCHEMATIC1\bias.sim ] 
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "$(GRAMS)/PARTS/Toshiba-Semiconductor/SSM3K15AFS_LF/SSM3K15AFS_PSpice_20150526.lib" 
+* From [PSPICE NETLIST] section of C:\Users\ddurachk\cdssetup\OrCAD_PSpice\22.1.0\PSpice.ini file:
+.lib "$(GRAMS)\PARTS\ISL70417SEH\isl70417.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

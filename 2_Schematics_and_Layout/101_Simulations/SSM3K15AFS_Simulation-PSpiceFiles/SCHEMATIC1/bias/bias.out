@@ -1,0 +1,212 @@
+
+**** 03/04/25 11:20:44 **** PSpice 22.1.0 (6 October 2022) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ $(GRAMS)\GRAMS\2 - Schematics and Layouts\101 - Simulations\SSM3K15AFS_Si
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "$(GRAMS)/PARTS/Toshiba-Semiconductor/SSM3K15AFS_LF/SSM3K15AFS_PSpice_20150526.lib" 
+* From [PSPICE NETLIST] section of C:\Users\ddurachk\cdssetup\OrCAD_PSpice\22.1.0\PSpice.ini file:
+.lib "$(GRAMS)\PARTS\ISL70417SEH\isl70417.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source SSM3K15AFS_SIMULATION
+X_U1         DRAIN GATE 0 NMOS_SSM3K15AFS 
+R_R1         0 GATE  5k TC=0,0 
+R_R2         GATE N14556  15k TC=0,0 
+R_R3         0 GATE  30Meg TC=0,0 
+V_V1         N14556 0 12
+R_R4         DRAIN N14556  20k TC=0,0 
+R_R5         DRAIN N14556  10k TC=0,0 
+
+**** RESUMING bias.cir ****
+.END
+
+INFO(ORPSIM-15454): Model X_U1.smsmosfet: Using BSIM VERSION 3.1 or lower
+
+**** 03/04/25 11:20:44 **** PSpice 22.1.0 (6 October 2022) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ $(GRAMS)\GRAMS\2 - Schematics and Layouts\101 - Simulations\SSM3K15AFS_Si
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.DDS1       X_U1.DDS2       X_U1.DGS1       X_U1.DGS2       
+  T_Measured   25              25              25              25            
+   T_Current   27              27              27              27            
+          IS   88.013000E-15   88.013000E-15    1.000000E-15    1.000000E-15 
+           N    1.15            1.15                                         
+          BV   30                                                            
+         IBV  100.000000E-06                                                 
+          RS    1.1503          1.1503                                       
+         CJO    1.569100E-15    2.987200E-12                                 
+          VJ     .85666          .69573                                      
+           M     .54386          .36689                                      
+
+
+**** 03/04/25 11:20:44 **** PSpice 22.1.0 (6 October 2022) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ $(GRAMS)\GRAMS\2 - Schematics and Layouts\101 - Simulations\SSM3K15AFS_Si
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.smsmosfet  
+               NMOS            
+  T_Measured   25            
+   T_Current   27            
+       LEVEL    7            
+           L  100.000000E-06 
+           W  100.000000E-06 
+         VTO    1.2076       
+          KP  138.125800E-06 
+       GAMMA    0            
+      LAMBDA    0            
+          IS    1.000000E-15 
+          JS   16.481000E-15 
+          PB     .40048      
+        PBSW    1            
+          CJ    3.231900E-06 
+        CJSW    1.000000E-12 
+          MJ    1.7065       
+        CGSO  197.180000E-12 
+        CGDO  350.420000E-12 
+        CGBO    0            
+         TOX   15.000000E-09 
+          XJ  150.000000E-09 
+       UCRIT   10.000000E+03 
+       DELTA     .02079      
+      DIOMOD    2            
+          K1     .5          
+          K2    0            
+        LETA    0            
+        WETA    0            
+          U0  952.2693       
+       XPART    0            
+        VTH0    1.2076       
+          UA  443.600000E-15 
+          UB  587.000000E-21 
+          UC  -46.500000E-12 
+        VSAT  112.118400E+03 
+        RDSW    8.680000E+03 
+        VOFF    -.02         
+     NFACTOR    3.583        
+        PCLM    1.446900E-03 
+      PDIBL2     .012118     
+      PSCBE2    1.000000E-09 
+          A0    1.2732       
+          A1    0            
+          A2    1            
+       NPEAK  170.000000E+15 
+         LDD    0            
+        LITL   82.158380E-09 
+         KT1    -.665        
+         UA1    4.310000E-09 
+         UB1   -7.610000E-18 
+         UC1  -56.000000E-12 
+          AT    3.300000E+03 
+        DSUB     .56         
+         UTE    -.5          
+      MOBMOD    1            
+         AGS     .029771     
+        PRWG    0            
+         PRT   15.000000E+03 
+        CGSL    2.438600E-12 
+        CGDL   15.468000E-09 
+      CKAPPA    2.9066       
+         DLC    0            
+         DWC    3.527700E-03 
+          CF    0            
+        NOIA  100.000000E+18 
+        NOIB   50.000000E+03 
+        NOIC   -1.400000E-12 
+         VTM     .025692     
+     VERSION    3.1          
+       PBSWG    1            
+       MJSWG     .33         
+       CJSWG    1.000000E-12 
+       JTSCD   16.481000E-15 
+
+
+**** 03/04/25 11:20:44 **** PSpice 22.1.0 (6 October 2022) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ $(GRAMS)\GRAMS\2 - Schematics and Layouts\101 - Simulations\SSM3K15AFS_Si
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+( GATE)    2.9996  (DRAIN)     .0051  (N14556)   12.0000 (X_U1.10)    2.6292    
+
+(X_U1.22)    2.9996                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.399E-03
+
+    TOTAL POWER DISSIPATION   2.88E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 03/04/25 11:20:44 **** PSpice 22.1.0 (6 October 2022) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ $(GRAMS)\GRAMS\2 - Schematics and Layouts\101 - Simulations\SSM3K15AFS_Si
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =        2.31
+  Total job time (using Solver 1)   =        0.00
+

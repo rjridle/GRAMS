@@ -1,0 +1,1165 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2119c5d5-8480-47cd-810e-ee85e603d431")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDPWR"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDPWR"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDPWR_0_1"
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDPWR_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 217.629 79.6439)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08db1484-be66-421d-91ba-f9160438c6a5")
+	)
+	(junction
+		(at 217.629 74.7069)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2961dcbd-a8aa-4466-a98e-2f7105331d5a")
+	)
+	(junction
+		(at 217.629 77.2173)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cba8d30-6b3c-4aa2-99e3-d12f2cb20551")
+	)
+	(junction
+		(at 195.3108 76.9489)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe2792bd-9824-4134-aab7-f15079d6ebe7")
+	)
+	(wire
+		(pts
+			(xy 206.0839 79.6439) (xy 217.629 79.6439)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b5966d-02db-44ab-b1a2-5e252d42810f")
+	)
+	(wire
+		(pts
+			(xy 217.629 77.2173) (xy 217.629 79.6439)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cdd1954-191d-4073-ac5b-bdd36ad79b72")
+	)
+	(wire
+		(pts
+			(xy 226.7451 77.2173) (xy 217.629 77.2173)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ec01a7-3c52-4fff-8027-d4da6318f5c8")
+	)
+	(wire
+		(pts
+			(xy 123.8917 48.2177) (xy 118.1987 48.2177)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e03781d-ea74-49e8-bd00-6309257a56e8")
+	)
+	(wire
+		(pts
+			(xy 195.3108 74.7065) (xy 195.3108 76.9489)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33638bca-e92d-40e6-9875-2353524bc83e")
+	)
+	(wire
+		(pts
+			(xy 190.305 78.1417) (xy 190.305 76.9489)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33772eb7-fe6a-475a-ba5c-40bceacaee35")
+	)
+	(wire
+		(pts
+			(xy 190.305 76.9489) (xy 195.3108 76.9489)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "398b9315-c2c9-44c6-a046-4244a9cd87ef")
+	)
+	(wire
+		(pts
+			(xy 118.6492 105.7909) (xy 118.6492 105.8142)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45403385-3613-4da4-bed4-de5f90483160")
+	)
+	(wire
+		(pts
+			(xy 123.8917 67.5291) (xy 118.1312 67.5291)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d828ad2-773d-4979-a0e9-7d7c4aa87bed")
+	)
+	(wire
+		(pts
+			(xy 217.629 79.6439) (xy 217.629 86.3086)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f47dca6-924e-408b-8d15-c13c4d28f0c9")
+	)
+	(wire
+		(pts
+			(xy 206.0359 74.7065) (xy 212.0875 74.7065)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "551b83a6-22f1-46f9-b23c-93ab9a6e474b")
+	)
+	(wire
+		(pts
+			(xy 118.1987 48.2177) (xy 118.1987 48.2217)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60df1534-0062-4235-b343-b57fa0c9555b")
+	)
+	(wire
+		(pts
+			(xy 217.629 67.3582) (xy 217.629 74.7069)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a84e6e7-6af9-47b8-984a-f85c006dd664")
+	)
+	(wire
+		(pts
+			(xy 172.344 105.62) (xy 201.4595 105.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fdd4c1d-fc89-4bcb-8412-d72527bc0245")
+	)
+	(wire
+		(pts
+			(xy 217.629 86.3086) (xy 172.344 86.3086)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9112e41e-bfdc-4325-9afb-687a67633b49")
+	)
+	(wire
+		(pts
+			(xy 212.0875 74.7069) (xy 212.0875 74.7065)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "940e616d-3efe-4060-b248-efc89075fb0d")
+	)
+	(wire
+		(pts
+			(xy 217.629 74.7069) (xy 212.0875 74.7069)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "988d36d5-2dbb-4e65-832a-ac0c7d28847f")
+	)
+	(wire
+		(pts
+			(xy 118.7167 86.4795) (xy 118.7167 86.5048)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af9e165b-f666-439f-b40c-881918820df3")
+	)
+	(wire
+		(pts
+			(xy 200.9559 74.7065) (xy 195.3108 74.7065)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab2c907-dfdb-492c-aef6-04a91e6cac3d")
+	)
+	(wire
+		(pts
+			(xy 172.2777 67.3582) (xy 217.629 67.3582)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcc6d9da-06eb-4374-8079-395e7a817713")
+	)
+	(wire
+		(pts
+			(xy 217.629 74.7069) (xy 217.629 77.2173)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf629f91-9e21-48e8-8c52-0a7bd32e5583")
+	)
+	(wire
+		(pts
+			(xy 172.2777 48.0468) (xy 203.8213 48.0468)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db1b50ef-5f4d-4f34-887d-3e1a87c9b66c")
+	)
+	(wire
+		(pts
+			(xy 195.3108 79.6439) (xy 201.0039 79.6439)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcff0e42-bf1a-4162-8b90-1d22c573fccc")
+	)
+	(wire
+		(pts
+			(xy 123.958 105.7909) (xy 118.6492 105.7909)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b2cf0b-4f97-41cd-af13-6caa5ffb5675")
+	)
+	(wire
+		(pts
+			(xy 118.1312 67.5291) (xy 118.1312 67.5311)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4beeef3-9ab7-4e4c-bb95-dfa30d06f1e2")
+	)
+	(wire
+		(pts
+			(xy 123.958 86.4795) (xy 118.7167 86.4795)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef4fcad7-9158-4c64-b723-f9290ddb595a")
+	)
+	(wire
+		(pts
+			(xy 195.3108 76.9489) (xy 195.3108 79.6439)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e82de9-6d68-42c1-bdb4-3701357fd33d")
+	)
+	(hierarchical_label "V_SEC_IN"
+		(shape input)
+		(at 118.1987 48.2217 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1646597c-ad26-43b6-889d-c52381b9e29e")
+	)
+	(hierarchical_label "P5V_TELEM"
+		(shape output)
+		(at 203.8213 48.0468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2a68644a-2fee-4e6c-b319-4a5ec61c6e94")
+	)
+	(hierarchical_label "M5V_TELEM"
+		(shape output)
+		(at 201.4595 105.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b7cc467-cac9-49f9-b2ce-e27b68fe6026")
+	)
+	(hierarchical_label "V_SEC_RTN"
+		(shape output)
+		(at 118.1312 67.5311 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e8bb97a-e6e6-418d-bb45-3bdba60a3d55")
+	)
+	(hierarchical_label "V_SEC_IN"
+		(shape input)
+		(at 118.7167 86.5048 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4601caff-a54d-4a14-9c92-8eb4d7eb5779")
+	)
+	(hierarchical_label "PM5V_TELEM_RTN"
+		(shape input)
+		(at 226.7451 77.2173 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7501656-aa7f-4ae9-a907-0cd58db47357")
+	)
+	(hierarchical_label "V_SEC_RTN"
+		(shape output)
+		(at 118.6492 105.8142 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dbf79f63-d4b8-4b02-b4b7-762527e33ddf")
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 203.4959 74.7065 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74f1b376-f19b-4092-b29e-867e7ce13326")
+		(property "Reference" "C27"
+			(at 199.9191 72.9181 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 207.8595 72.9896 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 203.4959 74.7065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-- mixed valuhttps://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R7BB104es --"
+			(at 203.4959 74.7065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 203.4959 74.7065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "311-1088-1-ND"
+			(at 203.4959 74.7065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 203.4959 74.7065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "CC0603KRX7R7BB104"
+			(at 203.4959 74.7065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 203.4959 74.7065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 203.4959 74.7065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 203.4959 74.7065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a086f7c-90ab-4d5b-b309-db610d1b3004")
+		)
+		(pin "1"
+			(uuid "c742b339-2d4e-4dac-9c4d-171ea27e8bc6")
+		)
+		(instances
+			(project "CAEN_NEVIS_DAQ_PM5V"
+				(path "/ae14f75f-f9e2-4d62-a3b7-befabe493169/c1f91f5f-5154-489e-a911-9103a8a4f26d"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 190.305 78.1417 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97c7966a-648a-40f2-9ac6-d7cda5e17d98")
+		(property "Reference" "#PWR08"
+			(at 190.305 83.2217 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 190.178 82.7296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.305 79.4117 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.305 79.4117 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 190.305 78.1417 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84b9a932-3638-46aa-a6e8-1002ac949ab5")
+		)
+		(instances
+			(project "CAEN_NEVIS_DAQ_PM5V"
+				(path "/ae14f75f-f9e2-4d62-a3b7-befabe493169/c1f91f5f-5154-489e-a911-9103a8a4f26d"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 203.5439 79.6439 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e38331b1-6e95-4e4f-94eb-6e55747594cd")
+		(property "Reference" "C28"
+			(at 199.9671 77.8555 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 207.9075 77.927 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 203.5439 79.6439 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-- mixed valuhttps://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R7BB104es --"
+			(at 203.5439 79.6439 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 203.5439 79.6439 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "311-1088-1-ND"
+			(at 203.5439 79.6439 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 203.5439 79.6439 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "CC0603KRX7R7BB104"
+			(at 203.5439 79.6439 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 203.5439 79.6439 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 203.5439 79.6439 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 203.5439 79.6439 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6054ce0b-d12b-4999-ba10-a65f9228f0d3")
+		)
+		(pin "1"
+			(uuid "5faabfef-832a-4060-9be4-7cbbbbb3c400")
+		)
+		(instances
+			(project "CAEN_NEVIS_DAQ_PM5V"
+				(path "/ae14f75f-f9e2-4d62-a3b7-befabe493169/c1f91f5f-5154-489e-a911-9103a8a4f26d"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.8917 42.7113)
+		(size 48.386 30.5128)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6764f052-9945-470b-966f-5073131ea4cc")
+		(property "Sheetname" "Telem_5V"
+			(at 123.8917 41.9997 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Telem_5V.kicad_sch"
+			(at 123.8917 73.8087 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_TELEM" output
+			(at 172.2777 48.0468 0)
+			(uuid "8feecee5-fc87-4310-8e15-bad65726b8c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_TELEM_RTN" input
+			(at 172.2777 67.3582 0)
+			(uuid "4447c0c7-7978-460e-b0fd-5c7ae7b4a198")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_SEC_IN" input
+			(at 123.8917 48.2177 180)
+			(uuid "5b94c879-11c5-4b34-b30e-fc8a1e00c1df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_SEC_RTN" output
+			(at 123.8917 67.5291 180)
+			(uuid "e698a97a-c1a9-4d37-a5c8-fa60357f9be3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CAEN_NEVIS_DAQ_PM5V"
+				(path "/ae14f75f-f9e2-4d62-a3b7-befabe493169/c1f91f5f-5154-489e-a911-9103a8a4f26d"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.958 80.9731)
+		(size 48.386 30.5128)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9b49a23b-f399-4e68-83d3-a1a45bcfae97")
+		(property "Sheetname" "Telem_5V1"
+			(at 123.958 80.2615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Telem_5V.kicad_sch"
+			(at 123.958 112.0705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_TELEM" output
+			(at 172.344 86.3086 0)
+			(uuid "4b568ee3-e0eb-4ffd-ab46-5e89f616a7ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_TELEM_RTN" input
+			(at 172.344 105.62 0)
+			(uuid "0171a8b0-5e2d-4054-9ab4-6006f944e1e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_SEC_IN" input
+			(at 123.958 86.4795 180)
+			(uuid "428a16f3-b69c-4087-9227-75c7ed750a0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_SEC_RTN" output
+			(at 123.958 105.7909 180)
+			(uuid "50dd5806-9c58-4464-9a29-ef7174b15ae5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CAEN_NEVIS_DAQ_PM5V"
+				(path "/ae14f75f-f9e2-4d62-a3b7-befabe493169/c1f91f5f-5154-489e-a911-9103a8a4f26d"
+					(page "7")
+				)
+			)
+		)
+	)
+)

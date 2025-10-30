@@ -1,0 +1,4464 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e1d5122e-0531-4670-880c-cf4ad0e91d2a")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Analog_Dev:LTC2051HVIMS8_PBF"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 7.112 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LTC2051HV"
+				(at 13.97 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LTC2051HVIMS8_PBF_1_1"
+				(rectangle
+					(start 0 7.62)
+					(end 7.62 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 7.62) (xy 7.62 3.81) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 6.35 0)
+					(length 5.08)
+					(name "-INA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 5.08)
+					(name "+INA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 3.81 12.7 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 3.81 -5.08 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 3.81 180)
+					(length 7.62)
+					(name "A_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LTC2051HVIMS8_PBF_2_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 7.62) (xy 7.62 3.81) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 6.35 0)
+					(length 5.08)
+					(name "-INB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 5.08)
+					(name "+INB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 3.81 180)
+					(length 7.62)
+					(name "B_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LTC2051HVIMS8_PBF_1"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 7.112 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LTC2051HVCS8#TRPBF"
+				(at 13.97 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Analog_Dev:R_8_ADI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/20512fd.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "IC OPAMP ZERO-DRIFT 2 CIRC 8SOIC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Analog Devices Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Man. Part Num" "LTC2051HVCS8#TRPBF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" "Digi-Key"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dist. Part Num" "LTC2051HVCS8#TRPBFCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "8-SOIC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LTC2051HVIMS8_PBF_1_1_1"
+				(rectangle
+					(start 0 7.62)
+					(end 7.62 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 7.62) (xy 7.62 3.81) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 6.35 0)
+					(length 5.08)
+					(name "-INA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 5.08)
+					(name "+INA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 3.81 12.7 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 3.81 -5.08 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 3.81 180)
+					(length 7.62)
+					(name "A_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LTC2051HVIMS8_PBF_1_2_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 7.62) (xy 7.62 3.81) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 6.35 0)
+					(length 5.08)
+					(name "-INB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 5.08)
+					(name "+INB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 3.81 180)
+					(length 7.62)
+					(name "B_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 142.4909 66.6182)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0709dcb0-a0ce-4609-8d70-2cfc3ba2f5da")
+	)
+	(junction
+		(at 162.2322 27.7515)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14451975-69a4-45e2-aaa3-a22e2d8e18e8")
+	)
+	(junction
+		(at 124.0185 106.385)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "155ee4d3-f101-4925-b2c7-7b1bda4b22c4")
+	)
+	(junction
+		(at 135.2532 35.3001)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fa99345-516c-4c28-82bd-f8542c005eec")
+	)
+	(junction
+		(at 105.477 49.6902)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fc7789b-d2f3-41fb-8f47-b8aa888883a0")
+	)
+	(junction
+		(at 162.0652 47.1502)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77b835ad-d69a-4c60-8b2d-84bd2d828b06")
+	)
+	(junction
+		(at 162.0765 66.802)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96daf710-a4d6-4150-b5c0-83253a2694b4")
+	)
+	(junction
+		(at 192.312 123.7887)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "995a5e3b-c64f-4bfb-8d34-c41e5c89488a")
+	)
+	(junction
+		(at 142.6466 63.7502)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4f3a5d6-88d7-4782-a6bf-7503f370070f")
+	)
+	(junction
+		(at 120.9363 35.364)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1a029e9-8620-4420-8692-7441299ba33c")
+	)
+	(junction
+		(at 149.1129 105.8098)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcb74b08-78bd-4429-a65a-0a661a454e05")
+	)
+	(junction
+		(at 183.3753 47.1935)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be3d6d98-80cb-483b-9a39-96c9b770b693")
+	)
+	(junction
+		(at 142.6466 30.8196)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be80b08d-ba61-43f4-8f19-5585e82781ea")
+	)
+	(junction
+		(at 116.6843 121.2955)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4a666c3-1aa5-48a5-b5bd-3cbfa0ee79a6")
+	)
+	(junction
+		(at 165.2403 123.8355)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd4f6c8f-199c-4182-afd4-17aaa0ead6ab")
+	)
+	(junction
+		(at 142.6466 27.5677)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4dfe527-afd1-494a-bfb8-9fe94bce343d")
+	)
+	(wire
+		(pts
+			(xy 33.1635 20.8754) (xy 51.0675 20.8754)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00ab02a2-1b01-4ce7-9ad3-40b23d663785")
+	)
+	(wire
+		(pts
+			(xy 118.919 27.5677) (xy 142.6466 27.5677)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "020396bb-92c2-4305-a87d-8f6745f46f29")
+	)
+	(wire
+		(pts
+			(xy 132.3413 129.0167) (xy 127.0914 129.0167)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "027a8de9-3d22-43ea-bd22-a7d75f67bde6")
+	)
+	(wire
+		(pts
+			(xy 149.1129 109.9712) (xy 139.9532 109.9712)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "094ab0aa-4d94-4a6f-a22e-44cc619ed905")
+	)
+	(wire
+		(pts
+			(xy 165.2912 123.8355) (xy 165.2912 105.8098)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d0a1cec-0763-4c9e-a367-783eff360bd2")
+	)
+	(wire
+		(pts
+			(xy 178.1479 123.7887) (xy 165.2403 123.7887)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "115e1889-95f3-4cd3-87d5-f6139299008b")
+	)
+	(wire
+		(pts
+			(xy 105.477 59.5946) (xy 105.477 63.8019)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1254a7d5-2b1b-4971-ac5f-ccf95f234a28")
+	)
+	(wire
+		(pts
+			(xy 196.389 47.1216) (xy 222.1221 47.1216)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1264932e-308f-47ac-a563-c2c572c949c2")
+	)
+	(wire
+		(pts
+			(xy 118.7633 66.6182) (xy 142.4909 66.6182)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "129bb2bd-01bf-4d09-aece-aa9d2e15ce62")
+	)
+	(wire
+		(pts
+			(xy 162.2322 30.8196) (xy 153.0285 30.8196)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16fdb78c-9787-43e7-8bb6-ec647fcc662e")
+	)
+	(wire
+		(pts
+			(xy 116.6843 121.305) (xy 116.6843 121.2955)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "174412e1-792a-45c2-8ff5-87779f32606a")
+	)
+	(wire
+		(pts
+			(xy 124.0185 103.1763) (xy 124.0185 106.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bc5d80a-d056-4c96-8805-34dc9766140f")
+	)
+	(wire
+		(pts
+			(xy 149.1129 105.8098) (xy 149.1129 109.9712)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "241d16f0-3f1e-42dd-a32c-0b53dce38264")
+	)
+	(wire
+		(pts
+			(xy 152.9555 63.7502) (xy 162.0765 63.7502)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2627597d-beb0-4106-a06a-3a72cbd0d0ed")
+	)
+	(wire
+		(pts
+			(xy 120.9363 32.8714) (xy 120.9363 35.364)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d51b2bb-83b9-4519-8e7b-300e365ccc8e")
+	)
+	(wire
+		(pts
+			(xy 156.5034 123.8355) (xy 165.2403 123.8355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e2e7682-39fb-4efd-8dd2-cc5547203c0b")
+	)
+	(wire
+		(pts
+			(xy 153.1112 24.6997) (xy 162.2322 24.6997)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e962171-9685-4e1f-b2b6-6763a05c935d")
+	)
+	(wire
+		(pts
+			(xy 162.0765 69.8701) (xy 152.8728 69.8701)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f0f7f44-c2a9-455e-b784-ced33961e34d")
+	)
+	(wire
+		(pts
+			(xy 126.3856 32.8714) (xy 120.9363 32.8714)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3158e176-114e-4a10-9196-626371d67f3d")
+	)
+	(wire
+		(pts
+			(xy 136.1834 126.3755) (xy 132.3413 126.3755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "349fb432-0027-4fc4-9ea3-ed7048eb4162")
+	)
+	(wire
+		(pts
+			(xy 142.6466 24.6997) (xy 148.0312 24.6997)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c9b211-af2c-4678-b64e-543155442c2e")
+	)
+	(wire
+		(pts
+			(xy 149.1129 103.1763) (xy 149.1129 105.8098)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37965fd1-0e4f-40d7-8f28-5a40d3a3938f")
+	)
+	(wire
+		(pts
+			(xy 147.9485 30.8196) (xy 142.6466 30.8196)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a759980-2f3a-48fd-9dc7-0cc9dd360484")
+	)
+	(wire
+		(pts
+			(xy 192.312 123.7168) (xy 192.312 123.7887)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ae25e94-d993-42ab-bbf0-397c6942c4c9")
+	)
+	(wire
+		(pts
+			(xy 106.2214 121.305) (xy 116.6843 121.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa3b882-081b-450f-bac8-4effbfb10495")
+	)
+	(wire
+		(pts
+			(xy 142.6466 56.0402) (xy 142.6466 63.7502)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b6081f-9923-4ee8-baa0-78f76afe3c99")
+	)
+	(wire
+		(pts
+			(xy 147.7928 69.8701) (xy 142.4909 69.8701)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c18a15-38ec-4172-b851-82b54252a35c")
+	)
+	(wire
+		(pts
+			(xy 192.312 123.7887) (xy 192.312 128.3671)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49bc8f8b-1581-447c-8513-c33a370fefcc")
+	)
+	(wire
+		(pts
+			(xy 133.7566 44.6102) (xy 115.0882 44.6102)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e3f1bfa-90b7-476a-90a6-5158eae41d13")
+	)
+	(wire
+		(pts
+			(xy 142.4909 63.7502) (xy 142.6466 63.7502)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f61b80a-170b-4109-84fc-cd0018f9e9d8")
+	)
+	(wire
+		(pts
+			(xy 165.2912 105.8098) (xy 149.1129 105.8098)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52bd93f3-f55c-48c6-b5e7-cc549802e484")
+	)
+	(wire
+		(pts
+			(xy 185.7679 123.7887) (xy 192.312 123.7887)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5601f5ba-cfd6-4788-8655-7dc1be1c46b6")
+	)
+	(wire
+		(pts
+			(xy 33.0916 24.902) (xy 50.9956 24.902)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58450df5-f06a-426d-8df1-4e1204fd4aac")
+	)
+	(wire
+		(pts
+			(xy 183.3753 56.8519) (xy 183.3753 66.802)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5889a356-fe0e-4594-bccc-2c5419075a05")
+	)
+	(wire
+		(pts
+			(xy 162.2322 27.7515) (xy 162.2322 30.8196)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59d8993e-15cf-4779-81da-739c20fbb2e2")
+	)
+	(wire
+		(pts
+			(xy 142.6466 27.5677) (xy 142.6466 30.8196)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d44099a-d7b6-4cb1-ba2d-9c0e93adc4a9")
+	)
+	(wire
+		(pts
+			(xy 120.9363 35.364) (xy 120.9363 38.2522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e1a96f4-27f3-40ab-92e8-b84f64f49a0e")
+	)
+	(wire
+		(pts
+			(xy 165.2403 123.8355) (xy 165.2912 123.8355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67210907-6a1b-478e-8a0e-58227a096896")
+	)
+	(wire
+		(pts
+			(xy 135.2532 38.2522) (xy 132.8555 38.2522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "710b347a-79ec-4311-8d4f-a09e55b4800d")
+	)
+	(wire
+		(pts
+			(xy 132.3413 126.3755) (xy 132.3413 129.0167)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7381a544-63f2-46c4-a7be-fd86155b3cfc")
+	)
+	(wire
+		(pts
+			(xy 120.9363 38.2522) (xy 125.2355 38.2522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73f7c780-90d6-401a-b54a-c9bcaafd5b6c")
+	)
+	(wire
+		(pts
+			(xy 205.3257 123.7288) (xy 205.3257 123.7168)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75da00c2-c66a-496e-96b1-a226b5009c63")
+	)
+	(wire
+		(pts
+			(xy 33.2311 42.0402) (xy 51.1351 42.0402)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ae5f19-0241-4878-a12c-92c196cbd2e6")
+	)
+	(wire
+		(pts
+			(xy 162.0652 47.1502) (xy 154.0766 47.1502)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83bc4bc6-7e23-4772-b5f9-1edc21e38d64")
+	)
+	(wire
+		(pts
+			(xy 115.0882 35.364) (xy 120.9363 35.364)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85628c5a-5c50-4c1a-b6cd-b42028f48e6f")
+	)
+	(wire
+		(pts
+			(xy 90.4132 29.0724) (xy 105.477 29.0724)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8694f133-22ec-4fe5-8bbd-ee7daaa34ad4")
+	)
+	(wire
+		(pts
+			(xy 142.6466 63.7502) (xy 147.8755 63.7502)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87af672d-92d7-4b8f-9d95-23a66ceea78b")
+	)
+	(wire
+		(pts
+			(xy 90.521 63.8019) (xy 105.477 63.8019)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c0c5e3a-de42-4642-a1c9-c91d0a1a5e42")
+	)
+	(wire
+		(pts
+			(xy 162.0765 63.7502) (xy 162.0765 66.802)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f93583f-b303-4310-9486-909d285bc312")
+	)
+	(wire
+		(pts
+			(xy 197.7057 123.7168) (xy 192.312 123.7168)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa17e42-3784-4275-aaa1-a0890d8cb954")
+	)
+	(wire
+		(pts
+			(xy 169.2112 47.1935) (xy 162.0652 47.1935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95daf8d4-8c6f-492f-b4a2-93faa2a4307b")
+	)
+	(wire
+		(pts
+			(xy 215.3571 123.7288) (xy 205.3257 123.7288)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b96a04-82b4-476d-89ad-84f2fc7b882f")
+	)
+	(wire
+		(pts
+			(xy 133.3605 103.1763) (xy 124.0185 103.1763)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98eeecc1-e89e-4e8f-bd32-b52b5164c8e2")
+	)
+	(wire
+		(pts
+			(xy 124.0185 109.9712) (xy 132.3332 109.9712)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99d56b20-69e2-4a90-b0ed-56f2c46bfd3c")
+	)
+	(wire
+		(pts
+			(xy 135.2532 32.8714) (xy 135.2532 35.3001)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a510228-ebba-4312-855f-6128ad016b8c")
+	)
+	(wire
+		(pts
+			(xy 162.2322 24.6997) (xy 162.2322 27.7515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a8134e9-e08a-42c8-aa09-e1b29441ebef")
+	)
+	(wire
+		(pts
+			(xy 98.6014 121.305) (xy 77.2571 121.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae51def-a1ba-45df-b9f0-b774061427cc")
+	)
+	(wire
+		(pts
+			(xy 33.2354 29.2162) (xy 51.1394 29.2162)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b5295db-aefb-4e6c-90c5-b1e5566dc0e4")
+	)
+	(wire
+		(pts
+			(xy 162.2322 27.7515) (xy 180.1362 27.7515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a26cbb26-7c93-404d-b8a4-9c9314306be2")
+	)
+	(wire
+		(pts
+			(xy 135.2532 35.3001) (xy 135.2532 38.2522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab0fcc68-d2bf-4b8f-b51d-ececdb10ae1a")
+	)
+	(wire
+		(pts
+			(xy 124.0185 106.385) (xy 124.0185 109.9712)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe21d6a-96ee-4044-b058-e28f47bd1baf")
+	)
+	(wire
+		(pts
+			(xy 142.6466 24.6997) (xy 142.6466 27.5677)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b026c32a-e763-462a-8a8c-37a9db66f237")
+	)
+	(wire
+		(pts
+			(xy 142.4909 66.6182) (xy 142.4909 69.8701)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b215ebc0-ce8c-4380-a85c-fa117151f553")
+	)
+	(wire
+		(pts
+			(xy 142.6466 30.8196) (xy 142.6466 38.2602)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b306cab8-8632-4dc7-b89f-d278793080ef")
+	)
+	(wire
+		(pts
+			(xy 162.0765 66.802) (xy 183.3753 66.802)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4b180bf-9256-47ce-a873-b57e2484abbb")
+	)
+	(wire
+		(pts
+			(xy 142.4909 63.7502) (xy 142.4909 66.6182)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b94234d9-c55b-40c5-8009-54f39bf06ac6")
+	)
+	(wire
+		(pts
+			(xy 162.0652 35.3001) (xy 162.0652 47.1502)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bca03bbf-47ec-4e64-9205-8aa3e4d6b1a6")
+	)
+	(wire
+		(pts
+			(xy 188.769 47.1216) (xy 183.3753 47.1216)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0955720-2838-4183-a9f0-596c8c36b008")
+	)
+	(wire
+		(pts
+			(xy 33.2491 52.4778) (xy 51.1531 52.4778)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0ab7ed9-8592-4ce6-97c2-e725009b50ca")
+	)
+	(wire
+		(pts
+			(xy 98.4777 129.0167) (xy 119.4714 129.0167)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4196756-6054-4cba-849c-2100c80162f8")
+	)
+	(wire
+		(pts
+			(xy 105.477 49.6902) (xy 105.477 51.9746)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c66b3bfd-ce87-40b4-a6c5-f308c7494fe5")
+	)
+	(wire
+		(pts
+			(xy 131.4656 32.8714) (xy 135.2532 32.8714)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb555ea1-d307-43c5-9551-caa6879a591c")
+	)
+	(wire
+		(pts
+			(xy 192.312 133.4471) (xy 192.312 139.1042)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca2abab-c556-4383-b8ba-f9fb344129e2")
+	)
+	(wire
+		(pts
+			(xy 116.6843 106.385) (xy 116.6843 121.2955)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d201c51b-bdc6-4af0-a554-fe2d6d912adf")
+	)
+	(wire
+		(pts
+			(xy 116.6843 106.385) (xy 124.0185 106.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4fcd2b1-ee0a-4905-a00a-cc54426195e6")
+	)
+	(wire
+		(pts
+			(xy 116.6843 121.2955) (xy 136.1834 121.2955)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4fe793e-b414-45cb-a1e5-999ed4edabe3")
+	)
+	(wire
+		(pts
+			(xy 105.477 42.122) (xy 105.477 49.6902)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d78a0f49-40bc-4287-8dcf-0ae4a5d97d9b")
+	)
+	(wire
+		(pts
+			(xy 105.477 34.502) (xy 105.477 29.0724)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d84e9d33-14fa-435a-8edb-4895a2f2672f")
+	)
+	(wire
+		(pts
+			(xy 115.0882 44.6102) (xy 115.0882 35.364)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ec96de-416f-4cc0-a426-a5e69b3a652e")
+	)
+	(wire
+		(pts
+			(xy 98.4777 139.1042) (xy 192.312 139.1042)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd7413d-450e-4094-a959-2dfccea06bf0")
+	)
+	(wire
+		(pts
+			(xy 138.4405 103.1763) (xy 149.1129 103.1763)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1386359-df21-452c-87a1-2f7dbb476478")
+	)
+	(wire
+		(pts
+			(xy 176.8312 47.1935) (xy 183.3753 47.1935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6966d87-4561-4bbf-9db9-0d75e9f73486")
+	)
+	(wire
+		(pts
+			(xy 183.3753 47.1216) (xy 183.3753 47.1935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9920734-cf40-4dfb-9e30-1c62a26fee4c")
+	)
+	(wire
+		(pts
+			(xy 98.4777 139.1042) (xy 98.4777 129.0167)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec703bb5-dfd2-4e26-af15-cfdbc595e1dd")
+	)
+	(wire
+		(pts
+			(xy 165.2403 123.7887) (xy 165.2403 123.8355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0c0bad9-98fb-4ffd-90cf-171016effcff")
+	)
+	(wire
+		(pts
+			(xy 133.7566 49.6902) (xy 105.477 49.6902)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f9f05e-fca6-4dec-9cf8-5ea14b7d4000")
+	)
+	(wire
+		(pts
+			(xy 162.0652 47.1935) (xy 162.0652 47.1502)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f64ce430-2ab1-450b-90a8-1d4bdd9322c0")
+	)
+	(wire
+		(pts
+			(xy 135.2532 35.3001) (xy 162.0652 35.3001)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8ec6e3e-349a-4b71-919d-726c9d7608d1")
+	)
+	(wire
+		(pts
+			(xy 32.8176 47.085) (xy 50.7216 47.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd33d27a-2913-476a-bc83-0f0311fde169")
+	)
+	(wire
+		(pts
+			(xy 162.0765 66.802) (xy 162.0765 69.8701)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe1d9bc7-dd7b-419d-89db-00abd22b91d7")
+	)
+	(wire
+		(pts
+			(xy 183.3753 47.1935) (xy 183.3753 51.7719)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff3bd9a1-f75a-448b-b14f-8810ef3421f1")
+	)
+	(label "PM3p3_RTN"
+		(at 92.2467 63.8019 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "040e63dc-cce4-4caa-ba49-7328854249cd")
+	)
+	(label "M3p3_IN"
+		(at 81.6252 121.305 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09dfb76f-25e8-4790-8033-49a4311cb156")
+	)
+	(label "V_TELEM_M3p3V"
+		(at 123.0296 66.6182 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c888e1c-4cce-465f-8d62-85aa9356cc74")
+	)
+	(label "V_TELEM_RTN"
+		(at 134.7411 139.1042 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c74658a-1a5d-4339-9bef-9ede7ca9717e")
+	)
+	(label "V3p3_IN"
+		(at 94.0803 29.0724 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0cc9807-795c-4b5d-8cb6-925cb571dd91")
+	)
+	(label "V_TELEM_P3p3V"
+		(at 123.1853 27.5677 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8565f7c-e7e8-44ca-a58d-e4ecd28fd528")
+	)
+	(label "V_TELEM_RTN"
+		(at 166.0605 27.7515 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca9ce624-e268-4651-a9bd-9e7e5ac872ff")
+	)
+	(label "V_TELEM_RTN"
+		(at 165.9048 66.802 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e20f1fc4-aee2-4c88-8a3c-b62568f6ad81")
+	)
+	(hierarchical_label "M3p3V_TELEM_MON"
+		(shape output)
+		(at 215.3571 123.7288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e9a5d15-96e5-4480-ae2f-f3e60b5f390e")
+	)
+	(hierarchical_label "P3p3V_TELEM_MON"
+		(shape output)
+		(at 222.1221 47.1216 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59128a06-8ded-475a-b282-de13d3b7c0cd")
+	)
+	(hierarchical_label "V3p3_IN"
+		(shape input)
+		(at 33.1635 20.8754 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77e5697d-7ce2-4a9d-b21a-0f255da631f8")
+	)
+	(hierarchical_label "V_TELEM_P3p3V"
+		(shape input)
+		(at 33.2311 42.0402 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87563ab2-5681-4c2d-bf00-9308b8112464")
+	)
+	(hierarchical_label "PM3p3_RTN"
+		(shape output)
+		(at 33.0916 24.902 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b02280db-aefa-4599-bfca-39f9730d6d70")
+	)
+	(hierarchical_label "V_TELEM_RTN"
+		(shape output)
+		(at 32.8176 47.085 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b81e6be2-34f5-43b0-b625-dcdcc1dbd125")
+	)
+	(hierarchical_label "M3p3_IN"
+		(shape input)
+		(at 33.2354 29.2162 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb80d107-8929-4f5c-b6dc-ca8cbb02179f")
+	)
+	(hierarchical_label "V_TELEM_M3p3V"
+		(shape input)
+		(at 33.2491 52.4778 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef80e70f-b28d-423a-8d38-39cdc2bca651")
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 135.9005 103.1763 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00466fd2-38c8-4bdc-8ce2-0106388b2bbf")
+		(property "Reference" "C68"
+			(at 130.7729 101.1501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 142.1032 101.3983 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 135.9005 103.1763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.9005 103.1763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 135.9005 103.1763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "1276-1445-1-ND"
+			(at 135.9005 103.1763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 135.9005 103.1763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "CL05A105KA5NQNC"
+			(at 135.9005 103.1763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 135.9005 103.1763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 135.9005 103.1763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 135.9005 103.1763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9d6f0ab4-187a-499b-8ad3-fdb642ef2232")
+		)
+		(pin "1"
+			(uuid "296534a8-c9eb-4d4b-a69d-bb762c43a192")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/95c5cc52-e408-4e51-99e2-5e344727e9d8/b487083a-568a-4e11-b4ff-df7ed579a43f"
+					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 201.5157 123.7168 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "038b5fe8-5fc2-4332-bb9d-dc8d9c5674a5")
+		(property "Reference" "R68"
+			(at 195.9072 121.5597 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24.9"
+			(at 207.8792 121.7754 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 201.5157 121.9388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.5157 123.7168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "24.9 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film"
+			(at 201.5157 123.7168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 201.5157 123.7168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 201.5157 123.7168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 201.5157 123.7168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "13-RT0603FRE0724R9LCT-ND"
+			(at 201.5157 123.7168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "RT0603FRE0724R9L"
+			(at 201.5157 123.7168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 201.5157 123.7168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75791fd7-4298-4fb2-afa5-af44720abc46")
+		)
+		(pin "2"
+			(uuid "70b1b5ec-f42d-4505-8809-7ad98098a15a")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/95c5cc52-e408-4e51-99e2-5e344727e9d8/b487083a-568a-4e11-b4ff-df7ed579a43f"
+					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.477 55.7846 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b1e9484-d0d8-4d07-b8e3-af4b7623090a")
+		(property "Reference" "R61"
+			(at 109.1441 54.2747 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 109.1441 57.5103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 107.255 55.7846 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.477 55.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
+			(at 105.477 55.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 105.477 55.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 105.477 55.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 105.477 55.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "RNCP0603FTD10K0CT-ND"
+			(at 105.477 55.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "RNCP0603FTD10K0"
+			(at 105.477 55.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 105.477 55.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "940de6a6-334d-425f-a143-062fcc7d0e59")
+		)
+		(pin "2"
+			(uuid "5ed673b8-0575-4bd4-a5dc-7e5731e347f1")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/95c5cc52-e408-4e51-99e2-5e344727e9d8/b487083a-568a-4e11-b4ff-df7ed579a43f"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 136.1432 109.9712 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "237697f3-fa63-427c-8d48-403836a4ecbe")
+		(property "Reference" "R64"
+			(at 130.9102 108.2974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 139.8902 107.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 136.1432 111.7492 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 136.1432 109.9712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
+			(at 136.1432 109.9712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "P10KDCCT-ND"
+			(at 136.1432 109.9712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 136.1432 109.9712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "ERA-2AEB103X"
+			(at 136.1432 109.9712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 136.1432 109.9712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 136.1432 109.9712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 136.1432 109.9712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4117cbc-6e40-457a-95f4-ac02d1747b4e")
+		)
+		(pin "2"
+			(uuid "a6699cca-556e-4a62-84ba-bb8ee13da035")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/95c5cc52-e408-4e51-99e2-5e344727e9d8/b487083a-568a-4e11-b4ff-df7ed579a43f"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 123.2814 129.0167 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c1c77a8-b77c-41d6-b6f0-b0d813b14f0c")
+		(property "Reference" "R66"
+			(at 117.8677 127.5546 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 128.8929 127.6984 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 123.2814 130.7947 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.2814 129.0167 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
+			(at 123.2814 129.0167 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "P10KDCCT-ND"
+			(at 123.2814 129.0167 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 123.2814 129.0167 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "ERA-2AEB103X"
+			(at 123.2814 129.0167 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 123.2814 129.0167 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 123.2814 129.0167 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 123.2814 129.0167 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c57c2714-e730-41c0-a191-115334fb4f8e")
+		)
+		(pin "2"
+			(uuid "ef271dfb-0eb1-4f52-8e24-ea54e74864ac")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/95c5cc52-e408-4e51-99e2-5e344727e9d8/b487083a-568a-4e11-b4ff-df7ed579a43f"
+					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 150.4155 63.7502 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5061696e-c151-44ed-8e6f-f53372f2a8ba")
+		(property "Reference" "C24"
+			(at 145.2879 61.724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 156.6182 61.9722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 150.4155 63.7502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 150.4155 63.7502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 150.4155 63.7502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "1276-6720-1-ND"
+			(at 150.4155 63.7502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 150.4155 63.7502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "CL05B104KA5NNNC"
+			(at 150.4155 63.7502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 150.4155 63.7502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 150.4155 63.7502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 150.4155 63.7502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "365bf8e2-7a33-4c29-afcd-a21d868e6ca5")
+		)
+		(pin "1"
+			(uuid "8f5838e5-cc19-4927-8553-dc55138d7ff6")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/95c5cc52-e408-4e51-99e2-5e344727e9d8/b487083a-568a-4e11-b4ff-df7ed579a43f"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 128.9256 32.8714 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "553d5505-d339-4592-8274-67305570d72e")
+		(property "Reference" "C63"
+			(at 123.798 30.8452 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 135.1283 31.0934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 128.9256 32.8714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.9256 32.8714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 128.9256 32.8714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "1276-1445-1-ND"
+			(at 128.9256 32.8714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 128.9256 32.8714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "CL05A105KA5NQNC"
+			(at 128.9256 32.8714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 128.9256 32.8714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 128.9256 32.8714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 128.9256 32.8714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "756bb65f-d8a8-4626-a687-1e04e048f836")
+		)
+		(pin "1"
+			(uuid "b498c931-01e3-485c-a5ba-340172d709cb")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/95c5cc52-e408-4e51-99e2-5e344727e9d8/b487083a-568a-4e11-b4ff-df7ed579a43f"
+					(reference "C63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.9579 123.7887 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59767af0-20f9-4ef0-8050-e5f7a091a884")
+		(property "Reference" "R67"
+			(at 176.3494 121.6316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24.9"
+			(at 188.3214 121.8473 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 181.9579 122.0107 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.9579 123.7887 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "24.9 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 181.9579 123.7887 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 181.9579 123.7887 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 181.9579 123.7887 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 181.9579 123.7887 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "311-24.9LRCT-ND"
+			(at 181.9579 123.7887 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "RC0402FR-0724R9L"
+			(at 181.9579 123.7887 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 181.9579 123.7887 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49fb9424-1df1-4b3f-bfaa-905da5a6cda9")
+		)
+		(pin "2"
+			(uuid "18675b05-1658-4366-82d1-382abeb2edf7")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/95c5cc52-e408-4e51-99e2-5e344727e9d8/b487083a-568a-4e11-b4ff-df7ed579a43f"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 192.579 47.1216 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b3f6cce-e3d4-472a-9fa3-bdc10e3c8ed8")
+		(property "Reference" "R63"
+			(at 186.9705 44.9645 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24.9"
+			(at 198.9425 45.1802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 192.579 45.3436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 192.579 47.1216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "24.9 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film"
+			(at 192.579 47.1216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 192.579 47.1216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 192.579 47.1216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 192.579 47.1216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "13-RT0603FRE0724R9LCT-ND"
+			(at 192.579 47.1216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "RT0603FRE0724R9L"
+			(at 192.579 47.1216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 192.579 47.1216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73e182f4-4e4e-425c-aa92-4d5be641784e")
+		)
+		(pin "2"
+			(uuid "8faa7d00-6fd0-4121-9877-395bbd386a76")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/95c5cc52-e408-4e51-99e2-5e344727e9d8/b487083a-568a-4e11-b4ff-df7ed579a43f"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LTC2051HVIMS8_PBF_1")
+		(lib_id "Analog_Dev:LTC2051HVIMS8_PBF")
+		(at 138.8366 50.9602 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60d24176-f843-4a86-bce4-bffbf77fde4c")
+		(property "Reference" "U18"
+			(at 153.2509 40.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTC2051HVCS5-TRMPBF"
+			(at 153.2509 43.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Analog_Devices:R_8_ADI"
+			(at 138.8366 50.9602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/20512fd.pdf"
+			(at 138.8366 50.9602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chopper (Zero-Drift) Amplifier 2 Circuit Rail-to-Rail 8-SO"
+			(at 138.8366 50.9602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices Inc."
+			(at 138.8366 50.9602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "LTC2051HVIS8#TRPBF"
+			(at 138.8366 50.9602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 138.8366 50.9602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "LTC2051HVIS8#TRPBFCT-ND"
+			(at 138.8366 50.9602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 138.8366 50.9602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "8-SOIC"
+			(at 138.8366 50.9602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 138.8366 50.9602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "955e4d50-7b98-43f9-ae42-8f7b7abbce2a")
+		)
+		(pin "2"
+			(uuid "10dda37b-02a6-4b3b-ad0f-99ef653063a2")
+		)
+		(pin "6"
+			(uuid "b1ef55c9-3700-4228-9d6c-3e784e4358ef")
+		)
+		(pin "3"
+			(uuid "535c31bb-523a-4e62-a0c0-7bb167b2aa45")
+		)
+		(pin "5"
+			(uuid "8a780fe9-457d-4439-82be-87c5afe0c168")
+		)
+		(pin "7"
+			(uuid "38c2c357-9b5a-4e46-a6af-589ac6f40d68")
+		)
+		(pin "1"
+			(uuid "2d620b97-70ce-435e-b0d8-99173b830df4")
+		)
+		(pin "8"
+			(uuid "16c60b3c-1d1d-45cc-a5c1-be72a59adf30")
+		)
+		(instances
+			(project ""
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/95c5cc52-e408-4e51-99e2-5e344727e9d8/b487083a-568a-4e11-b4ff-df7ed579a43f"
+					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 102.4114 121.305 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8582995c-1fe4-44dd-83d1-48e271eb24d4")
+		(property "Reference" "R65"
+			(at 97.1784 119.6312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 106.1584 119.1838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 102.4114 123.083 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.4114 121.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
+			(at 102.4114 121.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "P10KDCCT-ND"
+			(at 102.4114 121.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 102.4114 121.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "ERA-2AEB103X"
+			(at 102.4114 121.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 102.4114 121.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 102.4114 121.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 102.4114 121.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22e9ee31-a93e-449b-8598-3fe249bdb6cc")
+		)
+		(pin "2"
+			(uuid "15b04063-0371-49ff-99f0-2c77025dd987")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/95c5cc52-e408-4e51-99e2-5e344727e9d8/b487083a-568a-4e11-b4ff-df7ed579a43f"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 192.312 130.9071 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95e2c5b9-83af-431c-b0a4-431ef2a72a74")
+		(property "Reference" "C69"
+			(at 196.4825 130.1162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 195.9072 133.0643 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 192.312 130.9071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 192.312 130.9071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 192.312 130.9071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "1276-1445-1-ND"
+			(at 192.312 130.9071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 192.312 130.9071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "CL05A105KA5NQNC"
+			(at 192.312 130.9071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 192.312 130.9071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 192.312 130.9071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 192.312 130.9071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7986fde1-c1fe-49d2-bce1-ce8a363e1a46")
+		)
+		(pin "1"
+			(uuid "45f9dadd-9208-4bb9-bae3-2bebe7055533")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/95c5cc52-e408-4e51-99e2-5e344727e9d8/b487083a-568a-4e11-b4ff-df7ed579a43f"
+					(reference "C69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Dev:LTC2051HVIMS8_PBF")
+		(at 141.2634 127.6455 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba3a4dc9-ea3c-46a1-8223-10cbc66b250d")
+		(property "Reference" "U18"
+			(at 145.0734 114.7621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTC2051HVCS5-TRMPBF"
+			(at 145.0734 117.3021 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Analog_Devices:R_8_ADI"
+			(at 141.2634 127.6455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/20512fd.pdf"
+			(at 141.2634 127.6455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chopper (Zero-Drift) Amplifier 2 Circuit Rail-to-Rail 8-SO"
+			(at 141.2634 127.6455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "LTC2051HVIS8#TRPBFCT-ND"
+			(at 141.2634 127.6455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 141.2634 127.6455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "LTC2051HVIS8#TRPBF"
+			(at 141.2634 127.6455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices Inc."
+			(at 141.2634 127.6455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "8-SOIC"
+			(at 141.2634 127.6455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 141.2634 127.6455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "955e4d50-7b98-43f9-ae42-8f7b7abbce2b")
+		)
+		(pin "2"
+			(uuid "10dda37b-02a6-4b3b-ad0f-99ef653063a3")
+		)
+		(pin "6"
+			(uuid "b1ef55c9-3700-4228-9d6c-3e784e4358f0")
+		)
+		(pin "3"
+			(uuid "535c31bb-523a-4e62-a0c0-7bb167b2aa46")
+		)
+		(pin "5"
+			(uuid "8a780fe9-457d-4439-82be-87c5afe0c169")
+		)
+		(pin "7"
+			(uuid "38c2c357-9b5a-4e46-a6af-589ac6f40d69")
+		)
+		(pin "1"
+			(uuid "2d620b97-70ce-435e-b0d8-99173b830df5")
+		)
+		(pin "8"
+			(uuid "16c60b3c-1d1d-45cc-a5c1-be72a59adf31")
+		)
+		(instances
+			(project ""
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/95c5cc52-e408-4e51-99e2-5e344727e9d8/b487083a-568a-4e11-b4ff-df7ed579a43f"
+					(reference "U18")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 150.3328 69.8701 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be9edace-f9c6-4c19-a0ba-28820f24ec0e")
+		(property "Reference" "C23"
+			(at 144.7917 68.1334 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.01uF"
+			(at 156.1219 68.0507 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 150.3328 69.8701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 150.3328 69.8701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10000 pF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 150.3328 69.8701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "399-C0402C103K5RACTUCT-ND"
+			(at 150.3328 69.8701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 150.3328 69.8701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "C0402C103K5RACTU"
+			(at 150.3328 69.8701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 150.3328 69.8701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 150.3328 69.8701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 150.3328 69.8701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a4f0728e-7737-4b26-82ef-5908197295d2")
+		)
+		(pin "1"
+			(uuid "9859698f-a32d-4c70-9ee1-ab47a12ffbc4")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/95c5cc52-e408-4e51-99e2-5e344727e9d8/b487083a-568a-4e11-b4ff-df7ed579a43f"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 150.5712 24.6997 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8dd2946-944c-469f-a15b-7b649db85106")
+		(property "Reference" "C71"
+			(at 145.4436 22.6735 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 156.7739 22.9217 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 150.5712 24.6997 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 150.5712 24.6997 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 150.5712 24.6997 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "1276-6720-1-ND"
+			(at 150.5712 24.6997 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 150.5712 24.6997 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "CL05B104KA5NNNC"
+			(at 150.5712 24.6997 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 150.5712 24.6997 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 150.5712 24.6997 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 150.5712 24.6997 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "716cd93a-99a7-4bda-a730-a5ce5b201f4b")
+		)
+		(pin "1"
+			(uuid "78d23224-be2e-474c-9dd1-e9b1785afade")
+		)
+		(instances
+			(project "Shaper_PDU"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/95c5cc52-e408-4e51-99e2-5e344727e9d8/b487083a-568a-4e11-b4ff-df7ed579a43f"
+					(reference "C71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 150.4885 30.8196 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8e2df9a-94e8-435f-82f9-2a15950e081d")
+		(property "Reference" "C70"
+			(at 144.9474 29.0829 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.01uF"
+			(at 156.2776 29.0002 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 150.4885 30.8196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 150.4885 30.8196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10000 pF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 150.4885 30.8196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "399-C0402C103K5RACTUCT-ND"
+			(at 150.4885 30.8196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 150.4885 30.8196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "C0402C103K5RACTU"
+			(at 150.4885 30.8196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 150.4885 30.8196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 150.4885 30.8196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 150.4885 30.8196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b24620e8-abb5-4130-afcd-bcc15a14863e")
+		)
+		(pin "1"
+			(uuid "98fbca5f-33d3-45d4-ba2a-75e2b2195568")
+		)
+		(instances
+			(project "Shaper_PDU"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/95c5cc52-e408-4e51-99e2-5e344727e9d8/b487083a-568a-4e11-b4ff-df7ed579a43f"
+					(reference "C70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.0212 47.1935 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc3c5dd5-f2d0-4c4c-a0ec-17527cb37a2e")
+		(property "Reference" "R62"
+			(at 167.4127 45.0364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24.9"
+			(at 179.3847 45.2521 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 173.0212 45.4155 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.0212 47.1935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "24.9 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 173.0212 47.1935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 173.0212 47.1935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 173.0212 47.1935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 173.0212 47.1935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "311-24.9LRCT-ND"
+			(at 173.0212 47.1935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "RC0402FR-0724R9L"
+			(at 173.0212 47.1935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 173.0212 47.1935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2228d08-cf20-4ba8-a7d1-a60464f1ef72")
+		)
+		(pin "2"
+			(uuid "3e986862-94db-47a4-b8c4-2ac4297d71f3")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/95c5cc52-e408-4e51-99e2-5e344727e9d8/b487083a-568a-4e11-b4ff-df7ed579a43f"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.477 38.312 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e23d2844-09c2-4445-a3c6-9c7b1082ef2e")
+		(property "Reference" "R60"
+			(at 109.1441 36.8021 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 109.1441 40.0377 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 107.255 38.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.477 38.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film"
+			(at 105.477 38.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 105.477 38.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 105.477 38.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 105.477 38.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "RNCP0603FTD10K0CT-ND"
+			(at 105.477 38.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "RNCP0603FTD10K0"
+			(at 105.477 38.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 105.477 38.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d16c0b76-8e20-40da-8bf0-0ad86914a2d7")
+		)
+		(pin "2"
+			(uuid "662feb27-455a-4974-9a81-9954380e0c51")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/95c5cc52-e408-4e51-99e2-5e344727e9d8/b487083a-568a-4e11-b4ff-df7ed579a43f"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.0455 38.2522 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e54f3a23-666e-4c0a-b2d9-d7bea4dd21fb")
+		(property "Reference" "R59"
+			(at 123.8125 36.5784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 132.7925 36.131 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 129.0455 40.0302 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.0455 38.2522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
+			(at 129.0455 38.2522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "P10KDCCT-ND"
+			(at 129.0455 38.2522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 129.0455 38.2522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "ERA-2AEB103X"
+			(at 129.0455 38.2522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 129.0455 38.2522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 129.0455 38.2522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 129.0455 38.2522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ea0da77-3ca9-4cbd-bc7b-8babb4be4b88")
+		)
+		(pin "2"
+			(uuid "c46c2c93-2d9a-4f27-b984-53614ca51409")
+		)
+		(instances
+			(project ""
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/95c5cc52-e408-4e51-99e2-5e344727e9d8/b487083a-568a-4e11-b4ff-df7ed579a43f"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 183.3753 54.3119 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f89aa2ac-ce54-416b-9227-e61bc7c2ce5c")
+		(property "Reference" "C64"
+			(at 187.5458 53.521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 186.9705 56.4691 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 183.3753 54.3119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 183.3753 54.3119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 183.3753 54.3119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "1276-1445-1-ND"
+			(at 183.3753 54.3119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 183.3753 54.3119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "CL05A105KA5NQNC"
+			(at 183.3753 54.3119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 183.3753 54.3119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 183.3753 54.3119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 183.3753 54.3119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b74f81a-8126-4490-971b-ac9fdb909cbd")
+		)
+		(pin "1"
+			(uuid "38441197-1c40-474a-adb8-ac60fa88b409")
+		)
+		(instances
+			(project "TPC_Warm_Shaper"
+				(path "/38bcebbd-10a1-47e0-b943-f959cfcb45e4/95c5cc52-e408-4e51-99e2-5e344727e9d8/b487083a-568a-4e11-b4ff-df7ed579a43f"
+					(reference "C64")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

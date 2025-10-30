@@ -1,0 +1,1349 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ace74d75-6755-44dc-b4e9-5424ec080977")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Passive_Parts:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Man. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" "Digi-Key"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dist. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy 2.032 1.016) (xy 2.032 4.064)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 1.016) (xy 3.048 4.064)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 2.54 0)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Passive_Parts:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Man. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" "Digi-Key"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dist. Part Num" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start 5.08 1.524)
+					(end 0 3.556)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at -1.27 2.54 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 2.54 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Texas_Instruments:DAC121S101CIMKX_NOPB"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 10.668 -1.524 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "DAC121S101CIMKX/NOPB"
+				(at 24.638 -4.318 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Texas Instruments:MK06A"
+				(at -12.7 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "DAC121S101CIMKX/NOPB"
+				(at -11.176 -7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "12-Bit DAC"
+				(at 22.86 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Man. Part Num" "DAC121S101CIMKX/NOPB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" "Digi-Key"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dist. Part Num" "296-38083-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "TSOT23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Type" "SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Notes" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DAC121S101CIMKX/NOPB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MK06A MK06A-M MK06A-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DAC121S101CIMKX_NOPB_0_1"
+				(pin input line
+					(at -7.62 10.16 0)
+					(length 7.62)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 6.35 0)
+					(length 7.62)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 7.62)
+					(name "*SYNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 6.35 180)
+					(length 7.62)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DAC121S101CIMKX_NOPB_1_1"
+				(rectangle
+					(start 0 12.7)
+					(end 15.24 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 10.16) (xy 2.54 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 2.54 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 11.43)
+					(end 6.35 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 6.35) (xy 8.89 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 3.81) (xy 8.89 8.89) (xy 12.7 6.35) (xy 8.89 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 6.35) (xy 15.24 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 7.62 17.78 270)
+					(length 5.08)
+					(name "VA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -5.08 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 136.8498 50.2803)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "898076ed-54ae-416a-80a1-f63c64d35712")
+	)
+	(wire
+		(pts
+			(xy 109.5831 58.7245) (xy 109.5831 65.284)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02684e2a-e77c-4847-b6c0-cd155d78e768")
+	)
+	(wire
+		(pts
+			(xy 136.8498 89.3555) (xy 158.6917 89.3555)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b00afc6-3316-4c23-a68c-5e1ec89400e3")
+	)
+	(wire
+		(pts
+			(xy 101.7696 79.2411) (xy 109.5352 79.2411)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a511a8d-7a81-43e2-9e0d-6b3e9e665174")
+	)
+	(wire
+		(pts
+			(xy 109.5352 72.904) (xy 121.6098 72.904)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0171f2-55e3-4b94-92f7-493da4bcbdbb")
+	)
+	(wire
+		(pts
+			(xy 152.0898 69.094) (xy 169.0244 69.094)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66399cc7-0e54-4c88-b79d-53b359408f2a")
+	)
+	(wire
+		(pts
+			(xy 136.8498 50.2803) (xy 148.9914 50.2803)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70796c5f-9dcb-4d45-ba5e-1b8bdf37b065")
+	)
+	(wire
+		(pts
+			(xy 121.6098 69.0787) (xy 121.6098 69.094)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b9c36d0-33ad-4b86-819d-9d55f0e3a911")
+	)
+	(wire
+		(pts
+			(xy 136.8498 89.3555) (xy 136.8498 80.524)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "916a5eb3-9b03-4e23-86dc-c07f3a916ca0")
+	)
+	(wire
+		(pts
+			(xy 183.7312 69.094) (xy 176.6444 69.094)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dc5a436-24ef-45f1-85c6-3cf73afbb7f0")
+	)
+	(wire
+		(pts
+			(xy 109.5831 65.284) (xy 121.6098 65.284)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1793879-0be4-43f1-8c72-dd7d120ce731")
+	)
+	(wire
+		(pts
+			(xy 109.5352 79.2411) (xy 109.5352 72.904)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4b4bb9e-c32e-4984-af4d-620e2a4d2a08")
+	)
+	(wire
+		(pts
+			(xy 101.8175 69.0787) (xy 121.6098 69.0787)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cff5fb70-2df6-4729-9200-0ade1c672f8c")
+	)
+	(wire
+		(pts
+			(xy 136.8498 57.664) (xy 136.8498 50.2803)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0bd48df-a7bc-4300-b04c-b3adb57b968a")
+	)
+	(wire
+		(pts
+			(xy 154.0714 50.2803) (xy 171.8514 50.2803)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4bf85dd-db84-4500-bfe5-e10d95500c88")
+	)
+	(wire
+		(pts
+			(xy 101.9134 58.7245) (xy 109.5831 58.7245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f08dccbc-1dad-480d-b225-5f57245f1762")
+	)
+	(wire
+		(pts
+			(xy 125.0887 50.2803) (xy 136.8498 50.2803)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f700d429-b6bf-43e2-89c8-0d0261aa3e93")
+	)
+	(label "V_RTN"
+		(at 145.1874 89.3555 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9e4ebb7-6101-44a5-bfcb-079d291b5ae1")
+	)
+	(hierarchical_label "SCLK"
+		(shape input)
+		(at 101.8175 69.0787 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "116ca128-cc35-4551-a960-5ed3f452589b")
+	)
+	(hierarchical_label "D_IN"
+		(shape input)
+		(at 101.9134 58.7245 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d8ddd81-1705-4827-aeba-4e6abbfde818")
+	)
+	(hierarchical_label "V_IN"
+		(shape input)
+		(at 125.0887 50.2803 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d269ce5-fc99-4bbc-902d-9b5cdf97af12")
+	)
+	(hierarchical_label "SYNC_n"
+		(shape input)
+		(at 101.7696 79.2411 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "461581ae-07d7-4130-b459-0df99f0f5978")
+	)
+	(hierarchical_label "HV_SET"
+		(shape output)
+		(at 183.7312 69.094 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "778f1e61-4db5-4601-9820-dc55440f96b9")
+	)
+	(hierarchical_label "V_RTN"
+		(shape output)
+		(at 171.8514 50.2803 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e00f673c-0d33-4f38-9eed-a8e8a5be22ef")
+	)
+	(symbol
+		(lib_id "Texas_Instruments:DAC121S101CIMKX_NOPB")
+		(at 129.2298 75.444 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "012da9af-2e6b-4d13-80bf-14253d796333")
+		(property "Reference" "U2"
+			(at 139.8978 76.968 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "DAC121S101CIMKX/NOPB"
+			(at 162.9117 80.9907 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Texas_Instruments:MK06A"
+			(at 116.5298 79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "DAC121S101CIMKX/NOPB"
+			(at 118.0538 82.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12-Bit DAC"
+			(at 152.0898 69.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 129.2298 75.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "DAC121S101CIMKX/NOPB"
+			(at 129.2298 75.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 129.2298 75.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "296-38083-1-ND"
+			(at 129.2298 75.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSOT23-6"
+			(at 129.2298 75.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 129.2298 75.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 129.2298 75.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0c50d5e5-07b8-4b2c-91d0-1c175fd2f490")
+		)
+		(pin "5"
+			(uuid "e88c4866-a4be-452d-954f-07468aedf51f")
+		)
+		(pin "2"
+			(uuid "e68c0d38-c8e1-4e60-b284-64d5e0d9a05a")
+		)
+		(pin "1"
+			(uuid "2ca3e32a-a7c3-498f-b652-1286287fbb87")
+		)
+		(pin "3"
+			(uuid "90674527-bab4-4ca7-bbed-1618b3dd39c9")
+		)
+		(pin "6"
+			(uuid "9be762b5-0083-45a0-bb63-7ca25a94ee17")
+		)
+		(instances
+			(project ""
+				(path "/5ecd9e82-fea0-4c47-a005-55cc512b1aa2/59049e00-d9bc-4d40-ac36-1ebff253f81d"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Parts:C")
+		(at 148.9914 52.8203 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f4f26c9-fcd0-47ee-9730-e79da15b9698")
+		(property "Reference" "C9"
+			(at 147.2128 48.5934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 156.9141 48.5934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 148.9914 52.8203 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R7BB104"
+			(at 148.9914 52.8203 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 148.9914 52.8203 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 148.9914 52.8203 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "CC0603KRX7R7BB104"
+			(at 148.9914 52.8203 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 148.9914 52.8203 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "311-1088-1-ND"
+			(at 148.9914 52.8203 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 148.9914 52.8203 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 148.9914 52.8203 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 148.9914 52.8203 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7df96a75-7954-4fe2-8366-d94a3a8c621b")
+		)
+		(pin "1"
+			(uuid "e9c0dffc-f812-4c83-8b0c-c713900f4fc3")
+		)
+		(instances
+			(project "TPC_COLD_HV_PDU"
+				(path "/5ecd9e82-fea0-4c47-a005-55cc512b1aa2/59049e00-d9bc-4d40-ac36-1ebff253f81d"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Passive_Parts:R")
+		(at 175.3744 66.554 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffbfd0f9-9bd5-4597-aa35-70201ec1b972")
+		(property "Reference" "R10"
+			(at 167.2089 67.5109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "49.9"
+			(at 178.6792 67.6479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 175.3744 66.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 175.3744 66.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "49.9 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 175.3744 66.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 175.3744 66.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "ERJ-3EKF49R9V"
+			(at 175.3744 66.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 175.3744 66.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "P49.9HCT-ND"
+			(at 175.3744 66.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "SMD"
+			(at 175.3744 66.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 175.3744 66.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 175.3744 66.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b63c556a-17c0-4689-95b2-aba092eabf34")
+		)
+		(pin "2"
+			(uuid "ad8d1a0b-a617-40ea-9ae8-1be1a05a446f")
+		)
+		(instances
+			(project ""
+				(path "/5ecd9e82-fea0-4c47-a005-55cc512b1aa2/59049e00-d9bc-4d40-ac36-1ebff253f81d"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

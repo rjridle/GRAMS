@@ -2266,934 +2266,1324 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Pin ="
+	(rectangle
+		(start 209.55 27.94)
+		(end 289.56 74.93)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 093c4947-4549-423a-98c0-f83c8a9e4b39)
+	)
+	(rectangle
+		(start 424.18 27.94)
+		(end 508 74.93)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7b89b586-0253-4da2-aa85-532169b1f1c8)
+	)
+	(rectangle
+		(start 318.77 27.94)
+		(end 424.18 105.41)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b4c09c9f-a4ac-4874-8475-45acd3952bf6)
+	)
+	(rectangle
+		(start 104.14 27.94)
+		(end 209.55 105.41)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f32e9962-82c3-4a9f-8ee8-6ffea8d41de5)
+	)
+	(text "Output Current \nper Conv."
 		(exclude_from_sim no)
-		(at 447.04 36.83 0)
+		(at 349.25 77.47 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.3175)
 			)
-			(justify right)
 		)
-		(uuid "056bb445-b84b-4ed2-b103-3d26e1b754bc")
+		(uuid "016ce30d-8101-4153-837d-83851cf023cd")
 	)
-	(text "28.00V"
+	(text "Pin"
 		(exclude_from_sim no)
-		(at 64.77 26.67 0)
+		(at 447.675 64.77 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.3175)
 			)
-			(justify left)
 		)
-		(uuid "05cbbb21-263d-48a4-9ba4-17e4153c377e")
+		(uuid "030d7865-f7a5-43f3-8e51-eec8c06a0098")
 	)
-	(text "326.9W"
+	(text "42.23W dissipated as heat"
 		(exclude_from_sim no)
-		(at 384.81 36.83 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "077991eb-889f-4867-bb87-5a48dec07830")
-	)
-	(text "210.74W"
-		(exclude_from_sim no)
-		(at 208.28 44.45 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "0aba7ea0-1aa6-4518-ba8c-12dd67a20a55")
-	)
-	(text "= 38.89%"
-		(exclude_from_sim no)
-		(at 228.6 60.325 0)
+		(at 438.15 57.15 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 				(thickness 0.508)
 				(bold yes)
 				(italic yes)
+				(color 255 0 0 1)
 			)
 			(justify left)
 		)
-		(uuid "0dd713b5-62a5-4138-bab9-b13c3a49daa5")
+		(uuid "08c2c219-5ae8-46c0-bcc5-62fcf0d1fb38")
 	)
-	(text "181.24W"
+	(text "413.9W"
 		(exclude_from_sim no)
-		(at 126.365 45.72 0)
+		(at 253.365 64.77 0)
 		(effects
 			(font
 				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "0aba7ea0-1aa6-4518-ba8c-12dd67a20a55")
+	)
+	(text "% of load"
+		(exclude_from_sim no)
+		(at 356.87 92.71 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+				(italic yes)
+			)
+			(justify right)
+		)
+		(uuid "0de3d0b7-9702-4d3e-862d-08c123515990")
+	)
+	(text "33A"
+		(exclude_from_sim no)
+		(at 166.37 52.07 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "114ed44d-c1e4-489d-8a36-db2757ca0647")
+	)
+	(text "413.9W"
+		(exclude_from_sim no)
+		(at 245.11 43.18 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
 			)
 			(justify left)
 		)
 		(uuid "12730488-6ebf-4278-a4c2-1e1acb1437a9")
 	)
-	(text "29.5W dissipated as heat"
+	(text "67.38W dissipated as heat"
 		(exclude_from_sim no)
-		(at 113.665 59.69 0)
+		(at 223.52 57.15 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 				(thickness 0.508)
 				(bold yes)
 				(italic yes)
+				(color 255 0 0 1)
 			)
 			(justify left)
 		)
 		(uuid "136588d3-3a8a-4af7-90ef-9bc4a00dd79c")
 	)
-	(text "DC-DC Input Current Iin (full load) ="
+	(text "Output Voltage ="
 		(exclude_from_sim no)
-		(at 563.88 24.765 0)
+		(at 86.36 38.1 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
 			)
 			(justify right)
 		)
-		(uuid "1c8fea0f-5353-4301-aaf8-c5339af10dd1")
+		(uuid "1767cf0b-e6a0-46f7-854e-ad3cc7694cb1")
 	)
-	(text "Maximum Input Current"
+	(text "="
 		(exclude_from_sim no)
-		(at 534.035 16.51 0)
+		(at 181.61 63.5 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 1.016)
+				(size 3 3)
+				(thickness 0.6)
 				(bold yes)
 			)
 		)
-		(uuid "1cae1570-f8b6-4543-84f0-4119bdb2ae8c")
+		(uuid "1c435d40-cc7b-4914-b61c-2dbf7e7d2ae5")
 	)
-	(text "DC-DC Input Current Iin (full load) ="
+	(text "55.84%"
 		(exclude_from_sim no)
-		(at 244.475 26.035 0)
+		(at 397.51 91.44 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-			)
-			(justify right)
-		)
-		(uuid "23c85679-5af9-4540-9381-3264174546f6")
-	)
-	(text "= 27.24A"
-		(exclude_from_sim no)
-		(at 381 47.625 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "26088b4c-1586-48ae-9ed4-af61a7df1695")
-	)
-	(text "Pout"
-		(exclude_from_sim no)
-		(at 450.85 33.655 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "2642565d-d808-4c16-88f4-be154a42030a")
-	)
-	(text "7.53A"
-		(exclude_from_sim no)
-		(at 211.455 56.515 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
+				(size 3 3)
+				(thickness 0.6)
 				(bold yes)
 				(italic yes)
 			)
 			(justify left)
+		)
+		(uuid "1f040907-eb53-43b8-b647-c19952274141")
+	)
+	(text "="
+		(exclude_from_sim no)
+		(at 368.3 48.26 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "21931d45-bdf2-4c43-85ef-8c6542030406")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 379.73 67.31 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "233dd7b8-fcba-4b99-be77-6df42d62baff")
+	)
+	(text "Nominal DC-DC Output\nPower and Current"
+		(exclude_from_sim no)
+		(at 370.84 22.86 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "258af22b-4910-4a02-a3fc-bb64fcae0f93")
+	)
+	(text "33A"
+		(exclude_from_sim no)
+		(at 373.38 35.56 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "2602f3aa-b7f9-4cb2-81da-cafb54c6cdd7")
+	)
+	(text "129.72W"
+		(exclude_from_sim no)
+		(at 381 74.93 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "26cd6441-9ffa-4dc5-a9b6-f482afdff262")
+	)
+	(text "% of load"
+		(exclude_from_sim no)
+		(at 138.43 92.71 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+				(italic yes)
+			)
+			(justify right)
+		)
+		(uuid "27055dba-eb83-4b26-93fb-1f270e212364")
+	)
+	(text "="
+		(exclude_from_sim no)
+		(at 262.89 67.31 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "29a1a5a8-1053-4f5b-ad13-3eba8ab553f4")
+	)
+	(text "16.76A"
+		(exclude_from_sim no)
+		(at 166.37 88.9 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
 		)
 		(uuid "2adea5ae-79f3-4491-af43-b0ca33900365")
 	)
-	(text "Vin ="
+	(text "Max DC-DC \nOutput Current"
 		(exclude_from_sim no)
-		(at 384.175 27.305 0)
+		(at 128.27 35.56 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.3175)
 			)
-			(justify right)
 		)
-		(uuid "2f488f9b-3b7d-49b1-9b70-fe70196efcf8")
+		(uuid "2b91670e-47c4-4ed2-a200-863589f8374b")
 	)
-	(text "Minimum Input Current"
+	(text "Nominal Input Power and\nCurrent from Battery"
 		(exclude_from_sim no)
-		(at 214.63 17.78 0)
+		(at 466.09 22.86 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 1.016)
+				(size 3 3)
+				(thickness 0.6)
 				(bold yes)
 			)
 		)
-		(uuid "324dc5c3-810b-433c-aebc-42703b51f2e7")
+		(uuid "2d6c4877-c489-4840-8925-d838b5a59c9b")
 	)
-	(text "Vin"
+	(text "301.67W"
 		(exclude_from_sim no)
-		(at 531.495 36.83 0)
+		(at 467.995 64.77 0)
 		(effects
 			(font
 				(size 2.54 2.54)
+				(thickness 0.3175)
 			)
-			(justify left)
 		)
-		(uuid "32c10914-8839-47be-9ccf-cb4943620aac")
+		(uuid "2ed59434-0647-441c-bb71-55530dd1b14c")
 	)
-	(text "DC-DC η (efficiency) ="
+	(text "259.44W"
 		(exclude_from_sim no)
-		(at 151.13 26.035 0)
+		(at 468.63 43.18 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.3175)
 			)
-			(justify right)
+		)
+		(uuid "31186ab0-998a-4939-81c2-9d3296bc0f0c")
+	)
+	(text "Max DC-DC Output\nPower and Current"
+		(exclude_from_sim no)
+		(at 156.21 22.86 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "32fadeec-bc5d-4a09-aa75-70f223b5180a")
+	)
+	(text "21.62A"
+		(exclude_from_sim no)
+		(at 379.73 45.72 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "351b379a-275d-423d-a0c9-f01ae53fbbc3")
+	)
+	(text "="
+		(exclude_from_sim no)
+		(at 439.42 67.31 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "3563fef5-07ec-447e-8134-8c7018fc2d5a")
+	)
+	(text "DC-DC η (efficiency) = 86%"
+		(exclude_from_sim no)
+		(at 250.19 34.29 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
 		)
 		(uuid "359b39e0-9e35-4d0a-9a81-1d69c0ffb001")
 	)
-	(text "DC-DC η (efficiency) ="
+	(text "2"
 		(exclude_from_sim no)
-		(at 474.345 26.035 0)
+		(at 166.37 67.31 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.3175)
 			)
-			(justify right)
 		)
-		(uuid "35e55e83-f033-4243-b7ff-2bc76e210d21")
+		(uuid "4334ff7b-648e-42b6-b3fb-7bb8d2d67287")
 	)
-	(text "Pin ="
+	(text "="
 		(exclude_from_sim no)
-		(at 446.405 49.53 0)
+		(at 181.61 77.47 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-			)
-			(justify right)
-		)
-		(uuid "3a1d8787-df67-4640-a110-973612ea5e21")
-	)
-	(text "12.00V"
-		(exclude_from_sim no)
-		(at 386.715 31.75 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "3eec0948-7c99-4491-a7c2-19fb350cacbd")
-	)
-	(text "____________________________________"
-		(exclude_from_sim no)
-		(at 165.1 20.32 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
+				(size 3 3)
+				(thickness 0.6)
 				(bold yes)
 			)
-			(justify right)
 		)
-		(uuid "3f65bdcc-e49b-41f8-8a5b-d986cda85060")
+		(uuid "43b82ad0-4fcc-4f01-909a-ab8c4f67ab12")
 	)
-	(text "________"
+	(text "="
 		(exclude_from_sim no)
-		(at 363.855 46.355 0)
+		(at 261.62 45.72 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "40090cb0-7d77-4f7b-be4a-a7cd0a372a79")
-	)
-	(text "_________"
-		(exclude_from_sim no)
-		(at 208.915 59.055 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
+				(size 3 3)
+				(thickness 0.6)
 				(bold yes)
 				(italic yes)
 			)
 			(justify left)
 		)
-		(uuid "42f3b119-7cfd-4f2c-88fd-c495e317715c")
+		(uuid "452dab9e-1473-45ec-888f-603525a8c568")
 	)
-	(text "_________"
+	(text "86.84%"
 		(exclude_from_sim no)
-		(at 208.28 46.355 0)
+		(at 185.42 91.44 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "46669145-3dae-4296-8278-8d13da62a27b")
-	)
-	(text "0.86"
-		(exclude_from_sim no)
-		(at 454.025 52.07 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "46910a92-367b-438e-b686-eb28f66763f0")
-	)
-	(text "______"
-		(exclude_from_sim no)
-		(at 449.58 35.56 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "4a812ae2-70e0-4428-8c0d-9c938688c585")
-	)
-	(text "% of load ="
-		(exclude_from_sim no)
-		(at 527.05 58.42 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
+				(size 3 3)
+				(thickness 0.6)
 				(bold yes)
 				(italic yes)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "4bb0ff0f-41ab-4fe8-9619-6a2473e62517")
+		(uuid "46632379-bc33-4c29-b097-13cad352cafe")
+	)
+	(text "33A"
+		(exclude_from_sim no)
+		(at 154.94 35.56 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "489d0f40-7478-4db3-b4e6-6970297df69d")
+	)
+	(text "="
+		(exclude_from_sim no)
+		(at 368.3 35.56 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "519b279f-ce78-4ffd-b162-8216f15b1236")
 	)
 	(text "Pin"
 		(exclude_from_sim no)
-		(at 530.86 30.48 0)
+		(at 438.15 45.72 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "4e7f25e4-7986-4025-a83e-64096f805d4f")
+		(uuid "554419f6-01c9-4150-83be-f1b90857144d")
 	)
-	(text "12V"
+	(text "="
 		(exclude_from_sim no)
-		(at 368.3 50.165 0)
+		(at 394.97 63.5 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
 			)
-			(justify left)
 		)
-		(uuid "56796daa-4737-4590-83e2-f555905f5501")
+		(uuid "55982d8b-0d8e-4a81-9ddc-f0e932c03532")
 	)
-	(text "380.11w"
+	(text "Input Voltage (from battery) ="
 		(exclude_from_sim no)
-		(at 529.59 42.545 0)
+		(at 86.36 30.48 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "57ed7c81-469f-4926-93ea-76bdd8b3561a")
+		(uuid "56c30f1f-580d-4901-b0f9-f64f4a1d2353")
 	)
-	(text "= 70.12%"
+	(text "="
 		(exclude_from_sim no)
-		(at 548.64 59.69 0)
+		(at 149.86 48.26 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "5f9e9957-8fa5-4807-9218-cc3ee7f4bb9d")
+	)
+	(text "="
+		(exclude_from_sim no)
+		(at 394.97 48.26 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "61d9e1b2-9367-4724-9bbd-049ed73b8941")
+	)
+	(text "η"
+		(exclude_from_sim no)
+		(at 232.41 48.26 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "6351407c-deb1-4d03-b9f4-f1007152ecd7")
+	)
+	(text "14.57A"
+		(exclude_from_sim no)
+		(at 483.87 67.31 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
 				(bold yes)
 				(italic yes)
 			)
 			(justify left)
 		)
-		(uuid "628847b2-3bf3-4955-93f2-c0beeef13fb4")
+		(uuid "6491c7e0-2a2f-4b55-a61f-8bf670536ea5")
 	)
-	(text "η"
+	(text "Pin"
 		(exclude_from_sim no)
-		(at 130.81 39.37 0)
+		(at 223.52 45.72 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "6351407c-deb1-4d03-b9f4-f1007152ecd7")
-	)
-	(text "Pin ="
-		(exclude_from_sim no)
-		(at 123.825 36.83 0)
-		(effects
-			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
 			)
 			(justify right)
 		)
 		(uuid "6620362d-60a2-4783-bf25-4772d698697f")
 	)
-	(text "____________________________________"
+	(text "="
 		(exclude_from_sim no)
-		(at 571.5 19.685 0)
+		(at 64.77 69.85 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "6747c58f-2fad-4ec2-9062-eb7313b4cffe")
+	)
+	(text "="
+		(exclude_from_sim no)
+		(at 63.5 53.34 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "67c7ad18-1c29-4820-a41d-902bdc95ede5")
+	)
+	(text "DC-DC η (efficiency) = 86%"
+		(exclude_from_sim no)
+		(at 464.82 34.29 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "6a06f3b4-4e39-49f2-8522-5e180c14c9c3")
+	)
+	(text "Pout"
+		(exclude_from_sim no)
+		(at 447.04 43.18 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "6eb8fc35-7da1-4d03-be5f-3b10776a15cf")
+	)
+	(text "2.05"
+		(exclude_from_sim no)
+		(at 186.69 48.26 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
 				(bold yes)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "68161c9a-f678-455b-a50a-1421c4739ca1")
+		(uuid "6f3b8899-3dca-4dbb-9cce-463a20fb0752")
 	)
-	(text "326.9W"
+	(text "33A"
 		(exclude_from_sim no)
-		(at 449.58 45.72 0)
+		(at 379.73 52.07 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "6f77d447-475c-43a3-b3d6-64f28918b02c")
+	)
+	(text "129.72W"
+		(exclude_from_sim no)
+		(at 398.78 63.5 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(italic yes)
 			)
 			(justify left)
 		)
-		(uuid "6dc58a84-3a78-49af-9c45-53f4af2ac350")
+		(uuid "74dd2967-aa51-47bf-ad12-fef9e81652ec")
 	)
-	(text "______"
+	(text "10.81A"
 		(exclude_from_sim no)
-		(at 208.28 34.29 0)
+		(at 398.78 77.47 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(italic yes)
 			)
 			(justify left)
 		)
-		(uuid "7324980b-65c8-4788-a5cc-7cad165015e5")
-	)
-	(text "181.24W"
-		(exclude_from_sim no)
-		(at 62.865 36.195 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "75c875e9-1c2b-4cc8-abe2-3b6af5e90e61")
-	)
-	(text "28V"
-		(exclude_from_sim no)
-		(at 534.035 48.895 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "77447ab2-b95f-4516-a32e-dd591248a159")
-	)
-	(text "Iin ="
-		(exclude_from_sim no)
-		(at 205.105 48.26 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify right)
-		)
-		(uuid "77bb6ef4-30e7-4402-9970-5c5c1b15309a")
+		(uuid "7667d537-668f-40b6-a69d-01dfef195b3e")
 	)
 	(text "12V"
 		(exclude_from_sim no)
-		(at 46.355 49.53 0)
+		(at 87.63 38.1 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "79cbf9f9-ad97-4914-8ffb-53a2ac3b12f6")
-	)
-	(text "28.00V"
-		(exclude_from_sim no)
-		(at 386.715 27.305 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "7befc1a9-2aa0-4b7f-bcc8-2570c1bf741c")
-	)
-	(text "% of load ="
-		(exclude_from_sim no)
-		(at 207.01 59.055 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(italic yes)
-			)
-			(justify right)
-		)
-		(uuid "7d202458-59b1-434d-b2f9-df9717a053ea")
-	)
-	(text "η"
-		(exclude_from_sim no)
-		(at 454.025 39.37 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "81826526-f263-423d-bd6b-2525645b6f4b")
-	)
-	(text "Total power output ="
-		(exclude_from_sim no)
-		(at 62.23 36.195 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify right)
-		)
-		(uuid "81cd59ab-217f-4e88-8e29-245f73e54b4e")
-	)
-	(text "53.2W dissipated as heat"
-		(exclude_from_sim no)
-		(at 436.88 59.69 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
+				(size 3 3)
+				(thickness 0.6)
 				(bold yes)
 				(italic yes)
 			)
 			(justify left)
 		)
-		(uuid "82127ab2-3809-4e4f-932e-df1c4b3ecee4")
+		(uuid "798b7eeb-9aa1-4b7a-ae80-71640f2e2b59")
+	)
+	(text "Nominal PDU \nOutput Current"
+		(exclude_from_sim no)
+		(at 43.18 102.87 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "7def3bff-fb80-4b4e-a2cd-571a25061fe1")
+	)
+	(text "="
+		(exclude_from_sim no)
+		(at 224.79 67.31 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "7e18e0eb-1452-4ba9-81d1-6cb5d8adf387")
+	)
+	(text "="
+		(exclude_from_sim no)
+		(at 394.97 77.47 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "7f754b9a-010d-47e6-9d2b-f319232813c7")
+	)
+	(text "Output Power\nper Conv."
+		(exclude_from_sim no)
+		(at 345.44 63.5 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "7fd8a906-651e-4c93-b3a2-15ee88c9952b")
+	)
+	(text "259.44W"
+		(exclude_from_sim no)
+		(at 379.73 60.96 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "81733c75-3ceb-4e65-891e-51088d909d60")
+	)
+	(text "259.44W"
+		(exclude_from_sim no)
+		(at 66.04 86.36 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "8188f6a0-648c-4e83-b71f-d72e014852b8")
+	)
+	(text "Output Current \nper Conv."
+		(exclude_from_sim no)
+		(at 130.81 77.47 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "82223c7b-8df7-450c-a93b-572f12810ae1")
 	)
 	(text "0.86"
 		(exclude_from_sim no)
-		(at 130.81 52.07 0)
+		(at 247.65 49.53 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.3175)
 			)
 			(justify left)
 		)
 		(uuid "82c27109-c71d-41d6-b91c-ee85bdcd209a")
 	)
-	(text "Iin ="
+	(text "Max DC-DC \nOutput Current"
 		(exclude_from_sim no)
-		(at 527.05 33.655 0)
+		(at 346.71 35.56 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.3175)
 			)
-			(justify right)
 		)
-		(uuid "84234a20-31e4-4d58-9362-e37dc4ec229d")
+		(uuid "8719b3a9-1e56-499a-8594-69c52e25fb77")
 	)
-	(text "Iout ="
+	(text "="
 		(exclude_from_sim no)
-		(at 363.22 46.99 0)
+		(at 368.3 92.71 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.3175)
 			)
-			(justify right)
 		)
-		(uuid "8a0cfd43-5fe2-4292-8ed2-7bd45da43370")
+		(uuid "88dc9b44-be75-4145-8fd6-db0f2d7a2f3d")
 	)
-	(text "____________________________________"
+	(text "Max PDU \nOutput Power"
 		(exclude_from_sim no)
-		(at 90.17 20.32 0)
+		(at 45.72 53.34 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
+				(size 3 3)
+				(thickness 0.6)
 				(bold yes)
 			)
-			(justify right)
 		)
-		(uuid "8b335344-0bea-403f-b593-ee0935231956")
+		(uuid "892b270f-ba1c-48e3-9e98-13594c404100")
 	)
-	(text "Iout ="
+	(text "="
 		(exclude_from_sim no)
-		(at 41.275 46.355 0)
+		(at 63.5 102.87 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(italic yes)
 			)
-			(justify right)
 		)
-		(uuid "8b5a7fe3-2b81-4d12-8a9e-214e30772f89")
+		(uuid "89d974bf-544a-4ba8-81a8-030d1ecc4725")
+	)
+	(text "Output Power\nper Conv."
+		(exclude_from_sim no)
+		(at 127 63.5 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "8d213875-ff94-4a14-aca9-8174f940821b")
 	)
 	(text "Vin"
 		(exclude_from_sim no)
-		(at 210.185 38.735 0)
+		(at 233.68 71.12 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.3175)
 			)
-			(justify left)
 		)
 		(uuid "92674b65-b7fc-45fb-9a20-5a17c7188575")
 	)
-	(text "380.11W"
+	(text "="
 		(exclude_from_sim no)
-		(at 469.9 48.895 0)
+		(at 455.93 45.72 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.3175)
 			)
-			(justify left)
 		)
-		(uuid "93e2bc0e-1ada-4a99-8986-9180a39825cb")
+		(uuid "931caaf2-db57-4841-8bb0-9a4ed04184b0")
 	)
-	(text "____________________________________"
+	(text "Nominal PDU \nOutput Power"
 		(exclude_from_sim no)
-		(at 488.315 20.32 0)
+		(at 43.18 86.36 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
+				(size 3 3)
+				(thickness 0.6)
 				(bold yes)
 			)
-			(justify right)
 		)
-		(uuid "99e79436-ca03-4808-83a7-6e1f3967ceb9")
+		(uuid "95afdef7-60ef-4609-b45a-7e9b0400cae9")
 	)
-	(text "19.36A"
+	(text "12V"
 		(exclude_from_sim no)
-		(at 210.185 64.135 0)
+		(at 381 81.28 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "996fbae7-a1a1-49be-8bce-144d12d57c29")
+	)
+	(text "24V"
+		(exclude_from_sim no)
+		(at 87.63 30.48 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
 				(bold yes)
 				(italic yes)
 			)
 			(justify left)
 		)
-		(uuid "9d38ad98-82ed-43c2-b912-bdd5361eae5e")
+		(uuid "9d0da1e2-817a-43f7-a5f2-e51f3a007e24")
 	)
-	(text "____________________________________"
+	(text "="
 		(exclude_from_sim no)
-		(at 252.095 20.955 0)
+		(at 149.86 35.56 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "9d37a9b1-4f63-4c04-9474-a3d3a2e77028")
+	)
+	(text "19.36A"
+		(exclude_from_sim no)
+		(at 166.37 96.52 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "9d38ad98-82ed-43c2-b912-bdd5361eae5e")
+	)
+	(text "="
+		(exclude_from_sim no)
+		(at 478.79 45.72 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "9df98441-4061-468e-8a2b-47649a1d0da1")
+	)
+	(text "0.86"
+		(exclude_from_sim no)
+		(at 462.28 49.53 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "a2701b6d-e9e9-4ba3-8240-8415ab93ae3e")
+	)
+	(text "10.81A"
+		(exclude_from_sim no)
+		(at 373.38 88.9 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "a27d27cd-52e9-47b0-a642-0c37c07fde1d")
+	)
+	(text "="
+		(exclude_from_sim no)
+		(at 368.3 77.47 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "a2e3d4c3-b9e2-481c-b2ad-184b07514177")
+	)
+	(text "Iin"
+		(exclude_from_sim no)
+		(at 436.88 67.31 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
 				(bold yes)
 			)
 			(justify right)
 		)
-		(uuid "a1c218f9-f9bd-4588-b98c-305edfc9e691")
+		(uuid "a6ca0a92-a7f5-4922-8572-0d85ba00d3cd")
 	)
-	(text "_________"
+	(text "24V"
 		(exclude_from_sim no)
-		(at 126.365 47.625 0)
+		(at 253.365 71.12 0)
 		(effects
 			(font
 				(size 2.54 2.54)
+				(thickness 0.3175)
 			)
-			(justify left)
-		)
-		(uuid "a96a2f72-de16-40b5-b43c-8eb88569eb26")
-	)
-	(text "28V"
-		(exclude_from_sim no)
-		(at 212.725 50.8 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
 		)
 		(uuid "a9dcb5bd-2b06-44e6-8309-e1442cdc0e17")
 	)
-	(text "Minimum Output Current"
+	(text "Max PDU \nOutput Current"
 		(exclude_from_sim no)
-		(at 55.245 17.145 0)
+		(at 43.18 69.85 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 1.016)
+				(size 3 3)
+				(thickness 0.6)
 				(bold yes)
 			)
 		)
-		(uuid "b117297a-d9fc-47e9-9306-e271be687ff9")
+		(uuid "abf07975-9b3f-4e8c-9bce-e8091e718ed4")
 	)
-	(text "Iin ="
+	(text "="
 		(exclude_from_sim no)
-		(at 205.74 35.56 0)
+		(at 457.835 67.31 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "add8b845-2d7d-4e08-a262-448e1c1332df")
+	)
+	(text "Iin"
+		(exclude_from_sim no)
+		(at 222.25 67.31 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
 			)
 			(justify right)
 		)
 		(uuid "b18544a9-889f-48f8-9e98-ba4a3c138e96")
 	)
-	(text "= 7.53A"
+	(text "17.25A"
 		(exclude_from_sim no)
-		(at 227.965 47.625 0)
+		(at 267.97 67.31 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(italic yes)
 			)
 			(justify left)
 		)
 		(uuid "b1ca28ba-e4c2-4283-8dd0-2c13bc73a7d7")
 	)
-	(text "Vout ="
+	(text "67.9A"
 		(exclude_from_sim no)
-		(at 384.175 31.75 0)
+		(at 67.31 69.85 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-			)
-			(justify right)
-		)
-		(uuid "b3427e5e-85b5-41ab-b8dc-8f623a60e0d6")
-	)
-	(text "Total power output ="
-		(exclude_from_sim no)
-		(at 384.175 36.83 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify right)
-		)
-		(uuid "b5e8b5a4-3592-41a2-aca6-7117785c13f2")
-	)
-	(text "Maximum Output Current"
-		(exclude_from_sim no)
-		(at 377.19 17.78 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 1.016)
-				(bold yes)
-			)
-		)
-		(uuid "b8675097-83ff-4c21-bb39-3af960ba3c0a")
-	)
-	(text "13.57A"
-		(exclude_from_sim no)
-		(at 549.275 45.72 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "b8f9c0bb-9317-4f7d-88c1-f826b0300211")
-	)
-	(text "12.00V"
-		(exclude_from_sim no)
-		(at 64.77 31.115 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "ba979e08-df4a-470c-8a5c-dcecfe172029")
-	)
-	(text "____________________________________"
-		(exclude_from_sim no)
-		(at 412.115 20.955 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "bb1ee3a7-83e0-4bbb-bd07-00040326cd12")
-	)
-	(text "19.36A"
-		(exclude_from_sim no)
-		(at 246.38 26.035 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "bf778b9f-ea80-437a-85ad-1f7bd9e5ec28")
-	)
-	(text "________"
-		(exclude_from_sim no)
-		(at 41.91 45.72 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "c43f300b-5527-4f19-9205-64370f789f1c")
-	)
-	(text "______"
-		(exclude_from_sim no)
-		(at 529.59 32.385 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "c6ef856c-caf2-48cf-926a-2ee22b0c7338")
-	)
-	(text "181.24W"
-		(exclude_from_sim no)
-		(at 41.91 43.815 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "c723e93e-2636-489d-8f20-073146069452")
-	)
-	(text "Vin ="
-		(exclude_from_sim no)
-		(at 62.23 26.67 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify right)
-		)
-		(uuid "d4ef14b8-eb8b-4923-892d-f766e26d7666")
-	)
-	(text "Iin ="
-		(exclude_from_sim no)
-		(at 526.415 46.355 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify right)
-		)
-		(uuid "d5e642c2-e89f-4dc8-9421-dc07a9cd9e63")
-	)
-	(text "_________"
-		(exclude_from_sim no)
-		(at 528.955 58.42 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
+				(size 3 3)
+				(thickness 0.6)
 				(bold yes)
 				(italic yes)
 			)
 			(justify left)
 		)
-		(uuid "dce35fa7-b931-400b-b7f1-7cbbbfdb094a")
+		(uuid "ba71c4cb-b102-4956-b605-39beeef82833")
 	)
-	(text "19.36A"
+	(text "="
 		(exclude_from_sim no)
-		(at 530.225 63.5 0)
+		(at 181.61 48.26 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "bf880a8b-4e3e-4381-aabc-7fbfce92fbf6")
+	)
+	(text "16.76A"
+		(exclude_from_sim no)
+		(at 185.42 77.47 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
 				(bold yes)
 				(italic yes)
 			)
 			(justify left)
 		)
-		(uuid "df717c3d-bc97-4996-961b-676daa2ce9d2")
+		(uuid "c00578d2-ea33-4d33-8e72-883ab5bbde46")
 	)
-	(text "_________"
+	(text "201.17W"
 		(exclude_from_sim no)
-		(at 529.59 44.45 0)
+		(at 166.37 74.93 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "c0c7fc75-ffd3-4bef-a704-18b3b32aca7c")
+	)
+	(text "="
+		(exclude_from_sim no)
+		(at 243.205 67.31 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "c27ceb5f-97b2-4d1a-9ceb-66ef6bbb5b04")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 400.05 48.26 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "c2e599a5-1608-49b8-aedc-3754618efc53")
+	)
+	(text "12V"
+		(exclude_from_sim no)
+		(at 166.37 81.28 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "c769025c-2f5a-4da1-b252-ddd5c8b96416")
+	)
+	(text "="
+		(exclude_from_sim no)
+		(at 224.79 45.72 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "c8cdeb85-4ca6-4a2b-b593-7c3de68b2041")
+	)
+	(text "Required\nDC-DC Conv."
+		(exclude_from_sim no)
+		(at 345.44 48.26 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "ca191c3c-9ca9-48ab-beb2-64ac101a41bb")
+	)
+	(text "="
+		(exclude_from_sim no)
+		(at 480.06 67.31 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "cb47f34e-024a-4305-8eca-32e7dbd653f0")
+	)
+	(text "="
+		(exclude_from_sim no)
+		(at 394.97 91.44 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "cd1b1781-e46d-41b8-8d4b-001cf66409cf")
+	)
+	(text "η"
+		(exclude_from_sim no)
+		(at 447.04 48.26 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "ce52c5a2-45d4-4343-8151-c677a19246f9")
+	)
+	(text "="
+		(exclude_from_sim no)
+		(at 149.86 63.5 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "ceca28f8-2cc0-40aa-a9ba-05de0c0d6aea")
+	)
+	(text "301.67W"
+		(exclude_from_sim no)
+		(at 483.87 45.72 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(italic yes)
 			)
 			(justify left)
 		)
-		(uuid "e154c9b3-18b6-4d3d-b921-8859a7a73784")
+		(uuid "d0ca7065-f66d-4162-acbf-424a60a5d832")
 	)
-	(text "Pin ="
+	(text "67.9A"
 		(exclude_from_sim no)
-		(at 123.19 49.53 0)
+		(at 166.37 45.72 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "d105c5fb-0e83-4015-a01c-dcd3a9b2a3cb")
+	)
+	(text "="
+		(exclude_from_sim no)
+		(at 63.5 86.36 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "d2a46897-a540-4676-a6a9-ca1db4426378")
+	)
+	(text "413.9W"
+		(exclude_from_sim no)
+		(at 166.37 60.96 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "d393d96d-f668-4ac2-9297-52f8cfb14977")
+	)
+	(text "413.9W"
+		(exclude_from_sim no)
+		(at 66.04 53.34 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "d4bcc0bc-4c47-416e-b487-f2f0696e4ac9")
+	)
+	(text "="
+		(exclude_from_sim no)
+		(at 368.3 63.5 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "d58bdd2f-20a5-41ec-9528-ea3612d119d6")
+	)
+	(text "201.17W"
+		(exclude_from_sim no)
+		(at 185.42 63.5 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "dd0d943e-decb-496f-90f0-6c1e66a9a316")
+	)
+	(text "24V"
+		(exclude_from_sim no)
+		(at 467.995 71.12 0)
 		(effects
 			(font
 				(size 2.54 2.54)
+				(thickness 0.3175)
 			)
-			(justify right)
+		)
+		(uuid "e21960c8-8d2f-4463-96e6-3db2e5e1c4d0")
+	)
+	(text "="
+		(exclude_from_sim no)
+		(at 241.3 45.72 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
 		)
 		(uuid "e27c87d6-58b0-4dd9-b7eb-96b837b20ade")
 	)
-	(text "= 15.1033A"
+	(text "19.36A"
 		(exclude_from_sim no)
-		(at 59.055 46.99 0)
+		(at 372.11 96.52 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.3175)
+				(italic yes)
 			)
 			(justify left)
 		)
-		(uuid "e34cf270-2b8f-4d16-8630-04eac3d18f53")
-	)
-	(text "______"
-		(exclude_from_sim no)
-		(at 126.365 35.56 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "e3d4b2d8-8337-4fdb-9a3e-1575301e8445")
+		(uuid "e48ab346-04a8-48fa-9093-e9b3d24a8da4")
 	)
 	(text "Pout"
 		(exclude_from_sim no)
-		(at 127.635 33.655 0)
+		(at 232.41 43.18 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.3175)
 			)
-			(justify left)
 		)
 		(uuid "e4ae68e7-bd79-4a7d-b2ec-99b808c83e4d")
 	)
-	(text "19.36A"
+	(text "="
 		(exclude_from_sim no)
-		(at 565.785 24.765 0)
+		(at 181.61 91.44 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
 			)
-			(justify left)
 		)
-		(uuid "e6dd21fb-6045-458c-b1cb-3bb257ec9ad0")
+		(uuid "e4fbdc06-a3ff-4a88-8762-814805ff82a2")
 	)
 	(text "100A Fuse (Fast Blow)"
 		(exclude_from_sim no)
@@ -3205,72 +3595,85 @@
 		)
 		(uuid "e8205d33-aeb1-4b5b-8312-86fc05ca1724")
 	)
-	(text "Vout ="
+	(text "="
 		(exclude_from_sim no)
-		(at 62.23 31.115 0)
+		(at 439.42 45.72 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-			)
-			(justify right)
-		)
-		(uuid "ebd66aad-0b6b-4c5c-9eb3-d6d2eb78dbe4")
-	)
-	(text "= 210.74W"
-		(exclude_from_sim no)
-		(at 146.685 48.895 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "f35aa4ea-8728-4a71-9697-b611072bac64")
-	)
-	(text "_________"
-		(exclude_from_sim no)
-		(at 449.58 47.625 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "f4f2c223-48ec-4611-9b71-3efebfa5b15d")
-	)
-	(text "Maximum Output Power"
-		(exclude_from_sim no)
-		(at 453.39 17.145 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 1.016)
-				(bold yes)
+				(size 3 3)
+				(thickness 0.3175)
 			)
 		)
-		(uuid "f830fc12-bd80-4545-8696-68b6de8c2bb9")
+		(uuid "e8d3e308-db74-4212-83ec-6f98091b06a8")
 	)
-	(text "7.53A"
+	(text "Required\nDC-DC Conv."
 		(exclude_from_sim no)
-		(at 531.495 55.88 0)
+		(at 127 48.26 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "e98ad2f2-9d55-4fa8-abb9-53e4aaa65b71")
+	)
+	(text "Vin"
+		(exclude_from_sim no)
+		(at 448.31 71.12 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "e9dc3cfb-5207-4521-8f9b-2ea4ea01a1cc")
+	)
+	(text "21.62A"
+		(exclude_from_sim no)
+		(at 66.04 102.87 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
 				(bold yes)
 				(italic yes)
 			)
 			(justify left)
 		)
-		(uuid "f96f3344-37a4-4ebc-ab0e-3d22d45eb3d2")
+		(uuid "ec9336d5-b17a-4ff5-9c0b-88e0e202ad2e")
 	)
-	(text "Minimum Output Power"
+	(text "="
 		(exclude_from_sim no)
-		(at 130.175 17.145 0)
+		(at 149.86 77.47 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 1.016)
+				(size 3 3)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "ee093aba-3fa4-4ec9-bd05-4d9af17d5cfa")
+	)
+	(text "481.28W"
+		(exclude_from_sim no)
+		(at 266.7 45.72 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "f35aa4ea-8728-4a71-9697-b611072bac64")
+	)
+	(text "Max Input Power and\nCurrent from Battery"
+		(exclude_from_sim no)
+		(at 251.46 22.86 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
 				(bold yes)
 			)
 		)
@@ -3278,47 +3681,25 @@
 	)
 	(text "Pin"
 		(exclude_from_sim no)
-		(at 209.55 32.385 0)
+		(at 233.045 64.77 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.3175)
 			)
-			(justify left)
 		)
 		(uuid "fb34988e-ffd9-419e-83a1-3c632dcceb59")
 	)
-	(text "86%"
+	(text "="
 		(exclude_from_sim no)
-		(at 476.25 26.035 0)
+		(at 149.86 92.71 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
+				(thickness 0.3175)
 			)
-			(justify left)
 		)
-		(uuid "fc89d1d6-4ab3-4697-93a0-8e91c11d4d58")
-	)
-	(text "86%"
-		(exclude_from_sim no)
-		(at 153.035 26.035 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "fcf9c6f2-12fc-4c49-8c9c-68a4687cd92f")
-	)
-	(text "326.9"
-		(exclude_from_sim no)
-		(at 365.76 44.45 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "fd4749da-4252-4a29-984a-0948c2774649")
+		(uuid "fd4d2d3b-3756-4aeb-99c7-7099c8a50fb4")
 	)
 	(junction
 		(at 467.36 152.2927)
@@ -3968,6 +4349,16 @@
 		)
 		(uuid "0507204b-0c9c-45ca-9e09-1ce6c158e7b1")
 	)
+	(polyline
+		(pts
+			(xy 458.47 45.72) (xy 477.52 45.72)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "067b222d-7590-420a-a273-c5917c68af38")
+	)
 	(wire
 		(pts
 			(xy 148.0792 199.158) (xy 153.1269 199.158)
@@ -4348,6 +4739,16 @@
 		)
 		(uuid "2c9aa54a-84fa-4b4c-aa1a-37c1fb0b8f3f")
 	)
+	(polyline
+		(pts
+			(xy 227.33 67.31) (xy 238.76 67.31)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "2d929727-f7f8-4c90-ae3d-c29cbd412182")
+	)
 	(wire
 		(pts
 			(xy 467.0847 180.3426) (xy 476.6839 180.3426)
@@ -4598,6 +4999,16 @@
 		)
 		(uuid "445330d3-8b14-41b8-bf3b-280db3d8b524")
 	)
+	(polyline
+		(pts
+			(xy 227.33 45.72) (xy 238.76 45.72)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "449219cb-aaca-4f99-93bb-3f7609707fa6")
+	)
 	(wire
 		(pts
 			(xy 422.91 152.4) (xy 422.91 152.2927)
@@ -4677,6 +5088,16 @@
 			(type default)
 		)
 		(uuid "4c179389-f978-4d29-8647-f28d8b115e37")
+	)
+	(polyline
+		(pts
+			(xy 460.375 67.31) (xy 476.885 67.31)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "4ca05bb4-a9eb-4df8-aef5-67bbc593988a")
 	)
 	(wire
 		(pts
@@ -4838,6 +5259,16 @@
 		)
 		(uuid "5be6e535-4812-45dd-9e5f-861b2b734759")
 	)
+	(polyline
+		(pts
+			(xy 158.75 48.26) (xy 175.26 48.26)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "5d06661a-741f-4419-a70a-9a4d42841bad")
+	)
 	(wire
 		(pts
 			(xy 486.41 152.2927) (xy 486.6066 152.2927)
@@ -4908,6 +5339,16 @@
 		)
 		(uuid "642d0839-bc21-4fd3-83e4-07a02c9c85db")
 	)
+	(polyline
+		(pts
+			(xy 372.11 63.5) (xy 388.62 63.5)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "64ef8ee1-ac3b-4099-af90-ea00fa100a13")
+	)
 	(wire
 		(pts
 			(xy 258.1379 241.4045) (xy 268.0606 241.4045)
@@ -4977,6 +5418,16 @@
 			(type default)
 		)
 		(uuid "69accc43-014b-45d2-b7b9-dd454d579a73")
+	)
+	(polyline
+		(pts
+			(xy 157.48 92.71) (xy 175.26 92.71)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "6aa18a4c-b0cd-4d8a-a7c0-0612c394cb6e")
 	)
 	(wire
 		(pts
@@ -5097,6 +5548,16 @@
 			(type default)
 		)
 		(uuid "76e182ea-aa6d-4e88-a604-f4aad506d56e")
+	)
+	(polyline
+		(pts
+			(xy 441.96 45.72) (xy 453.39 45.72)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "78134a8d-3bfe-400f-be91-0a695990b34c")
 	)
 	(wire
 		(pts
@@ -5288,6 +5749,16 @@
 		)
 		(uuid "8945108b-fd03-4787-bc02-c31f78981a83")
 	)
+	(polyline
+		(pts
+			(xy 158.75 63.5) (xy 175.26 63.5)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "8a77de47-39b2-484e-bc04-92e0e21d052b")
+	)
 	(wire
 		(pts
 			(xy 333.6594 250.2945) (xy 329.3034 250.2945)
@@ -5358,6 +5829,16 @@
 		)
 		(uuid "8d7fc842-cdde-4879-b1a5-2046ebf1f236")
 	)
+	(polyline
+		(pts
+			(xy 441.96 67.31) (xy 453.39 67.31)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "8d94a19a-f231-470d-8739-261b70ea22a1")
+	)
 	(wire
 		(pts
 			(xy 454.1023 241.0432) (xy 454.1023 254.1117)
@@ -5367,6 +5848,16 @@
 			(type default)
 		)
 		(uuid "8d9bb1bc-e8a8-4092-b4f8-7ef116f7f3f3")
+	)
+	(polyline
+		(pts
+			(xy 372.11 77.47) (xy 389.89 77.47)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "8f523814-1a90-45ad-9e17-aec7e3f857e6")
 	)
 	(wire
 		(pts
@@ -5428,6 +5919,16 @@
 		)
 		(uuid "93b07a91-bc2d-4bce-b971-c03fd2211479")
 	)
+	(polyline
+		(pts
+			(xy 243.84 45.72) (xy 260.35 45.72)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "945f1b02-5bf9-4adf-8abe-0f29d5668114")
+	)
 	(wire
 		(pts
 			(xy 444.5434 152.2927) (xy 444.8665 152.2927)
@@ -5457,6 +5958,16 @@
 			(type default)
 		)
 		(uuid "975487a9-2ebb-4669-9edb-c3faff8cb694")
+	)
+	(polyline
+		(pts
+			(xy 157.48 77.47) (xy 175.26 77.47)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "97e49209-0e6e-4dab-841a-618ad1cdafe5")
 	)
 	(wire
 		(pts
@@ -5547,6 +6058,16 @@
 			(type default)
 		)
 		(uuid "9d2124fd-f2e2-4cca-b84e-147f6ae4a1d8")
+	)
+	(polyline
+		(pts
+			(xy 372.11 48.26) (xy 388.62 48.26)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "a0213e5e-e4b0-45dc-a6f3-3d9a583bc1ca")
 	)
 	(wire
 		(pts
@@ -6478,6 +6999,16 @@
 		)
 		(uuid "ee0e2d29-ef48-46bf-ac6c-ee5c8af0e9af")
 	)
+	(polyline
+		(pts
+			(xy 245.745 67.31) (xy 262.255 67.31)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "ee806e97-2518-49a8-bb27-adb0598759cd")
+	)
 	(wire
 		(pts
 			(xy 259.6876 180.34) (xy 259.6876 167.8189)
@@ -6547,6 +7078,16 @@
 			(type default)
 		)
 		(uuid "f4da3183-d03c-4d62-a161-96b612b2f043")
+	)
+	(polyline
+		(pts
+			(xy 373.38 92.71) (xy 391.16 92.71)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "f5f49f24-c0d9-4d22-9d56-75e137b6d5f1")
 	)
 	(wire
 		(pts
@@ -6958,15 +7499,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 325.6467 168.0346 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "8df1b414-bd3c-46f7-a23d-1baa8d0e49a0")
 		)
@@ -7093,15 +7625,6 @@
 		)
 		(property "Notes" ""
 			(at 504.3488 162.6549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. URL" ""
-			(at 504.3488 162.6549 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7242,15 +7765,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 281.7495 167.711 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "621164c2-97c5-4ff2-bfe2-8c5321a54c5e")
 		)
@@ -7377,15 +7891,6 @@
 		)
 		(property "Notes" ""
 			(at 251.9813 167.6032 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. URL" ""
-			(at 251.9813 167.6032 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7526,15 +8031,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 440.7768 254.1117 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "77f8006b-200e-4ae9-8fc6-e4f8fbb03441")
 		)
@@ -7661,15 +8157,6 @@
 		)
 		(property "Notes" ""
 			(at 312.9879 256.893 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. URL" ""
-			(at 312.9879 256.893 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7810,15 +8297,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 293.1822 168.0346 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "df0f6fb4-05d3-4ec4-95b6-1148163c6a03")
 		)
@@ -7933,15 +8411,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 353.441 186.436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. URL" ""
 			(at 353.441 186.436 0)
 			(effects
 				(font
@@ -8125,15 +8594,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 189.8193 217.0396 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "314ee461-2ec6-4617-a7e5-66e63a35ee04")
 		)
@@ -8260,15 +8720,6 @@
 		)
 		(property "Notes" ""
 			(at 270.6006 256.2458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. URL" ""
-			(at 270.6006 256.2458 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8409,15 +8860,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 482.5169 254.3274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "4b4922ca-3e01-46a2-9edf-0b48cf8182f4")
 		)
@@ -8541,15 +8983,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 122.3253 216.5741 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. URL" ""
 			(at 122.3253 216.5741 0)
 			(effects
 				(font
@@ -8697,15 +9130,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 98.8944 213.2961 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "913e37ed-5a44-4a0e-99ac-1993c68266a5")
 		)
@@ -8832,15 +9256,6 @@
 		)
 		(property "Notes" ""
 			(at 503.2972 251.6357 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. URL" ""
-			(at 503.2972 251.6357 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8981,15 +9396,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 462.995 254.4353 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "6ea8548f-2685-4f16-9566-51a3b7c345cb")
 		)
@@ -9123,15 +9529,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 303.9677 168.0346 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "b7a24621-e877-4174-a877-1af441223833")
 		)
@@ -9254,15 +9651,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 152.9327 229.4654 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. URL" ""
 			(at 152.9327 229.4654 0)
 			(effects
 				(font
@@ -9404,15 +9792,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 172.2688 208.3317 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "c97e9456-e37b-4df0-8943-f88f341798a0")
 		)
@@ -9539,15 +9918,6 @@
 		)
 		(property "Notes" ""
 			(at 474.1439 165.9005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. URL" ""
-			(at 474.1439 165.9005 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9688,15 +10058,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 376.9476 207.033 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "58ac1368-5b04-483a-903a-d1fd14d8ef65")
 		)
@@ -9823,15 +10184,6 @@
 		)
 		(property "Notes" ""
 			(at 442.3265 165.3612 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. URL" ""
-			(at 442.3265 165.3612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9972,15 +10324,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 464.5447 165.6848 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "dabad6ea-21a4-4f22-acdd-9cfc767b8363")
 		)
@@ -10107,15 +10450,6 @@
 		)
 		(property "Package" "0805 (2012 Metric)"
 			(at 375.3979 295.7835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. URL" ""
-			(at 375.3979 295.7835 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10256,15 +10590,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 419.0978 254.1117 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "ce908401-08df-4c04-9c9f-30254b6e45cb")
 		)
@@ -10391,15 +10716,6 @@
 		)
 		(property "Package" "1206 (3216 Metric)"
 			(at 98.8944 205.0089 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. URL" ""
-			(at 98.8944 205.0089 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10540,15 +10856,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 250.4316 256.3537 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "754559f3-c60a-470b-a39b-1fa826ce313f")
 		)
@@ -10675,15 +10982,6 @@
 		)
 		(property "Notes" ""
 			(at 262.2276 167.8189 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. URL" ""
-			(at 262.2276 167.8189 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10824,15 +11122,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 189.8193 203.3644 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "72089d32-6e5d-43c6-be42-84973581f00c")
 		)
@@ -10959,15 +11248,6 @@
 		)
 		(property "Notes" ""
 			(at 430.2069 254.0038 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. URL" ""
-			(at 430.2069 254.0038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11108,15 +11388,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 302.418 256.7851 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "a98be2de-fda0-4883-8e05-53440822334a")
 		)
@@ -11240,15 +11511,6 @@
 			)
 		)
 		(property "Package" "1206 (3216 Metric)"
-			(at 337.82 162.4964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. URL" ""
 			(at 337.82 162.4964 0)
 			(effects
 				(font
@@ -11390,15 +11652,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 472.5942 254.651 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "48c113a6-0618-4b66-b41f-bb19c3cac9ea")
 		)
@@ -11532,15 +11785,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 272.1503 167.4953 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "5115e3f6-8164-4e97-853a-dcf88e3ce084")
 		)
@@ -11667,15 +11911,6 @@
 		)
 		(property "Notes" ""
 			(at 280.1998 256.4615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. URL" ""
-			(at 280.1998 256.4615 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11817,15 +12052,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 354.7419 209.5391 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "da6a2ca1-622e-4755-a9fa-6ef63350b262")
 		)
@@ -11952,15 +12178,6 @@
 		)
 		(property "Notes" ""
 			(at 494.3129 165.7926 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. URL" ""
-			(at 494.3129 165.7926 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12101,15 +12318,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 484.0666 165.5769 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "05f8f530-d29a-4fcc-8864-fcf56c29b993")
 		)
@@ -12243,15 +12451,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 492.7632 254.5431 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "0d5208a3-c97e-4b4a-ae28-75e021ba409c")
 		)
@@ -12376,15 +12575,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 54.423 199.6947 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. URL" ""
 			(at 54.423 199.6947 0)
 			(effects
 				(font
@@ -12526,15 +12716,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 453.112 165.3612 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "424884b5-f260-4010-a17a-516fa7edd212")
 		)
@@ -12658,15 +12839,6 @@
 			)
 		)
 		(property "Package" "1206 (3216 Metric)"
-			(at 334.9294 252.8345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. URL" ""
 			(at 334.9294 252.8345 0)
 			(effects
 				(font
@@ -12809,15 +12981,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 353.1922 298.2896 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0360e958-fca5-4751-9611-1f0ba5dc24b5")
 		)
@@ -12944,15 +13107,6 @@
 		)
 		(property "Notes" ""
 			(at 451.5623 254.1117 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. URL" ""
-			(at 451.5623 254.1117 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13093,15 +13247,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 431.7566 165.2533 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "c7a1ae92-b3f0-4c1e-aae9-af7cd73a8089")
 		)
@@ -13228,15 +13373,6 @@
 		)
 		(property "Notes" ""
 			(at 260.6779 256.5694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. URL" ""
-			(at 260.6779 256.5694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13377,15 +13513,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 314.5376 168.1425 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "7b99b5da-170d-4902-a256-6fa6cc6dc4b2")
 		)
@@ -13512,15 +13639,6 @@
 		)
 		(property "Notes" ""
 			(at 420.6475 165.3612 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. URL" ""
-			(at 420.6475 165.3612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13661,15 +13779,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 324.097 256.7851 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "ed5d8e05-32fd-419c-a5b7-30d8a3e02eac")
 		)
@@ -13785,15 +13894,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 351.2563 275.1865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. URL" ""
 			(at 351.2563 275.1865 0)
 			(effects
 				(font
@@ -13977,15 +14077,6 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. URL" ""
-			(at 291.6325 256.7851 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "5f865b5a-276b-4bc3-8856-b4bcff7b998e")
 		)
@@ -14108,15 +14199,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 153.1269 199.158 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. URL" ""
 			(at 153.1269 199.158 0)
 			(effects
 				(font

@@ -1,7 +1,7 @@
 (footprint "691321300004"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "<b>WR-TBL Serie 321 - 3.81 mm Vertical PCB Header<br></b>Max Height = 9.2mm , Pitch 3.81mm , 4pins")
 	(property "Reference" "REF**"
@@ -26,18 +26,6 @@
 			)
 		)
 	)
-	(property "Footprint" "691321300004"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f8df8a7b-8837-4338-b8e0-366e03b715fc")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -47,6 +35,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -59,6 +48,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -110,7 +100,7 @@
 			(width 0.4)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "bcaa0165-95cb-4b35-a5bd-8421a9433082")
 	)
@@ -122,7 +112,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "4176e4b3-8a29-451d-9249-bd436099e877")
 	)
@@ -202,4 +192,5 @@
 		(solder_mask_margin 0.102)
 		(uuid "fa62f084-8a88-41a1-9d89-450eb38c699e")
 	)
+	(embedded_fonts no)
 )

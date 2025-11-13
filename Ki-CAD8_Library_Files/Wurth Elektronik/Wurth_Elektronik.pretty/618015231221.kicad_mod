@@ -1,7 +1,7 @@
 (footprint "618015231221"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "<B>WR-DSUB</B><BR> 8.08mm Male Angled PCB Connector with Hex Screw, 15 Pins")
 	(property "Reference" "REF**"
@@ -26,18 +26,6 @@
 			)
 		)
 	)
-	(property "Footprint" "618015231221"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6a625689-9875-40be-8d64-5b3893ede84b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -47,6 +35,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -59,6 +48,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -110,7 +100,7 @@
 			(width 0.4)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "d6d5a867-d4d6-40db-8896-83e7b1c29865")
 	)
@@ -122,7 +112,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(fill solid)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "028b35f4-64f5-4ecb-a140-96839a82bba4")
 	)
@@ -349,4 +339,5 @@
 		(solder_mask_margin 0.102)
 		(uuid "86e5031f-4dd7-4e37-bd45-a6704e1c925f")
 	)
+	(embedded_fonts no)
 )

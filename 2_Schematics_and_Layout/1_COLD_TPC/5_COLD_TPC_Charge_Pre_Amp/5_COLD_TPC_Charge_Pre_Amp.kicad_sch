@@ -5,639 +5,6 @@
 	(uuid "8872ae30-0c8f-44d7-9c5d-f8ffe57ea57b")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Adam_Tech:RF2-49B-T-00-50-G-HDW"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 14.732 20.32 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "RF2-49B-T-00-50-G-HDW"
-				(at 18.542 23.368 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Adam_Tech:CONN_RF2-49B-T-00-50-G-HDW_ADM"
-				(at 12.7 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/219119/rf2-49b-t-00-50-g-hdw-data-sheet.pdf"
-				(at 10.922 0.762 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMA Connector Jack, Female Socket 50 Ohms Through Hole, Right Angle Solder (Voltage Rating = 335V)"
-				(at 6.35 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Adam Tech"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Man. Part Num" "RF2-49B-T-00-50-G-HDW"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Distributor" "Mouser"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Dist. Part Num" "737-RF249BT0050GHDW"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part Type" "Through Hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Package" "SMA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Notes" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "RF2-49B-T-00-50-G-HDW"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CONN_RF2-49B-T-00-50-G-HDW_ADM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RF2-49B-T-00-50-G-HDW_0_1"
-				(polyline
-					(pts
-						(xy 11.43 13.97) (xy 24.13 13.97)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 16.51) (xy 12.7 16.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 16.51) (xy 17.272 16.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 16.002 17.018)
-					(mid 18.0023 18.3184)
-					(end 19.558 16.51)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 19.558 16.51)
-					(mid 18.0022 14.7022)
-					(end 16.002 16.002)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 17.78 16.51)
-					(radius 0.508)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 13.97) (xy 17.78 14.732)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RF2-49B-T-00-50-G-HDW_1_1"
-				(pin unspecified line
-					(at 7.62 16.51 0)
-					(length 5.08)
-					(name "SIGNAL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 11.43 8.89 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 8.89 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 8.89 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 24.13 8.89 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "RF2-49B-T-00-50-G-HDW_1_2"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -12.7) (xy 12.7 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -4.2333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -5.9267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 8.89 -6.7733)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 8.89 -8.4667)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 5.08 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 8.89 -9.3133)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 8.89 -11.0067)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -12.7) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "SIGNAL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -7139,7 +6506,7 @@
 	)
 	(text "10m-Ohm"
 		(exclude_from_sim no)
-		(at 265.8136 34.7188 0)
+		(at 265.43 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7149,7 +6516,7 @@
 	)
 	(text "The enable polarity \nhas been swapped to make \nthe signal active low."
 		(exclude_from_sim no)
-		(at 75.0438 76.1065 0)
+		(at 74.93 76.2 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -7161,7 +6528,7 @@
 	)
 	(text "Twist the following lines together:\n14 and 15:  Enable Signal\n5 and 10:  +5V Current Monitor\n4 and 9:  -5V Current Monitor\n3 and 8:  +5V Voltage Monitor\n2 and 7:  -5V Voltage Monitor\n1 and 6:  Temperature Monitor"
 		(exclude_from_sim no)
-		(at 351.3007 166.8052 0)
+		(at 351.79 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7171,7 +6538,7 @@
 	)
 	(text "10m-Ohm"
 		(exclude_from_sim no)
-		(at 271.5569 140.5656 0)
+		(at 271.78 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7180,172 +6547,182 @@
 		(uuid "cb128bf9-63a8-4ae5-8574-af040eec96ac")
 	)
 	(junction
-		(at 198.3463 270.3394)
+		(at 334.01 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0c21994c-2d45-4369-9795-23d24e6c969b")
+		(uuid "03e67863-4338-490b-8601-e22f1ce8c013")
 	)
 	(junction
-		(at 154.8128 76.7862)
+		(at 154.94 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10346bf7-59c9-4337-a581-859bb74c4a49")
 	)
 	(junction
-		(at 247.4782 111.3987)
+		(at 332.74 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "119588e7-fa02-49bb-8fa9-ec1d5982f253")
+	)
+	(junction
+		(at 247.65 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "143edd30-a5e5-440f-a855-cd740e5907ed")
 	)
 	(junction
-		(at 198.2812 270.3394)
+		(at 198.12 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "173b182b-c5b7-44f2-b015-4dd1b421b019")
 	)
 	(junction
-		(at 247.3344 44.9777)
+		(at 247.65 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29f53aac-d2e6-48ba-b488-bf38255f33ee")
 	)
 	(junction
-		(at 304.164 38.7807)
+		(at 312.42 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3045b9b4-64b5-4319-af40-ef03703c4e04")
+		(uuid "35375f27-6104-460f-9856-c58e39c447e7")
 	)
 	(junction
-		(at 84.0718 141.3919)
+		(at 83.82 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37623828-4cac-49e9-b98d-503433d1bfa1")
 	)
 	(junction
-		(at 211.3085 270.3394)
+		(at 210.82 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "467a643f-573f-4bbd-9a1b-ae275cfaefd3")
 	)
 	(junction
-		(at 259.8588 80.3487)
+		(at 312.42 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6f275f30-35a9-4e4e-851a-7e64b2f97e53")
+		(uuid "51301065-3802-405c-a195-86855f8fae4e")
 	)
 	(junction
-		(at 222.3003 270.3394)
+		(at 222.25 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7dbc10cc-7162-4994-a31b-e085320c7993")
 	)
 	(junction
-		(at 247.8209 270.3394)
+		(at 312.42 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "92bc046f-6cc0-4054-b2b9-02be1be744ca")
+		(uuid "89575d3e-0d2d-4497-9c3e-7eb3b0250a16")
 	)
 	(junction
-		(at 299.084 38.7026)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98768d71-7180-494e-b262-a2b3d74abb53")
-	)
-	(junction
-		(at 173.4475 270.3394)
+		(at 173.99 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99072397-c10c-47f0-85f3-88fa382de3d8")
 	)
 	(junction
-		(at 259.8432 74.9835)
+		(at 332.74 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a89dca8f-1b54-4481-85b8-b6ec096f23a9")
+		(uuid "a68d3da3-f519-48fd-88c3-a7896d86344a")
 	)
 	(junction
-		(at 259.8588 74.9835)
+		(at 313.69 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0917e13-3a2a-4402-9be4-d7fe4aef5c19")
+	)
+	(junction
+		(at 260.35 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b256e5ad-831c-433e-b55b-2e99d917c2a3")
 	)
 	(junction
-		(at 247.9417 270.4913)
+		(at 247.65 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5dbf5f8-2ee9-4c08-bb37-4a7d166d0cd4")
 	)
 	(junction
-		(at 296.8832 121.726)
+		(at 313.69 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cb42258f-e3a9-41e9-aeb9-201be096a30a")
+		(uuid "bf353ed7-5b84-4c62-9b33-a2852c3d2761")
 	)
 	(junction
-		(at 84.0718 122.1071)
+		(at 83.82 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd6b82c6-88e7-408f-b50f-207f63cd09a8")
 	)
 	(junction
-		(at 301.9632 121.7578)
+		(at 313.69 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d9249543-b50f-4cb6-a600-9b5b0cb872bb")
+		(uuid "d445aea7-d6fe-4d49-8d1a-70c9ec7367e9")
 	)
 	(junction
-		(at 259.8644 80.3581)
+		(at 334.01 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4ba2e45-10f0-4356-a7de-d8d94519c859")
+	)
+	(junction
+		(at 260.35 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5bb139b-f8a6-4422-a8ae-6fc91c285a28")
 	)
 	(junction
-		(at 240.1383 74.9835)
+		(at 240.03 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f614d8ef-357a-4c7d-9984-41e2ef0d9eec")
 	)
 	(no_connect
-		(at 360.2622 203.6595)
+		(at 314.96 38.1)
+		(uuid "08408a4d-3e88-4754-b1dc-0a9667fa9b28")
+	)
+	(no_connect
+		(at 316.23 114.3)
+		(uuid "0af5b28f-fcc6-407c-ab4a-c8bdb05e6b83")
+	)
+	(no_connect
+		(at 360.68 203.2)
 		(uuid "3885347d-33c1-4147-a2c5-6bb71bbe6b59")
 	)
 	(no_connect
-		(at 78.7547 191.3377)
+		(at 78.74 191.77)
 		(uuid "88b5d35e-8639-4bcb-80be-3726895c4578")
 	)
 	(no_connect
-		(at 360.2622 193.4995)
+		(at 360.68 193.04)
 		(uuid "bbea46bc-e400-4493-aa90-1444936facf1")
 	)
 	(no_connect
-		(at 278.1145 66.1287)
+		(at 278.13 66.04)
 		(uuid "c4217750-f788-4906-8361-c35f170858a2")
 	)
 	(no_connect
-		(at 360.2622 198.5795)
+		(at 360.68 198.12)
 		(uuid "c8d0dcfd-f202-42c7-8731-10ae58dd3bcd")
 	)
 	(no_connect
-		(at 277.8889 91.7704)
+		(at 278.13 91.44)
 		(uuid "cf1a26d0-1e84-475d-8c6d-e7a0d6d69783")
 	)
 	(no_connect
-		(at 53.8674 52.4477)
+		(at 53.34 52.07)
 		(uuid "dc57d988-3189-4e7b-bb43-1b3bab1969be")
 	)
 	(wire
 		(pts
-			(xy 295.274 35.348) (xy 295.274 38.7026)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00170578-9cd5-4d80-83d0-069096a6bd32")
-	)
-	(wire
-		(pts
-			(xy 247.3344 44.9777) (xy 241.2983 44.9777)
+			(xy 247.65 44.45) (xy 241.3 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7355,7 +6732,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.4524 62.6077) (xy 38.6274 62.6077)
+			(xy 27.94 62.23) (xy 38.1 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7365,7 +6742,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5147 183.7177) (xy 37.7579 183.7177)
+			(xy 63.5 184.15) (xy 38.1 184.15)
 		)
 		(stroke
 			(width 0)
@@ -7375,7 +6752,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.4474 132.9812) (xy 247.4782 132.9812)
+			(xy 264.16 133.35) (xy 247.65 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7385,7 +6762,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.186 178.7486) (xy 240.6617 178.7486)
+			(xy 217.17 179.07) (xy 240.03 179.07)
 		)
 		(stroke
 			(width 0)
@@ -7395,37 +6772,17 @@
 	)
 	(wire
 		(pts
-			(xy 304.164 35.348) (xy 304.164 38.7807)
+			(xy 334.01 121.92) (xy 334.01 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08ae828f-85c8-4ba6-9898-fdeefda1e9c6")
+		(uuid "097ead38-3f6d-4fb3-8220-d39cafbafbe2")
 	)
 	(wire
 		(pts
-			(xy 299.084 38.7026) (xy 299.084 38.7807)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a3c3aea-bb9a-48ac-bc27-f9fc7184beec")
-	)
-	(wire
-		(pts
-			(xy 259.8588 80.3487) (xy 259.8644 80.3487)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ba477d9-1f87-4eec-9c82-8ed38b196997")
-	)
-	(wire
-		(pts
-			(xy 27.4524 77.1615) (xy 27.4524 62.6077)
+			(xy 27.94 77.47) (xy 27.94 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7435,7 +6792,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.6733 44.4697) (xy 168.8985 44.4697)
+			(xy 193.04 44.45) (xy 168.91 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7445,7 +6802,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.4782 111.3987) (xy 272.8124 111.3987)
+			(xy 247.65 111.76) (xy 273.05 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7455,17 +6812,7 @@
 	)
 	(wire
 		(pts
-			(xy 301.9632 125.3624) (xy 301.9632 121.7578)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fdbfa67-4695-482f-8ccc-b3dc27db294b")
-	)
-	(wire
-		(pts
-			(xy 222.3003 270.3394) (xy 222.3003 267.0636)
+			(xy 222.25 270.51) (xy 222.25 266.7)
 		)
 		(stroke
 			(width 0)
@@ -7475,7 +6822,7 @@
 	)
 	(wire
 		(pts
-			(xy 272.8089 82.8804) (xy 272.8089 80.3581)
+			(xy 273.05 82.55) (xy 273.05 80.01)
 		)
 		(stroke
 			(width 0)
@@ -7485,7 +6832,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.9789 62.6077) (xy 53.8674 62.6077)
+			(xy 68.58 62.23) (xy 53.34 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7495,7 +6842,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.186 192.5686) (xy 240.5702 192.5686)
+			(xy 217.17 193.04) (xy 240.03 193.04)
 		)
 		(stroke
 			(width 0)
@@ -7505,7 +6852,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.0275 234.2837) (xy 119.0275 243.7354)
+			(xy 313.69 104.14) (xy 316.23 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16f57a6a-6226-4ae4-8abb-d27635e58be7")
+	)
+	(wire
+		(pts
+			(xy 119.38 233.68) (xy 119.38 243.84)
 		)
 		(stroke
 			(width 0)
@@ -7515,7 +6872,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.847 196.0395) (xy 339.9422 196.0395)
+			(xy 312.42 195.58) (xy 340.36 195.58)
 		)
 		(stroke
 			(width 0)
@@ -7525,17 +6882,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.4958 74.9835) (xy 237.4958 77.9482)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "209bc039-7f83-46b3-b4af-f55c789c46de")
-	)
-	(wire
-		(pts
-			(xy 211.3085 270.3394) (xy 222.3003 270.3394)
+			(xy 210.82 270.51) (xy 222.25 270.51)
 		)
 		(stroke
 			(width 0)
@@ -7545,7 +6892,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.6274 49.9077) (xy 24.9633 49.9077)
+			(xy 38.1 49.53) (xy 25.4 49.53)
 		)
 		(stroke
 			(width 0)
@@ -7555,7 +6902,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.5436 267.1358) (xy 85.368 267.1358)
+			(xy 60.96 266.7) (xy 85.09 266.7)
 		)
 		(stroke
 			(width 0)
@@ -7565,7 +6912,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.7866 257.378) (xy 50.7866 266.8297)
+			(xy 50.8 257.81) (xy 50.8 266.7)
 		)
 		(stroke
 			(width 0)
@@ -7575,17 +6922,17 @@
 	)
 	(wire
 		(pts
-			(xy 304.164 38.7807) (xy 304.164 38.7984)
+			(xy 331.47 116.84) (xy 334.01 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "262b12f6-ffd3-42b6-9e09-c8cc39d230f8")
+		(uuid "262008d9-9d07-4ecb-b86a-98f2d71f15c6")
 	)
 	(wire
 		(pts
-			(xy 172.4185 195.329) (xy 149.2048 195.329)
+			(xy 172.72 195.58) (xy 148.59 195.58)
 		)
 		(stroke
 			(width 0)
@@ -7595,17 +6942,37 @@
 	)
 	(wire
 		(pts
-			(xy 259.8432 74.9835) (xy 259.8588 74.9835)
+			(xy 271.78 27.94) (xy 312.42 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2821f5db-8cab-41d6-8ab9-8cb8d6b38b1a")
+		(uuid "266358ce-ce69-418d-812b-903cc1b24918")
 	)
 	(wire
 		(pts
-			(xy 61.3419 243.7484) (xy 85.1663 243.7484)
+			(xy 313.69 119.38) (xy 316.23 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2681ab4b-81ae-42f0-9ef5-a2708fed3dce")
+	)
+	(wire
+		(pts
+			(xy 313.69 109.22) (xy 316.23 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27a82e5d-18d5-43ba-8cf9-962cbe7cb774")
+	)
+	(wire
+		(pts
+			(xy 60.96 243.84) (xy 85.09 243.84)
 		)
 		(stroke
 			(width 0)
@@ -7615,17 +6982,7 @@
 	)
 	(wire
 		(pts
-			(xy 305.7732 121.7578) (xy 305.7732 125.3624)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29eebe6b-d33b-4e1d-943b-e7d9683abb19")
-	)
-	(wire
-		(pts
-			(xy 84.0718 122.1071) (xy 84.0718 127.3028)
+			(xy 83.82 121.92) (xy 83.82 127)
 		)
 		(stroke
 			(width 0)
@@ -7635,7 +6992,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.3003 270.3394) (xy 247.8209 270.3394)
+			(xy 222.25 270.51) (xy 247.65 270.51)
 		)
 		(stroke
 			(width 0)
@@ -7645,7 +7002,17 @@
 	)
 	(wire
 		(pts
-			(xy 40.7299 141.3919) (xy 84.0718 141.3919)
+			(xy 313.69 104.14) (xy 313.69 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c005bd6-6468-4c35-86fa-b7aeed154895")
+	)
+	(wire
+		(pts
+			(xy 40.64 140.97) (xy 83.82 140.97)
 		)
 		(stroke
 			(width 0)
@@ -7655,7 +7022,17 @@
 	)
 	(wire
 		(pts
-			(xy 272.151 270.4913) (xy 247.9417 270.4913)
+			(xy 330.2 40.64) (xy 332.74 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f634571-24ca-423d-aa51-7a9c53e4f32e")
+	)
+	(wire
+		(pts
+			(xy 271.78 270.51) (xy 247.65 270.51)
 		)
 		(stroke
 			(width 0)
@@ -7665,7 +7042,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.4185 179.8032) (xy 160.767 179.8032)
+			(xy 172.72 180.34) (xy 161.29 180.34)
 		)
 		(stroke
 			(width 0)
@@ -7675,7 +7052,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5147 188.7977) (xy 37.7579 188.7977)
+			(xy 63.5 189.23) (xy 38.1 189.23)
 		)
 		(stroke
 			(width 0)
@@ -7685,27 +7062,7 @@
 	)
 	(wire
 		(pts
-			(xy 296.8832 121.726) (xy 301.9632 121.726)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31eec45f-c1b5-4a0d-acb0-605749738d4d")
-	)
-	(wire
-		(pts
-			(xy 272.8089 103.2878) (xy 272.8124 103.2878)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "359a8398-c46c-4257-b592-fc529da07072")
-	)
-	(wire
-		(pts
-			(xy 173.443 270.3394) (xy 173.443 267.1382)
+			(xy 173.99 270.51) (xy 173.99 266.7)
 		)
 		(stroke
 			(width 0)
@@ -7715,17 +7072,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.0345 56.1331) (xy 273.0453 56.1331)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3874cfec-6bd2-44ae-96a7-e6856b06225d")
-	)
-	(wire
-		(pts
-			(xy 369.8114 206.1995) (xy 369.8114 212.1977)
+			(xy 369.57 205.74) (xy 369.57 212.09)
 		)
 		(stroke
 			(width 0)
@@ -7735,7 +7082,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.186 201.6753) (xy 240.6617 201.6753)
+			(xy 217.17 201.93) (xy 240.03 201.93)
 		)
 		(stroke
 			(width 0)
@@ -7745,7 +7092,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.847 188.4195) (xy 339.9422 188.4195)
+			(xy 312.42 187.96) (xy 340.36 187.96)
 		)
 		(stroke
 			(width 0)
@@ -7755,37 +7102,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.3463 266.8619) (xy 198.2812 266.8619)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4058b07b-ef25-4e8b-b75f-0c3b9b9744f8")
-	)
-	(wire
-		(pts
-			(xy 84.0718 141.3919) (xy 84.0718 141.4019)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41477ffd-4d05-4eba-ae03-c4384524bc25")
-	)
-	(wire
-		(pts
-			(xy 295.274 38.7026) (xy 299.084 38.7026)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42c80070-02ec-45ba-a496-95de0989e6bd")
-	)
-	(wire
-		(pts
-			(xy 173.4475 273.6999) (xy 173.4475 270.3394)
+			(xy 173.99 274.32) (xy 173.99 270.51)
 		)
 		(stroke
 			(width 0)
@@ -7795,17 +7112,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.164 38.7984) (xy 307.974 38.7984)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48058f06-057b-4d80-9c29-7f2fac72f779")
-	)
-	(wire
-		(pts
-			(xy 273.0453 44.9777) (xy 247.3344 44.9777)
+			(xy 273.05 44.45) (xy 247.65 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7815,7 +7122,17 @@
 	)
 	(wire
 		(pts
-			(xy 211.3085 270.3394) (xy 198.3463 270.3394)
+			(xy 334.01 111.76) (xy 334.01 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49edf240-bd47-4871-889e-2b35b4f45780")
+	)
+	(wire
+		(pts
+			(xy 210.82 270.51) (xy 198.12 270.51)
 		)
 		(stroke
 			(width 0)
@@ -7825,7 +7142,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.9622 266.8297) (xy 50.7866 266.8297)
+			(xy 26.67 266.7) (xy 50.8 266.7)
 		)
 		(stroke
 			(width 0)
@@ -7835,7 +7152,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.5115 181.1777) (xy 78.7547 181.1777)
+			(xy 104.14 181.61) (xy 78.74 181.61)
 		)
 		(stroke
 			(width 0)
@@ -7845,7 +7162,7 @@
 	)
 	(wire
 		(pts
-			(xy 272.8089 80.3581) (xy 259.8644 80.3581)
+			(xy 273.05 80.01) (xy 260.35 80.01)
 		)
 		(stroke
 			(width 0)
@@ -7855,7 +7172,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.1383 80.3487) (xy 240.1383 74.9835)
+			(xy 240.03 80.01) (xy 240.03 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7865,7 +7182,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.2031 243.7354) (xy 119.0275 243.7354)
+			(xy 95.25 243.84) (xy 119.38 243.84)
 		)
 		(stroke
 			(width 0)
@@ -7875,7 +7192,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.847 201.1195) (xy 339.9422 201.1195)
+			(xy 312.42 200.66) (xy 340.36 200.66)
 		)
 		(stroke
 			(width 0)
@@ -7885,7 +7202,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.259 80.3487) (xy 259.8588 80.3487)
+			(xy 251.46 80.01) (xy 260.35 80.01)
 		)
 		(stroke
 			(width 0)
@@ -7895,7 +7212,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.8432 65.0437) (xy 241.2983 65.0437)
+			(xy 260.35 64.77) (xy 241.3 64.77)
 		)
 		(stroke
 			(width 0)
@@ -7905,7 +7222,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5147 193.8777) (xy 37.7579 193.8777)
+			(xy 63.5 194.31) (xy 38.1 194.31)
 		)
 		(stroke
 			(width 0)
@@ -7915,7 +7232,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.6031 122.1071) (xy 84.0718 122.1071)
+			(xy 41.91 121.92) (xy 83.82 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7925,7 +7242,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.6733 110.6367) (xy 167.7718 110.6367)
+			(xy 193.04 110.49) (xy 167.64 110.49)
 		)
 		(stroke
 			(width 0)
@@ -7935,7 +7252,17 @@
 	)
 	(wire
 		(pts
-			(xy 311.847 203.6595) (xy 339.9422 203.6595)
+			(xy 312.42 43.18) (xy 314.96 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a574388-978c-4bb7-a7f8-04a4a351ef89")
+	)
+	(wire
+		(pts
+			(xy 312.42 203.2) (xy 340.36 203.2)
 		)
 		(stroke
 			(width 0)
@@ -7945,7 +7272,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.0975 201.4977) (xy 53.0975 212.3747)
+			(xy 53.34 201.93) (xy 53.34 212.09)
 		)
 		(stroke
 			(width 0)
@@ -7955,7 +7282,17 @@
 	)
 	(wire
 		(pts
-			(xy 391.2435 238.638) (xy 391.2435 246.2375)
+			(xy 331.47 106.68) (xy 334.01 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651cf8c6-dd15-46db-b2ce-0d995ebd34b1")
+	)
+	(wire
+		(pts
+			(xy 391.16 238.76) (xy 391.16 246.38)
 		)
 		(stroke
 			(width 0)
@@ -7965,7 +7302,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.1383 74.9835) (xy 237.4958 74.9835)
+			(xy 240.03 74.93) (xy 237.49 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7975,7 +7312,17 @@
 	)
 	(wire
 		(pts
-			(xy 241.2983 90.8247) (xy 259.8644 90.8247)
+			(xy 312.42 33.02) (xy 312.42 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69338fe2-3143-4ce0-b11f-5c9c03569cef")
+	)
+	(wire
+		(pts
+			(xy 241.3 91.44) (xy 260.35 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7985,7 +7332,7 @@
 	)
 	(wire
 		(pts
-			(xy 183.8496 162.5702) (xy 195.7841 162.5702)
+			(xy 184.15 162.56) (xy 195.58 162.56)
 		)
 		(stroke
 			(width 0)
@@ -7995,7 +7342,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.4782 132.9812) (xy 247.4782 111.3987)
+			(xy 247.65 133.35) (xy 247.65 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8005,7 +7352,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.2622 188.4195) (xy 388.3574 188.4195)
+			(xy 360.68 187.96) (xy 388.62 187.96)
 		)
 		(stroke
 			(width 0)
@@ -8015,7 +7362,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.3221 74.9835) (xy 240.1383 74.9835)
+			(xy 246.38 74.93) (xy 240.03 74.93)
 		)
 		(stroke
 			(width 0)
@@ -8025,7 +7372,7 @@
 	)
 	(wire
 		(pts
-			(xy 376.4803 246.2375) (xy 391.2435 246.2375)
+			(xy 375.92 246.38) (xy 391.16 246.38)
 		)
 		(stroke
 			(width 0)
@@ -8035,7 +7382,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.179 80.3487) (xy 240.1383 80.3487)
+			(xy 246.38 80.01) (xy 240.03 80.01)
 		)
 		(stroke
 			(width 0)
@@ -8045,7 +7392,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.3463 270.3394) (xy 198.3463 266.8619)
+			(xy 198.12 270.51) (xy 198.12 266.7)
 		)
 		(stroke
 			(width 0)
@@ -8055,7 +7402,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.7841 176.0924) (xy 195.7841 162.5702)
+			(xy 195.58 176.53) (xy 195.58 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8065,7 +7412,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.6274 54.9877) (xy 24.9633 54.9877)
+			(xy 38.1 54.61) (xy 25.4 54.61)
 		)
 		(stroke
 			(width 0)
@@ -8075,7 +7422,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.8588 80.3487) (xy 259.8588 74.9835)
+			(xy 260.35 80.01) (xy 260.35 74.93)
 		)
 		(stroke
 			(width 0)
@@ -8085,17 +7432,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.8644 80.3581) (xy 259.8644 80.3487)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "745b47b9-877c-4b70-92dc-c6505c33c655")
-	)
-	(wire
-		(pts
-			(xy 311.847 206.1995) (xy 339.9422 206.1995)
+			(xy 312.42 205.74) (xy 340.36 205.74)
 		)
 		(stroke
 			(width 0)
@@ -8105,7 +7442,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.186 205.9896) (xy 240.7531 205.9896)
+			(xy 217.17 205.74) (xy 241.3 205.74)
 		)
 		(stroke
 			(width 0)
@@ -8115,7 +7452,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.4475 270.3394) (xy 198.2812 270.3394)
+			(xy 173.99 270.51) (xy 198.12 270.51)
 		)
 		(stroke
 			(width 0)
@@ -8125,7 +7462,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.0553 73.7169) (xy 95.3543 73.7169)
+			(xy 109.22 73.66) (xy 95.25 73.66)
 		)
 		(stroke
 			(width 0)
@@ -8135,7 +7472,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.7605 243.4423) (xy 50.5849 243.4423)
+			(xy 26.67 243.84) (xy 50.8 243.84)
 		)
 		(stroke
 			(width 0)
@@ -8145,7 +7482,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.6274 60.0677) (xy 24.9633 60.0677)
+			(xy 38.1 59.69) (xy 25.4 59.69)
 		)
 		(stroke
 			(width 0)
@@ -8155,7 +7492,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.5849 233.9906) (xy 50.5849 243.4423)
+			(xy 50.8 233.68) (xy 50.8 243.84)
 		)
 		(stroke
 			(width 0)
@@ -8165,7 +7502,17 @@
 	)
 	(wire
 		(pts
-			(xy 85.1663 234.2967) (xy 85.1663 243.7484)
+			(xy 331.47 111.76) (xy 334.01 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80e23449-ea06-45e3-8463-2c443a1ca2da")
+	)
+	(wire
+		(pts
+			(xy 85.09 233.68) (xy 85.09 243.84)
 		)
 		(stroke
 			(width 0)
@@ -8175,7 +7522,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.1535 27.7442) (xy 247.3344 27.7442)
+			(xy 259.08 27.94) (xy 247.65 27.94)
 		)
 		(stroke
 			(width 0)
@@ -8185,7 +7532,7 @@
 	)
 	(wire
 		(pts
-			(xy 272.8124 111.3987) (xy 272.8124 110.9078)
+			(xy 273.05 111.76) (xy 273.05 110.49)
 		)
 		(stroke
 			(width 0)
@@ -8195,17 +7542,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.084 38.7807) (xy 304.164 38.7807)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87960875-c028-4b02-9a52-018d85225242")
-	)
-	(wire
-		(pts
-			(xy 273.0453 48.5131) (xy 273.0453 44.9777)
+			(xy 273.05 48.26) (xy 273.05 44.45)
 		)
 		(stroke
 			(width 0)
@@ -8215,7 +7552,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.6274 44.8277) (xy 24.9633 44.8277)
+			(xy 38.1 44.45) (xy 25.4 44.45)
 		)
 		(stroke
 			(width 0)
@@ -8225,7 +7562,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.186 183.313) (xy 240.7531 183.313)
+			(xy 217.17 182.88) (xy 241.3 182.88)
 		)
 		(stroke
 			(width 0)
@@ -8235,17 +7572,7 @@
 	)
 	(wire
 		(pts
-			(xy 301.9632 121.726) (xy 301.9632 121.7578)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ee802f5-8002-48c7-bed4-d6da4e0b6a68")
-	)
-	(wire
-		(pts
-			(xy 198.2812 273.7269) (xy 198.2812 270.3394)
+			(xy 198.12 274.32) (xy 198.12 270.51)
 		)
 		(stroke
 			(width 0)
@@ -8255,7 +7582,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.5115 186.2577) (xy 78.7547 186.2577)
+			(xy 104.14 186.69) (xy 78.74 186.69)
 		)
 		(stroke
 			(width 0)
@@ -8265,7 +7592,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.8128 54.3757) (xy 154.8128 76.7862)
+			(xy 154.94 54.61) (xy 154.94 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8275,7 +7602,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.8128 100.2227) (xy 193.6733 100.2227)
+			(xy 312.42 33.02) (xy 314.96 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95403ee4-ab74-403d-a890-83a2335c3088")
+	)
+	(wire
+		(pts
+			(xy 154.94 100.33) (xy 193.04 100.33)
 		)
 		(stroke
 			(width 0)
@@ -8285,7 +7622,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.0553 66.7063) (xy 95.3912 66.7063)
+			(xy 109.22 67.31) (xy 95.25 67.31)
 		)
 		(stroke
 			(width 0)
@@ -8295,7 +7632,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.847 193.4995) (xy 339.9422 193.4995)
+			(xy 312.42 193.04) (xy 340.36 193.04)
 		)
 		(stroke
 			(width 0)
@@ -8305,47 +7642,17 @@
 	)
 	(wire
 		(pts
-			(xy 307.974 38.7984) (xy 307.974 35.348)
+			(xy 313.69 119.38) (xy 313.69 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "996ab8a5-ac09-4a3b-9991-dcff830f7d2e")
+		(uuid "9c4cb6e0-2c43-4f1b-8091-df46c055575b")
 	)
 	(wire
 		(pts
-			(xy 293.0732 121.726) (xy 296.8832 121.726)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ba1193b-d8a1-4ec3-9a37-8da126d0fcf0")
-	)
-	(wire
-		(pts
-			(xy 273.0345 74.9835) (xy 273.0345 75.0187)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cc84ac5-dcac-4acd-9521-331e4e2d88a8")
-	)
-	(wire
-		(pts
-			(xy 198.2812 270.3394) (xy 198.3463 270.3394)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9de637dc-d97c-4c82-8498-b05f66f78e26")
-	)
-	(wire
-		(pts
-			(xy 259.8588 74.9835) (xy 273.0345 74.9835)
+			(xy 260.35 74.93) (xy 273.05 74.93)
 		)
 		(stroke
 			(width 0)
@@ -8355,7 +7662,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.368 257.6841) (xy 85.368 267.1358)
+			(xy 85.09 257.81) (xy 85.09 266.7)
 		)
 		(stroke
 			(width 0)
@@ -8365,17 +7672,17 @@
 	)
 	(wire
 		(pts
-			(xy 247.9417 270.3394) (xy 247.8209 270.3394)
+			(xy 330.2 30.48) (xy 332.74 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4495781-7caa-4c26-8adc-f7fa41937f58")
+		(uuid "a408ccf3-02d2-48df-b5e6-c1a1be8678d1")
 	)
 	(wire
 		(pts
-			(xy 109.0553 87.091) (xy 94.9438 87.091)
+			(xy 109.22 87.63) (xy 95.25 87.63)
 		)
 		(stroke
 			(width 0)
@@ -8385,7 +7692,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.4185 191.3673) (xy 149.2048 191.3673)
+			(xy 172.72 191.77) (xy 148.59 191.77)
 		)
 		(stroke
 			(width 0)
@@ -8395,7 +7702,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.9789 57.5277) (xy 53.8674 57.5277)
+			(xy 68.58 57.15) (xy 53.34 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8405,7 +7712,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.4053 122.1071) (xy 84.0718 122.1071)
+			(xy 96.52 121.92) (xy 83.82 121.92)
 		)
 		(stroke
 			(width 0)
@@ -8415,17 +7722,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.0732 125.3624) (xy 293.0732 121.726)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad0cd2dd-8721-4582-89dc-bb6dfdfc860c")
-	)
-	(wire
-		(pts
-			(xy 84.0718 141.4019) (xy 96.4053 141.4019)
+			(xy 83.82 140.97) (xy 96.52 140.97)
 		)
 		(stroke
 			(width 0)
@@ -8435,17 +7732,7 @@
 	)
 	(wire
 		(pts
-			(xy 291.464 27.7442) (xy 291.464 27.728)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af6cbfdf-2180-474d-82a8-eb4e77d1c947")
-	)
-	(wire
-		(pts
-			(xy 247.9417 274.4739) (xy 247.9417 270.4913)
+			(xy 247.65 274.32) (xy 247.65 270.51)
 		)
 		(stroke
 			(width 0)
@@ -8455,7 +7742,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.8644 90.8247) (xy 259.8644 80.3581)
+			(xy 260.35 91.44) (xy 260.35 80.01)
 		)
 		(stroke
 			(width 0)
@@ -8465,7 +7752,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.6733 90.3167) (xy 169.274 90.3167)
+			(xy 193.04 90.17) (xy 168.91 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8475,27 +7762,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.8535 27.7442) (xy 291.464 27.7442)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b32d2296-7b72-4665-969d-cce93fba9635")
-	)
-	(wire
-		(pts
-			(xy 289.2632 132.9812) (xy 289.2632 132.9824)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b52b0656-995e-41af-a48d-9cf7e25bc5de")
-	)
-	(wire
-		(pts
-			(xy 241.2983 111.3987) (xy 247.4782 111.3987)
+			(xy 241.3 111.76) (xy 247.65 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8505,7 +7772,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.6733 64.7897) (xy 168.5766 64.7897)
+			(xy 193.04 64.77) (xy 168.91 64.77)
 		)
 		(stroke
 			(width 0)
@@ -8515,7 +7782,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.0553 63.9515) (xy 95.2074 63.9515)
+			(xy 109.22 63.5) (xy 95.25 63.5)
 		)
 		(stroke
 			(width 0)
@@ -8525,7 +7792,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.9842 183.3395) (xy 339.9422 183.3395)
+			(xy 312.42 182.88) (xy 340.36 182.88)
 		)
 		(stroke
 			(width 0)
@@ -8535,7 +7802,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.8209 270.3394) (xy 247.8209 266.9907)
+			(xy 247.65 270.51) (xy 247.65 266.7)
 		)
 		(stroke
 			(width 0)
@@ -8545,7 +7812,17 @@
 	)
 	(wire
 		(pts
-			(xy 67.9789 42.2877) (xy 53.8674 42.2877)
+			(xy 312.42 27.94) (xy 314.96 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd69f2a-fbd6-480a-a260-8e832549bbb7")
+	)
+	(wire
+		(pts
+			(xy 68.58 41.91) (xy 53.34 41.91)
 		)
 		(stroke
 			(width 0)
@@ -8555,7 +7832,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.4021 74.9835) (xy 259.8432 74.9835)
+			(xy 251.46 74.93) (xy 260.35 74.93)
 		)
 		(stroke
 			(width 0)
@@ -8565,7 +7842,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.847 190.9595) (xy 339.9422 190.9595)
+			(xy 312.42 190.5) (xy 340.36 190.5)
 		)
 		(stroke
 			(width 0)
@@ -8575,7 +7852,7 @@
 	)
 	(wire
 		(pts
-			(xy 272.8089 100.6604) (xy 272.8089 103.2878)
+			(xy 273.05 100.33) (xy 273.05 102.87)
 		)
 		(stroke
 			(width 0)
@@ -8585,7 +7862,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.8128 76.7862) (xy 154.8128 100.2227)
+			(xy 154.94 76.2) (xy 154.94 100.33)
 		)
 		(stroke
 			(width 0)
@@ -8595,7 +7872,7 @@
 	)
 	(wire
 		(pts
-			(xy 277.1474 132.9812) (xy 289.2632 132.9812)
+			(xy 276.86 133.35) (xy 313.69 133.35)
 		)
 		(stroke
 			(width 0)
@@ -8605,7 +7882,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.4185 205.1267) (xy 160.7473 205.1267)
+			(xy 172.72 205.74) (xy 161.29 205.74)
 		)
 		(stroke
 			(width 0)
@@ -8615,7 +7892,17 @@
 	)
 	(wire
 		(pts
-			(xy 172.4185 187.762) (xy 149.2048 187.762)
+			(xy 332.74 35.56) (xy 332.74 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6bc8875-7484-4fa4-a710-78ccd490517d")
+	)
+	(wire
+		(pts
+			(xy 172.72 187.96) (xy 148.59 187.96)
 		)
 		(stroke
 			(width 0)
@@ -8625,7 +7912,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.0553 79.2175) (xy 95.4356 79.2175)
+			(xy 331.47 121.92) (xy 334.01 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca033893-13d7-4c20-98b9-ed6eced75dbb")
+	)
+	(wire
+		(pts
+			(xy 109.22 78.74) (xy 95.25 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8635,7 +7932,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.4876 76.7862) (xy 154.8128 76.7862)
+			(xy 138.43 76.2) (xy 154.94 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8645,7 +7942,7 @@
 	)
 	(wire
 		(pts
-			(xy 272.151 263.6433) (xy 272.151 270.4913)
+			(xy 271.78 264.16) (xy 271.78 270.51)
 		)
 		(stroke
 			(width 0)
@@ -8655,7 +7952,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.4053 127.7619) (xy 96.4053 122.1071)
+			(xy 334.01 116.84) (xy 334.01 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb079af8-2993-4c6e-8425-b1a65139efe4")
+	)
+	(wire
+		(pts
+			(xy 96.52 128.27) (xy 96.52 121.92)
 		)
 		(stroke
 			(width 0)
@@ -8665,7 +7972,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5147 201.4977) (xy 53.0975 201.4977)
+			(xy 313.69 124.46) (xy 316.23 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cea5cec7-4fe4-4295-bc72-78decebcefe5")
+	)
+	(wire
+		(pts
+			(xy 63.5 201.93) (xy 53.34 201.93)
 		)
 		(stroke
 			(width 0)
@@ -8675,7 +7992,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.4185 201.6753) (xy 160.963 201.6753)
+			(xy 172.72 201.93) (xy 161.29 201.93)
 		)
 		(stroke
 			(width 0)
@@ -8685,7 +8002,37 @@
 	)
 	(wire
 		(pts
-			(xy 96.4053 141.4019) (xy 96.4053 135.3819)
+			(xy 332.74 40.64) (xy 332.74 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3311f7a-28b1-454f-b621-6409c1b51f94")
+	)
+	(wire
+		(pts
+			(xy 313.69 124.46) (xy 313.69 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d349f3da-0ec1-4cb5-89af-338c4bd5869b")
+	)
+	(wire
+		(pts
+			(xy 330.2 35.56) (xy 332.74 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d451a405-e9a4-45b8-930a-0c2c72837ed8")
+	)
+	(wire
+		(pts
+			(xy 96.52 140.97) (xy 96.52 135.89)
 		)
 		(stroke
 			(width 0)
@@ -8695,17 +8042,7 @@
 	)
 	(wire
 		(pts
-			(xy 301.9632 121.7578) (xy 305.7732 121.7578)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5e4baed-7c1a-4259-8e85-7e8c4c4ddf92")
-	)
-	(wire
-		(pts
-			(xy 360.2622 183.3395) (xy 388.3574 183.3395)
+			(xy 360.68 182.88) (xy 388.62 182.88)
 		)
 		(stroke
 			(width 0)
@@ -8715,7 +8052,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.4185 182.967) (xy 160.8629 182.967)
+			(xy 172.72 182.88) (xy 161.29 182.88)
 		)
 		(stroke
 			(width 0)
@@ -8725,17 +8062,7 @@
 	)
 	(wire
 		(pts
-			(xy 296.8832 121.726) (xy 296.8832 125.3624)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8c829c3-cc70-4596-ad79-b6975b33525e")
-	)
-	(wire
-		(pts
-			(xy 311.847 185.8795) (xy 339.9422 185.8795)
+			(xy 312.42 185.42) (xy 340.36 185.42)
 		)
 		(stroke
 			(width 0)
@@ -8745,7 +8072,27 @@
 	)
 	(wire
 		(pts
-			(xy 89.8031 89.9087) (xy 109.0553 89.9087)
+			(xy 312.42 43.18) (xy 312.42 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac853a7-cebb-49b1-aecf-49a158a84ef4")
+	)
+	(wire
+		(pts
+			(xy 312.42 48.26) (xy 312.42 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db57e181-8e04-4d5f-bc2e-1d0d13cc20c8")
+	)
+	(wire
+		(pts
+			(xy 90.17 90.17) (xy 109.22 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8755,17 +8102,17 @@
 	)
 	(wire
 		(pts
-			(xy 237.5416 77.9482) (xy 237.4958 77.9482)
+			(xy 330.2 45.72) (xy 332.74 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "de9c8e43-2a28-40ff-80ac-03dad419ebb4")
+		(uuid "de9c013b-c8dc-47a7-8e7d-4c21fdebcaaf")
 	)
 	(wire
 		(pts
-			(xy 63.5147 198.9577) (xy 37.7579 198.9577)
+			(xy 63.5 199.39) (xy 38.1 199.39)
 		)
 		(stroke
 			(width 0)
@@ -8775,7 +8122,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.8432 65.0437) (xy 259.8432 74.9835)
+			(xy 260.35 64.77) (xy 260.35 74.93)
 		)
 		(stroke
 			(width 0)
@@ -8785,7 +8132,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.8319 198.5795) (xy 339.9422 198.5795)
+			(xy 312.42 198.12) (xy 340.36 198.12)
 		)
 		(stroke
 			(width 0)
@@ -8795,7 +8142,17 @@
 	)
 	(wire
 		(pts
-			(xy 273.0345 57.2387) (xy 273.0345 56.1331)
+			(xy 332.74 30.48) (xy 332.74 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e602f5e2-3cf1-40eb-84d0-8c35d72df857")
+	)
+	(wire
+		(pts
+			(xy 273.05 57.15) (xy 273.05 55.88)
 		)
 		(stroke
 			(width 0)
@@ -8805,7 +8162,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.3344 27.7442) (xy 247.3344 44.9777)
+			(xy 247.65 27.94) (xy 247.65 44.45)
 		)
 		(stroke
 			(width 0)
@@ -8815,17 +8172,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.9417 270.4913) (xy 247.9417 270.3394)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee9e5635-7060-426d-a67e-1e0e60b18563")
-	)
-	(wire
-		(pts
-			(xy 104.5115 201.4977) (xy 78.7547 201.4977)
+			(xy 104.14 201.93) (xy 78.74 201.93)
 		)
 		(stroke
 			(width 0)
@@ -8835,7 +8182,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.5115 196.4177) (xy 78.7547 196.4177)
+			(xy 104.14 196.85) (xy 78.74 196.85)
 		)
 		(stroke
 			(width 0)
@@ -8845,7 +8192,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.6733 54.3757) (xy 154.8128 54.3757)
+			(xy 193.04 54.61) (xy 154.94 54.61)
 		)
 		(stroke
 			(width 0)
@@ -8855,7 +8202,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.5416 79.0884) (xy 237.5416 77.9482)
+			(xy 237.49 74.93) (xy 237.49 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8865,7 +8212,7 @@
 	)
 	(wire
 		(pts
-			(xy 84.0718 132.3828) (xy 84.0718 141.3919)
+			(xy 83.82 132.08) (xy 83.82 140.97)
 		)
 		(stroke
 			(width 0)
@@ -8875,7 +8222,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.9789 47.3677) (xy 53.8674 47.3677)
+			(xy 68.58 46.99) (xy 53.34 46.99)
 		)
 		(stroke
 			(width 0)
@@ -8885,17 +8232,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.084 35.348) (xy 299.084 38.7026)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8b68ed6-6a49-4051-9b1e-52c37086e056")
-	)
-	(wire
-		(pts
-			(xy 360.2622 206.1995) (xy 369.8114 206.1995)
+			(xy 360.68 205.74) (xy 369.57 205.74)
 		)
 		(stroke
 			(width 0)
@@ -8905,17 +8242,27 @@
 	)
 	(wire
 		(pts
-			(xy 173.443 270.3394) (xy 173.4475 270.3394)
+			(xy 313.69 109.22) (xy 313.69 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc4ab880-6b18-44b9-8337-87a9c363caad")
+		(uuid "fa5a574e-9b5d-4cd6-b7b9-1d7be837796b")
 	)
 	(wire
 		(pts
-			(xy 211.3085 274.7687) (xy 211.3085 270.3394)
+			(xy 314.96 48.26) (xy 312.42 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdcc9cf4-ab82-4d1c-bd90-3cc8d766a2b3")
+	)
+	(wire
+		(pts
+			(xy 210.82 274.32) (xy 210.82 270.51)
 		)
 		(stroke
 			(width 0)
@@ -8924,7 +8271,7 @@
 		(uuid "feb8d908-92ce-43b6-98ab-8e155f6294fa")
 	)
 	(label "PM_5V_RTN"
-		(at 184.7364 162.5702 0)
+		(at 184.15 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8934,7 +8281,7 @@
 		(uuid "008581e3-1475-4d53-bda9-c1d71ebe55b6")
 	)
 	(label "PM_5V_TELEM_RTN"
-		(at 100.8725 201.4977 180)
+		(at 100.33 201.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8944,7 +8291,7 @@
 		(uuid "00be6085-1032-4059-bad0-cf40e8131b44")
 	)
 	(label "V_SEC_IN"
-		(at 176.6243 44.4697 0)
+		(at 176.53 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8954,7 +8301,7 @@
 		(uuid "06e395d3-2d20-44e5-9419-f08393831730")
 	)
 	(label "V_SEC_IN"
-		(at 27.3681 44.8277 0)
+		(at 27.94 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8963,18 +8310,8 @@
 		)
 		(uuid "07ba1456-0177-472f-8ca4-ff0a152a8511")
 	)
-	(label "PM_5V_RTN"
-		(at 329.692 68.326 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0846629b-7da0-4557-bcc2-8c2edd87a532")
-	)
 	(label "Enable+"
-		(at 366.0933 188.4195 0)
+		(at 365.76 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8984,7 +8321,7 @@
 		(uuid "0e17809e-f061-4ce9-9967-bbfda6834b12")
 	)
 	(label "Enable+"
-		(at 97.7531 79.2175 0)
+		(at 97.79 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8994,7 +8331,7 @@
 		(uuid "103a5269-fd79-4aa7-86df-23fc84aa069a")
 	)
 	(label "M5V_OUT"
-		(at 279.4513 132.9812 0)
+		(at 289.56 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9003,18 +8340,8 @@
 		)
 		(uuid "115fc1b4-69cc-4502-b562-32145d9b6e8e")
 	)
-	(label "PM_5V_RTN"
-		(at 306.7458 38.7984 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "12e065af-8cec-4e34-ab67-cb0f52a4b2bd")
-	)
 	(label "TEMP_MON"
-		(at 317.1654 203.6595 0)
+		(at 317.5 203.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9024,7 +8351,7 @@
 		(uuid "1ac2fc8b-0202-446f-95c7-0e8aaf3b9cad")
 	)
 	(label "M5_TELEM"
-		(at 155.7892 195.329 0)
+		(at 156.21 195.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9034,7 +8361,7 @@
 		(uuid "1bfd4ded-b247-402f-8909-9cf0a63f8449")
 	)
 	(label "V_SEC_RTN"
-		(at 55.5331 57.5277 0)
+		(at 55.88 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9044,7 +8371,7 @@
 		(uuid "31fbdc09-9d11-4db1-9290-d7a2bafe891c")
 	)
 	(label "V_SEC_RTN"
-		(at 55.5331 47.3677 0)
+		(at 55.88 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9054,7 +8381,7 @@
 		(uuid "3bf89650-7047-412d-8a96-2179424060db")
 	)
 	(label "V_SEC_IN"
-		(at 27.3681 60.0677 0)
+		(at 27.94 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9064,7 +8391,7 @@
 		(uuid "3d276bc8-f2d5-4730-bdaf-046b209d062a")
 	)
 	(label "P5V_V_MON"
-		(at 224.218 178.7486 0)
+		(at 224.79 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9074,7 +8401,7 @@
 		(uuid "422e87e2-2db8-429e-aa49-fd72baf6ce93")
 	)
 	(label "PM_5V_TELEM_RTN"
-		(at 101.1776 181.1777 180)
+		(at 101.6 181.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9084,7 +8411,7 @@
 		(uuid "48188a78-6c28-40e2-be59-16e8d4f59c41")
 	)
 	(label "PM_5V_TELEM_RTN"
-		(at 315.3816 196.0395 0)
+		(at 314.96 195.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9094,7 +8421,7 @@
 		(uuid "4f0f34b4-ef32-4ac0-b7ad-cd6278f15cb7")
 	)
 	(label "P5V_OUT"
-		(at 162.1659 182.967 0)
+		(at 162.56 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9104,7 +8431,7 @@
 		(uuid "528bdec3-05ba-4ef9-9c05-bda953363ed1")
 	)
 	(label "M5_TELEM"
-		(at 57.6608 183.7177 180)
+		(at 57.15 184.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9114,7 +8441,7 @@
 		(uuid "57fde080-3870-4ac0-9208-8614fe26bd02")
 	)
 	(label "Enable-"
-		(at 366.0933 183.3395 0)
+		(at 365.76 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9124,7 +8451,7 @@
 		(uuid "5840639d-3c79-41d5-80c8-5c1e3bcbb659")
 	)
 	(label "V_SEC_RTN"
-		(at 33.2815 266.8297 0)
+		(at 33.02 266.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9134,7 +8461,7 @@
 		(uuid "5d3d8c1a-8f74-4a39-82ff-74fea276e320")
 	)
 	(label "P5V"
-		(at 252.79 44.9777 0)
+		(at 252.73 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9144,7 +8471,7 @@
 		(uuid "5e0ca8a0-87f8-4860-b881-46b2cb85b683")
 	)
 	(label "V_SEC_RTN"
-		(at 55.5331 62.6077 0)
+		(at 55.88 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9154,7 +8481,7 @@
 		(uuid "6a24d99a-63aa-43f7-a4e4-fddd801c4622")
 	)
 	(label "PM_5V_TELEM_RTN"
-		(at 317.0282 206.1995 0)
+		(at 317.5 205.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9164,7 +8491,7 @@
 		(uuid "6fe48a7d-1d7a-4968-95d1-3413969bf787")
 	)
 	(label "M5_TELEM"
-		(at 57.7286 188.7977 180)
+		(at 57.15 189.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9174,7 +8501,7 @@
 		(uuid "728be921-8b62-47db-8b77-4f9f694fd666")
 	)
 	(label "P5V_OUT"
-		(at 277.3182 27.7442 0)
+		(at 290.83 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9184,7 +8511,7 @@
 		(uuid "75b02a9d-f033-409f-bdcb-3b0477791c25")
 	)
 	(label "V_SEC_RTN"
-		(at 176.1772 110.6367 0)
+		(at 176.53 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9194,7 +8521,7 @@
 		(uuid "75c6f75f-d62d-4430-801d-71cc2d7cbfc6")
 	)
 	(label "P5_TELEM"
-		(at 97.4604 63.9515 0)
+		(at 97.79 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9204,7 +8531,7 @@
 		(uuid "7a3b4760-ba27-4d0d-a2f6-3b8db71283d9")
 	)
 	(label "V_SEC_IN"
-		(at 27.3681 54.9877 0)
+		(at 27.94 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9214,7 +8541,7 @@
 		(uuid "7d778c6d-5bde-4d8e-8de6-7b5473dde117")
 	)
 	(label "PM_5V_TELEM_RTN"
-		(at 100.8725 186.2577 180)
+		(at 100.33 186.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9224,7 +8551,7 @@
 		(uuid "7e20c273-e7b6-4f3a-9382-cd3b39fa740e")
 	)
 	(label "P5_TELEM"
-		(at 57.318 198.9577 180)
+		(at 57.15 199.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9234,7 +8561,7 @@
 		(uuid "7f980180-4bfc-4b8e-a0cf-945cc2f15207")
 	)
 	(label "P5V_I_MON"
-		(at 223.9436 183.313 0)
+		(at 223.52 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9244,7 +8571,7 @@
 		(uuid "7fa4b1f1-fe8c-4029-bb73-5862c3043854")
 	)
 	(label "PM_5V_RTN"
-		(at 242.8903 90.8247 0)
+		(at 242.57 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9254,7 +8581,7 @@
 		(uuid "837e6ea2-8303-4322-a74b-0060d443199d")
 	)
 	(label "M5_TELEM"
-		(at 76.2483 243.7484 180)
+		(at 76.2 243.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9264,7 +8591,7 @@
 		(uuid "8aa3e6fe-af14-4aa1-921c-0ba005ab0a9f")
 	)
 	(label "P5_TELEM"
-		(at 57.318 193.8777 180)
+		(at 57.15 194.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9274,7 +8601,7 @@
 		(uuid "8b2bd40a-f5c5-41fa-9939-4e7be6cb0b49")
 	)
 	(label "V_SEC_RTN"
-		(at 176.1414 64.7897 0)
+		(at 176.53 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9284,7 +8611,7 @@
 		(uuid "8cd92b20-ba84-416a-ae73-fe099c74948a")
 	)
 	(label "P5V"
-		(at 163.7852 179.8032 0)
+		(at 163.83 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9294,7 +8621,7 @@
 		(uuid "92054dd9-e1b3-46f2-b773-831fcb708b8c")
 	)
 	(label "PM_5V_TELEM_RTN"
-		(at 114.5488 243.7354 180)
+		(at 114.3 243.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9304,7 +8631,7 @@
 		(uuid "93174c03-d578-404f-a58f-38ca90df1d03")
 	)
 	(label "PM_5V_TELEM_RTN"
-		(at 315.3816 190.9595 0)
+		(at 314.96 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9314,7 +8641,7 @@
 		(uuid "93933ec4-6b5d-4d5e-a9dd-c34d6769929e")
 	)
 	(label "P5V_I_MON"
-		(at 318.8445 183.3395 0)
+		(at 318.77 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9324,7 +8651,7 @@
 		(uuid "9533cbb1-7176-45d4-9ac9-79bb4d11cf2f")
 	)
 	(label "P5_TELEM"
-		(at 41.4652 243.4423 180)
+		(at 41.91 243.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9334,7 +8661,7 @@
 		(uuid "9ebd72a6-8e6d-4338-bc5f-51f27d8a8c25")
 	)
 	(label "V_SEC_IN"
-		(at 27.3681 49.9077 0)
+		(at 27.94 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9343,18 +8670,8 @@
 		)
 		(uuid "a050a4fd-6679-4386-a6d4-46c11dcc9219")
 	)
-	(label "PM_5V_RTN"
-		(at 294.9681 121.726 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a165ecb4-7bc3-4422-8bf2-7be20662b3c1")
-	)
 	(label "M5V_V_MON"
-		(at 224.3095 201.6753 0)
+		(at 224.79 201.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9364,7 +8681,7 @@
 		(uuid "a5b1c748-f99d-4e60-b1d5-e04e7892e591")
 	)
 	(label "P5_TELEM"
-		(at 155.5773 187.762 0)
+		(at 156.21 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9374,7 +8691,7 @@
 		(uuid "a64f4977-a7a5-4ca8-ae85-2da4100ded83")
 	)
 	(label "V_SEC_RTN"
-		(at 43.2688 122.1071 0)
+		(at 43.18 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9384,7 +8701,7 @@
 		(uuid "ab7d2c1e-bddf-44c7-848b-4df03bcb936b")
 	)
 	(label "M5V_OUT"
-		(at 162.4056 205.1267 0)
+		(at 162.56 205.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9394,7 +8711,7 @@
 		(uuid "ac4979a0-490d-4a67-b501-14189b23ca4e")
 	)
 	(label "P5V_V_MON"
-		(at 317.9869 193.4995 0)
+		(at 317.5 193.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9404,7 +8721,7 @@
 		(uuid "ac960426-923d-4bff-81ea-bfa3fe066425")
 	)
 	(label "PM_5V_TELEM_RTN"
-		(at 63.1528 141.3919 180)
+		(at 63.5 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9414,7 +8731,7 @@
 		(uuid "b0ac80a2-08c4-4eef-b9a0-dacf13d2794e")
 	)
 	(label "PM_5V_TELEM_RTN"
-		(at 152.0521 191.3673 0)
+		(at 152.4 191.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9424,7 +8741,7 @@
 		(uuid "ba3da907-a861-4013-9706-55679777836f")
 	)
 	(label "M5V"
-		(at 252.817 111.3987 0)
+		(at 252.73 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9434,7 +8751,7 @@
 		(uuid "bf5a63d2-5df8-4618-ba6d-e7726f7e17e6")
 	)
 	(label "PM_5V_RTN"
-		(at 329.692 53.086 0)
+		(at 332.74 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9444,7 +8761,7 @@
 		(uuid "c3699ce8-c290-4add-acb5-41af128be1de")
 	)
 	(label "M5V_I_MON"
-		(at 224.4925 205.9896 0)
+		(at 224.79 205.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9454,7 +8771,7 @@
 		(uuid "c5158e7e-dbbf-44af-9cd7-12e4e8dbee1a")
 	)
 	(label "PM_5V_RTN"
-		(at 378.7683 246.2375 0)
+		(at 378.46 246.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9464,7 +8781,7 @@
 		(uuid "c6ea07ff-53d0-421f-a82b-251d86a366fa")
 	)
 	(label "TEMP_MON"
-		(at 224.5839 192.5686 0)
+		(at 224.79 193.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9473,8 +8790,18 @@
 		)
 		(uuid "cbce1a35-ddd9-4615-ba6a-f14a063abc9d")
 	)
+	(label "PM_5V_RTN"
+		(at 334.01 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5578bb5-b20c-4629-b03e-ebd3bbfff1b5")
+	)
 	(label "V_SEC_RTN"
-		(at 96.6095 87.091 0)
+		(at 96.52 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9484,7 +8811,7 @@
 		(uuid "d6888de7-41f2-4bad-9e8c-8f1efb34a092")
 	)
 	(label "V_SEC_RTN"
-		(at 55.5331 42.2877 0)
+		(at 55.88 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9494,7 +8821,7 @@
 		(uuid "d72463fb-7070-4f64-94d6-a40f933c5b88")
 	)
 	(label "M5V_I_MON"
-		(at 317.1654 188.4195 0)
+		(at 317.5 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9504,7 +8831,7 @@
 		(uuid "d75e7398-5978-4c50-919f-dfaffe132b84")
 	)
 	(label "Enable-"
-		(at 97.7531 73.7169 0)
+		(at 97.79 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9514,7 +8841,7 @@
 		(uuid "d982603a-f83d-4ab9-b1a5-0a431c144fcf")
 	)
 	(label "M5V_V_MON"
-		(at 320.7066 198.5795 0)
+		(at 321.31 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9524,7 +8851,7 @@
 		(uuid "de05f96c-d440-43ef-a219-dd772d1c294c")
 	)
 	(label "PM_5V_TELEM_RTN"
-		(at 315.3816 201.1195 0)
+		(at 314.96 200.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9534,7 +8861,7 @@
 		(uuid "e41d6edf-ebb3-46f7-b6ae-3549900db2a2")
 	)
 	(label "PM_5V_TELEM_RTN"
-		(at 100.8725 196.4177 180)
+		(at 100.33 196.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9544,7 +8871,7 @@
 		(uuid "e4a49619-f5d4-41de-ab22-df0efa35ddf1")
 	)
 	(label "PM_5V_TELEM_RTN"
-		(at 91.0751 89.9087 0)
+		(at 91.44 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9554,7 +8881,7 @@
 		(uuid "e5dfaae1-6b80-4088-a885-9921e93d0ba0")
 	)
 	(label "V_SEC_IN"
-		(at 176.6601 90.3167 0)
+		(at 176.53 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9563,18 +8890,8 @@
 		)
 		(uuid "e6dc1400-bfdb-4285-b373-31838855b232")
 	)
-	(label "PM_5V_RTN"
-		(at 329.692 48.006 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e780210d-0a5c-4506-9d0c-bb4a3c620b54")
-	)
 	(label "M5V"
-		(at 164.0234 201.6753 0)
+		(at 163.83 201.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9584,7 +8901,7 @@
 		(uuid "e825b65b-3d7d-4664-a501-79a35adb73ea")
 	)
 	(label "PM_5V_TELEM_RTN"
-		(at 315.3816 185.8795 0)
+		(at 314.96 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9594,7 +8911,7 @@
 		(uuid "f4b92815-ef6c-4ae9-ba01-b109a5e9ca68")
 	)
 	(label "V_SEC_IN"
-		(at 97.796 66.7063 0)
+		(at 97.79 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9603,18 +8920,8 @@
 		)
 		(uuid "fd7b98d0-e658-43a3-8743-b29f14cbd787")
 	)
-	(label "PM_5V_RTN"
-		(at 329.692 63.246 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ff17a387-c75b-4b3a-8537-abe9040a360b")
-	)
 	(label "V_SEC_IN"
-		(at 67.3082 267.1358 0)
+		(at 67.31 266.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9625,7 +8932,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 272.8124 107.0978 180)
+		(at 273.05 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9634,7 +8941,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ae92946-211e-45f5-a626-aefaf7b38824")
 		(property "Reference" "R3"
-			(at 270.9044 108.3679 0)
+			(at 271.142 107.9501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9643,7 +8950,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 270.9044 105.8279 0)
+			(at 271.142 105.4101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9652,7 +8959,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 274.5904 107.0978 90)
+			(at 274.828 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9661,7 +8968,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf"
-			(at 272.8124 107.0978 0)
+			(at 273.05 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9670,7 +8977,7 @@
 			)
 		)
 		(property "Description" "10 Ohms ±5% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film"
-			(at 272.8124 107.0978 0)
+			(at 273.05 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9679,7 +8986,7 @@
 			)
 		)
 		(property "Dist. Part Num" "P10ADCT-ND"
-			(at 272.8124 107.0978 0)
+			(at 273.05 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9688,7 +8995,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 272.8124 107.0978 0)
+			(at 273.05 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9697,7 +9004,7 @@
 			)
 		)
 		(property "Man. Part Num" "ERJ-P06J100V"
-			(at 272.8124 107.0978 0)
+			(at 273.05 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9706,7 +9013,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 272.8124 107.0978 0)
+			(at 273.05 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9715,7 +9022,7 @@
 			)
 		)
 		(property "Package" "0805 (2012 Metric)"
-			(at 272.8124 107.0978 0)
+			(at 273.05 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9724,7 +9031,7 @@
 			)
 		)
 		(property "Part Type" "SMD"
-			(at 272.8124 107.0978 0)
+			(at 273.05 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9749,7 +9056,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 96.4053 131.5719 0)
+		(at 96.52 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9758,7 +9065,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f60081b-6eef-4955-8eeb-67f1d4c33d38")
 		(property "Reference" "R42"
-			(at 99.3301 130.3018 0)
+			(at 99.4448 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9767,7 +9074,7 @@
 			)
 		)
 		(property "Value" "49.9k"
-			(at 99.3301 132.8418 0)
+			(at 99.4448 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9776,7 +9083,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 94.6273 131.5719 90)
+			(at 94.742 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9785,7 +9092,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28779/tnpue3.pdf"
-			(at 96.4053 131.5719 0)
+			(at 96.52 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9794,7 +9101,7 @@
 			)
 		)
 		(property "Description" "49.9 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200, Moisture Resistant Thin Film"
-			(at 96.4053 131.5719 0)
+			(at 96.52 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9803,7 +9110,7 @@
 			)
 		)
 		(property "Dist. Part Num" "TNPU49.9KBACT-ND"
-			(at 96.4053 131.5719 0)
+			(at 96.52 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9812,7 +9119,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 96.4053 131.5719 0)
+			(at 96.52 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9821,7 +9128,7 @@
 			)
 		)
 		(property "Man. Part Num" "TNPU060349K9BZEN00"
-			(at 96.4053 131.5719 0)
+			(at 96.52 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9830,7 +9137,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
-			(at 96.4053 131.5719 0)
+			(at 96.52 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9839,7 +9146,7 @@
 			)
 		)
 		(property "Package" "0603 (1608 Metric)"
-			(at 96.4053 131.5719 0)
+			(at 96.52 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9848,7 +9155,7 @@
 			)
 		)
 		(property "Part Type" "SMD"
-			(at 96.4053 131.5719 0)
+			(at 96.52 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9873,7 +9180,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 119.0275 234.2837 0)
+		(at 119.38 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9881,7 +9188,7 @@
 		(dnp no)
 		(uuid "0f8d4a2e-4e05-4c10-b747-91daa18b6ca1")
 		(property "Reference" "Telem_RTN1"
-			(at 121.5675 229.7116 0)
+			(at 121.92 229.1079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9890,7 +9197,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 121.5675 232.2516 0)
+			(at 121.92 231.6479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9899,7 +9206,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 124.1075 234.2837 0)
+			(at 124.46 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9908,7 +9215,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 124.1075 234.2837 0)
+			(at 124.46 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9917,7 +9224,7 @@
 			)
 		)
 		(property "Description" "Black PC Test Point, Compact Phosphor Bronze Silver Plating Through Hole Mounting Type"
-			(at 119.0275 234.2837 0)
+			(at 119.38 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9926,7 +9233,7 @@
 			)
 		)
 		(property "Dist. Part Num" "36-5006-ND"
-			(at 119.0275 234.2837 0)
+			(at 119.38 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9935,7 +9242,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 119.0275 234.2837 0)
+			(at 119.38 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9944,7 +9251,7 @@
 			)
 		)
 		(property "Man. Part Num" "5006"
-			(at 119.0275 234.2837 0)
+			(at 119.38 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9953,7 +9260,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 119.0275 234.2837 0)
+			(at 119.38 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9962,7 +9269,7 @@
 			)
 		)
 		(property "Part Type" "Through Hole"
-			(at 119.0275 234.2837 0)
+			(at 119.38 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9983,151 +9290,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Adam_Tech:RF2-49B-T-00-50-G-HDW")
-		(at 283.844 44.238 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "29d9cfbb-f845-41ae-8b5a-d54906a80f8f")
-		(property "Reference" "J5"
-			(at 299.1919 23.4839 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RF2-49B-T-00-50-G-HDW"
-			(at 302.386 20.87 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Adam_Tech:CONN_RF2-49B-T-00-50-G-HDW_ADM"
-			(at 296.544 41.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/219119/rf2-49b-t-00-50-g-hdw-data-sheet.pdf"
-			(at 294.766 43.476 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMA Connector Jack, Female Socket 50 Ohms Through Hole, Right Angle Solder (Voltage Rating = 335V)"
-			(at 290.194 26.458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Adam Tech"
-			(at 283.844 44.238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Man. Part Num" "RF2-49B-T-00-50-G-HDW"
-			(at 283.844 44.238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Digi-Key"
-			(at 283.844 44.238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. Part Num" "2057-RF2-49B-T-00-50-G-HDW-ND"
-			(at 283.844 44.238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Type" "Through Hole"
-			(at 283.844 44.238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 283.844 44.238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 283.844 44.238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "74b4bf9b-85e8-4e82-8750-8b670fb1ffa0")
-		)
-		(pin "2"
-			(uuid "2349df99-a9c0-40c6-a8b5-1eed6bce344b")
-		)
-		(pin "1"
-			(uuid "8f1c9925-a662-4d8c-964d-c961721e4aa0")
-		)
-		(pin "5"
-			(uuid "5e83f880-d59c-4d8a-ac91-79c6893989ca")
-		)
-		(pin "3"
-			(uuid "06fb9433-20c2-44e3-9069-d05bef871168")
-		)
-		(instances
-			(project ""
-				(path "/8872ae30-0c8f-44d7-9c5d-f8ffe57ea57b"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 50.7866 257.378 0)
+		(at 50.8 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10135,7 +9299,7 @@
 		(dnp no)
 		(uuid "2c050fae-d468-4fa9-8b7f-78996623c1fb")
 		(property "Reference" "+12V_RTN1"
-			(at 53.3266 252.8059 0)
+			(at 53.34 253.2379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10144,7 +9308,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 53.3266 255.3459 0)
+			(at 53.34 255.7779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10153,7 +9317,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 55.8666 257.378 0)
+			(at 55.88 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10162,7 +9326,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 55.8666 257.378 0)
+			(at 55.88 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10171,7 +9335,7 @@
 			)
 		)
 		(property "Description" "Black PC Test Point, Compact Phosphor Bronze Silver Plating Through Hole Mounting Type"
-			(at 50.7866 257.378 0)
+			(at 50.8 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10180,7 +9344,7 @@
 			)
 		)
 		(property "Dist. Part Num" "36-5006-ND"
-			(at 50.7866 257.378 0)
+			(at 50.8 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10189,7 +9353,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 50.7866 257.378 0)
+			(at 50.8 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10198,7 +9362,7 @@
 			)
 		)
 		(property "Man. Part Num" "5006"
-			(at 50.7866 257.378 0)
+			(at 50.8 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10207,7 +9371,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 50.7866 257.378 0)
+			(at 50.8 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10216,7 +9380,7 @@
 			)
 		)
 		(property "Part Type" "Through Hole"
-			(at 50.7866 257.378 0)
+			(at 50.8 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10238,7 +9402,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 173.443 264.5982 0)
+		(at 173.99 264.16 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -10246,7 +9410,7 @@
 		(dnp no)
 		(uuid "3348add6-cf3f-469a-9028-f71477319b7c")
 		(property "Reference" "H1"
-			(at 175.983 262.0581 0)
+			(at 176.53 261.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10255,7 +9419,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 175.983 264.5981 0)
+			(at 176.53 264.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10264,7 +9428,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 173.443 264.5982 0)
+			(at 173.99 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10273,7 +9437,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.443 264.5982 0)
+			(at 173.99 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10282,7 +9446,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 173.443 264.5982 0)
+			(at 173.99 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10291,7 +9455,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 173.443 264.5982 0)
+			(at 173.99 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10313,7 +9477,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 248.719 80.3487 90)
+		(at 248.92 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10321,7 +9485,7 @@
 		(dnp no)
 		(uuid "343cd80a-f993-4ff7-88de-e13070a21a54")
 		(property "Reference" "C1"
-			(at 245.1422 78.5603 90)
+			(at 245.3432 78.2216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10329,7 +9493,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 253.0826 78.6318 90)
+			(at 253.2836 78.2931 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10337,7 +9501,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 248.719 80.3487 0)
+			(at 248.92 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10346,7 +9510,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 248.719 80.3487 0)
+			(at 248.92 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10355,7 +9519,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 248.719 80.3487 0)
+			(at 248.92 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10364,7 +9528,7 @@
 			)
 		)
 		(property "Dist. Part Num" "399-C0603C104K5RACTUCT-ND"
-			(at 248.719 80.3487 0)
+			(at 248.92 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10373,7 +9537,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 248.719 80.3487 0)
+			(at 248.92 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10382,7 +9546,7 @@
 			)
 		)
 		(property "Man. Part Num" "C0603C104K5RACTU"
-			(at 248.719 80.3487 0)
+			(at 248.92 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10391,7 +9555,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 248.719 80.3487 0)
+			(at 248.92 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10400,7 +9564,7 @@
 			)
 		)
 		(property "Package" "0603 (1608 Metric)"
-			(at 248.719 80.3487 0)
+			(at 248.92 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10409,7 +9573,7 @@
 			)
 		)
 		(property "Part Type" "SMD"
-			(at 248.719 80.3487 0)
+			(at 248.92 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10433,8 +9597,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 331.47 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "388f7881-f2a6-48dd-a99a-0d01b0dd18e4")
+		(property "Reference" "#PWR07"
+			(at 331.47 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 331.343 128.5225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 331.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 331.47 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25f649d6-36b9-49bd-b42b-f59113aa056b")
+		)
+		(instances
+			(project "5_COLD_TPC_Charge_Pre_Amp"
+				(path "/8872ae30-0c8f-44d7-9c5d-f8ffe57ea57b"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 85.368 257.6841 0)
+		(at 85.09 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10442,7 +9672,7 @@
 		(dnp no)
 		(uuid "3a834d29-c356-41f1-8710-458af8a83a2b")
 		(property "Reference" "+12V1"
-			(at 87.908 253.112 0)
+			(at 87.63 253.2379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10451,7 +9681,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 87.908 255.652 0)
+			(at 87.63 255.7779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10460,7 +9690,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 90.448 257.6841 0)
+			(at 90.17 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10469,7 +9699,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 90.448 257.6841 0)
+			(at 90.17 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10478,7 +9708,7 @@
 			)
 		)
 		(property "Description" "White PC Test Point, Compact Phosphor Bronze Silver Plating Through Hole Mounting Type"
-			(at 85.368 257.6841 0)
+			(at 85.09 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10487,7 +9717,7 @@
 			)
 		)
 		(property "Dist. Part Num" "36-5007-ND"
-			(at 85.368 257.6841 0)
+			(at 85.09 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10496,7 +9726,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 85.368 257.6841 0)
+			(at 85.09 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10505,7 +9735,7 @@
 			)
 		)
 		(property "Man. Part Num" "5007"
-			(at 85.368 257.6841 0)
+			(at 85.09 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10514,7 +9744,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 85.368 257.6841 0)
+			(at 85.09 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10523,7 +9753,7 @@
 			)
 		)
 		(property "Part Type" "Through Hole"
-			(at 85.368 257.6841 0)
+			(at 85.09 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10545,7 +9775,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 391.2435 238.638 0)
+		(at 391.16 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10553,7 +9783,7 @@
 		(dnp no)
 		(uuid "3af2bda6-eb07-4623-a13e-e64872632bb2")
 		(property "Reference" "+/-5V_{RTN}1"
-			(at 393.7835 234.0659 0)
+			(at 393.7 234.1879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10562,7 +9792,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 393.7835 236.6059 0)
+			(at 393.7 236.7279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10571,7 +9801,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 396.3235 238.638 0)
+			(at 396.24 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10580,7 +9810,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 396.3235 238.638 0)
+			(at 396.24 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10589,7 +9819,7 @@
 			)
 		)
 		(property "Description" "Black PC Test Point, Compact Phosphor Bronze Silver Plating Through Hole Mounting Type"
-			(at 391.2435 238.638 0)
+			(at 391.16 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10598,7 +9828,7 @@
 			)
 		)
 		(property "Dist. Part Num" "36-5006-ND"
-			(at 391.2435 238.638 0)
+			(at 391.16 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10607,7 +9837,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 391.2435 238.638 0)
+			(at 391.16 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10616,7 +9846,7 @@
 			)
 		)
 		(property "Man. Part Num" "5006"
-			(at 391.2435 238.638 0)
+			(at 391.16 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10625,7 +9855,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 391.2435 238.638 0)
+			(at 391.16 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10634,7 +9864,7 @@
 			)
 		)
 		(property "Package" "-"
-			(at 391.2435 238.638 0)
+			(at 391.16 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10643,7 +9873,7 @@
 			)
 		)
 		(property "Part Type" "Through Hole"
-			(at 391.2435 238.638 0)
+			(at 391.16 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10665,7 +9895,8 @@
 	)
 	(symbol
 		(lib_id "Wurth_Elektronik:6180XX231121_618009231121")
-		(at 322.072 58.166 270)
+		(at 322.58 38.1 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10673,8 +9904,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "400797a7-fcd1-4e2e-b524-7648447e8552")
-		(property "Reference" "J6"
-			(at 320.4845 43.18 90)
+		(property "Reference" "J5"
+			(at 324.1675 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10682,7 +9913,7 @@
 			)
 		)
 		(property "Value" "618009231121"
-			(at 322.072 58.166 0)
+			(at 322.58 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10691,8 +9922,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "6180XX231121_618009231121:618009231121"
-			(at 322.072 58.166 0)
+		(property "Footprint" "Wurth_Elektronik:618009231121"
+			(at 322.58 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10702,7 +9933,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/618009231121.pdf"
-			(at 322.072 58.166 0)
+			(at 322.58 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10711,7 +9942,7 @@
 			)
 		)
 		(property "Description" "9 Position D-Sub Receptacle, Female Sockets Connector"
-			(at 322.072 58.166 0)
+			(at 322.58 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10720,7 +9951,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 322.072 58.166 0)
+			(at 322.58 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10730,7 +9961,7 @@
 			)
 		)
 		(property "Man. Part Num" "618009231121"
-			(at 322.072 58.166 0)
+			(at 322.58 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10740,7 +9971,7 @@
 			)
 		)
 		(property "Gender" "Female"
-			(at 322.072 58.166 0)
+			(at 322.58 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10750,7 +9981,7 @@
 			)
 		)
 		(property "Part Type" "Through Hole"
-			(at 322.072 58.166 0)
+			(at 322.58 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10759,7 +9990,7 @@
 			)
 		)
 		(property "Voltage Rating" "125 VAC"
-			(at 322.072 58.166 0)
+			(at 322.58 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10769,7 +10000,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 322.072 58.166 0)
+			(at 322.58 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10778,7 +10009,7 @@
 			)
 		)
 		(property "Dist. Part Num" "732-618009231121-ND"
-			(at 322.072 58.166 0)
+			(at 322.58 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10787,7 +10018,7 @@
 			)
 		)
 		(property "Dist. URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/618009231121/10484687?s=N4IgTCBcDaIOwGYwFoBsBGAHABmwTjAXXTHWQDkAREAXQF8g"
-			(at 322.072 58.166 0)
+			(at 322.58 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10831,7 +10062,7 @@
 		(instances
 			(project ""
 				(path "/8872ae30-0c8f-44d7-9c5d-f8ffe57ea57b"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -10839,7 +10070,7 @@
 	)
 	(symbol
 		(lib_id "Nexperia:PESD5V5H1BSFYL")
-		(at 274.0789 105.7404 90)
+		(at 274.32 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10847,7 +10078,7 @@
 		(dnp no)
 		(uuid "45d89509-8d76-4856-afc9-01db2eef9ad7")
 		(property "Reference" "D1"
-			(at 279.5255 88.2312 90)
+			(at 279.7666 87.9008 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10856,7 +10087,7 @@
 			)
 		)
 		(property "Value" "PLVA653A,215"
-			(at 292.4682 95.0261 90)
+			(at 292.7093 94.6957 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10865,7 +10096,7 @@
 			)
 		)
 		(property "Footprint" "Nexperia:SOT95P230X110-3N"
-			(at 266.4589 105.9944 0)
+			(at 266.7 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10875,7 +10106,7 @@
 			)
 		)
 		(property "Datasheet" "PESD5V5H1BSFYL"
-			(at 268.7449 106.2484 0)
+			(at 268.986 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10885,7 +10116,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 274.0789 105.7404 0)
+			(at 274.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10894,7 +10125,7 @@
 			)
 		)
 		(property "Dist. Part Num" "1727-5168-1-ND"
-			(at 274.0789 105.7404 90)
+			(at 274.32 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10903,7 +10134,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 274.0789 105.7404 90)
+			(at 274.32 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10912,7 +10143,7 @@
 			)
 		)
 		(property "Man. Part Num" "PLVA653A,215"
-			(at 274.0789 105.7404 90)
+			(at 274.32 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10921,7 +10152,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia USA Inc."
-			(at 274.0789 105.7404 90)
+			(at 274.32 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10930,7 +10161,7 @@
 			)
 		)
 		(property "Package" "TO-236AB"
-			(at 274.0789 105.7404 90)
+			(at 274.32 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10939,7 +10170,7 @@
 			)
 		)
 		(property "Part Type" "SMD"
-			(at 274.0789 105.7404 90)
+			(at 274.32 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10967,7 +10198,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 85.1663 234.2967 0)
+		(at 85.09 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10975,7 +10206,7 @@
 		(dnp no)
 		(uuid "4ed9edf8-5497-4a5c-8d51-fcd2e0578dd8")
 		(property "Reference" "-5V1"
-			(at 87.7063 229.7246 0)
+			(at 87.63 229.1079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10984,7 +10215,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 87.7063 232.2646 0)
+			(at 87.63 231.6479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10993,7 +10224,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 90.2463 234.2967 0)
+			(at 90.17 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11002,7 +10233,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 90.2463 234.2967 0)
+			(at 90.17 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11011,7 +10242,7 @@
 			)
 		)
 		(property "Description" "Orange PC Test Point, Compact Phosphor Bronze Silver Plating Through Hole Mounting Type"
-			(at 85.1663 234.2967 0)
+			(at 85.09 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11020,7 +10251,7 @@
 			)
 		)
 		(property "Dist. Part Num" "36-5008-ND"
-			(at 85.1663 234.2967 0)
+			(at 85.09 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11029,7 +10260,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 85.1663 234.2967 0)
+			(at 85.09 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11038,7 +10269,7 @@
 			)
 		)
 		(property "Man. Part Num" "5008"
-			(at 85.1663 234.2967 0)
+			(at 85.09 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11047,7 +10278,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 85.1663 234.2967 0)
+			(at 85.09 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11056,7 +10287,7 @@
 			)
 		)
 		(property "Part Type" "Through Hole"
-			(at 85.1663 234.2967 0)
+			(at 85.09 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11078,7 +10309,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 198.2812 264.3219 0)
+		(at 198.12 264.16 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -11086,7 +10317,7 @@
 		(dnp no)
 		(uuid "50869721-5841-44a7-b867-8c787d7abc69")
 		(property "Reference" "H3"
-			(at 200.8212 261.7818 0)
+			(at 200.66 261.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11095,7 +10326,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 200.8212 264.3218 0)
+			(at 200.66 264.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11104,7 +10335,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 198.2812 264.3219 0)
+			(at 198.12 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11113,7 +10344,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.2812 264.3219 0)
+			(at 198.12 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11122,7 +10353,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 198.2812 264.3219 0)
+			(at 198.12 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11131,7 +10362,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 198.2812 264.3219 0)
+			(at 198.12 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11153,7 +10384,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 247.9417 277.0139 180)
+		(at 247.65 276.86 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -11161,7 +10392,7 @@
 		(dnp no)
 		(uuid "540dbae6-2f40-46ca-b48b-0bcb4ce72671")
 		(property "Reference" "H8"
-			(at 245.4017 279.554 0)
+			(at 245.11 279.4001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11170,7 +10401,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 245.4017 277.014 0)
+			(at 245.11 276.8601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11179,7 +10410,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 247.9417 277.0139 0)
+			(at 247.65 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11188,7 +10419,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.9417 277.0139 0)
+			(at 247.65 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11197,7 +10428,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 247.9417 277.0139 0)
+			(at 247.65 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11206,7 +10437,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 247.9417 277.0139 0)
+			(at 247.65 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11228,7 +10459,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 27.4524 77.1615 0)
+		(at 27.94 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11237,7 +10468,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a66c661-a30a-49d9-be59-4113f3848ec9")
 		(property "Reference" "#PWR01"
-			(at 27.4524 82.2415 0)
+			(at 27.94 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11246,7 +10477,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 27.3254 81.28 0)
+			(at 27.813 81.5885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11254,7 +10485,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.4524 78.4315 0)
+			(at 27.94 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11263,7 +10494,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.4524 78.4315 0)
+			(at 27.94 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11272,7 +10503,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 27.4524 77.1615 0)
+			(at 27.94 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11294,7 +10525,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 198.2812 276.2669 180)
+		(at 198.12 276.86 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -11302,7 +10533,7 @@
 		(dnp no)
 		(uuid "5fcbb066-9309-422a-9666-8ce08634c39f")
 		(property "Reference" "H4"
-			(at 195.7412 278.807 0)
+			(at 195.58 279.4001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11311,7 +10542,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 195.7412 276.267 0)
+			(at 195.58 276.8601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11320,7 +10551,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 198.2812 276.2669 0)
+			(at 198.12 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11329,7 +10560,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.2812 276.2669 0)
+			(at 198.12 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11338,7 +10569,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 198.2812 276.2669 0)
+			(at 198.12 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11347,7 +10578,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 198.2812 276.2669 0)
+			(at 198.12 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11369,7 +10600,7 @@
 	)
 	(symbol
 		(lib_id "Wurth Elektronik:6180XX330923_618015330923")
-		(at 352.6422 193.4995 90)
+		(at 353.06 193.04 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11378,7 +10609,7 @@
 		(dnp no)
 		(uuid "6758d234-9f0b-45ec-b667-897f8a245953")
 		(property "Reference" "J3"
-			(at 352.3247 178.9069 90)
+			(at 352.7425 178.4474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11386,7 +10617,7 @@
 			)
 		)
 		(property "Value" "618015330923"
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11396,7 +10627,7 @@
 			)
 		)
 		(property "Footprint" "Wurth_Elektronik:618015330923"
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11406,7 +10637,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/618015330923.pdf"
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11415,7 +10646,7 @@
 			)
 		)
 		(property "Description" "CONN D-SUB HD RCPT 15P R/A SLDR"
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11424,7 +10655,7 @@
 			)
 		)
 		(property "MF" "Würth Elektronik"
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11434,7 +10665,7 @@
 			)
 		)
 		(property "Description_1" "\n15 Position D-Sub, High Density Receptacle, Female Sockets Connector\n"
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11444,7 +10675,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11454,7 +10685,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1118241&manufacturer=Würth Elektronik&part_name=618015330923&search_term=618015330923"
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11464,7 +10695,7 @@
 			)
 		)
 		(property "GENDER" "Female"
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11474,7 +10705,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11484,7 +10715,7 @@
 			)
 		)
 		(property "PART-NUMBER" "618015330923"
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11494,7 +10725,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/618015330923/Wurth+Elektronik/view-part/?ref=snap"
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11504,7 +10735,7 @@
 			)
 		)
 		(property "DATASHEET-URL" "https://www.we-online.com/redexpert/spec/618015330923?ae"
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11514,7 +10745,7 @@
 			)
 		)
 		(property "MP" "618015330923"
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11524,7 +10755,7 @@
 			)
 		)
 		(property "WORKING-VOLTAGE" "60 V(AC)"
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11534,7 +10765,7 @@
 			)
 		)
 		(property "PINS" "15"
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11544,7 +10775,7 @@
 			)
 		)
 		(property "WE-NUMBER" "618015330923"
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11554,7 +10785,7 @@
 			)
 		)
 		(property "TYPE" "Angled"
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11564,7 +10795,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11574,7 +10805,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/618015330923/Wurth+Elektronik/view-part/?ref=eda"
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11584,7 +10815,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11594,7 +10825,7 @@
 			)
 		)
 		(property "Man. Part Num" "618015330923"
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11604,7 +10835,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11613,7 +10844,7 @@
 			)
 		)
 		(property "Dist. Part Num" "732-618015330923-ND"
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11622,7 +10853,7 @@
 			)
 		)
 		(property "Part Type" "Through Hole"
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11631,7 +10862,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 352.6422 193.4995 0)
+			(at 353.06 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11701,7 +10932,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 173.4475 276.2399 180)
+		(at 173.99 276.86 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -11709,7 +10940,7 @@
 		(dnp no)
 		(uuid "6f436cb0-14d2-45ca-9a07-893814e40112")
 		(property "Reference" "H2"
-			(at 170.9075 278.78 0)
+			(at 171.45 279.4001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11718,7 +10949,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 170.9075 276.24 0)
+			(at 171.45 276.8601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11727,7 +10958,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 173.4475 276.2399 0)
+			(at 173.99 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11736,7 +10967,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.4475 276.2399 0)
+			(at 173.99 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11745,7 +10976,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 173.4475 276.2399 0)
+			(at 173.99 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11754,7 +10985,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 173.4475 276.2399 0)
+			(at 173.99 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11776,7 +11007,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 247.8209 264.4507 0)
+		(at 247.65 264.16 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -11784,7 +11015,7 @@
 		(dnp no)
 		(uuid "6fc58559-3f93-4b73-86f0-6ac39abe92ca")
 		(property "Reference" "H7"
-			(at 250.3609 261.9106 0)
+			(at 250.19 261.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11793,7 +11024,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 250.3609 264.4506 0)
+			(at 250.19 264.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11802,7 +11033,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 247.8209 264.4507 0)
+			(at 247.65 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11811,7 +11042,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.8209 264.4507 0)
+			(at 247.65 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11820,7 +11051,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 247.8209 264.4507 0)
+			(at 247.65 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11829,7 +11060,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 247.8209 264.4507 0)
+			(at 247.65 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11851,7 +11082,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 50.5849 233.9906 0)
+		(at 50.8 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11859,7 +11090,7 @@
 		(dnp no)
 		(uuid "870b4650-79cf-409e-8b27-518a39bd3726")
 		(property "Reference" "+5V1"
-			(at 53.1249 229.4185 0)
+			(at 53.34 229.1079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11868,7 +11099,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 53.1249 231.9585 0)
+			(at 53.34 231.6479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11877,7 +11108,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 55.6649 233.9906 0)
+			(at 55.88 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11886,7 +11117,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
-			(at 55.6649 233.9906 0)
+			(at 55.88 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11895,7 +11126,7 @@
 			)
 		)
 		(property "Description" "White PC Test Point, Compact Phosphor Bronze Silver Plating Through Hole Mounting Type"
-			(at 50.5849 233.9906 0)
+			(at 50.8 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11904,7 +11135,7 @@
 			)
 		)
 		(property "Dist. Part Num" "36-5007-ND"
-			(at 50.5849 233.9906 0)
+			(at 50.8 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11913,7 +11144,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 50.5849 233.9906 0)
+			(at 50.8 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11922,7 +11153,7 @@
 			)
 		)
 		(property "Man. Part Num" "5007"
-			(at 50.5849 233.9906 0)
+			(at 50.8 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11931,7 +11162,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 50.5849 233.9906 0)
+			(at 50.8 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11940,7 +11171,7 @@
 			)
 		)
 		(property "Part Type" "Through Hole"
-			(at 50.5849 233.9906 0)
+			(at 50.8 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11962,7 +11193,7 @@
 	)
 	(symbol
 		(lib_id "Wurth Elektronik:6180XX231121_618009231121")
-		(at 71.1347 191.3377 270)
+		(at 71.12 191.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11971,7 +11202,7 @@
 		(fields_autoplaced yes)
 		(uuid "89817597-19fe-486d-bbbb-c34ef37d17a7")
 		(property "Reference" "J2"
-			(at 69.5472 213.5363 90)
+			(at 69.5325 213.9686 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11979,7 +11210,7 @@
 			)
 		)
 		(property "Value" "618009231121"
-			(at 71.1347 191.3377 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11989,7 +11220,7 @@
 			)
 		)
 		(property "Footprint" "Wurth_Elektronik:618009231121"
-			(at 71.1347 191.3377 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11999,7 +11230,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/618009231121.pdf"
-			(at 71.1347 191.3377 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12008,7 +11239,7 @@
 			)
 		)
 		(property "Description" "CONN D-SUB RCPT 9POS R/A SOLDER"
-			(at 71.1347 191.3377 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12017,7 +11248,7 @@
 			)
 		)
 		(property "MF" "Würth Elektronik"
-			(at 71.1347 191.3377 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12027,7 +11258,7 @@
 			)
 		)
 		(property "Description_1" "\nSOCKET, D SUB, PCB, R/A, 9WAY; No. of Contacts:9Contacts; Gender:Receptacle; Contact Termination Type:Solder; D Sub Shell Size:DE; Product Range:WR-DSUB Series; Connector Body Material:Steel Body; Contact Material:Copper Alloy; Contact Plating:Gold Plated Contacts; SVHC:Lead (15-Jan-2019); Connector Mounting:Through Hole Mount Right Angle; Contact Termination:Solder; D Sub Connector Type:Standard; No. of Mating Cycles:50\n"
-			(at 71.1347 191.3377 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12037,7 +11268,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 71.1347 191.3377 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12047,7 +11278,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1118240&manufacturer=Würth Elektronik&part_name=618009231121&search_term=618009231121"
-			(at 71.1347 191.3377 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12057,7 +11288,7 @@
 			)
 		)
 		(property "GENDER" "Female"
-			(at 71.1347 191.3377 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12067,7 +11298,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 71.1347 191.3377 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12077,7 +11308,7 @@
 			)
 		)
 		(property "PART-NUMBER" "618009231121"
-			(at 71.1347 191.3377 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12087,7 +11318,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/618009231121/Wurth+Elektronik/view-part/?ref=snap"
-			(at 71.1347 191.3377 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12097,7 +11328,7 @@
 			)
 		)
 		(property "DATASHEET-URL" "https://www.we-online.com/redexpert/spec/618009231121?ae"
-			(at 71.1347 191.3377 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12107,7 +11338,7 @@
 			)
 		)
 		(property "MP" "618009231121"
-			(at 71.1347 191.3377 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12117,7 +11348,7 @@
 			)
 		)
 		(property "WORKING-VOLTAGE" "125 V(AC)"
-			(at 71.1347 191.3377 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12127,7 +11358,7 @@
 			)
 		)
 		(property "PINS" "9"
-			(at 71.1347 191.3377 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12137,7 +11368,7 @@
 			)
 		)
 		(property "WE-NUMBER" "618009231121"
-			(at 71.1347 191.3377 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12147,7 +11378,7 @@
 			)
 		)
 		(property "TYPE" "Angled"
-			(at 71.1347 191.3377 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12157,7 +11388,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 71.1347 191.3377 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12167,7 +11398,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/618009231121/Wurth+Elektronik/view-part/?ref=eda"
-			(at 71.1347 191.3377 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12177,7 +11408,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 69.5472 210.9963 90)
+			(at 69.5325 211.4286 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12185,7 +11416,7 @@
 			)
 		)
 		(property "Part Type" "Through Hole"
-			(at 69.5472 208.4563 90)
+			(at 69.5325 208.8886 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12193,7 +11424,7 @@
 			)
 		)
 		(property "Man. Part Num" "618009231121"
-			(at 71.1347 191.3377 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12203,7 +11434,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 71.1347 191.3377 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12212,7 +11443,7 @@
 			)
 		)
 		(property "Dist. Part Num" "732-618009231121-ND"
-			(at 71.1347 191.3377 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12221,7 +11452,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 71.1347 191.3377 0)
+			(at 71.12 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12272,153 +11503,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Adam_Tech:RF2-49B-T-00-50-G-HDW")
-		(at 281.6432 116.4724 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a3095a7-8f52-4945-a65a-0635cb32f0e8")
-		(property "Reference" "J4"
-			(at 307.0967 132.6891 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RF2-49B-T-00-50-G-HDW"
-			(at 300.1852 139.8404 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Adam_Tech:CONN_RF2-49B-T-00-50-G-HDW_ADM"
-			(at 294.3432 119.2664 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/219119/rf2-49b-t-00-50-g-hdw-data-sheet.pdf"
-			(at 292.5652 117.2344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMA Connector Jack, Female Socket 50 Ohms Through Hole, Right Angle Solder (Voltage Rating = 335V)"
-			(at 287.9932 134.2524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Adam Tech"
-			(at 281.6432 116.4724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Man. Part Num" "RF2-49B-T-00-50-G-HDW"
-			(at 281.6432 116.4724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Digi-Key"
-			(at 281.6432 116.4724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. Part Num" "2057-RF2-49B-T-00-50-G-HDW-ND"
-			(at 281.6432 116.4724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Type" "Through Hole"
-			(at 281.6432 116.4724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 281.6432 116.4724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 281.6432 116.4724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "4486ad78-9ac4-4681-ba7d-8cc807b48ac4")
-		)
-		(pin "2"
-			(uuid "013691ef-8250-41e0-896f-043845383188")
-		)
-		(pin "1"
-			(uuid "b0e17003-2e92-4e6a-8dd1-f0f0dbf5c83b")
-		)
-		(pin "5"
-			(uuid "7e2b09f5-d40e-4f35-9793-eefb3e206c5c")
-		)
-		(pin "3"
-			(uuid "2df6b7cd-41d7-465c-9b41-24223d46be8d")
-		)
-		(instances
-			(project "TPC_COLD_Charge_Pre-AMP"
-				(path "/8872ae30-0c8f-44d7-9c5d-f8ffe57ea57b"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
-		(at 237.5416 79.0884 0)
+		(at 237.49 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12427,7 +11513,7 @@
 		(fields_autoplaced yes)
 		(uuid "95bf3668-b516-47fb-93d2-c0a67915db25")
 		(property "Reference" "#PWR03"
-			(at 237.5416 84.1684 0)
+			(at 237.49 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12436,7 +11522,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 237.4146 83.1509 0)
+			(at 237.363 82.8025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12444,7 +11530,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.5416 80.3584 0)
+			(at 237.49 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12453,7 +11539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.5416 80.3584 0)
+			(at 237.49 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12462,7 +11548,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 237.5416 79.0884 0)
+			(at 237.49 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12484,7 +11570,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 84.0718 129.8428 180)
+		(at 83.82 129.54 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12492,7 +11578,7 @@
 		(dnp no)
 		(uuid "a31f1401-3c42-428c-9fcf-a74e88ebe4cd")
 		(property "Reference" "C44"
-			(at 89.7374 128.7533 0)
+			(at 89.4856 128.4505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12500,7 +11586,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 90.1732 131.4771 0)
+			(at 89.9214 131.1743 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12508,7 +11594,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 84.0718 129.8428 0)
+			(at 83.82 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12517,7 +11603,7 @@
 			)
 		)
 		(property "Datasheet" "~https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 84.0718 129.8428 0)
+			(at 83.82 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12526,7 +11612,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 84.0718 129.8428 0)
+			(at 83.82 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12535,7 +11621,7 @@
 			)
 		)
 		(property "Dist. Part Num" "399-C0603C104K5RACTUCT-ND"
-			(at 84.0718 129.8428 0)
+			(at 83.82 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12544,7 +11630,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 84.0718 129.8428 0)
+			(at 83.82 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12553,7 +11639,7 @@
 			)
 		)
 		(property "Man. Part Num" "C0603C104K5RACTU"
-			(at 84.0718 129.8428 0)
+			(at 83.82 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12562,7 +11648,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 84.0718 129.8428 0)
+			(at 83.82 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12571,7 +11657,7 @@
 			)
 		)
 		(property "Package" "0603 (1608 Metric)"
-			(at 84.0718 129.8428 0)
+			(at 83.82 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12580,7 +11666,7 @@
 			)
 		)
 		(property "Part Type" "SMD"
-			(at 84.0718 129.8428 0)
+			(at 83.82 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12605,7 +11691,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 53.0975 212.3747 0)
+		(at 53.34 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12614,7 +11700,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5de10a4-92b3-47d2-866e-98d5e3584907")
 		(property "Reference" "#PWR05"
-			(at 53.0975 217.4547 0)
+			(at 53.34 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12623,7 +11709,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 52.9705 217.4027 0)
+			(at 53.213 217.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12631,7 +11717,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.0975 213.6447 0)
+			(at 53.34 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12640,7 +11726,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.0975 213.6447 0)
+			(at 53.34 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12649,7 +11735,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 53.0975 212.3747 0)
+			(at 53.34 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12671,7 +11757,7 @@
 	)
 	(symbol
 		(lib_id "Foil_Resistors:FCSL20R010FER")
-		(at 259.1535 27.7442 0)
+		(at 259.08 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12679,7 +11765,7 @@
 		(dnp no)
 		(uuid "bccf0a8e-3d57-4ca4-b4f1-71299acb8433")
 		(property "Reference" "R1"
-			(at 265.0047 24.3647 0)
+			(at 264.9312 24.5605 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12687,7 +11773,7 @@
 			)
 		)
 		(property "Value" "FCSL20R010FER"
-			(at 265.6518 31.3214 0)
+			(at 265.5783 31.5172 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12695,7 +11781,7 @@
 			)
 		)
 		(property "Footprint" "Foil_Resistors:RES_FCSL20_OHM-L"
-			(at 259.1535 27.7442 0)
+			(at 259.08 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12705,7 +11791,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ohmite.com/assets/images/res-fcsl.pdf"
-			(at 259.1535 27.7442 0)
+			(at 259.08 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12715,7 +11801,7 @@
 			)
 		)
 		(property "Description" "10 mOhms ±1% 1W Chip Resistor Wide 0805 (2012 Metric), 0508 Current Sense, Moisture Resistant Metal Foil"
-			(at 259.1535 27.7442 0)
+			(at 259.08 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12724,7 +11810,7 @@
 			)
 		)
 		(property "Dist. Part Num" "FCSL20R010FERCT-ND"
-			(at 259.1535 27.7442 0)
+			(at 259.08 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12733,7 +11819,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 259.1535 27.7442 0)
+			(at 259.08 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12742,7 +11828,7 @@
 			)
 		)
 		(property "Man. Part Num" "FCSL20R010FER"
-			(at 259.1535 27.7442 0)
+			(at 259.08 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12751,7 +11837,7 @@
 			)
 		)
 		(property "Manufacturer" "Ohmite"
-			(at 259.1535 27.7442 0)
+			(at 259.08 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12760,7 +11846,7 @@
 			)
 		)
 		(property "Package" "0805 (2012 Metric)"
-			(at 259.1535 27.7442 0)
+			(at 259.08 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12769,7 +11855,7 @@
 			)
 		)
 		(property "Part Type" "SMD"
-			(at 259.1535 27.7442 0)
+			(at 259.08 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12794,7 +11880,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 272.151 261.1033 0)
+		(at 271.78 261.62 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -12802,7 +11888,7 @@
 		(dnp no)
 		(uuid "bfce337c-121d-40ca-8206-9ec00e270294")
 		(property "Reference" "H9"
-			(at 274.691 258.5632 0)
+			(at 274.32 259.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12811,7 +11897,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 274.691 261.1032 0)
+			(at 274.32 261.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12820,7 +11906,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 272.151 261.1033 0)
+			(at 271.78 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12829,7 +11915,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 272.151 261.1033 0)
+			(at 271.78 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12838,7 +11924,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 272.151 261.1033 0)
+			(at 271.78 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12847,7 +11933,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 272.151 261.1033 0)
+			(at 271.78 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12869,7 +11955,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 211.3085 274.7687 0)
+		(at 210.82 274.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12878,7 +11964,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2594fb7-4187-44aa-ab64-a992d9b6ca34")
 		(property "Reference" "#PWR02"
-			(at 211.3085 279.8487 0)
+			(at 210.82 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12887,7 +11973,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 211.1815 278.8312 0)
+			(at 210.693 278.3825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12895,7 +11981,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 211.3085 276.0387 0)
+			(at 210.82 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12904,7 +11990,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 211.3085 276.0387 0)
+			(at 210.82 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12913,7 +11999,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 211.3085 274.7687 0)
+			(at 210.82 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12935,16 +12021,17 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 369.8114 212.1977 0)
+		(at 330.2 48.26 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dae86f58-0562-46e4-9a2a-f86c29ea4606")
-		(property "Reference" "#PWR04"
-			(at 369.8114 217.2777 0)
+		(uuid "d2c511e7-faaa-4374-9f66-da7c8067ead9")
+		(property "Reference" "#PWR06"
+			(at 330.2 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12953,7 +12040,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 369.6844 216.2602 0)
+			(at 330.327 52.3225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12961,7 +12048,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 369.8114 213.4677 0)
+			(at 330.2 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12970,7 +12057,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 369.8114 213.4677 0)
+			(at 330.2 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12979,7 +12066,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 369.8114 212.1977 0)
+			(at 330.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2db1d8e5-7138-43ce-bcae-d5442d2b14e8")
+		)
+		(instances
+			(project "5_COLD_TPC_Charge_Pre_Amp"
+				(path "/8872ae30-0c8f-44d7-9c5d-f8ffe57ea57b"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 369.57 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dae86f58-0562-46e4-9a2a-f86c29ea4606")
+		(property "Reference" "#PWR04"
+			(at 369.57 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 369.443 216.1525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 369.57 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369.57 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 369.57 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13001,7 +12154,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 273.0453 52.3231 0)
+		(at 273.05 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13010,7 +12163,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0739ae8-fadd-4b39-bc9f-c6e168265d50")
 		(property "Reference" "R4"
-			(at 274.9533 51.053 0)
+			(at 274.958 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13019,7 +12172,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 274.9533 53.593 0)
+			(at 274.958 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13028,7 +12181,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 271.2673 52.3231 90)
+			(at 271.272 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13037,7 +12190,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf"
-			(at 273.0453 52.3231 0)
+			(at 273.05 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13046,7 +12199,7 @@
 			)
 		)
 		(property "Description" "10 Ohms ±5% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film"
-			(at 273.0453 52.3231 0)
+			(at 273.05 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13055,7 +12208,7 @@
 			)
 		)
 		(property "Dist. Part Num" "P10ADCT-ND"
-			(at 273.0453 52.3231 0)
+			(at 273.05 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13064,7 +12217,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 273.0453 52.3231 0)
+			(at 273.05 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13073,7 +12226,7 @@
 			)
 		)
 		(property "Man. Part Num" "ERJ-P06J100V"
-			(at 273.0453 52.3231 0)
+			(at 273.05 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13082,7 +12235,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 273.0453 52.3231 0)
+			(at 273.05 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13091,7 +12244,7 @@
 			)
 		)
 		(property "Package" "0805 (2012 Metric)"
-			(at 273.0453 52.3231 0)
+			(at 273.05 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13100,7 +12253,7 @@
 			)
 		)
 		(property "Part Type" "SMD"
-			(at 273.0453 52.3231 0)
+			(at 273.05 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13125,7 +12278,7 @@
 	)
 	(symbol
 		(lib_id "Nexperia:PESD5V5H1BSFYL")
-		(at 274.3045 80.0987 90)
+		(at 274.32 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13133,7 +12286,7 @@
 		(dnp no)
 		(uuid "e6440b6f-e6b6-44ef-9841-eb4892791660")
 		(property "Reference" "D2"
-			(at 279.7511 62.5895 90)
+			(at 279.7666 62.5008 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13142,7 +12295,7 @@
 			)
 		)
 		(property "Value" "PLVA653A,215"
-			(at 292.6938 69.3844 90)
+			(at 292.7093 69.2957 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13151,7 +12304,7 @@
 			)
 		)
 		(property "Footprint" "Nexperia:SOT95P230X110-3N"
-			(at 266.6845 80.3527 0)
+			(at 266.7 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13161,7 +12314,7 @@
 			)
 		)
 		(property "Datasheet" "PESD5V5H1BSFYL"
-			(at 268.9705 80.6067 0)
+			(at 268.986 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13171,7 +12324,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 274.3045 80.0987 0)
+			(at 274.32 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13180,7 +12333,7 @@
 			)
 		)
 		(property "Dist. Part Num" "1727-5168-1-ND"
-			(at 274.3045 80.0987 90)
+			(at 274.32 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13189,7 +12342,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 274.3045 80.0987 90)
+			(at 274.32 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13198,7 +12351,7 @@
 			)
 		)
 		(property "Man. Part Num" "PLVA653A,215"
-			(at 274.3045 80.0987 90)
+			(at 274.32 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13207,7 +12360,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia USA Inc."
-			(at 274.3045 80.0987 90)
+			(at 274.32 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13216,7 +12369,7 @@
 			)
 		)
 		(property "Package" "TO-236AB"
-			(at 274.3045 80.0987 90)
+			(at 274.32 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13225,7 +12378,7 @@
 			)
 		)
 		(property "Part Type" "SMD"
-			(at 274.3045 80.0987 90)
+			(at 274.32 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13253,7 +12406,7 @@
 	)
 	(symbol
 		(lib_id "Wurth Elektronik:6180XX231221_618009231221")
-		(at 46.2474 52.4477 270)
+		(at 45.72 52.07 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13262,7 +12415,7 @@
 		(fields_autoplaced yes)
 		(uuid "eedfe256-ad84-40af-90a3-73fbcb245118")
 		(property "Reference" "J1"
-			(at 44.6599 38.1 90)
+			(at 44.1325 37.7223 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13270,7 +12423,7 @@
 			)
 		)
 		(property "Value" "618009231221"
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13280,7 +12433,7 @@
 			)
 		)
 		(property "Footprint" "Wurth_Elektronik:618009231221"
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13290,7 +12443,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/618009231221.pdf"
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13299,7 +12452,7 @@
 			)
 		)
 		(property "Description" "CONN D-SUB PLUG 9POS R/A SOLDER"
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13308,7 +12461,7 @@
 			)
 		)
 		(property "MF" "Wurth Electronics"
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13318,7 +12471,7 @@
 			)
 		)
 		(property "Description_1" "09 pins, right angled, 8.08mm, with hex screw"
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13328,7 +12481,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13338,7 +12491,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=604355&manufacturer=Wurth Electronics&part_name=618009231221&search_term=618009231221"
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13348,7 +12501,7 @@
 			)
 		)
 		(property "GENDER" "Male"
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13358,7 +12511,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13368,7 +12521,7 @@
 			)
 		)
 		(property "PART-NUMBER" "618009231221"
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13378,7 +12531,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/618009231221/Wurth+Electronics/view-part/?ref=snap"
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13388,7 +12541,7 @@
 			)
 		)
 		(property "DATASHEET-URL" "https://www.we-online.com/redexpert/spec/618009231221?ae"
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13398,7 +12551,7 @@
 			)
 		)
 		(property "MP" "618009231221"
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13408,7 +12561,7 @@
 			)
 		)
 		(property "WORKING-VOLTAGE" "125 V(AC)"
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13418,7 +12571,7 @@
 			)
 		)
 		(property "PINS" "9"
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13428,7 +12581,7 @@
 			)
 		)
 		(property "WE-NUMBER" "618009231221"
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13438,7 +12591,7 @@
 			)
 		)
 		(property "TYPE" "Angled"
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13448,7 +12601,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13458,7 +12611,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/618009231221/Wurth+Electronics/view-part/?ref=eda"
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13468,7 +12621,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Electronics"
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13478,7 +12631,7 @@
 			)
 		)
 		(property "Man. Part Num" "618009231221"
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13488,7 +12641,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13497,7 +12650,7 @@
 			)
 		)
 		(property "Dist. Part Num" "732-618009231221-ND"
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13506,7 +12659,7 @@
 			)
 		)
 		(property "Part Type" "Through Hole"
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13515,7 +12668,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 46.2474 52.4477 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13567,7 +12720,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 222.3003 264.5236 0)
+		(at 222.25 264.16 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -13575,7 +12728,7 @@
 		(dnp no)
 		(uuid "efc61393-4ee2-4877-bcb1-37268b1b7154")
 		(property "Reference" "H5"
-			(at 224.8403 261.9835 0)
+			(at 224.79 261.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13584,7 +12737,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 224.8403 264.5235 0)
+			(at 224.79 264.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13593,7 +12746,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 222.3003 264.5236 0)
+			(at 222.25 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13602,7 +12755,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.3003 264.5236 0)
+			(at 222.25 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13611,7 +12764,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 222.3003 264.5236 0)
+			(at 222.25 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13620,7 +12773,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 222.3003 264.5236 0)
+			(at 222.25 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13641,8 +12794,182 @@
 		)
 	)
 	(symbol
+		(lib_id "Wurth_Elektronik:6180XX231121_618009231121")
+		(at 323.85 114.3 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f77c181a-38e3-4797-b3cf-3c67139f2f86")
+		(property "Reference" "J4"
+			(at 325.4375 99.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "618009231121"
+			(at 323.85 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Wurth_Elektronik:618009231121"
+			(at 323.85 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/618009231121.pdf"
+			(at 323.85 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9 Position D-Sub Receptacle, Female Sockets Connector"
+			(at 323.85 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 323.85 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Man. Part Num" "618009231121"
+			(at 323.85 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Gender" "Female"
+			(at 323.85 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Part Type" "Through Hole"
+			(at 323.85 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "125 VAC"
+			(at 323.85 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digi-Key"
+			(at 323.85 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. Part Num" "732-618009231121-ND"
+			(at 323.85 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/618009231121/10484687?s=N4IgTCBcDaIOwGYwFoBsBGAHABmwTjAXXTHWQDkAREAXQF8g"
+			(at 323.85 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "940d9c8c-0d09-4750-8c94-ad6fdca3bb83")
+		)
+		(pin "2"
+			(uuid "df4b310a-123a-4930-9fad-b50288ce3784")
+		)
+		(pin "4"
+			(uuid "ba6d03e5-4545-4b85-ab90-bbf024cc642c")
+		)
+		(pin "3"
+			(uuid "d8edae5e-77bc-4e20-ab30-1d5a598c95a3")
+		)
+		(pin "5"
+			(uuid "37093b1f-4bc9-4e0a-94ac-9b7c21f8ad46")
+		)
+		(pin "8"
+			(uuid "826530a1-d0f6-4bf6-8a93-a550de5abfb6")
+		)
+		(pin "7"
+			(uuid "813ee096-1de2-4ee2-9395-b32d69e62eb4")
+		)
+		(pin "1"
+			(uuid "227ae957-5f0b-4ece-a4a4-407bebf0cf6d")
+		)
+		(pin "6"
+			(uuid "8f9027cf-5aa5-4bff-9a0b-67f5ab4c1bef")
+		)
+		(pin "S2"
+			(uuid "b251011a-64aa-45be-94d3-55c720fb36dd")
+		)
+		(pin "S1"
+			(uuid "06bb177c-5a4a-4e89-8f37-a40e5f148fb8")
+		)
+		(instances
+			(project "5_COLD_TPC_Charge_Pre_Amp"
+				(path "/8872ae30-0c8f-44d7-9c5d-f8ffe57ea57b"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Foil_Resistors:FCSL20R010FER")
-		(at 264.4474 132.9812 0)
+		(at 264.16 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13650,7 +12977,7 @@
 		(dnp no)
 		(uuid "f8fe96b9-0f34-46c4-a07b-5d02e49430f0")
 		(property "Reference" "R2"
-			(at 270.748 129.2407 0)
+			(at 270.4606 129.6095 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13658,7 +12985,7 @@
 			)
 		)
 		(property "Value" "FCSL20R010FER"
-			(at 270.9098 137.6535 0)
+			(at 270.6224 138.0223 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13666,7 +12993,7 @@
 			)
 		)
 		(property "Footprint" "Foil_Resistors:RES_FCSL20_OHM-L"
-			(at 264.4474 132.9812 0)
+			(at 264.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13676,7 +13003,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ohmite.com/assets/images/res-fcsl.pdf"
-			(at 264.4474 132.9812 0)
+			(at 264.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13686,7 +13013,7 @@
 			)
 		)
 		(property "Description" "10 mOhms ±1% 1W Chip Resistor Wide 0805 (2012 Metric), 0508 Current Sense, Moisture Resistant Metal Foil"
-			(at 264.4474 132.9812 0)
+			(at 264.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13695,7 +13022,7 @@
 			)
 		)
 		(property "Dist. Part Num" "FCSL20R010FERCT-ND"
-			(at 264.4474 132.9812 0)
+			(at 264.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13704,7 +13031,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 264.4474 132.9812 0)
+			(at 264.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13713,7 +13040,7 @@
 			)
 		)
 		(property "Man. Part Num" "FCSL20R010FER"
-			(at 264.4474 132.9812 0)
+			(at 264.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13722,7 +13049,7 @@
 			)
 		)
 		(property "Manufacturer" "Ohmite"
-			(at 264.4474 132.9812 0)
+			(at 264.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13731,7 +13058,7 @@
 			)
 		)
 		(property "Package" "0805 (2012 Metric)"
-			(at 264.4474 132.9812 0)
+			(at 264.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13740,7 +13067,7 @@
 			)
 		)
 		(property "Part Type" "SMD"
-			(at 264.4474 132.9812 0)
+			(at 264.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13765,7 +13092,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 248.8621 74.9835 90)
+		(at 248.92 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13773,7 +13100,7 @@
 		(dnp no)
 		(uuid "fc91487c-d8a8-403d-bd38-d79e027494a5")
 		(property "Reference" "C2"
-			(at 245.2853 73.1951 90)
+			(at 245.3432 73.1416 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13781,7 +13108,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 253.2257 73.2666 90)
+			(at 253.2836 73.2131 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13789,7 +13116,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 248.8621 74.9835 0)
+			(at 248.92 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13798,7 +13125,7 @@
 			)
 		)
 		(property "Datasheet" "~https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 248.8621 74.9835 0)
+			(at 248.92 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13807,7 +13134,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 248.8621 74.9835 0)
+			(at 248.92 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13816,7 +13143,7 @@
 			)
 		)
 		(property "Dist. Part Num" "399-C0603C104K5RACTUCT-ND"
-			(at 248.8621 74.9835 0)
+			(at 248.92 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13825,7 +13152,7 @@
 			)
 		)
 		(property "Distributor" "Digi-Key"
-			(at 248.8621 74.9835 0)
+			(at 248.92 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13834,7 +13161,7 @@
 			)
 		)
 		(property "Man. Part Num" "C0603C104K5RACTU"
-			(at 248.8621 74.9835 0)
+			(at 248.92 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13843,7 +13170,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 248.8621 74.9835 0)
+			(at 248.92 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13852,7 +13179,7 @@
 			)
 		)
 		(property "Package" "0603 (1608 Metric)"
-			(at 248.8621 74.9835 0)
+			(at 248.92 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13861,7 +13188,7 @@
 			)
 		)
 		(property "Part Type" "SMD"
-			(at 248.8621 74.9835 0)
+			(at 248.92 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13885,8 +13212,8 @@
 		)
 	)
 	(sheet
-		(at 109.0553 60.4103)
-		(size 29.4323 31.9299)
+		(at 109.22 60.96)
+		(size 29.21 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -13901,7 +13228,7 @@
 		)
 		(uuid "0d1d524e-336a-4578-81f8-6cf985758591")
 		(property "Sheetname" "Enable_CKT"
-			(at 109.0553 59.6987 0)
+			(at 109.22 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13910,7 +13237,7 @@
 			)
 		)
 		(property "Sheetfile" "Enable_CKT.kicad_sch"
-			(at 109.0553 92.9248 0)
+			(at 109.22 93.4745 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13919,7 +13246,7 @@
 			)
 		)
 		(pin "V_TELEM_IN" input
-			(at 109.0553 63.9515 180)
+			(at 109.22 63.5 180)
 			(uuid "fa61aa1a-0ce3-4847-bb1f-5c2871361c59")
 			(effects
 				(font
@@ -13929,7 +13256,7 @@
 			)
 		)
 		(pin "V_TELEM_RTN" output
-			(at 109.0553 89.9087 180)
+			(at 109.22 90.17 180)
 			(uuid "83dadbdc-6c9f-47be-bbb5-d2f578e18a51")
 			(effects
 				(font
@@ -13939,7 +13266,7 @@
 			)
 		)
 		(pin "Enable" output
-			(at 138.4876 76.7862 0)
+			(at 138.43 76.2 0)
 			(uuid "84d69115-80f4-49f0-b5bd-e6115b2709ca")
 			(effects
 				(font
@@ -13949,7 +13276,7 @@
 			)
 		)
 		(pin "V_SEC_RTN" output
-			(at 109.0553 87.091 180)
+			(at 109.22 87.63 180)
 			(uuid "aa2d087d-efce-4f85-8aaa-e398d2416e81")
 			(effects
 				(font
@@ -13959,7 +13286,7 @@
 			)
 		)
 		(pin "V_SEC_IN" input
-			(at 109.0553 66.7063 180)
+			(at 109.22 67.31 180)
 			(uuid "7b37794b-42b0-4233-8f69-8f3230928312")
 			(effects
 				(font
@@ -13969,7 +13296,7 @@
 			)
 		)
 		(pin "Enable+" input
-			(at 109.0553 73.7169 180)
+			(at 109.22 73.66 180)
 			(uuid "41d6f42c-db85-4b86-90c1-4bcf6f9c3dc8")
 			(effects
 				(font
@@ -13979,7 +13306,7 @@
 			)
 		)
 		(pin "Enable-" input
-			(at 109.0553 79.2175 180)
+			(at 109.22 78.74 180)
 			(uuid "7f90c15e-e256-49b7-adde-f2d33adecca6")
 			(effects
 				(font
@@ -13997,8 +13324,8 @@
 		)
 	)
 	(sheet
-		(at 172.4185 176.0924)
-		(size 44.7675 33.02)
+		(at 172.72 176.53)
+		(size 44.45 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -14013,7 +13340,7 @@
 		)
 		(uuid "2df68a37-5478-45be-ab2d-8faa61ce42f1")
 		(property "Sheetname" "Telemetry_CKT"
-			(at 172.4185 175.3808 0)
+			(at 172.72 175.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14022,7 +13349,7 @@
 			)
 		)
 		(property "Sheetfile" "Telemetry_CKT.kicad_sch"
-			(at 172.4185 209.697 0)
+			(at 172.72 210.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14031,7 +13358,7 @@
 			)
 		)
 		(pin "M5V_I_MON" output
-			(at 217.186 205.9896 0)
+			(at 217.17 205.74 0)
 			(uuid "73dbbe64-bbb1-4264-86ee-36d90f187186")
 			(effects
 				(font
@@ -14041,7 +13368,7 @@
 			)
 		)
 		(pin "P5V_I_MON" output
-			(at 217.186 183.313 0)
+			(at 217.17 182.88 0)
 			(uuid "7ac85fbb-e463-454e-831d-46a4bcbb5876")
 			(effects
 				(font
@@ -14051,7 +13378,7 @@
 			)
 		)
 		(pin "M5V_OUT" input
-			(at 172.4185 205.1267 180)
+			(at 172.72 205.74 180)
 			(uuid "874ed8b7-153a-4e85-a495-26143e9f4cc2")
 			(effects
 				(font
@@ -14061,7 +13388,7 @@
 			)
 		)
 		(pin "M5V" input
-			(at 172.4185 201.6753 180)
+			(at 172.72 201.93 180)
 			(uuid "1e29edc5-3b89-47d9-bcf2-ea4e76bbf3db")
 			(effects
 				(font
@@ -14071,7 +13398,7 @@
 			)
 		)
 		(pin "P5V" input
-			(at 172.4185 179.8032 180)
+			(at 172.72 180.34 180)
 			(uuid "232515cf-b13e-41f3-804a-109badf53223")
 			(effects
 				(font
@@ -14081,7 +13408,7 @@
 			)
 		)
 		(pin "P5V_OUT" input
-			(at 172.4185 182.967 180)
+			(at 172.72 182.88 180)
 			(uuid "faca81ca-6333-4ff1-aeda-d1ff2138c602")
 			(effects
 				(font
@@ -14091,7 +13418,7 @@
 			)
 		)
 		(pin "V_TELEM_RTN" output
-			(at 172.4185 191.3673 180)
+			(at 172.72 191.77 180)
 			(uuid "70c3cfc0-5f0e-42d3-b27f-0786b4cbaded")
 			(effects
 				(font
@@ -14101,7 +13428,7 @@
 			)
 		)
 		(pin "P_TELEM_IN" input
-			(at 172.4185 187.762 180)
+			(at 172.72 187.96 180)
 			(uuid "25070433-f05e-4b1c-9749-6c6634c3e5ef")
 			(effects
 				(font
@@ -14111,7 +13438,7 @@
 			)
 		)
 		(pin "P5V_V_MON" output
-			(at 217.186 178.7486 0)
+			(at 217.17 179.07 0)
 			(uuid "00ae3b14-faa9-4c4c-857c-5f1f6cdcf530")
 			(effects
 				(font
@@ -14121,7 +13448,7 @@
 			)
 		)
 		(pin "PWR_RTN" output
-			(at 195.7841 176.0924 90)
+			(at 195.58 176.53 90)
 			(uuid "766b0142-d5b3-471d-a0db-fd148470e9da")
 			(effects
 				(font
@@ -14131,7 +13458,7 @@
 			)
 		)
 		(pin "M5V_V_MON" output
-			(at 217.186 201.6753 0)
+			(at 217.17 201.93 0)
 			(uuid "efc411b4-2fb7-4861-91df-ac5cc099f5c6")
 			(effects
 				(font
@@ -14141,7 +13468,7 @@
 			)
 		)
 		(pin "M_TELEM_IN" input
-			(at 172.4185 195.329 180)
+			(at 172.72 195.58 180)
 			(uuid "44a4514a-c70f-47df-85d7-495775f47ae4")
 			(effects
 				(font
@@ -14151,7 +13478,7 @@
 			)
 		)
 		(pin "TEMP_MON" output
-			(at 217.186 192.5686 0)
+			(at 217.17 193.04 0)
 			(uuid "ec1312b7-0141-4093-9d32-605459fb758d")
 			(effects
 				(font
@@ -14169,8 +13496,8 @@
 		)
 	)
 	(sheet
-		(at 193.6733 41.2947)
-		(size 47.625 27.94)
+		(at 193.04 41.91)
+		(size 48.26 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -14185,7 +13512,7 @@
 		)
 		(uuid "5b5eb6c5-2818-4e10-a655-c3017afcbc1c")
 		(property "Sheetname" "Main_Converter1"
-			(at 193.6733 40.5831 0)
+			(at 193.04 41.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14194,7 +13521,7 @@
 			)
 		)
 		(property "Sheetfile" "Main_Converter.kicad_sch"
-			(at 193.6733 69.8193 0)
+			(at 193.04 70.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14203,7 +13530,7 @@
 			)
 		)
 		(pin "Enable" input
-			(at 193.6733 54.3757 180)
+			(at 193.04 54.61 180)
 			(uuid "8d30d84c-0acd-48c7-b620-e51e7437a03e")
 			(effects
 				(font
@@ -14213,7 +13540,7 @@
 			)
 		)
 		(pin "V_SEC_IN" input
-			(at 193.6733 44.4697 180)
+			(at 193.04 44.45 180)
 			(uuid "a642499a-a9ed-4598-a870-be814026e8b0")
 			(effects
 				(font
@@ -14223,7 +13550,7 @@
 			)
 		)
 		(pin "V_SEC_RTN" output
-			(at 193.6733 64.7897 180)
+			(at 193.04 64.77 180)
 			(uuid "e81c0b4a-3926-4411-a6fc-d95efe5a10b6")
 			(effects
 				(font
@@ -14233,7 +13560,7 @@
 			)
 		)
 		(pin "P5_Out" output
-			(at 241.2983 44.9777 0)
+			(at 241.3 44.45 0)
 			(uuid "fb9f7a71-7542-411d-9d92-7b4ba9165d86")
 			(effects
 				(font
@@ -14243,7 +13570,7 @@
 			)
 		)
 		(pin "P5_RTN" input
-			(at 241.2983 65.0437 0)
+			(at 241.3 64.77 0)
 			(uuid "7ad90962-76ce-4af8-8457-c95f0dbdbad0")
 			(effects
 				(font
@@ -14261,8 +13588,8 @@
 		)
 	)
 	(sheet
-		(at 193.6733 87.1417)
-		(size 47.625 27.94)
+		(at 193.04 87.63)
+		(size 48.26 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -14277,7 +13604,7 @@
 		)
 		(uuid "7382ebee-cdda-4f9b-bffd-355cf1033cd4")
 		(property "Sheetname" "Main_Converter"
-			(at 193.6733 86.4301 0)
+			(at 193.04 86.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14286,7 +13613,7 @@
 			)
 		)
 		(property "Sheetfile" "Main_Converter.kicad_sch"
-			(at 193.6733 115.6663 0)
+			(at 193.04 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14295,7 +13622,7 @@
 			)
 		)
 		(pin "Enable" input
-			(at 193.6733 100.2227 180)
+			(at 193.04 100.33 180)
 			(uuid "95028298-c762-45a5-a652-80db26491db8")
 			(effects
 				(font
@@ -14305,7 +13632,7 @@
 			)
 		)
 		(pin "V_SEC_IN" input
-			(at 193.6733 90.3167 180)
+			(at 193.04 90.17 180)
 			(uuid "45f7ea44-9e85-4cc8-83a8-44c0e4ed2d68")
 			(effects
 				(font
@@ -14315,7 +13642,7 @@
 			)
 		)
 		(pin "V_SEC_RTN" output
-			(at 193.6733 110.6367 180)
+			(at 193.04 110.49 180)
 			(uuid "3e01017e-218a-4666-914e-0aada9a2c883")
 			(effects
 				(font
@@ -14325,7 +13652,7 @@
 			)
 		)
 		(pin "P5_Out" output
-			(at 241.2983 90.8247 0)
+			(at 241.3 91.44 0)
 			(uuid "b3b04ea7-f852-4600-b03e-1c29093cad67")
 			(effects
 				(font
@@ -14335,7 +13662,7 @@
 			)
 		)
 		(pin "P5_RTN" input
-			(at 241.2983 111.3987 0)
+			(at 241.3 111.76 0)
 			(uuid "fe891e2c-c131-42ed-8535-778c46bb4987")
 			(effects
 				(font
